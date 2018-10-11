@@ -1,0 +1,31 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+    
+    {% include _header.html %}
+    <link rel="stylesheet" href="assets/css/ideal-image-slider.css">
+    <link rel="stylesheet" href="assets/css/sliderTheme/default.css">
+
+    <body>
+        {% include _navbar.html %}
+		{{ content }}
+        {% include _footer.html %}
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+        {% include _coreJS.html %}
+        <script src="assets/js/sponsors.js"></script>
+        <script src="assets/js/ideal-image-slider.min.js"></script>
+        <script src="assets/js/iis-bullet-nav.js"></script>
+        <script>
+            var slider = new IdealImageSlider.Slider({
+                selector: '#slider',
+                height: 500,
+                interval: 4000
+            });
+            slider.addBulletNav();
+            slider.start();
+        </script>
+    </body>
+</html>

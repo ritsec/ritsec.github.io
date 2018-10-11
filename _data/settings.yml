@@ -1,0 +1,156 @@
+#-------------------------------
+# General Site Settings
+
+title: SPARSA
+title_long: Security Practices and Research Student Association
+motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
+email: eboard@sparsa.org
+description: >
+  Security Practicies And Research Student Association
+twitter: RIT_SPARSA
+github: 
+  name: RITSPARSA
+  project: SPARSA-Site
+facebook_page: RIT.SPARSA
+facebook_group: sparsa
+youtube: RITSPARSA
+slack: SPARSA
+
+#-------------------------------
+# Main Image Slider Settings
+slider:
+  - image: ISTS_0.jpg
+  - image: ISTS_1.jpg
+  - image: ISTS_2.jpg
+  - image: ISTS_3.jpg
+  - image: ISTS_4.jpg
+  - image: ISTS_5.jpg
+
+#-------------------------------
+# Navbar Settings
+favicon: favicon.png
+navbar-brand:
+  image: SPARSA_Header.png
+  link: '/index.html'
+
+navbar:
+  - name: 'Home'
+    link: 'index.html'
+  - name: 'About'
+    link: 'about.html'
+    subitems:
+    - name: 'Alumni'
+      link: 'alumni.html'
+    - name: 'Past EBoards'
+      link: 'past-eboards.html'
+  - name: 'EBoard'
+    link: 'eboard.html'
+  - name: 'Events'
+    link: 'events.html'
+  - name: 'ISTS'
+    link: 'https://ists.sparsa.org'
+  - name: 'Sponsors'
+    link: 'sponsors.html'
+
+#-------------------------------
+# EBoard Settings
+
+eboard_roles:
+  - name: President
+    appointee: Micah Martin
+    image: president.jpg
+    description: >
+      Micah Martin is a third year Computing Security student at RIT. He competes 
+      on the school's CCDC team and loves helping with and competing in security 
+      competitions. Micah's technical focus is primary on Linux systems and email 
+      servers. He loves helping out the community and learning with others. If he 
+      isn't sleeping in the computer labs, he can be found sleeping out in the woods. 
+      You can contact him at mmartin@sparsa.org.
+  - name: Vice President of Research
+    appointee: Cameron Clark
+    image: vpr.jpg
+    description: >
+      Cameron Clark is a 4th year Computing Security major. His focuses revolve 
+      around web security and he's just begun diving into blockchains. Before 
+      joining the security world he used to be a lobster cook.
+  - name: Vice President of Practices
+    appointee: Kyle Carretto
+    image: vpp.jpg
+    description: >
+      The Vice President of Practices...
+  - name: Director of Public Relations
+    appointee: Brandon Dossantos
+    image: dpr.jpg
+    description: >
+      The Director of Public Relations...
+  - name: Treasurer
+    appointee: Josh Stuts
+    image: treasurer.jpg
+    description: >
+      The Treasurer...
+  - name: Secretary
+    appointee: Russell Babarsky
+    image: secretary.jpg
+    description: >
+      Russell Babarsky is a third-year computing security major. His passion lies 
+      in pen testing and exploit development. Besides security, he enjoys hiking, 
+      baseball, and listening to music.
+  - name: Academic Advisor
+    appointee: Bo Yuan
+    image: advisor.jpg
+    description: >
+      The Academic Advisor...
+
+#-------------------------------
+# About Us
+
+about_us_short: >
+  The Security Practices and Research Student Association (SPARSA) was founded 
+  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
+  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
+  The Center for Multidisciplinary Studies at RIT.
+about_us_long: >
+  <p>The Security Practices and Research Student Association (SPARSA) was founded 
+  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
+  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
+  The Center for Multidisciplinary Studies at RIT.</p>
+  <br>
+  <p>Since its inception, SPARSA has been a student-run organization that addresses 
+  security-related issues and how these issues affect multiple majors and disciplines. 
+  The ultimate goal of this organization is to provide students with experience in 
+  information security and job opportunities in information security (infosec) related 
+  fields. This includes aiding members in the search for both cooperative education 
+  (co-op) and full-time employment opportunities.</p>
+  <br>
+  <p>To meet this goal, SPARSA hosts and participates in research and development of 
+  security tools and policies. In addition, SPARSA provides consulting for organizations 
+  in need of improved security. SPARSA also seeks to build and maintain relationships with 
+  local and national security related organizations. This includes social networking with 
+  security professionals and hosting conferences, symposia, and other security-related 
+  events to spur growth in this area.</p>
+  <br>
+  <p>As security becomes progressively more important in our increasingly global world, 
+  SPARSA will help students remain on top of their game and up to date with the latest 
+  security issues, practices, and research. "Today individuals, families, organizations, 
+  communities and our nation face unprecedented combinations of cyber and physical security 
+  threats to both cyber and physical assets. The challenge is to enhance security capabilities 
+  at all levels of society by developing better security technologies, and by providing 
+  education and training in the use and management of security technologies" (Dr. Samuel McQuade)</p>
+  <br>
+
+#-------------------------------
+# Events
+events:
+- name: Weekly Meetings
+  description: We have meetings every Friday from 2:20-4:20PM in GOL-2400
+  image: meetings.png
+- name: Hack Night
+  description: >
+    Come and hangout and work on projects or participate in some fun activities!
+    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2410)</p>
+  image: hacknights.jpg
+- name: ISTS
+  description: >
+    This is a competition we do in the Spring.  Follow the link below for more information!
+    <p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p>
+  image: ists.jpg

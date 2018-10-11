@@ -1,0 +1,17 @@
+---
+layout: info_page
+title: Events
+---
+{% for event in site.data.settings.events %}
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+        <img src="assets/images/events/{{ event.image }}" class="real events-thumbnail hcenter-div">
+    </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
+        <h3>{{ event.name }}</h3>
+        <p>{{ event.description }}</p>
+        <!--p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p-->
+    </div>
+</div>
+<br>
+<br>
+{% endfor %}

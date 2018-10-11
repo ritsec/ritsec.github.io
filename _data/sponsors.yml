@@ -1,0 +1,92 @@
+- name: Akamai
+  link: https://www.akamai.com
+  image: Akamai.jpg
+#- name: AMP
+- name: Amazon
+  link: https://www.amazon.com
+  image: Amazon.jpg
+- name: Arnold Magnetics
+  link: https://www.arnoldmagnetics.com
+  image: ArnoldMagnetic.jpg
+- name: Box
+  link: https://www.box.com
+  image: Box.jpg
+- name: Carbon Black
+  link: https://www.carbonblack.com
+  image: CarbonBlack.jpg
+#- name: Carve Systems, LLC
+#  link: https://www.carvesystems.com
+#  image: 
+- name: Cisco
+  link: https://www.cisco.com/
+  image: Cisco.jpg
+- name: Cobalt Strike
+  link: https://www.cobaltstrike.com/
+  image: CobaltStrike.jpg
+- name: Crypsis
+  link: https://www.crypsisgroup.com
+  image: Crypsis.jpg
+- name: CSEC
+  link: https://www.rit.edu/gccis/computingsecurity/
+  image: RIT_CSEC.jpg
+- name: Dell SecureWorks
+  link: https://www.secureworks.com
+  image: DellSecureWorks.jpg
+#- name: Dig Susquehanna 
+- name: Factset
+  link: https://www.factset.com
+  image: FactSet.jpg
+- name: Fire Eye
+  link: https://fireeye.com
+  image: FireEye.jpg
+- name: Google
+  link: https://www.google.com
+  image: Google.jpg
+- name: Indeed
+  link: https://www.indeed.com
+  image: Indeed.jpg
+- name: Intrepidus Group Mobile Security
+  # No Link - Domain not registered
+  image: IntrepidusGroup.jpg
+- name: MIT
+  link: https://web.mit.edu
+  image: MIT.jpg
+- name: Mitre
+  link: https://www.mitre.org/
+  image: Mitre.jpg
+- name: NSSA
+  link: https://nsa.rit.edu
+  image: RIT_NSSA.jpg
+- name: OG Systems
+  link: https://www.ogsystems.com
+  image: OGSystems.jpg
+#- name: Perimeter E-Security
+  # No Link - Domain redirect and Error
+- name: Ponte Technologies
+  # No Link - can't find domain - acquired by KEYW
+  image: PonteTech.jpg
+#- name: RAGE
+- name: Raytheon
+  link: https://www.raytheon.com
+  image: Raytheon.jpg
+- name: RedHat
+  link: https://www.redhat.com
+  image: RedHat.jpg
+- name: Salesforce
+  link: https://salesforce.com
+  image: Salesforce.jpg
+- name: Shmoocon
+  link: https://shmoocon.org
+  image: Shmoocon.jpg
+- name: 2Sigma
+  link: https://twosigma.com
+  image: TwoSigma.jpg
+- name: Syncurity Networks
+  link: https://www.syncurity.net
+  image: Syncurity.jpg
+- name: Ultimate Software
+  link: https://www.ultimatesoftware.com
+  image: UltimateSoftware.jpg
+- name: Wegmans
+  link: https://www.wegmans.com
+  image: Wegmans.jpg

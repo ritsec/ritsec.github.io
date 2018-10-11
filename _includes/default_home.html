@@ -1,0 +1,47 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron csh-jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 vcenter">
+                <div class="csh-jumbotron-text">
+                    {{ site.data.settings.description }}
+                </div>
+            </div><!----><div class="col-md-4 col-sm-6 mobile-hide vcenter">
+                <img src="assets/images/jr.svg" class="img-responsive mobile-hide csh-jr">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container csh-body">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>About {{ site.data.settings.title }}</h2>
+            <p>{{ site.data.settings.about_us_short }}</p>
+            <p><a class="btn btn-default" href="about.html" role="button">More &raquo;</a></p>
+        </div>
+        <div class="col-md-8">
+            <h2>Things we've done</h2>
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <img class="img-responsive project-thumbnail" src="assets/images/projects/arcade.jpg">
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <img class="img-responsive project-thumbnail" src="assets/images/projects/drink.jpg">
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <img class="img-responsive project-thumbnail" src="assets/images/projects/infosys.jpg">
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <img class="img-responsive project-thumbnail" src="assets/images/projects/schedulemaker.jpg">
+                </div>
+            </div>
+
+            <p>Personal projects are a big part of CSH culture. Some of our biggest include CSH Arcade, Drink, InfoSys, and Schedule Maker.</p>
+            <p>
+                <a class="btn btn-default" href="projects.html" role="button">More &raquo;</a>
+            </p>
+        </div>
+    </div>
+    {% include sponsor_section.html %}
+</div>

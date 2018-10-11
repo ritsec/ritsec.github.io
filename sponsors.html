@@ -1,0 +1,17 @@
+---
+layout: info_page
+title: Sponsors
+description: >
+    <a href="https://ists.sparsa.org/#bgimg-4">What do sponsors get?</a>
+    <br>
+    <br>
+---
+<div class="row">
+    {% for sponsor in site.data.sponsors %}
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="{{ sponsor.link }}">
+            <img class="csh-thumbnail img-responsive" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        </a>
+    </div>
+    {% endfor %}
+</div>

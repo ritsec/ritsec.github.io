@@ -1,0 +1,22 @@
+---
+layout: info_page
+title: Alumni
+---
+<br>
+<table class="alumni-table">
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <th>Major</th>
+            <th>Graduation</th>
+        </tr>
+{% for alumni in site.data.alumni %}
+        <tr>
+            <td>{{ alumni.Name }}</td>
+            <td>{{ alumni.Major }}</td>
+            <td>{{ alumni.Graduation }}</td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
+<br>

@@ -1,0 +1,19 @@
+---
+layout: info_page
+title: Executive Board
+---    
+{% for role in site.data.settings.eboard_roles %}
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+        <div class="eboard-thumbnail">
+            <img src="assets/images/eboard/{{ role.image }}" class="real traditions-page-thumbnail eboard-thumbnail hcenter-div">
+        </div>
+    </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
+        <h3>{{ role.name }}</h3>
+        <h5>{{ role.appointee }}</h5>
+        <p>{{ role.description }}</p>
+    </div>
+</div>
+<br>
+<br>
+{% endfor %}
