@@ -66,40 +66,48 @@ eboard_roles:
       servers. He loves helping out the community and learning with others. If he 
       isn't sleeping in the computer labs, he can be found sleeping out in the woods. 
       You can contact him at mmartin@sparsa.org.
-  - name: Vice President of Research
-    appointee: Cameron Clark
-    image: vpr.jpg
-    description: >
-      Cameron Clark is a 4th year Computing Security major. His focuses revolve 
-      around web security and he's just begun diving into blockchains. Before 
-      joining the security world he used to be a lobster cook.
-  - name: Vice President of Practices
-    appointee: Kyle Carretto
-    image: vpp.jpg
-    description: >
-      The Vice President of Practices...
-  - name: Director of Public Relations
-    appointee: Brandon Dossantos
-    image: dpr.jpg
-    description: >
-      The Director of Public Relations...
-  - name: Treasurer
-    appointee: Josh Stuts
-    image: treasurer.jpg
-    description: >
-      The Treasurer...
-  - name: Secretary
+  - name: Head of Education
     appointee: Russell Babarsky
-    image: secretary.jpg
+    image: hoe.jpg
     description: >
       Russell Babarsky is a third-year computing security major. His passion lies 
       in pen testing and exploit development. Besides security, he enjoys hiking, 
       baseball, and listening to music.
-  - name: Academic Advisor
-    appointee: Bo Yuan
-    image: advisor.jpg
+  - name: Head of Research
+    appointee: Nick O'Brien
+    image: hor.jpg
     description: >
-      The Academic Advisor...
+      description...
+  - name: Competition Architect
+    appointee: Sean Newman
+    image: ca.jpg
+    description: >
+      description...
+  - name: Treasurer
+    appointee: Shannon McHale
+    image: treasurer.jpg
+    description: >
+      The Treasurer...
+  - name: Secretary
+    appointee: Jack McKenna
+    image: secretary.jpg
+    description: >
+      description...
+  - name: Director of Public Relations
+    appointee: Alicen Dipiano
+    image: dpr.jpg
+    description: >
+      description...
+  - name: Operations Lead
+    appointee: Brandon Adler
+    image: ol.jpg
+    description: >
+      description...
+  - name: Tech Lead
+    appointee: Scott Brink
+    image: tl.jpg
+    description: >
+      description...
 
 #-------------------------------
 # About Us
