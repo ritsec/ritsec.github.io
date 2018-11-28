@@ -113,38 +113,18 @@ eboard_roles:
 # About Us
 
 about_us_short: >
-  The Security Practices and Research Student Association (SPARSA) was founded 
-  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
-  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
-  The Center for Multidisciplinary Studies at RIT.
+  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
+  competitions, as well as showcasing RIT student talent in the current world of security today.</p>
 about_us_long: >
-  <p>The Security Practices and Research Student Association (SPARSA) was founded 
-  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
-  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
-  The Center for Multidisciplinary Studies at RIT.</p>
-  <br>
-  <p>Since its inception, SPARSA has been a student-run organization that addresses 
-  security-related issues and how these issues affect multiple majors and disciplines. 
-  The ultimate goal of this organization is to provide students with experience in 
-  information security and job opportunities in information security (infosec) related 
-  fields. This includes aiding members in the search for both cooperative education 
-  (co-op) and full-time employment opportunities.</p>
-  <br>
-  <p>To meet this goal, SPARSA hosts and participates in research and development of 
-  security tools and policies. In addition, SPARSA provides consulting for organizations 
-  in need of improved security. SPARSA also seeks to build and maintain relationships with 
-  local and national security related organizations. This includes social networking with 
-  security professionals and hosting conferences, symposia, and other security-related 
-  events to spur growth in this area.</p>
-  <br>
-  <p>As security becomes progressively more important in our increasingly global world, 
-  SPARSA will help students remain on top of their game and up to date with the latest 
-  security issues, practices, and research. "Today individuals, families, organizations, 
-  communities and our nation face unprecedented combinations of cyber and physical security 
-  threats to both cyber and physical assets. The challenge is to enhance security capabilities 
-  at all levels of society by developing better security technologies, and by providing 
-  education and training in the use and management of security technologies" (Dr. Samuel McQuade)</p>
-  <br>
+  <br><br>
+  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
+  competitions, as well as showcasing RIT student talent in the current world of security today.</p>
+  <p>Whether you're new to competitive cybersecurity or a veteran, RITSEC has a place for you.
+  <br><br>
+  We believe security is for anyone who wants to learn and center our activities around live individual and team-based
+  security exercises covering a wide variety of areas in computing security, including penetration testing, Windows and
+  Linux server hardening, web security, network services, and more!</p>
+  <br><br><br><br>
 
 #-------------------------------
 # Events
