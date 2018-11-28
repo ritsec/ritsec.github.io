@@ -158,6 +158,11 @@ events:
     Every Friday from 2:00-4:00PM, RITSEC hosts a research section for students to present on security topics that interest them.
     Please contact the Head of Research to submit a presentation.
   image: meetings.png
+- name: RITSEC CTF
+  description: >
+    The RITSEC CTF is a security-focused competition that features the following categories: 
+    Binary, Crypto, Forensics, Programming, and Web. We welcome beginners and more advanced security friends!
+  image: ists.jpg
 - name: IRSeC
   description: >
     The Incident Responsive Security Competition is our beginner friendly wargame where we invite seasoned penetration testers to come pwn your boxes. The best way to learn is a trial by fire, so strap on your blue team helmets, it's time to go to war.
