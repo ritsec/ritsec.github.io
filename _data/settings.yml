@@ -1,20 +1,20 @@
 #-------------------------------
 # General Site Settings
 
-title: SPARSA
-title_long: Security Practices and Research Student Association
-motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
-email: eboard@sparsa.org
+title: RITSEC
+title_long: RITSEC Student Computing Security Club
+motto: Security Through Community
+email: ritsecclub@gmail.com
 description: >
-  Security Practicies And Research Student Association
-twitter: RIT_SPARSA
+  RITSEC Student Computing Security Club
+twitter: RITSECclub
 github: 
-  name: RITSPARSA
-  project: SPARSA-Site
-facebook_page: RIT.SPARSA
-facebook_group: sparsa
-youtube: RITSPARSA
-slack: SPARSA
+  name: ritsec
+  project: ritsec.github.io
+facebook_page: RITSEC
+facebook_group: RITSEC
+youtube: UCfakBry_pXOvaPrVVr1SH-Q
+#slack: SPARSA
 
 #-------------------------------
 # Main Image Slider Settings
