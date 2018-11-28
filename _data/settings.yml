@@ -149,16 +149,24 @@ about_us_long: >
 #-------------------------------
 # Events
 events:
-- name: Weekly Meetings
-  description: We have meetings every Friday from 2:20-4:20PM in GOL-2400
-  image: meetings.png
-- name: Hack Night
+- name: Weekly Education Meeting
   description: >
-    Come and hangout and work on projects or participate in some fun activities!
-    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2410)</p>
+    Join us every Friday from 12:00-2:00PM for a hands-on lab and presentation to learn a weekly security topic.
+  image: meetings.png
+- name: Weekly Research Meeting
+  description: >
+    Every Friday from 2:00-4:00PM, RITSEC hosts a research section for students to present on security topics that interest them.
+    Please contact the Head of Research to submit a presentation.
+  image: meetings.png
+- name: IRSeC
+  description: >
+    The Incident Responsive Security Competition is our beginner friendly wargame where we invite seasoned penetration testers to come pwn your boxes. The best way to learn is a trial by fire, so strap on your blue team helmets, it's time to go to war.
   image: hacknights.jpg
 - name: ISTS
   description: >
-    This is a competition we do in the Spring.  Follow the link below for more information!
-    <p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p>
+    The Information Security Talent Search (ISTS) competition is an annual three-day cyber attack/defend competition
+    hosted by us. Competitors are faced with a wide variety of challenges which are designed to cover as many facets of
+    computing security, system administration, networking, and programming as we possibly can. These challenges include
+    code review, architecture design, incident response, and policy writing -- all while defending a completely
+    student-built infrastructure. Read more about the competition <a href="https://ists.ritsec.club">here</a>.
   image: ists.jpg

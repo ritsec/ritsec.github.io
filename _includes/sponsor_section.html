@@ -6,6 +6,9 @@
     </span>
 </div>
 <div class="sponsor-container">
+    <!-- This case handles the situation where there are less than 4 sponsors. The shown sponsors will randomly be selected
+        from the sponsors defined in 'sponsors.yml' if there are more than 4. This is defined in 'assets/js/sponsors.js'
+    -->
     {% for sponsor in site.data.sponsors limit:4 %}
     <div class="col-lg-3 col-md-4 col-xs-6 thumb">
         <a href="{{ sponsor.link }}">
