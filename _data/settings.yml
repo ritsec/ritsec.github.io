@@ -30,7 +30,7 @@ slider:
 # Navbar Settings
 favicon: favicon.png
 navbar-brand:
-  image: SPARSA_Header.png
+  image: logo_header.png
   link: '/index.html'
 
 navbar:
