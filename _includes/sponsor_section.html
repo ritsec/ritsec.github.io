@@ -6,21 +6,11 @@
     </span>
 </div>
 <div class="sponsor-container">
-    <div class="sponsor-image-container">
-        <a>
-            <img src="assets/images/sponsorLogos/hp.png" class="sponsor-image" id="sponsor1">
-        </a>
-    </div><!----><div class="sponsor-image-container">
-        <a>
-            <img src="assets/images/sponsorLogos/google.png" class="sponsor-image" id="sponsor2">
-        </a>
-        </div><!----><div class="sponsor-image-container">
-        <a>
-            <img src="assets/images/sponsorLogos/linkedin.png" class="sponsor-image" id="sponsor3">
-        </a>
-        </div><!----><div class="sponsor-image-container">
-        <a>
-            <img src="assets/images/sponsorLogos/cadence.png" class="sponsor-image" id="sponsor4">
+    {% for sponsor in site.data.sponsors limit:4 %}
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="{{ sponsor.link }}">
+            <img class="csh-thumbnail img-responsive" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}">
         </a>
     </div>
+    {% endfor %}
 </div>
