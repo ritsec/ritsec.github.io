@@ -1,3 +1,15 @@
 - name: MITRE
   link: https://www.mitre.org/
   image: Mitre.jpg
+- name: ReliaQuest
+  link: https://www.reliaquest.com/
+  image: reliaquest.jpg
+- name: Eaton
+  link: https://www.eaton.com/
+  image: eaton.jpg
+- name: Susquehanna International Group
+  link: https://sig.com/
+  image: sig.jpg
+- name: Palo Alto Cybersecurity Academy
+  image: pan.jpg
+  link: https://www.paloaltonetworks.com/services/education/academy
