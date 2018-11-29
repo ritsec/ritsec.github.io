@@ -13,3 +13,9 @@
 - name: Palo Alto Cybersecurity Academy
   image: pan.jpg
   link: https://www.paloaltonetworks.com/services/education/academy
+- name: IOMAXIS
+  image: iomaxis.png
+  link: https://www.iomaxis.com
+- name: Ingressive
+  image: ingressive.png
+  link: http://www.iomaxis.com/ingressive.html
