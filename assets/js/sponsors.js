@@ -31,3 +31,4 @@ function reload_sponsors(){
 
 $(document).ready(reload_sponsors());
 
+//TODO Make this more efficient
