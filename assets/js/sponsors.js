@@ -15,7 +15,8 @@ function shuffle(array) {
     return array;
 }
 
-$(document).ready(function(){
+    
+function reload_sponsors(){
     var images = [
         {% for sponsor in site.data.sponsors %}['assets/images/sponsorLogos/{{ sponsor.image }}', "{{ sponsor.link }}"],{% endfor %}
     ];
@@ -25,5 +26,9 @@ $(document).ready(function(){
         $('#sponsor'+i).attr("src", item[0]);
         $('#sponsor'+i).parent("a").attr("href", item[1]);
     }
-});
+    setTimeout(reload_sponsors, 3000);
+}
 
+$(document).ready(reload_sponsors());
+
+//TODO Make this more efficient
