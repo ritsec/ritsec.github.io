@@ -38,17 +38,16 @@ navbar:
     link: 'index.html'
   - name: 'About'
     link: 'about.html'
+  - name: Members
     subitems:
-    - name: 'Alumni'
-      link: 'alumni.html'
+    - name: 'EBoard'
+      link: 'eboard.html'
     - name: 'Past EBoards'
       link: 'past-eboards.html'
-  - name: 'EBoard'
-    link: 'eboard.html'
+    - name: 'Alumni'
+      link: 'alumni.html'
   - name: 'Events'
     link: 'events.html'
-  - name: 'ISTS'
-    link: 'https://ists.sparsa.org'
   - name: 'Sponsors'
     link: 'sponsors.html'
 
@@ -120,10 +119,12 @@ about_us_long: >
   <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
   competitions, as well as showcasing RIT student talent in the current world of security today.</p>
   <p>Whether you're new to competitive cybersecurity or a veteran, RITSEC has a place for you.
-  <br><br>
+  <br>
   We believe security is for anyone who wants to learn and center our activities around live individual and team-based
   security exercises covering a wide variety of areas in computing security, including penetration testing, Windows and
   Linux server hardening, web security, network services, and more!</p>
+  <p>In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club (RC3) merged to become RITSEC.
+  As a result, the security community at RIT became more unified as the major and industry grew.</p>
   <br><br><br><br>
 
 #-------------------------------
