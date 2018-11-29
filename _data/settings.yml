@@ -1,20 +1,19 @@
 #-------------------------------
 # General Site Settings
 
-title: SPARSA
-title_long: Security Practices and Research Student Association
-motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
-email: eboard@sparsa.org
+title: RITSEC
+title_long: RITSEC Student Computing Security Club
+motto: Security Through Community
+email: ritsecclub@gmail.com
 description: >
-  Security Practicies And Research Student Association
-twitter: RIT_SPARSA
+  RITSEC Student Computing Security Club
+twitter: RITSECclub
 github: 
-  name: RITSPARSA
-  project: SPARSA-Site
-facebook_page: RIT.SPARSA
-facebook_group: sparsa
-youtube: RITSPARSA
-slack: SPARSA
+  name: ritsec
+  project: ritsec.github.io
+facebook_page: RITSEC
+facebook_group: RITSEC
+youtube: UCfakBry_pXOvaPrVVr1SH-Q
 
 #-------------------------------
 # Main Image Slider Settings
@@ -30,7 +29,7 @@ slider:
 # Navbar Settings
 favicon: favicon.png
 navbar-brand:
-  image: SPARSA_Header.png
+  image: logo_header.png
   link: '/index.html'
 
 navbar:
@@ -38,17 +37,16 @@ navbar:
     link: 'index.html'
   - name: 'About'
     link: 'about.html'
+  - name: Members
     subitems:
-    - name: 'Alumni'
-      link: 'alumni.html'
+    - name: 'EBoard'
+      link: 'eboard.html'
     - name: 'Past EBoards'
       link: 'past-eboards.html'
-  - name: 'EBoard'
-    link: 'eboard.html'
+    - name: 'Alumni'
+      link: 'alumni.html'
   - name: 'Events'
     link: 'events.html'
-  - name: 'ISTS'
-    link: 'https://ists.sparsa.org'
   - name: 'Sponsors'
     link: 'sponsors.html'
 
@@ -66,91 +64,95 @@ eboard_roles:
       servers. He loves helping out the community and learning with others. If he 
       isn't sleeping in the computer labs, he can be found sleeping out in the woods. 
       You can contact him at mmartin@sparsa.org.
-  - name: Vice President of Research
-    appointee: Cameron Clark
-    image: vpr.jpg
-    description: >
-      Cameron Clark is a 4th year Computing Security major. His focuses revolve 
-      around web security and he's just begun diving into blockchains. Before 
-      joining the security world he used to be a lobster cook.
-  - name: Vice President of Practices
-    appointee: Kyle Carretto
-    image: vpp.jpg
-    description: >
-      The Vice President of Practices...
-  - name: Director of Public Relations
-    appointee: Brandon Dossantos
-    image: dpr.jpg
-    description: >
-      The Director of Public Relations...
-  - name: Treasurer
-    appointee: Josh Stuts
-    image: treasurer.jpg
-    description: >
-      The Treasurer...
-  - name: Secretary
+  - name: Head of Education
     appointee: Russell Babarsky
-    image: secretary.jpg
+    image: hoe.jpg
     description: >
       Russell Babarsky is a third-year computing security major. His passion lies 
       in pen testing and exploit development. Besides security, he enjoys hiking, 
       baseball, and listening to music.
-  - name: Academic Advisor
-    appointee: Bo Yuan
-    image: advisor.jpg
+  - name: Head of Research
+    appointee: Nick O'Brien
+    image: hor.jpg
     description: >
-      The Academic Advisor...
+      description...
+  - name: Competition Architect
+    appointee: Sean Newman
+    image: ca.jpg
+    description: >
+      description...
+  - name: Treasurer
+    appointee: Shannon McHale
+    image: treasurer.jpg
+    description: >
+      The Treasurer...
+  - name: Secretary
+    appointee: Jack McKenna
+    image: secretary.jpg
+    description: >
+      description...
+  - name: Director of Public Relations
+    appointee: Alicen Dipiano
+    image: dpr.jpg
+    description: >
+      description...
+  - name: Operations Lead
+    appointee: Brandon Adler
+    image: ol.jpg
+    description: >
+      description...
+  - name: Tech Lead
+    appointee: Scott Brink
+    image: tl.jpg
+    description: >
+      description...
 
 #-------------------------------
 # About Us
 
 about_us_short: >
-  The Security Practices and Research Student Association (SPARSA) was founded 
-  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
-  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
-  The Center for Multidisciplinary Studies at RIT.
+  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
+  competitions, as well as showcasing RIT student talent in the current world of security today.</p>
 about_us_long: >
-  <p>The Security Practices and Research Student Association (SPARSA) was founded 
-  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
-  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
-  The Center for Multidisciplinary Studies at RIT.</p>
-  <br>
-  <p>Since its inception, SPARSA has been a student-run organization that addresses 
-  security-related issues and how these issues affect multiple majors and disciplines. 
-  The ultimate goal of this organization is to provide students with experience in 
-  information security and job opportunities in information security (infosec) related 
-  fields. This includes aiding members in the search for both cooperative education 
-  (co-op) and full-time employment opportunities.</p>
-  <br>
-  <p>To meet this goal, SPARSA hosts and participates in research and development of 
-  security tools and policies. In addition, SPARSA provides consulting for organizations 
-  in need of improved security. SPARSA also seeks to build and maintain relationships with 
-  local and national security related organizations. This includes social networking with 
-  security professionals and hosting conferences, symposia, and other security-related 
-  events to spur growth in this area.</p>
-  <br>
-  <p>As security becomes progressively more important in our increasingly global world, 
-  SPARSA will help students remain on top of their game and up to date with the latest 
-  security issues, practices, and research. "Today individuals, families, organizations, 
-  communities and our nation face unprecedented combinations of cyber and physical security 
-  threats to both cyber and physical assets. The challenge is to enhance security capabilities 
-  at all levels of society by developing better security technologies, and by providing 
-  education and training in the use and management of security technologies" (Dr. Samuel McQuade)</p>
-  <br>
+  <br><br>
+  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
+  competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you.
+  </p>
+  <p>
+  We believe security is for anyone who wants to learn and center our activities around multiple aspects of security. This includes
+  live individual and team-based competitions, hands-on training, student run research, and sponsor talks. Our security exercises
+  cover a wide variety of areas in computing security, including penetration testing, Windows and Linux server hardening,
+  web security, network services, and more!</p>
+  <p>In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club (RC3) merged to become RITSEC.
+  As a result, the security community at RIT became more unified as the major and industry grew.</p>
+  <br><br><br><br>
 
 #-------------------------------
 # Events
 events:
-- name: Weekly Meetings
-  description: We have meetings every Friday from 2:20-4:20PM in GOL-2400
-  image: meetings.png
-- name: Hack Night
+- name: Weekly Education Meeting
   description: >
-    Come and hangout and work on projects or participate in some fun activities!
-    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2410)</p>
+    Join us every Friday from 12:00-2:00PM for a hands-on lab and presentation to learn a weekly security topic.
+  image: meetings.png
+- name: Weekly Research Meeting
+  description: >
+    Every Friday from 2:00-4:00PM, RITSEC hosts a research section for students to present on security topics that interest them.
+    Please contact the Head of Research to submit a presentation.
+  image: meetings.png
+- name: RITSEC CTF
+  description: >
+    The RITSEC CTF is a security-focused competition that features the following categories: 
+    Binary, Crypto, Forensics, Programming, and Web. We welcome beginners and more advanced security friends!
+  image: ists.jpg
+- name: IRSeC
+  description: >
+    The Incident Responsive Security Competition is our beginner friendly wargame where we invite seasoned penetration testers to come pwn your boxes. The best way to learn is a trial by fire, so strap on your blue team helmets, it's time to go to war.
   image: hacknights.jpg
 - name: ISTS
   description: >
-    This is a competition we do in the Spring.  Follow the link below for more information!
-    <p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p>
+    The Information Security Talent Search (ISTS) competition is an annual three-day cyber attack/defend competition
+    hosted by us. Competitors are faced with a wide variety of challenges which are designed to cover as many facets of
+    computing security, system administration, networking, and programming as we possibly can. These challenges include
+    code review, architecture design, incident response, and policy writing -- all while defending a completely
+    student-built infrastructure. Read more about the competition <a href="https://ists.ritsec.club">here</a>.
   image: ists.jpg
