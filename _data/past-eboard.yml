@@ -1,10 +1,20 @@
 - year: 2017-2018
-  President: Micah Martin
-  VicePresidentofPractices: Kyle Carretto
-  VicePresidentofResearch: Cameron Clark
-  Treasurer: Josh Stuts
-  Secretary: Russell Babarsky
-  FacultyAdvisor: Bo Yuan
+  Sparsa:
+   - President: Micah Martin
+   - Vice President of Practices: Kyle Carretto
+   - Vice President of Research: Cameron Clark
+   - Treasurer: Josh Stuts
+   - Secretary: Russell Babarsky
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - President: Sean Sun
+   - Vice President: Ohan Fillbach
+   - Competition Architect: Kristen Tumacder
+   - Secretary: Sean Newman
+   - Treasurer: Michael Milkovich/Shannon McHale
+   - Web Admin: Bryson McIver
+   - Operations: Susan Lunn
+   - Faculty Advisor: Megan Fritts, Bill Stackpole
 
 - year: 2016-2017
   President: Jesse Buonanno

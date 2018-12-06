@@ -6,7 +6,26 @@ title: EBoard of Years Past
 <div class="past-eboards">
     <div class="center">
 {% for eboard in site.data.past-eboard %}
-        <h3>{{ eboard.year }}</h3>
+<h3>{{ eboard.year }}</h3>
+    {% if eboard.RC3 %}
+    <p>RC3:<br>
+    {% for item in eboard.RC3 %}
+    {% for role in item %}
+    {{ role[0] }}: {{ role[1] }}<br>
+    {% endfor %}
+    {% endfor %}
+    </p>
+    {% endif %}
+    {% if eboard.Sparsa %}
+    <p>SPARSA<br>
+    {% for item in eboard.Sparsa %}
+    {% for role in item %}
+    {{ role[0] }}: {{ role[1] }}<br>
+    {% endfor %}
+    {% endfor %}
+    </p>
+    {% endif %}
+{% comment %}
         <div class="center">
         {% if eboard.President %}
         <p><span>President:</span> {{ eboard.President }}</p>
@@ -31,6 +50,7 @@ title: EBoard of Years Past
         {% endif %}
         <br><br>
         </div>
+{% endcomment %}
 {% endfor %}
     </div>
 </div>
