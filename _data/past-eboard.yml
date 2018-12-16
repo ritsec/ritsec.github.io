@@ -1,130 +1,191 @@
+#- year: 2018-2019
+#  RITSEC:
+#   - President: Micah Martin
+#   - Head of Education: Russell Babarsky
+#   - Head of Research: Nick O'Brien
+#   - Competition Architect: Sean Newman
+#   - Treasurer: Shannon McHale
+#   - Secretary: Jack McKenna
+#   - Director of Public Relations: Alicen Dipiano
+#   - Operations Lead: Brandon Adler
+#   - Tech Lead: Scott Brink
+
 - year: 2017-2018
-  President: Micah Martin
-  VicePresidentofPractices: Kyle Carretto
-  VicePresidentofResearch: Cameron Clark
-  Treasurer: Josh Stuts
-  Secretary: Russell Babarsky
-  FacultyAdvisor: Bo Yuan
+  SPARSA:
+   - President: Micah Martin
+   - Vice President of Practices: Kyle Carretto
+   - Vice President of Research: Cameron Clark
+   - Treasurer: Josh Stuts
+   - Secretary: Russell Babarsky
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - President: Sean Sun
+   - Vice President: Ohan Fillbach
+   - Competition Architect: Kristen Tumacder
+   - Secretary: Sean Newman
+   - Treasurer: Michael Milkovich/Shannon McHale
+   - Web Admin: Bryson McIver
+   - Operations: Susan Lunn
+   - Faculty Advisor: Megan Fritts, Bill Stackpole
 
 - year: 2016-2017
-  President: Jesse Buonanno
-  VicePresidentofPractices: Cameron Clark
-  VicePresidentofResearch: Dave Kukfa
-  Treasurer: Brandon Adler
-  Secretary: Jon Myers
-  FacultyAdvisor: Bo Yuan
+  SPARSA:
+   - President: Jesse Buonanno
+   - Vice President of Practices: Cameron Clark
+   - Vice President of Research: Dave Kukfa
+   - Treasurer: Brandon Adler
+   - Secretary: Jon Myers
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - President: Ben Bornholm
+   - Vice President: Nicholas Piazza
+   - Tech Lead: Brad Campbell
+   - Competition Architect: Sarah Jacobus/Sean Sun
+   - Web: Sean Sun/Ohan Filbach
+   - Treasurer: Michael Milkovich
+   - Secretary: Kristen Tumacder
 
 - year: 2015-2016
-  President: Corrine Smith
-  VicePresidentofPractices: Vacant
-  VicePresidentofResearch: Tyler Fornes
-  Treasurer: Jesse Buonanno
-  Secretary: Peter Muller
-  GraduateAdvisor: Jared Stroud and Bryan Harmat
-  FacultyAdvisor: Bo Yuan
+  SPARSA:
+   - President: Corrine Smith
+   - Vice President of Research: Tyler Fornes
+   - Treasurer: Jesse Buonanno
+   - Secretary: Peter Muller
+   - Graduate Advisor: Jared Stroud and Bryan Harmat
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - President: Scott Vincent
+   - Vice President: Sean McConnell
+   - Tech Lead: Ed Mead
+   - Competition Architect: Luke Matarazzo
+   - Web: Jaime Geiger
+   - Treasurer: Ben Bornholm
+   - Secretary: Pooja Sharma
 
 - year: 2014-2015
-  President: Bryan Harmat
-  VicePresidentofPractices: Jared Stroud
-  VicePresidentofResearch: Jon Barber (Fall) Stanley Chan (Spring)
-  Treasurer: Mike O’Gorman (Fall) Peter Muller (Spring)
-  Secretary: Corinne Smith
-  GraduateAdvisor: Stanley Chan
-  FacultyAdvisor: Bo Yuan
+  SPARSA:
+   - President: Bryan Harmat
+   - Vice President of Practices: Jared Stroud
+   - Vice President of Research: Jon Barber/Stanley Chan
+   - Treasurer: Mike O’Gorman/Peter Muller
+   - Secretary: Corinne Smith
+   - Graduate Advisor: Stanley Chan
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - President: Jaime Geiger
+   - Vice President: Nicholas Piazza
+   - Vice President of Administration: Scott Vincent
+   - Vice President of Technology: Sean McConnell
+   - Treasurer: Luke Christian
+   - Secretary: Ben Bornholm
 
 - year: 2013-2014
-  President: Ben Kelley
-  VicePresidentofPractices: Bryan Harmat
-  VicePresidentofResearch: Lucas Duffey (Fall) Stanley Chan (Spring)
-  Treasurer: Claire McKenna
-  Secretary: Jared Stroud
-  GraduateAdvisor: Ben Andrews
-  FacultyAdvisor: Bo Yuan
+  SPARSA:
+   - President: Ben Kelley
+   - Vice President of Practices: Bryan Harmat
+   - Vice President of Research: Lucas Duffey/Stanley Chan
+   - Treasurer: Claire McKenna
+   - Secretary: Jared Stroud
+   - Graduate Advisor: Ben Andrews
+   - Faculty Advisor: Bo Yuan
+  RC3:
+   - Founders: Brandon Maur and Thomas Desrosiers
 
 - year: 2012-2013
-  President: Stanley Chan
-  VicePresidentofPractices: Ben Kelley
-  VicePresidentofResearch: Brandon Myers
-  Treasurer: Lucas Duffey
-  Secretary: Kayla Green
-  GraduateAdvisor: Chaim Sanders
-  FacultyAdvisor: Gary Scarborough and Bo Yuan
+  SPARSA:
+   - President: Stanley Chan
+   - Vice President of Practices: Ben Kelley
+   - Vice President of Research: Brandon Myers
+   - Treasurer: Lucas Duffey
+   - Secretary: Kayla Green
+   - Graduate Advisor: Chaim Sanders
+   - Faculty Advisor: Gary Scarborough and Bo Yuan
 
 - year: 2011-2012
-  President: Ryan Peck
-  VicePresidentofPractices: Neil Zimmerman
-  VicePresidentofResearch: Chaim Sanders
-  Treasurer: Lucas Duffey
-  Secretary: Stanley Chan
-  FacultyAdvisor: Gary Scarborough
+  SPARSA:
+   - President: Ryan Peck
+   - Vice President of Practices: Neil Zimmerman
+   - Vice President of Research: Chaim Sanders
+   - Treasurer: Lucas Duffey
+   - Secretary: Stanley Chan
+   - Faculty Advisor: Gary Scarborough
 
 - year: 2010-2011
-  President: Jacob Ruppal
-  VicePresidentofPractices: Chaim Sanders
-  #VicePresidentofResearch:
-  Treasurer: Ryan Peck
-  Secretary: Michael Tortora
-  FacultyAdvisor: Gary Scarborough
+  SPARSA:
+   - President: Jacob Ruppal
+   - Vice President of Practices: Chaim Sanders
+   - #Vice President of Research:
+   - Treasurer: Ryan Peck
+   - Secretary: Michael Tortora
+   - Faculty Advisor: Gary Scarborough
 
 - year: 2009-2010
-  President: Conner Finlay
-  VicePresidentofPractices: Jacob Ruppal
-  VicePresidentofResearch: Josh Smith
-  Treasurer: Chaim Sanders
-  Secretary: Neil Zimmerman
+  SPARSA:
+   - President: Conner Finlay
+   - Vice President of Practices: Jacob Ruppal
+   - Vice President of Research: Josh Smith
+   - Treasurer: Chaim Sanders
+   - Secretary: Neil Zimmerman
 
 #- year: 2008-2009
 #  President:
-#  VicePresidentofPractices:
-#  VicePresidentofResearch:
+#  Vice President of Practices:
+#  Vice President of Research:
 #  Treasurer:
 #  Secretary:
 
 - year: 2007-2008
-  President: Alex Getty
-  VicePresidentofPractices: Connor Finlay
-  VicePresidentofResearch: Josh Smith
-  Treasurer: Adam Burke
-  Secretary: Jacob Ruppal
+  SPARSA:
+   - President: Alex Getty
+   - Vice President of Practices: Connor Finlay
+   - Vice President of Research: Josh Smith
+   - Treasurer: Adam Burke
+   - Secretary: Jacob Ruppal
 
 - year: 2006-2007
-  President: Jason Batchelor
-  VicePresidentofPractices: Alex Getty
-  VicePresidentofResearch: Nick Carpenter
+  SPARSA:
+   - President: Jason Batchelor
+   - Vice President of Practices: Alex Getty
+   - Vice President of Research: Nick Carpenter
   #Treasurer:
   #Secretary:
 
 - year: 2005-2006
+  SPARSA:
   #President:
-  VicePresidentofPractices: Jason Batchelor
-  #VicePresidentofResearch:
+   - Vice President of Practices: Jason Batchelor
+  #Vice President of Research:
   #Treasurer:
   #Secretary:
 
 - year: 2004-2005
-  President: Jeff Volante
-  VicePresidentofPractices: Jim Farrelly
-  VicePresidentofResearch: Sara Berg
-  Treasurer: Brian Luteran
-  Secretary: Jason Batchelor
+  SPARSA:
+   - President: Jeff Volante
+   - Vice President of Practices: Jim Farrelly
+   - Vice President of Research: Sara Berg
+   - Treasurer: Brian Luteran
+   - Secretary: Jason Batchelor
 
 - year: 2003-2004
-  President: Keith LeClaire
-  #VicePresidentofPractices:
-  #VicePresidentofResearch:
+  SPARSA:
+   - President: Keith LeClaire
+  #Vice President of Practices:
+  #Vice President of Research:
   #Treasurer:
   #Secretary:
 
 - year: 2002-2003
-  President: Steve Frank
-  VicePresidentofPractices: Jeff Volante
-  VicePresidentofResearch: Keith LeClaire
-  Treasurer: Katie Hathaway
-  Secretary: Jim Farrelly
+  SPARSA:
+   - President: Steve Frank
+   - Vice President of Practices: Jeff Volante
+   - Vice President of Research: Keith LeClaire
+   - Treasurer: Katie Hathaway
+   - Secretary: Jim Farrelly
 
 - year: 2001-2002
-  President: Jared Campbell
-  VicePresidentofPractices: Matt Hile
-  VicePresidentofResearch: Gena Daley
-  Treasurer: Reina Smith
-  Secretary: Aksh Sehgal
+  SPARSA:
+   - President: Jared Campbell
+   - Vice President of Practices: Matt Hile
+   - Vice President of Research: Gena Daley
+   - Treasurer: Reina Smith
+   - Secretary: Aksh Sehgal

@@ -2,35 +2,27 @@
 layout: info_page
 title: EBoard of Years Past
 ---
-<br>
+{% assign CLUBS = "RITSEC, RC3, SPARSA" | split: ", " %}
 <div class="past-eboards">
-    <div class="center">
+<div class="center">
 {% for eboard in site.data.past-eboard %}
-        <h3>{{ eboard.year }}</h3>
-        <div class="center">
-        {% if eboard.President %}
-        <p><span>President:</span> {{ eboard.President }}</p>
-        {% endif %}
-        {% if eboard.VicePresidentofPractices %}
-        <p><span>Vice President of Practices:</span> {{ eboard.VicePresidentofPractices }}</p>
-        {% endif %}
-        {% if eboard.VicePresidentofResearch %}
-        <p><span>Vice President of Research:</span> {{ eboard.VicePresidentofResearch }}</p>
-        {% endif %}
-        {% if eboard.Treasurer %}
-        <p><span>Treasurer:</span> {{ eboard.Treasurer }}</p>
-        {% endif %}
-        {% if eboard.Secretary %}
-        <p><span>Secretary:</span> {{ eboard.Secretary }}</p>
-        {% endif %}
-        {% if eboard.GraduateAdvisor %}
-        <p><span>Graduate Advisor:</span> {{ eboard.GraduateAdvisor }}</p>
-        {% endif %}
-        {% if eboard.FacultyAdvisor %}
-        <p><span>Faculty Advisor:</span> {{ eboard.FacultyAdvisor }}</p>
-        {% endif %}
-        <br><br>
+    <h3>{{ eboard.year }}</h3>
+    <div style="display: flex; text-align: center">
+    {% for CLUB in CLUBS %}
+        {% if eboard[CLUB] %}
+        <div style="flex-grow: 1; padding: 5px">
+            <h4>{{CLUB}}</h4>
+            <p>
+            {% for item in eboard[CLUB] %}
+                {% for role in item %}
+                    <strong>{{ role[0] }}</strong>: {{ role[1] }}<br>
+                {% endfor %}
+            {% endfor %}
+            </p>
         </div>
-{% endfor %}
+        {% endif %}
+    {% endfor %}
     </div>
+{% endfor %}
+</div>
 </div>
