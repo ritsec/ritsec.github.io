@@ -19,3 +19,12 @@
 - name: Ingressive
   image: ingressive.png
   link: http://www.iomaxis.com/ingressive.html
+- name: Carve Systems
+  image: CarveSystems.jpg
+  link: https://www.carvesystems.com/
+- name: Datto
+  image: datto.png
+  link: https://www.datto.com/
+- name: CISCO
+  image: cisco.png
+  link: https://www.cisco.com/
