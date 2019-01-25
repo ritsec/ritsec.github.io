@@ -147,27 +147,47 @@ about_us_long: >
 events:
 - name: Weekly Education Meeting
   description: >
-    Join us every Friday from 12:00-2:00PM for a hands-on lab and presentation to learn a weekly security topic.
+    Join us every Friday, 12:00 PM - 2:00 PM for a presentation and hands-on
+    lab to learn a new security topic! Labs are generally made up of multiple
+    challenges of varying difficulty, and are intended to give members
+    practical experience with the topics discussed in the week's presentation.
+    Club members can earn points that accumulate over the semester for
+    completing challenges. How high up on the leaderboard can YOU make it?
   image: meetings.png
 - name: Weekly Research Meeting
   description: >
-    Every Friday from 2:00-4:00PM, RITSEC hosts a research section for students to present on security topics that interest them.
-    Please contact the Head of Research to submit a presentation.
+    Following the education section, RITSEC hosts a research section every
+    Friday, 2:00 PM - 4:00 PM. Students are given the opportunity to present on
+    security topics that interest them and any current projects they would like
+    to share with the club. Please contact the Head of Research to submit a
+    presentation.
   image: meetings.png
+- name: <a href="https://www.ists.io">ISTS</a>
+  description: >
+    The Information Security Talent Search is an annual three-day cyber
+    attack/defend competition typically hosted in the early spring at RIT.
+    Every year, competitors from both RIT and invited colleges from around the
+    country are faced with a wide variety of challenges which are designed to
+    cover as many facets of the security industry as possible. This includes
+    defensive and offensive capabilities, system administration, software
+    security, networking, programming, and much more! Challenges and activities
+    include a CTF, King-of-the-Hill, policy writing, incident response, and
+    code review -- all while defending a completely student-built
+    infrastructure!
+  image: ists.jpg
 - name: RITSEC CTF
   description: >
-    The RITSEC CTF is a security-focused competition that features the following categories: 
-    Binary, Crypto, Forensics, Programming, and Web. We welcome beginners and more advanced security friends!
-  image: ists.jpg
+    The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
+    CTF</a> hosted online for 60 hours in the late fall. Participation is open
+    to all, and registered RIT teams are eligible for prizes! The CTF generally
+    focuses on binary/RE, cryptography, forensics, progamming, and web security
+    challenges. We welcome beginners and more advanced security friends alike!
+  image: ritsec-ctf18.png
 - name: IRSeC
   description: >
-    The Incident Responsive Security Competition is our beginner friendly wargame where we invite seasoned penetration testers to come pwn your boxes. The best way to learn is a trial by fire, so strap on your blue team helmets, it's time to go to war.
+    The Incident Response Security Competition is our more beginner-friendly
+    Red/Blue competition. IRSeC is typically hosted in the late spring at RIT.
+    With IRSeC, we aim to provide RIT students with some initial defensive and
+    incident response experience. IRSeC also features an entirely student-run
+    Red Team comprised of RITSEC members.
   image: hacknights.jpg
-- name: ISTS
-  description: >
-    The Information Security Talent Search (ISTS) competition is an annual three-day cyber attack/defend competition
-    hosted by us. Competitors are faced with a wide variety of challenges which are designed to cover as many facets of
-    computing security, system administration, networking, and programming as we possibly can. These challenges include
-    code review, architecture design, incident response, and policy writing -- all while defending a completely
-    student-built infrastructure. Read more about the competition <a href="http://ists.ritsec.club">here</a>.
-  image: ists.jpg
