@@ -162,14 +162,6 @@ events:
     to share with the club. Please contact the Head of Research to submit a
     presentation.
   image: meetings.png
-- name: RITSEC CTF
-  description: >
-    The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
-    CTF</a> hosted online for 60 hours in the late fall. Participation is open
-    to all, and registered RIT teams are eligible for prizes! The CTF generally
-    focuses on binary/RE, cryptography, forensics, progamming, and web security
-    challenges. We welcome beginners and more advanced security friends alike!
-  image: ists.jpg
 - name: <a href="https://www.ists.io">ISTS</a>
   description: >
     The Information Security Talent Search is an annual three-day cyber
@@ -183,6 +175,14 @@ events:
     code review -- all while defending a completely student-built
     infrastructure!
   image: ists.jpg
+- name: RITSEC CTF
+  description: >
+    The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
+    CTF</a> hosted online for 60 hours in the late fall. Participation is open
+    to all, and registered RIT teams are eligible for prizes! The CTF generally
+    focuses on binary/RE, cryptography, forensics, progamming, and web security
+    challenges. We welcome beginners and more advanced security friends alike!
+  image: ritsec-ctf18.png
 - name: IRSeC
   description: >
     The Incident Response Security Competition is our more beginner-friendly
