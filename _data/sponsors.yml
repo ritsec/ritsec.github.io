@@ -20,7 +20,7 @@
   image: ingressive.png
   link: http://ingressive.com/
 - name: Carve Systems
-  image: CarveSystems.jpg
+  image: CSLLC_Logo_Block.png
   link: https://www.carvesystems.com/
 - name: Datto
   image: datto.png
@@ -28,3 +28,9 @@
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
+- name: MWR
+  image: MWR-CMYK.png
+  link: https://www.mwrinfosecurity.com/
+- name: GRIMM
+  image: grimm-logo.png
+  link: https://www.grimm-co.com/
