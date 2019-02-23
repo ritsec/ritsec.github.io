@@ -1,36 +1,37 @@
 - name: Facebook
-  link: https://www.facebook.com/careers/areas-of-work/security/?teams[0]=Security
-  image: facebookLogo.png
-- name: ReliaQuest
-  link: https://www.reliaquest.com/
-  image: reliaquest.jpg
+  link: https://www.facebook.com/careers/
+  image: Facebook.png
+- name: Carrier
+  link: https://www.carrier.com/carrier/en/us/
+  image: Carrier.png
 - name: Eaton
   link: https://www.eaton.com/
-  image: eaton.jpg
-- name: Susquehanna International Group
-  link: https://sig.com/
-  image: sig.jpg
+  image: Eaton.png
 - name: Palo Alto Cybersecurity Academy
-  image: pan.jpg
+  image: alto.png
   link: https://www.paloaltonetworks.com/services/education/academy
 - name: IOMAXIS
-  image: iomaxis.png
+  image: IOMAXIS.png
   link: https://www.iomaxis.com
-- name: Ingressive
-  image: ingressive.png
-  link: http://ingressive.com/
-- name: Carve Systems
-  image: CSLLC_Logo_Block.png
-  link: https://www.carvesystems.com/
+- name: Novetta
+  link: https://www.novetta.com/
+  image: Novetta.png
 - name: Datto
-  image: datto.png
+  image: Datto.png
   link: https://www.datto.com/
 - name: CISCO
-  image: cisco.png
+  image: Cisco.png
   link: https://www.cisco.com/
-- name: MWR
-  image: MWR-CMYK.png
-  link: https://www.mwrinfosecurity.com/
+- name: Wegmans
+  link: https://jobs.wegmans.com/
+  image: Wegmans.png
 - name: GRIMM
-  image: grimm-logo.png
-  link: https://www.grimm-co.com/
+  image: Grimm.png
+  link: https://www.grimm-co.com/ 
+- name: Carve  
+  image: Carve.png
+  link: https://www.carvesystems.com/
+- name: MWR
+  image: MWR.png
+  link: https://www.mwrinfosecurity.com/
+
