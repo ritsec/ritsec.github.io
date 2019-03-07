@@ -8,19 +8,19 @@
   link: https://www.eaton.com/
   image: Eaton.png
 - name: Palo Alto Cybersecurity Academy
-  image: alto.png
+  image: paloalto.png
   link: https://www.paloaltonetworks.com/services/education/academy
 - name: IOMAXIS
-  image: IOMAXIS.png
+  image: iomaxis.png
   link: https://www.iomaxis.com
 - name: Novetta
   link: https://www.novetta.com/
   image: Novetta.png
 - name: Datto
-  image: Datto.png
+  image: datto.png
   link: https://www.datto.com/
 - name: CISCO
-  image: Cisco.png
+  image: cisco.png
   link: https://www.cisco.com/
 - name: Wegmans
   link: https://jobs.wegmans.com/
