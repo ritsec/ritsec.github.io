@@ -2,13 +2,13 @@
 layout: info_page
 title: Sponsors
 description: >
-    <a href="/sponsorship.pdf">What do sponsors get?</a>
+    <a style="padding-left:2em" href="/sponsorship.pdf"> What do sponsors get?</a>
     <br>
     <br>
 ---
 <div class="row">
     {% for sponsor in site.data.sponsors %}
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+    <div class="col-lg-2 col-md-4 col-xs-6 thumb">
         <a href="{{ sponsor.link }}" target="_blank">
             <img class="csh-thumbnail img-responsive" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}">
         </a>
