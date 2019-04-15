@@ -1,37 +1,53 @@
 - name: Facebook
-  link: https://www.facebook.com/careers/
   image: Facebook.png
+  link: https://www.facebook.com/careers/
+  tier: Platinum
 - name: Carrier
-  link: https://www.carrier.com/carrier/en/us/
   image: Carrier.png
+  link: https://www.carrier.com/carrier/en/us/
+  tier: Platinum
+- name: Iomaxis_Ingressive
+  image: ingressive_iomaxis.png
+  link: http://www.iomaxis.com
+  tier: Platinum
 - name: Eaton
   link: https://www.eaton.com/
   image: Eaton.png
+  tier: Platinum
 - name: Palo Alto Cybersecurity Academy
   image: paloalto.png
   link: https://www.paloaltonetworks.com/services/education/academy
-- name: IOMAXIS
-  image: iomaxis.png
-  link: https://www.iomaxis.com
+  tier: Platinum
 - name: Novetta
   link: https://www.novetta.com/
   image: Novetta.png
+  tier: Gold
 - name: Datto
   image: datto.png
   link: https://www.datto.com/
+  tier: Gold
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
+  tier: Gold
 - name: Wegmans
   link: https://jobs.wegmans.com/
   image: Wegmans.png
+  tier: Gold
 - name: GRIMM
   image: Grimm.png
-  link: https://www.grimm-co.com/ 
+  link: https://www.grimm-co.com/
+  tier: Silver
 - name: Carve  
   image: Carve.png
   link: https://www.carvesystems.com/
+  tier: Bronze
 - name: MWR
   image: MWR.png
   link: https://www.mwrinfosecurity.com/
+  tier: Bronze
+- name: Hacker Culture
+  image: hacker_culture.jpg
+  link: https://hackerculture.fm/
+  tier: Educational
 
