@@ -2,7 +2,7 @@
 # Color Settings
 background: 'white'
 accent: '#e89135'
-csh-bg: '#222'
+ritsec-bg: '#222'
 
 # Navbar
 navbar: '#222'

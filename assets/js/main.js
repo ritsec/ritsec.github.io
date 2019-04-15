@@ -6,10 +6,10 @@
 //$(window).scroll(function() {
 //  if ($(document).scrollTop() > 100) {
 //    $('nav').addClass('shrink');
-//    $('.csh-logo').addClass('logo-shrink');
+//    $('.ritsec-logo').addClass('logo-shrink');
 //  } else {
 //    $('nav').removeClass('shrink');
-//    $('.csh-logo').removeClass('logo-shrink');
+//    $('.ritsec-logo').removeClass('logo-shrink');
 //  }
 //});
 

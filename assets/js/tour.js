@@ -91,7 +91,7 @@ function switchImage(room){
         }
     }
     
-    $('.csh-active').removeClass('csh-active');
+    $('.ritsec-active').removeClass('ritsec-active');
     $("#"+room+"Text").show();
     $("#"+room+"Text").addClass("tourTextActive");
 
@@ -103,7 +103,7 @@ function switchImage(room){
     } else {
         containerElement.html(imageHTML);
     }
-    $('#'+room).addClass('csh-active');
+    $('#'+room).addClass('ritsec-active');
     
     
 }
