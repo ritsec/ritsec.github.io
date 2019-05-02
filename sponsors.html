@@ -1,8 +1,9 @@
 ---
 layout: info_page
 title: Sponsors
-description: >
-    <a style="padding-left:2em" href="/sponsorship.pdf"> What do sponsors get?</a>
+description:
+
+    <a style="padding-left:29em" href="/sponsorship.pdf"> What do sponsors get?</a>
     <br>
     <br>
 ---
@@ -36,11 +37,11 @@ img {
     {% for sponsor in site.data.sponsors %}
         {% if sponsor.tier == 'Gold' %}
             {% assign link = sponsor.link %}
-            <div class="col-lg-2 col-md-4 col-sm-3 col-xs-6" style="display: inline-block;float: none;">
-                <a href="{{link}}" target="_blank">
-                <img style="text-align:center" class="ritsec-thumbnail img-responsive" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}">
-                </a>
-          </div>
+                <div class="col-lg-2 col-md-4 col-sm-3 col-xs-6" style="display: inline-block;float: none;">
+                    <a href="{{link}}" target="_blank">
+                    <img style="text-align:center" class="ritsec-thumbnail img-responsive" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+                    </a>
+              </div>
         {% endif %}
     {% endfor %}
 </div>
