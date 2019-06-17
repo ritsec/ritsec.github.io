@@ -23,7 +23,6 @@ slider:
   - image: ISTS_2.jpg
   - image: ISTS_3.jpg
   - image: ISTS_4.jpg
-  - image: ISTS_5.jpg
 
 #-------------------------------
 # Navbar Settings
@@ -56,91 +55,114 @@ navbar:
 
 eboard_roles:
   - name: President
-    appointee: Micah Martin
-    image: micah.jpg
-    description: >
-      Micah Martin is a fourth-year Computing Security student at RIT. He is captain of RITSEC's
-      Red team and loves helping with and competing in security 
-      competitions. Micah's technical focus is primary on Linux systems and redteam malware. He loves helping out
-      the community, learning with others, and answering questions. If he isn't sleeping in the computer labs,
-      he can be found sleeping out in the woods.
-
-  - name: Head of Education
-    appointee: Russell Babarsky
-    image: hoe.jpg
-    description: >
-      Russell Babarsky is a fourth-year Computing Security major. His passion lies 
-      in pen testing and exploit development. Besides security, he enjoys hiking, 
-      baseball, and listening to music.
-  - name: Head of Research
-    appointee: Nick O'Brien
-    image: nick.jpg
-    description: >
-      Nick is a graduate Computing Security student. He in his off time does the cryptography and some product security.
-      Usually he resides in the labs until sleep beckons unto him. Reach out and talk with him about Math, Coding,
-      Politics, Alcohol, or just about anything!
-  - name: Competition Architect
-    appointee: Sean Newman
-    image: sean.jpg
-    description: >
-      Sean is a BS/MS Computing Security student in his Junior year at RIT. He spends most of his time in the labs
-      or at home messing about with servers. When he gets a rare chance to do something else, he enjoys rowing, cooking,
-      and taking long naps. If you see him in the labs, talk to him about homelabbing, what he last cooked for dinner, and
-      how to sleep pretty much anywhere.
-  - name: Treasurer
     appointee: Shannon McHale
-    image: shannon.jpg
+    image: ShannonBioPic.png
+    contact: sxm6549@rit.edu
     description: >
-      Shannon is a second year computing security student with a minor in criminal justice.
-      She was formally treasurer of RC3 and is currently the Public Relations Committee Head of Women in Computing.
-      In her free time, Shannon tries to find free ways to attend security conferences.
-  - name: Secretary
-    appointee: Jack McKenna
-    image: jack.jpg
-    description: >
-      Jack lives in the labs. If you need to get ahold of him just wander around and you'll run into him. He's usually buried
-      deep in his computer working on a new project. He is always happy to answer questions about security or just life in general.
+      Shannon is a third year computing security student. She has served as RC3 and RITSEC Treasurer and was also
+      the Public Relations Head of Women in Computing. Shannon is currently a member of the Red Team and does her best
+      to attend as many free security conferences as possible. In her free time, Shannon tries to got to bed by 11pm
+      and watches an insane amount of TV.
   - name: Director of Public Relations
-    appointee: Alicen Dipiano
-    image: alicen.jpg
+    appointee: Adrianna Visca
+    image: AdriannaBioPic.jpg
+    contact: axv4486@rit.edu
     description: >
-      Alicen is a junior Computing Security student. She enjoys reading about very niche markets in security which mainly
-      focus on the Security in unusual practices which at the moment is the effects and lacking security of embedded biomedical
-      devices. She tends to be found stress baking or cooking at odd hours in the morning or Swing dancing at Lindy Jam or with
-      the Brick City Boppers. If you ever need to find her, you'll be able to hear her before you see her. Feel Free to say hi!
-  - name: Operations Lead
-    appointee: Brandon Adler
-    image: brandon.jpg
+        Adrianna is a third-year Computing Security student with a minor in Networking. Outside of security,
+        she is involved in RIT Orientation, RIT365 and Women in Computing. She’s always open to talk about anything
+        and everything, especially if the conversation includes pictures of dogs.
+  - name: Head of Education
+    appointee: Owen Siebert
+    image: OwenBioPic.PNG
+    contact: osiebert@mail.rit.edu
     description: >
-      Brandon is a fourth-year BS/MS in Computing Security. He enjoys learning new things, spending time with friends, and
-      hanging out at the lake during the summer.
+      Owen in a fourth-year computing security student, native to Rochester. He enjoys networking, red teaming,
+      and trying to make C2’s. Owen was previously the NextHop treasure, and can often be found working shifts in the
+      cage - stop by and say hi. He will never say no to going out for a drink and is down to talk anything security,
+      or otherwise.
+  - name: Head of Research
+    appointee: Ian Furr
+    image: IanBioPic.jpg
+    contact: isf6751@rit.edu
+    description: >
+      Ian is an fourth year Computing Security student. Ian was previously the Vice President and Competition Director
+      of NextHop, RITs Systems Administration & Networking Club. He loves Cyber Security Policy & Legislation, Disaster
+      Recovery/Incident Response, Social Engineering and the Internet of things. When he's not in the labs he can
+      commonly be found hiking up a mountain, hanging in his hammock or out on his slackline.
+  - name: ISTS & HackerThon Competition Architect
+    appointee: Jack "Hulto" McKenna
+    image: JackBioPic.jpg
+    contact: hulto@mail.rit.edu
+    description: >
+      "Hack the planet!"
+      Popping boxes and teaching kiddos that's what it's all about. As ISTS CA I'm here to run some competitions and
+      educate some folks. Hmu if you wanna help run ISTS or Hackerthon. If you're interested in competing
+      or running your own competitions drop me a line.
+  - name: IRSeC & CTF Competition Architect
+    appointee: Quintin Walters
+    image: QuintinBioPic.jpg
+    contact: qxk3054@rit.edu
+    description: >
+      Quintin is a fourth year Computing Security student.  He focuses on malware analysis, reverse engineering,
+      and digital forensics.  Outside of security Quintin enjoys reading, swimming, and playing Dungeons and Dragons.
+  - name: Treasurer
+    appointee: Amanda Brown
+    image: AmandaBioPic.JPG
+    contact: aeb6590@rit.edu
+    description: >
+      Amanda is a third-year computing security student.  Her primary focus is in penetration testing and breaking
+      things in fun ways. Amanda is on RIT’s CCDC team, serves as an ambassador for Golisano and Honors Program mentor,
+      and is involved in Women in Computing.  Outside of security, Amanda enjoys hiking with lots of sunscreen,
+      traveling, and general tomfoolery.
+  - name: Secretary
+    appointee: Jon Bauer
+    image: JonBoiPic.JPG
+    contact: jmb4371@rit.edu
+    description: >
+      Jon is a third-year computing security student with a minor in networking and systems administration.
+      Relating to security Jon attends the weekly meets and is apart of the Red Team. His current favorite subjects
+      in security are operating systems and penetration testing. Outside of security he is also on the swimming and
+      diving team and enjoying relaxing with friends.
   - name: Tech Lead
-    appointee: Scott Brink
-    image: scott.jpg
+    appointee: Sunggwan Choi
+    image: ChoiBioPic.jpg
+    contact: sxc2679@rit.edu
     description: >
-      Scott is a senior Computing Security student. He is part of the varsity swim team and loves to rock climb.
-      You can find him in the labs yelling at his computer and drinking way too much monster, wearing one of his
-      hundreds of hoodies. Always open to talking about your favorite dank memes.
+      Choi is a third year Computing Security student, from Korea. As much as he is trying to learn computer languages,
+      he is also trying to learn the English language as well. He doesn't have a specialization yet, he is just trying
+      harder to learn new things everyday. And no, he is not from North Korea.
+
 
 #-------------------------------
 # About Us
 
 about_us_short: >
-  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
-  competitions, as well as showcasing RIT student talent in the current world of security today.</p>
-about_us_long: >
-  <br><br>
-  <p>RITSEC is a student-run organization dedicated to educating and preparing RIT students to compete in security-related
-  competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you.
-  </p>
   <p>
-  We believe security is for anyone who wants to learn and center our activities around multiple aspects of security. This includes
-  live individual and team-based competitions, hands-on training, student run research, and sponsor talks. Our security exercises
-  cover a wide variety of areas in computing security, including penetration testing, Windows and Linux server hardening,
-  web security, network services, and more!</p>
-  <p>In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club (RC3) merged to become RITSEC.
-  As a result, the security community at RIT became more unified as the major and industry grew.</p>
-  <br><br><br><br>
+  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
+  and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
+  in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
+  you. All of the activities we host to promote this learning can be found on our 'Events' page.
+  </p>
+about_us_long: >
+  <p>
+  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
+  and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
+  in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
+  you. All of the activities we host to promote this learning can be found on our 'Events' page.
+  </p>
+  <br>
+  <p>
+  We believe security is for anyone who wants to learn and center our activities around multiple aspects of security.
+  This includes live individual and team-based competitions, hands-on training, student run research, and sponsor talks.
+  Our security exercises cover a wide variety of areas in computing security, including penetration testing, Windows and Linux server hardening,
+  web security, network services, and more!
+  </p>
+  <br>
+  <p>
+  In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club
+  (RC3) merged to become RITSEC. As a result, the security community at RIT became more unified as the major and industry grew.
+  </p>
+  <br><br>
 
 #-------------------------------
 # Events
