@@ -59,7 +59,7 @@ eboard_roles:
     image: ShannonBioPic.png
     contact: sxm6549@rit.edu
     description: >
-      Shannon is a third year computing security student. She has served as RC3 and RITSEC Treasurer and was also
+      Shannon is a third-year computing security student. She has served as RC3 and RITSEC Treasurer and was also
       the Public Relations Head of Women in Computing. Shannon is currently a member of the Red Team and does her best
       to attend as many free security conferences as possible. In her free time, Shannon tries to got to bed by 11pm
       and watches an insane amount of TV.
@@ -85,11 +85,11 @@ eboard_roles:
     image: IanBioPic.jpg
     contact: isf6751@rit.edu
     description: >
-      Ian is an fourth year Computing Security student. Ian was previously the Vice President and Competition Director
+      Ian is an fourth-year Computing Security student. Ian was previously the Vice President and Competition Director
       of NextHop, RITs Systems Administration & Networking Club. He loves Cyber Security Policy & Legislation, Disaster
       Recovery/Incident Response, Social Engineering and the Internet of things. When he's not in the labs he can
       commonly be found hiking up a mountain, hanging in his hammock or out on his slackline.
-  - name: ISTS & HackerThon Competition Architect
+  - name: "Competition Architect: ISTS & HackerThon"
     appointee: Jack "Hulto" McKenna
     image: JackBioPic.jpg
     contact: hulto@mail.rit.edu
@@ -98,12 +98,12 @@ eboard_roles:
       Popping boxes and teaching kiddos that's what it's all about. As ISTS CA I'm here to run some competitions and
       educate some folks. Hmu if you wanna help run ISTS or Hackerthon. If you're interested in competing
       or running your own competitions drop me a line.
-  - name: IRSeC & CTF Competition Architect
+  - name: "Competition Architect: IRSeC and CTF"
     appointee: Quintin Walters
     image: QuintinBioPic.jpg
     contact: qxk3054@rit.edu
     description: >
-      Quintin is a fourth year Computing Security student.  He focuses on malware analysis, reverse engineering,
+      Quintin is a fourth-year Computing Security student.  He focuses on malware analysis, reverse engineering,
       and digital forensics.  Outside of security Quintin enjoys reading, swimming, and playing Dungeons and Dragons.
   - name: Treasurer
     appointee: Amanda Brown
@@ -128,7 +128,7 @@ eboard_roles:
     image: ChoiBioPic.jpg
     contact: sxc2679@rit.edu
     description: >
-      Choi is a third year Computing Security student, from Korea. As much as he is trying to learn computer languages,
+      Choi is a third-year Computing Security student, from Korea. As much as he is trying to learn computer languages,
       he is also trying to learn the English language as well. He doesn't have a specialization yet, he is just trying
       harder to learn new things everyday. And no, he is not from North Korea.
 
