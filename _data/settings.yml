@@ -19,11 +19,11 @@ youtube: UCfakBry_pXOvaPrVVr1SH-Q
 # Main Image Slider Settings
 slider:
   - image: ISTS_0.jpg
+  - image: IRSeC2019_photo.jpg
   - image: ISTS_1.jpg
   - image: ISTS_2.jpg
   - image: ISTS_3.jpg
   - image: ISTS_4.jpg
-
 #-------------------------------
 # Navbar Settings
 favicon: favicon.png
@@ -98,7 +98,7 @@ eboard_roles:
       Popping boxes and teaching kiddos that's what it's all about. As ISTS CA I'm here to run some competitions and
       educate some folks. Hmu if you wanna help run ISTS or Hackerthon. If you're interested in competing
       or running your own competitions drop me a line.
-  - name: "Competition Architect: IRSeC and CTF"
+  - name: "Competition Architect: IRSeC & CTF"
     appointee: Quintin Walters
     image: QuintinBioPic.jpg
     contact: qxk3054@rit.edu
@@ -131,6 +131,15 @@ eboard_roles:
       Choi is a third-year Computing Security student, from Korea. As much as he is trying to learn computer languages,
       he is also trying to learn the English language as well. He doesn't have a specialization yet, he is just trying
       harder to learn new things everyday. And no, he is not from North Korea.
+  - name: Operations Lead
+    appointee: Evan Mikulski
+    image: EvanBioPic.jpg
+    contact: riprock@mail.rit.edu
+    description: >
+      Evan is a second year computing security student. His interests lie in Red Teaming, Forensics, and Homelabbing.
+      You can find him in the Labs messing with something. Outside of CSEC he is a member of K2GXT, RIT’s
+      amateur radio club. Feel free to go up and say hello if you see him. He will never turn down a chance to
+      hangout or go get food.
 
 
 #-------------------------------
@@ -144,25 +153,42 @@ about_us_short: >
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
   </p>
 about_us_long: >
-  <p>
   RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
   and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
   in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
-  </p>
-  <br>
-  <p>
+  <br><br>
   We believe security is for anyone who wants to learn and center our activities around multiple aspects of security.
   This includes live individual and team-based competitions, hands-on training, student run research, and sponsor talks.
-  Our security exercises cover a wide variety of areas in computing security, including penetration testing, Windows and Linux server hardening,
+  Our security exercises cover a wide variety of areas in computing security, including penetration testing,
+  Windows and Linux server hardening,
   web security, network services, and more!
-  </p>
-  <br>
-  <p>
-  In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club
-  (RC3) merged to become RITSEC. As a result, the security community at RIT became more unified as the major and industry grew.
-  </p>
-  <br><br>
+
+interest_groups:
+  - name: RVAP
+    meeting_time: NA
+    description: NA
+    contact: NA
+  - name: Reverse Engineering
+    meeting_time: NA
+    description: NA
+    contact: NA
+  - name: WiCyS
+    meeting_time: NA
+    description: NA
+    contact: NA
+  - name: Team Contagion
+    meeting_time: NA
+    description: NA
+    contact: NA
+  - name: CyberOps
+    meeting_time: NA
+    description: NA
+    contact: NA
+  - name: Physical Security
+    meeting_time: NA
+    description: NA
+    contact: NA
 
 #-------------------------------
 # Events
@@ -175,7 +201,7 @@ events:
     practical experience with the topics discussed in the week's presentation.
     Club members can earn points that accumulate over the semester for
     completing challenges. How high up on the leaderboard can YOU make it?
-  image: meetings.png
+  image: logo_header.png
 - name: Weekly Research Meeting
   description: >
     Following the education section, RITSEC hosts a research section every
@@ -183,7 +209,7 @@ events:
     security topics that interest them and any current projects they would like
     to share with the club. Please contact the Head of Research to submit a
     presentation.
-  image: meetings.png
+  image: logo_header.png
 - name: <a href="https://www.ists.io">ISTS</a>
   description: >
     The Information Security Talent Search is an annual three-day cyber
