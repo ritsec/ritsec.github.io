@@ -22,7 +22,6 @@ slider:
   - image: IRSeC2019_photo.jpg
   - image: ISTS_1.jpg
   - image: ISTS_2.jpg
-  - image: ISTS_3.jpg
   - image: ISTS_4.jpg
 #-------------------------------
 # Navbar Settings
@@ -238,4 +237,4 @@ events:
     With IRSeC, we aim to provide RIT students with some initial defensive and
     incident response experience. IRSeC also features an entirely student-run
     Red Team comprised of RITSEC members.
-  image: logo_header.png
+  image: IRSEC_Logo.png
