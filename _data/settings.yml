@@ -59,8 +59,8 @@ eboard_roles:
     contact: sxm6549@rit.edu
     description: >
       Shannon is a third-year computing security student. She has served as RC3 and RITSEC Treasurer and was also
-      the Public Relations Head of Women in Computing. Shannon is currently a member of the Red Team and does her best
-      to attend as many free security conferences as possible. In her free time, Shannon tries to got to bed by 11pm
+      the Public Relations Head of Women in Computing. Shannon is currently a member of the RITSEC Red Team and does her best
+      to attend as many free security conferences as possible. In her free time, Shannon tries to get to bed by 11pm
       and watches an insane amount of TV.
   - name: Director of Public Relations
     appointee: Adrianna Visca
@@ -75,8 +75,8 @@ eboard_roles:
     image: OwenBioPic.PNG
     contact: osiebert@mail.rit.edu
     description: >
-      Owen in a fourth-year computing security student, native to Rochester. He enjoys networking, red teaming,
-      and trying to make C2’s. Owen was previously the NextHop treasure, and can often be found working shifts in the
+      Owen in a fourth-year computing security student, native of Rochester. He enjoys networking, red teaming,
+      and trying to make C2’s. Owen was previously the NextHop Treasurer, and can often be found working shifts in the
       cage - stop by and say hi. He will never say no to going out for a drink and is down to talk anything security,
       or otherwise.
   - name: Head of Research
@@ -84,9 +84,9 @@ eboard_roles:
     image: IanBioPic.jpg
     contact: isf6751@rit.edu
     description: >
-      Ian is an fourth-year Computing Security student. Ian was previously the Vice President and Competition Director
+      Ian is a fourth-year Computing Security student. Ian was previously the Vice President and Competition Director
       of NextHop, RITs Systems Administration & Networking Club. He loves Cyber Security Policy & Legislation, Disaster
-      Recovery/Incident Response, Social Engineering and the Internet of things. When he's not in the labs he can
+      Recovery/Incident Response, Social Engineering, and the Internet of things. When he's not in the labs he can
       commonly be found hiking up a mountain, hanging in his hammock or out on his slackline.
   - name: "Competition Architect: ISTS & HackerThon"
     appointee: Jack "Hulto" McKenna
@@ -119,9 +119,10 @@ eboard_roles:
     contact: jmb4371@rit.edu
     description: >
       Jon is a third-year computing security student with a minor in networking and systems administration.
-      Relating to security Jon attends the weekly meets and is apart of the Red Team. His current favorite subjects
-      in security are operating systems and penetration testing. Outside of security he is also on the swimming and
-      diving team and enjoying relaxing with friends.
+      Relating to security Jon attends the weekly meets and is a part of the RITSEC Red Team. Currently his
+      favorite subjects in security are operating systems and penetration testing.
+      Outside of security he is also on the swimming and
+      diving team and enjoys relaxing with friends.
   - name: Tech Lead
     appointee: Sunggwan Choi
     image: ChoiBioPic.jpg
@@ -138,7 +139,7 @@ eboard_roles:
       Evan is a second year computing security student. His interests lie in Red Teaming, Forensics, and Homelabbing.
       You can find him in the Labs messing with something. Outside of CSEC he is a member of K2GXT, RIT’s
       amateur radio club. Feel free to go up and say hello if you see him. He will never turn down a chance to
-      hangout or go get food.
+      hang out or go get food.
 
 
 #-------------------------------
