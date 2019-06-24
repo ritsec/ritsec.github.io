@@ -2,6 +2,28 @@
 layout: info_page
 title: About Us
 ---
-<div class="container ritsec-body">
-    {{ site.data.settings.about_us_long }}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142600858-1"></script>
+<script>
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","UA-142600858-1");
+</script>
+
+<p style="font-size: 125%; padding-left: 2em"> {{ site.data.settings.about_us_long }}</p>
+
+<h2 style="text-align: left; padding-left: 1em"> History </h2>
+
+<p style="text-align: left; padding-left: 2em">
+    In 2018, the Security Practices And Research Student Association (SPARSA) and RIT Competitive Cybersecurity Club
+    (RC3) merged to become RITSEC. As a result, the security community
+    at RIT became more unified as the major and industry grew.
+</p>
+
+<div style="font-size: 200%; padding-left: 1em">
+    <h2 style="text-align: left"> Connect with us </h2>
+    <a style=" float:left; clear:left" href="https://www.facebook.com/{{ site.data.settings.facebook_page }}"> Facebook </a>
+    <a style="float:left; clear:left" href="https://www.twitter.com/{{ site.data.settings.twitter }}"> Twitter </a>
+    <a style="float:left; clear:left" href="https://www.github.com/{{ site.data.settings.ritsec}}"> Github </a>
+    <a style="float:left; clear:left" href="https://www.youtube.com/channel/{{ site.data.settings.youtube}}"> Youtube </a>
+    <address><a style="float:left; clear:left" href="mailto:{{ site.data.settings.email }}"> Email </a></address>
 </div>
