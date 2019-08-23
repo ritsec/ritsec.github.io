@@ -1,3 +1,4 @@
+---
 #-------------------------------
 # General Site Settings
 
@@ -8,7 +9,7 @@ email: ritsecclub@gmail.com
 description: >
   RITSEC Student Computing Security Club
 twitter: RITSECclub
-github: 
+github:
   name: ritsec
   project: ritsec.github.io
 facebook_page: RITSEC
@@ -28,26 +29,26 @@ slider:
 favicon: favicon.png
 navbar-brand:
   image: logo_header.png
-  link: '/index.html'
+  link: "/index.html"
 
 navbar:
-  - name: 'Home'
-    link: 'index.html'
-  - name: 'About'
-    link: 'about.html'
+  - name: "Home"
+    link: "index.html"
+  - name: "About"
+    link: "about.html"
   - name: Members
-    link: 'eboard.html'
+    link: "eboard.html"
     subitems:
-    - name: 'EBoard'
-      link: 'eboard.html'
-    - name: 'Past EBoards'
-      link: 'past-eboards.html'
-    - name: 'Alumni'
-      link: 'alumni.html'
-  - name: 'Events'
-    link: 'events.html'
-  - name: 'Sponsors'
-    link: 'sponsors.html'
+      - name: "EBoard"
+        link: "eboard.html"
+      - name: "Past EBoards"
+        link: "past-eboards.html"
+      - name: "Alumni"
+        link: "alumni.html"
+  - name: "Events"
+    link: "events.html"
+  - name: "Sponsors"
+    link: "sponsors.html"
 
 #-------------------------------
 # EBoard Settings
@@ -67,9 +68,9 @@ eboard_roles:
     image: AdriannaBioPic.jpg
     contact: axv4486@rit.edu
     description: >
-        Adrianna is a third-year Computing Security student with a minor in Networking. Outside of security,
-        she is involved in RIT Orientation, RIT365, and Women in Computing. She's always open to talk about anything
-        and everything, especially if the conversation includes pictures of dogs.
+      Adrianna is a third-year Computing Security student with a minor in Networking. Outside of security,
+      she is involved in RIT Orientation, RIT365, and Women in Computing. She's always open to talk about anything
+      and everything, especially if the conversation includes pictures of dogs.
   - name: Head of Education
     appointee: Owen Siebert
     image: OwenBioPic.PNG
@@ -115,7 +116,7 @@ eboard_roles:
       traveling, and general tomfoolery.
   - name: Secretary
     appointee: Jon Bauer
-    image:  JonBioPic.jpg
+    image: JonBioPic.jpg
     contact: jmb4371@rit.edu
     description: >
       Jon is a third-year computing security student with a minor in networking and systems administration.
@@ -140,7 +141,6 @@ eboard_roles:
       amateur radio club. Feel free to go up and say hello if you see him. He will never turn down a chance to
       hang out or go get food.
 
-
 #-------------------------------
 # About Us
 
@@ -164,77 +164,72 @@ about_us_long: >
   web security, network services, and more!
 
 interest_groups:
-  - name: RVAP
-    meeting_time: NA
-    description: NA
+  - name: RVAPT
+    meeting_time: Sundays 3 pm in AirGap
+    description: RIT Vulnerability Assessment and Penetration Testing
     contact: NA
-  - name: Reverse Engineering
-    meeting_time: NA
-    description: NA
-    contact: NA
-  - name: WiCyS
-    meeting_time: NA
-    description: NA
+  - name: Reversing Interest group
+    meeting_time: <a href="https://www.when2meet.com/?8016383-RYFFO">To be determined.</a>
+    description: Learn about reverse engineering!
     contact: NA
   - name: Team Contagion
-    meeting_time: NA
-    description: NA
+    meeting_time: <a href="https://www.when2meet.com/?8016379-EFBxc">To be determined.</a>
+    description: This CTF Interest Group competes in Capture The Flag challenges.
     contact: NA
-  - name: CyberOps
-    meeting_time: NA
-    description: NA
-    contact: NA
-  - name: Physical Security
-    meeting_time: NA
-    description: NA
+  - name: >-
+      <a style="color:: black;" href="https://www.when2meet.com/?8016376-qjRsV">WiCyS Student Chapter</a>
+    meeting_time: <a href="https://www.when2meet.com/?8016376-qjRsV">To be determined.</a>
+    description: >-
+      Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
+      The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
     contact: NA
 
 #-------------------------------
 # Events
 events:
-- name: Weekly Education Meeting
-  description: >
-    Join us every Friday, 12:00 PM - 2:00 PM for a presentation and hands-on
-    lab to learn a new security topic! Labs are generally made up of multiple
-    challenges of varying difficulty, and are intended to give members
-    practical experience with the topics discussed in the week's presentation.
-    Club members can earn points that accumulate over the semester for
-    completing challenges. How high up on the leaderboard can YOU make it?
-  image: logo_header.png
-- name: Weekly Research Meeting
-  description: >
-    Following the education section, RITSEC hosts a research section every
-    Friday, 2:00 PM - 4:00 PM. Students are given the opportunity to present on
-    security topics that interest them and any current projects they would like
-    to share with the club. Please contact the Head of Research to submit a
-    presentation.
-  image: logo_header.png
-- name: <a href="https://www.ists.io">ISTS</a>
-  description: >
-    The Information Security Talent Search is an annual three-day cyber
-    attack/defend competition typically hosted in the early spring at RIT.
-    Every year, competitors from both RIT and invited colleges from around the
-    country are faced with a wide variety of challenges which are designed to
-    cover as many facets of the security industry as possible. This includes
-    defensive and offensive capabilities, system administration, software
-    security, networking, programming, and much more! Challenges and activities
-    include a CTF, King-of-the-Hill, policy writing, incident response, and
-    code review -- all while defending a completely student-built
-    infrastructure!
-  image: ists.jpg
-- name: RITSEC CTF
-  description: >
-    The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
-    CTF</a> hosted online for 60 hours in the late fall. Participation is open
-    to all, and registered RIT teams are eligible for prizes! The CTF generally
-    focuses on binary/RE, cryptography, forensics, progamming, and web security
-    challenges. We welcome beginners and more advanced security friends alike!
-  image: ritsec-ctf18.png
-- name: IRSeC
-  description: >
-    The Incident Response Security Competition is our more beginner-friendly
-    Red/Blue competition. IRSeC is typically hosted in the late spring at RIT.
-    With IRSeC, we aim to provide RIT students with some initial defensive and
-    incident response experience. IRSeC also features an entirely student-run
-    Red Team comprised of RITSEC members.
-  image: IRSEC_Logo.png
+  - name: Weekly Education Meeting
+    description: >
+      Join us every Friday, 12:00 PM - 2:00 PM for a presentation and hands-on
+      lab to learn a new security topic! Labs are generally made up of multiple
+      challenges of varying difficulty, and are intended to give members
+      practical experience with the topics discussed in the week's presentation.
+      Club members can earn points that accumulate over the semester for
+      completing challenges. How high up on the leaderboard can YOU make it?
+    image: logo_header.png
+  - name: Weekly Research Meeting
+    description: >
+      Following the education section, RITSEC hosts a research section every
+      Friday, 2:00 PM - 4:00 PM. Students are given the opportunity to present on
+      security topics that interest them and any current projects they would like
+      to share with the club. Please contact the Head of Research to submit a
+      presentation.
+    image: logo_header.png
+  - name: <a href="https://www.ists.io">ISTS</a>
+    description: >
+      The Information Security Talent Search is an annual three-day cyber
+      attack/defend competition typically hosted in the early spring at RIT.
+      Every year, competitors from both RIT and invited colleges from around the
+      country are faced with a wide variety of challenges which are designed to
+      cover as many facets of the security industry as possible. This includes
+      defensive and offensive capabilities, system administration, software
+      security, networking, programming, and much more! Challenges and activities
+      include a CTF, King-of-the-Hill, policy writing, incident response, and
+      code review -- all while defending a completely student-built
+      infrastructure!
+    image: ists.jpg
+  - name: RITSEC CTF
+    description: >
+      The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
+      CTF</a> hosted online for 60 hours in the late fall. Participation is open
+      to all, and registered RIT teams are eligible for prizes! The CTF generally
+      focuses on binary/RE, cryptography, forensics, progamming, and web security
+      challenges. We welcome beginners and more advanced security friends alike!
+    image: ritsec-ctf18.png
+  - name: IRSeC
+    description: >
+      The Incident Response Security Competition is our more beginner-friendly
+      Red/Blue competition. IRSeC is typically hosted in the late spring at RIT.
+      With IRSeC, we aim to provide RIT students with some initial defensive and
+      incident response experience. IRSeC also features an entirely student-run
+      Red Team comprised of RITSEC members.
+    image: IRSEC_Logo.png
