@@ -18,10 +18,6 @@
   image: paloalto.png
   link: https://www.paloaltonetworks.com/services/education/academy
   tier: Platinum
-- name: Novetta
-  link: https://www.novetta.com/
-  image: Novetta.png
-  tier: Gold
 - name: Datto
   image: datto.png
   link: https://www.datto.com/
@@ -34,18 +30,6 @@
   link: https://jobs.wegmans.com/
   image: Wegmans.jpg
   tier: Gold
-- name: GRIMM
-  image: Grimm.png
-  link: https://www.grimm-co.com/
-  tier: Silver
-- name: Carve  
-  image: Carve.png
-  link: https://www.carvesystems.com/
-  tier: Bronze
-- name: MWR
-  image: MWR.png
-  link: https://www.mwrinfosecurity.com/
-  tier: Bronze
 - name: Hacker Culture
   image: hacker_culture.png
   link: https://hackerculture.fm/
