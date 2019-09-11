@@ -26,10 +26,6 @@
   image: cisco.png
   link: https://www.cisco.com/
   tier: Gold
-- name: Wegmans
-  link: https://jobs.wegmans.com/
-  image: Wegmans.jpg
-  tier: Gold
 - name: Hacker Culture
   image: hacker_culture.png
   link: https://hackerculture.fm/
