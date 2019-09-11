@@ -10,14 +10,14 @@
   image: ingressive_iomaxis.png
   link: http://www.iomaxis.com
   tier: Platinum
-- name: Eaton
-  link: https://www.eaton.com/
-  image: Eaton.png
-  tier: Platinum
 - name: Palo Alto Cybersecurity Academy
   image: paloalto.png
   link: https://www.paloaltonetworks.com/services/education/academy
   tier: Platinum
+- name: Eaton
+  link: https://www.eaton.com/
+  image: Eaton.png
+  tier: Gold
 - name: Datto
   image: datto.png
   link: https://www.datto.com/
