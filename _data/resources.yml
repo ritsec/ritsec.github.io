@@ -12,4 +12,34 @@ categories:
     links:
     - link: "https://github.com/ritredteam/"
       description: The source code for RITSEC Redteam's public tools.
-    
+
+  - name: Reverse Engineering
+    about: Taking apart and understanding software that source code is not available for.
+    links:
+    - link: https://undocumented.ntinternals.net/
+      description: The Undocumented Functions and Structures for Microsoft Windows NT/2000/XP/Win7.
+    - link: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windows-debugging
+      description: Getting started with Windows Debugging.
+    - link: https://docs.microsoft.com/en-us/previous-versions/ms809762(v=msdn.10)
+      description: "Peering Inside the PE: A Tour of the Win32 Portable Executable File Format."
+    - link: https://beginners.re/
+      description: "[Book] Free e-book detailing reverse engineering concepts for x86, x64, ARM, and MIPS."
+    - link: https://www.msreverseengineering.com/program-analysis-reading-list/
+      description: Reading list to start getting harcore about advanced reverse engineering.
+    - link: https://nostarch.com/binaryanalysis
+      description: "[Book] Practical Binary Analysis - In-depth book detailing how to create your own binary analysis, instrumentation, and emulation tooling."
+    - link: https://nostarch.com/malware
+      description: "[Book] Practical Malware Analysis - Detailed analysis and walkthrough exercises for reversing and analyzing malware samples."
+    - link: https://software.intel.com/en-us/articles/intel-sdm
+      description: "[Book] Official documentation provided by Intel for their CPUs and their architecture."
+    - link: https://www.radare.org/r/
+      description: "[Tool] Radare2, a free, open-source, command line tool with powerful reverse-engineering tooling."
+    - link: https://cutter.re/
+      description: "[Tool] Cutter, a cross-platform GUI frontend for Radare2"
+    - link: https://ghidra-sre.org/
+      description: "[Tool] Ghidra, an open-sourced NSA reverse engineering tool with a powerful decompiler."
+    - link: https://binary.ninja/
+      description: "[Tool] Binary Ninja, a powerful visual disassembler with Python API support and an in-progress decompiler engine."
+    - link: https://www.hex-rays.com/products/ida/support/download_freeware.shtml
+      description: "[Tool] IDA, a powerful visual disassembler."
+   
