@@ -47,6 +47,8 @@ navbar:
         link: "alumni.html"
   - name: "Events"
     link: "events.html"
+  - name: "Resources"
+    link: "resources.html"
   - name: "Sponsors"
     link: "sponsors.html"
 
