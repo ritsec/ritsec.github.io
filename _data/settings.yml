@@ -167,15 +167,15 @@ about_us_long: >
 
 interest_groups:
   - name: RVAPT
-    meeting_time: Sundays 3 pm in AirGap
+    meeting_time: "Sunday from 2-3 pm in Air Gap"
     description: RIT Vulnerability Assessment and Penetration Testing
     contact: NA
   - name: Reversing Interest group
-    meeting_time: <a href="https://www.when2meet.com/?8016383-RYFFO">Fill out When2meet.</a>
+    meeting_time: "5 pm on Saturday in Seclabs"
     description: Learn about reverse engineering!
     contact: NA
   - name: Team Contagion
-    meeting_time: <a href="https://www.when2meet.com/?8016379-EFBxc">Fill out When2meet.</a>
+    meeting_time: "3:30 PM on Saturday in Seclab"
     description: This CTF Interest Group competes in Capture The Flag challenges.
     contact: NA
   - name: >-
@@ -235,3 +235,9 @@ events:
       incident response experience. IRSeC also features an entirely student-run
       Red Team comprised of RITSEC members.
     image: IRSEC_Logo.png
+  - name: HackerThon
+    description: >
+      Our newest event in which we spend 24 hours creating a security related tool or project. 
+      This is a great way for our members to find a side project or dedicate time to one they already have. 
+      After the Hacker-Thon, our members present their work at the research portion of our meetings.
+    image: HackerThon_Logo.png
