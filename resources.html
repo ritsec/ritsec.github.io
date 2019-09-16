@@ -1,0 +1,29 @@
+---
+layout: info_page
+title: Security Resources
+---
+
+
+
+<div style="text-align: left; padding-left: 2em;">
+
+  <p>
+    General security resources, tools, and links that members of the club have found useful for
+    learning computing security skills and getting involved in the degree.
+  </p>
+
+  {% for cat in site.data.resources.categories %}
+  <h3>{{ cat.name }}</h3>
+  <p>{{ cat.about }}</p>
+  <div style="text-align: left; padding-left: 2em;">
+    {% for link in cat.links %}
+      <li><a target="_blank" href="{{ link.link }}">{{ link.link }}</a> - {{ link.description }}</li>
+    {% endfor %}
+  </div>
+  <br>
+  {% endfor %}
+</div>
+
+<br />
+<br />
+<br />
