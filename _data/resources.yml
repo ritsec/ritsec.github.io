@@ -12,4 +12,30 @@ categories:
     links:
     - link: "https://github.com/ritredteam/"
       description: The source code for RITSEC Redteam's public tools.
-    
+      - name: Exploit Development
+    about: Taking advantage of coding flaws in ways that allow malicious control of software.
+    links:
+    - link: http://overthewire.org/wargames/narnia/
+      description: Wargame walking one through the basics of exploitation.
+    - link: https://microcorruption.com
+      description: Embedded security Wargame on a virtual MSP430 device.
+    - link: http://security.cs.rpi.edu/courses/binexp-spring2015/
+      description: Modern Binary Exploitation, a freely available online course by RPISEC.
+    - link: http://www.securitytube.net/groups?operation=view&groupId=7
+      description: SecurityTube Exploit Megaprimer - Video series detailing the basics of exploitation.
+    - link: https://www.corelan.be/index.php/articles/
+      description: Exploit Writing Tutorials section contains over a dozen hands-on exercises for learning exploitation on Windows.
+    - link: https://gbmaster.wordpress.com/
+      description: Exploit Development 101 series of blog-posts which contain many techniques used in exploitation.
+    - link: http://phrack.org/issues/63/15.html
+      description: Techniques for bypassing different kinds of exploit protection mechanisms.
+    - link: https://heap-exploitation.dhavalkapil.com/
+      description: Quick walkthrough of glibc heap allocation algorithms and available exploitation techniques arising from them.
+    - link: https://nostarch.com/hacking2.htm
+      description: "[Book] Hacking, The Art of Exploitation, 2nd Edition - Dated but useful introduction to C exploitation."
+    - link: https://www.wiley.com/en-us/The+Shellcoder%27s+Handbook%3A+Discovering+and+Exploiting+Security+Holes%2C+2nd+Edition-p-9780470080238
+      description: "[Book] Shellcoder's Handbook - A massive reference manual for various exploitation concepts."
+    - link: https://github.com/hugsy/gef
+      description: "[Tool] GDB Enhanced Features (GEF) for exploit develeopers and reverse engineers."
+    - link: https://github.com/Gallopsled/pwntools
+      description: "[Tool] Pwntools, a Python framework with a multitude of tooling for exploit development."
