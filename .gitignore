@@ -3,3 +3,4 @@ _site/*
 .DS*
 .idea/*
 .jekyll-metadata
+_includes/*
