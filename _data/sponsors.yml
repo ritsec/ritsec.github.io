@@ -1,7 +1,11 @@
 - name: Facebook
   image: Facebook.png
   link: https://www.facebook.com/careers/
-  tier: Platinum
+  tier: Diamond
+- name: Palo Alto Cybersecurity Academy
+  image: paloalto.png
+  link: https://www.paloaltonetworks.com/services/education/academy
+  tier: Diamond
 - name: Carrier
   image: Carrier.png
   link: https://www.carrier.com/carrier/en/us/
@@ -10,24 +14,27 @@
   image: ingressive_iomaxis.png
   link: http://www.iomaxis.com
   tier: Platinum
-- name: Palo Alto Cybersecurity Academy
-  image: paloalto.png
-  link: https://www.paloaltonetworks.com/services/education/academy
-  tier: Platinum
 - name: Eaton
-  link: https://www.eaton.com/
+  link: https://expel.io/about/careers/#find-role
   image: Eaton.png
+  tier: Gold
+- name: Expel
+  image: expel.png
+  link: https://expel.io/
   tier: Gold
 - name: Datto
   image: datto.png
   link: https://www.datto.com/
-  tier: Gold
+  tier: NA
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
-  tier: Gold
+  tier: NA
 - name: Hacker Culture
   image: hacker_culture.png
   link: https://hackerculture.fm/
-  tier: Educational
-
+  tier: NA
+- name: Security Risk Advisors
+  image: sra.png
+  link: https://securityriskadvisors.com/
+  tier: Gold

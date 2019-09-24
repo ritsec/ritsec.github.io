@@ -166,25 +166,32 @@ about_us_long: >
   web security, network services, and more!
 
 interest_groups:
+  - name: Incident Response Interest Group
+    meeting_time: TBD
+    description: >-
+      This group is focused on teaching the very basics of incident response. 
+      This includes going over how the industry works, major breaches, and forensics
+    leader: Ella Daugherty & Jason Howe
   - name: RVAPT
     meeting_time: "Sunday from 2-3 pm in Air Gap"
     description: RIT Vulnerability Assessment and Penetration Testing
-    contact: NA
+    leader: Will Eatherly
   - name: Reversing Interest group
-    meeting_time: "5 pm on Saturday in Seclabs"
+    meeting_time: "5 pm on Saturday in Seclab"
     description: Learn about reverse engineering!
     contact: NA
+    leader: Stuart Nevans Locke
   - name: Team Contagion
     meeting_time: "3:30 PM on Saturday in Seclab"
     description: This CTF Interest Group competes in Capture The Flag challenges.
-    contact: NA
+    leader: Duc Phan
   - name: >-
       <a style="color:: black;" href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
     meeting_time: Every other Tuesday 6-7pm Slaughter 2120 (even weeks)
     description: >-
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
-    contact: NA
+    leader: Shannon McHale
 
 #-------------------------------
 # Events
