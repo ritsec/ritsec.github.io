@@ -1,13 +1,13 @@
 # Resources for other people to use
 
 categories:
-  - name: Getting Started
-    about: Resources for getting new students involved in Computing Security.
+  - name: Intro to Linux
+    about: Resources for getting started in Linux
     links:
       - link: "https://overthewire.org/wargames/bandit/"
         description: Learn basic Linux commands and get familiar with the command line.
     
-  - name: Advanced Red Team
+  - name: Red Teaming
     about: Resources for people interested in competition red teaming
     links:
     - link: "https://github.com/ritredteam/"
