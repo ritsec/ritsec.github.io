@@ -6,7 +6,11 @@ categories:
     links:
       - link: "https://overthewire.org/wargames/bandit/"
         description: Learn basic Linux commands and get familiar with the command line.
-    
+  - name: Intro to Web
+    about: Resources for getting started in Web Security
+    links:
+      - link: "https://www.hacksplaining.com/lessons"
+        description: HACKSPLAINING free walkthroughs on vulnerabilities along with hands on demos. 
   - name: Red Teaming
     about: Resources for people interested in competition red teaming
     links:
