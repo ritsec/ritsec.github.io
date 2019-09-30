@@ -167,7 +167,7 @@ about_us_long: >
 
 interest_groups:
   - name: Incident Response Interest Group
-    meeting_time: "3-4 pm, Sunday in AirGap
+    meeting_time: "3-4 pm, Sunday in AirGap"
     description: >-
       This group is focused on teaching the very basics of incident response. 
       This includes going over how the industry works, major breaches, and forensics
