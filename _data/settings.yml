@@ -167,22 +167,22 @@ about_us_long: >
 
 interest_groups:
   - name: Incident Response Interest Group
-    meeting_time: TBD
+    meeting_time: "3-4 pm, Sunday in AirGap
     description: >-
       This group is focused on teaching the very basics of incident response. 
       This includes going over how the industry works, major breaches, and forensics
     leader: Ella Daugherty & Jason Howe
   - name: RVAPT
-    meeting_time: "Sunday from 2-3 pm in Air Gap"
+    meeting_time: "2-3 pm, Sunday in AirGap"
     description: RIT Vulnerability Assessment and Penetration Testing
     leader: Will Eatherly
   - name: Reversing Interest group
-    meeting_time: "5 pm on Saturday in Seclab"
+    meeting_time: "5 pm, Saturday in Seclab"
     description: Learn about reverse engineering!
     contact: NA
     leader: Stuart Nevans Locke
   - name: Team Contagion
-    meeting_time: "3:30 PM on Saturday in Seclab"
+    meeting_time: "3:30 PM, Saturday in Seclab"
     description: This CTF Interest Group competes in Capture The Flag challenges.
     leader: Duc Phan
   - name: >-
