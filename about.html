@@ -35,10 +35,10 @@ title: About Us
 
 <div style="text-align: left; padding-left: 1em; color: black; margin: 15px">
   {% for group in site.data.settings.interest_groups %}
-  <h3 style="color: black">{{ group.name }}</h3>
-  <p>Meeting Time: {{ group.meeting_time }}</p>
-  <p>{{ group.description }}</p>
+  <h3 style="color: black; text-decoration: underline;">{{ group.name }}</h3>
   <p>Leader: {{ group.leader }}</p>
+  <p>{{ group.description }}</p>
+  <p>Meeting Time: {{ group.meeting_time }}</p>
   {% endfor %}
 </div>
 

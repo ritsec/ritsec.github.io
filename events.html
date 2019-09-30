@@ -11,12 +11,19 @@ title: Events
       src="assets/images/{{ event.image }}"
       class="real events-thumbnail hcenter-div"
     />
+
+    {% else %} {% if event.name == 'Weekly Research Meeting' %}
+    <img
+      style="line-height: -20px"
+      src="assets/images/events/{{ event.image }}"
+      class="real events-thumbnail hcenter-div"
+    />
     {% else %}
     <img
       src="assets/images/events/{{ event.image }}"
       class="real events-thumbnail hcenter-div"
     />
-    {% endif %}
+    {% endif %} {% endif %}
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 vcenter">
     <h3>{{ event.name }}</h3>
