@@ -2,24 +2,34 @@
 layout: info_page
 title: Events
 ---
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142600858-1"></script>
-<script>
-    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","UA-142600858-1");
-</script>
+
 {% for event in site.data.settings.events %}
 <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
-        {% if event.name == 'Weekly Education Meeting' or event.name == 'Weekly Research Meeting' or event.name == 'IRSeC' %}
-            <img src="assets/images/{{ event.image }}" class="real events-thumbnail hcenter-div">
-        {% else %}
-            <img src="assets/images/events/{{ event.image }}" class="real events-thumbnail hcenter-div">
-        {% endif %}
-    </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
-        <h3>{{ event.name }}</h3>
-        <p>{{ event.description }}</p>
-    </div>
+  <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+    {% if event.name == 'Weekly Education Meeting' or event.name == 'IRSeC' %}
+    <img
+      src="assets/images/{{ event.image }}"
+      class="real events-thumbnail hcenter-div"
+    />
+
+    {% else %} {% if event.name == 'Weekly Research Meeting' %}
+    <img
+      style="line-height: -20px"
+      src="assets/images/events/{{ event.image }}"
+      class="real events-thumbnail hcenter-div"
+    />
+    {% else %}
+    <img
+      src="assets/images/events/{{ event.image }}"
+      class="real events-thumbnail hcenter-div"
+    />
+    {% endif %} {% endif %}
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 vcenter">
+    <h3>{{ event.name }}</h3>
+    <p>{{ event.description }}</p>
+  </div>
 </div>
-<br>
-<br>
+<br />
+<br />
 {% endfor %}

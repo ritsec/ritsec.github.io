@@ -3,20 +3,6 @@ layout: info_page
 title: About Us
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-142600858-1"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "UA-142600858-1");
-</script>
-
 <h2 style="text-align: left; padding-left: 1em">History</h2>
 
 <p style="text-align: left; padding-left: 2em">
@@ -47,17 +33,18 @@ title: About Us
 
 <br />
 
-<div style="text-align: left; padding-left: 2em; color: black; margin: 15px">
+<div style="text-align: left; padding-left: 1em; color: black; margin: 15px">
   {% for group in site.data.settings.interest_groups %}
-  <h3 style="color: black">{{ group.name }}</h3>
-  <p>Meeting Time: {{ group.meeting_time }}</p>
+  <h3 style="color: black; text-decoration: underline;">{{ group.name }}</h3>
+  <p>Leader: {{ group.leader }}</p>
   <p>{{ group.description }}</p>
+  <p>Meeting Time: {{ group.meeting_time }}</p>
   {% endfor %}
 </div>
 
 <br />
 
-<div style="font-size: 200%; padding-left: 1.5em">
+<div style="font-size: 200%; padding-left: 1em">
   <h2 style="text-align: left">Connect with us</h2>
   <a
     style=" float:left; clear:left"
