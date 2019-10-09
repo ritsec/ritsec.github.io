@@ -11,6 +11,8 @@ categories:
     links:
       - link: "https://www.hacksplaining.com/lessons"
         description: HACKSPLAINING free walkthroughs on vulnerabilities along with hands on demos. 
+      - link: "https://www.hacker101.com/"
+        description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
   - name: Red Teaming
     about: Resources for people interested in competition red teaming
     links:
