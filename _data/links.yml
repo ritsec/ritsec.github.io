@@ -1,0 +1,40 @@
+links:
+  - name: Stream
+    link: https://www.twitch.tv/ritsec
+    signin: False
+  - name: RITSEC
+    link: https://docs.google.com/forms/d/e/1FAIpQLSdL3-lWpn4iGtdOqXt-sP7n1uGAiVb0v4d-_G_2VS17iIvOSw/viewform?usp=sf_link
+    signin: True
+  - name: Newsletter
+    link: http://eepurl.com/dFJtU1
+    signin: False
+  - name: Present
+    link: https://forms.gle/bTCgBoHqN5fJGRTS9
+    signin: False
+  - name: Resume Bank
+    link: https://docs.google.com/forms/d/e/1FAIpQLSev1QZ_XJUemflspMZ2o8yGpvvPQ3KL3I6laNYBYNuk8ssIeQ/viewform?usp=sf_link
+    signin: False
+  - name: Feedback
+    link: https://docs.google.com/forms/d/e/1FAIpQLScUGQWqbhjYFmdVw4oBEVV9xHt3-RUYMrgnep_qspMwAeCO9w/viewform?usp=sf_link
+    signin: False
+  - name: Constitution
+    link: https://github.com/ritsec/constitution/releases/download/v1.1/constitution.pdf
+    signin: False
+  - name: Workplace Sign up
+    link: https://wk.ritsec.club
+    signin: False
+  - name: WiCyS IG
+    link: https://docs.google.com/forms/d/1b_xcbgxoR2SfEjyIc0NWokXRLTP8LnpFV8RpOn5mb-g/
+    signin: True
+  - name: RVAPT
+    link: https://docs.google.com/forms/d/e/1FAIpQLSec3nt9rNwqDXbTlDFV5cHCr6k9dNdN8oNAwiD1t0O9rczjJQ/viewform?usp=sf_link
+    signin: True
+  - name: Reversing IG
+    link: https://docs.google.com/forms/d/e/1FAIpQLSeMG796I6kOmOYuxdWvuqqdNUDmBy8ZxSZmluWbqDqz28X72A/viewform?usp=sf_link
+    signin: True
+  - name: Physical Security IG
+    link: https://docs.google.com/forms/d/e/1FAIpQLSc3KQFdaqVfvK0ICk2dk8ERX81qaAAeQSL-dU4MBOxGY_wVMw/viewform?usp=sf_link
+    signin: True
+  - name: Incident Response IG
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfUEuISWd8svxlgdo99snTmRADpEX0s5IqVEA32u2AzeP6new/viewform?usp=sf_link
+    signin: True
