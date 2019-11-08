@@ -3,6 +3,8 @@ layout: info_page
 title: Links
 ---
 
+<h1 style="text-align: center;">Sign Ins</h1>
+
 {% assign ritsec_link = site.data.links.links[1] %}
 <div class="row" style="text-align: center;">
   <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
@@ -18,21 +20,9 @@ title: Links
     </div>
     <br />
 
-    {% for link in site.data.links.links %} {% if link.signin == false %}
-    <div class="row" style="text-align: center;">
-      <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
-        <div style="display: inline-block;">
-          <a href="{{ link.link }}" target="_blank" style="font-size: 25px;">
-            {{ link.name }}</a
-          >
-        </div>
-      </div>
-    </div>
-    {% endif %} {% endfor %}
-    <br />
 
     {% for link in site.data.links.links %} {% if link.signin == true and
-    link.name != 'RITSEC Sign In'%}
+    link.name != 'RITSEC'%}
     <div class="row" style="text-align: center;">
       <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
         <div style="display: inline-block;">
@@ -46,3 +36,17 @@ title: Links
     <br />
   </div>
 </div>
+
+<h1 style="text-align: center;">Other Helpful Links</h1>
+{% for link in site.data.links.links %} {% if link.signin == false %}
+<div class="row" style="text-align: center; ">
+  <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+    <div style="display: inline-block;">
+      <a href="{{ link.link }}" target="_blank" style="font-size: 25px;">
+        {{ link.name }}</a
+      >
+    </div>
+  </div>
+</div>
+{% endif %} {% endfor %}
+<br />
