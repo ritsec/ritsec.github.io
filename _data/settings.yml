@@ -192,6 +192,10 @@ interest_groups:
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
     leader: Shannon McHale
+  - name: Physical Security Interest Group
+    meeting_time: "1-2pm, Monday AirGap"
+    description: The physical security team looks into different ways a company can be attacked offline. They are currently exploring lockpicking.
+    leader: Loudon Mehling
 
 #-------------------------------
 # Events
