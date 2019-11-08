@@ -1,0 +1,48 @@
+---
+layout: info_page
+title: Links
+---
+
+{% assign ritsec_link = site.data.links.links[1] %}
+<div class="row" style="text-align: center;">
+  <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+    <div style="display: inline-block;">
+      <a
+        href="{{ ritsec_link.link }}"
+        target="_blank"
+        style="text-align: center; font-size: 30px;"
+        >{{ ritsec_link.name }}</a
+      >
+    </div>
+    </div>
+    </div>
+    <br />
+
+    {% for link in site.data.links.links %} {% if link.signin == false %}
+    <div class="row" style="text-align: center;">
+      <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+        <div style="display: inline-block;">
+          <a href="{{ link.link }}" target="_blank" style="font-size: 25px;">
+            {{ link.name }}</a
+          >
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+    <br />
+
+    {% for link in site.data.links.links %} {% if link.signin == true and
+    link.name != 'RITSEC Sign In'%}
+    <div class="row" style="text-align: center;">
+      <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+        <div style="display: inline-block;">
+          <a href="{{ link.link }}" target="_blank" style="font-size: 25px;">
+            {{ link.name }}</a
+          >
+        </div>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+    <br />
+  </div>
+</div>
