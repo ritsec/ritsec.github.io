@@ -13,9 +13,12 @@ categories:
         description: HACKSPLAINING free walkthroughs on vulnerabilities along with hands on demos. 
       - link: "https://www.hacker101.com/"
         description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
-  - name: Red Teaming
-    about: Resources for people interested in competition red teaming
+  - name: Red Teaming/Pentesting
+    about: Resources for people interested in pentesting and competition red teaming 
     links:
     - link: "https://github.com/ritredteam/"
       description: The source code for RITSEC Redteam's public tools.
+    - link: "https://www.hackthebox.eu/"
+      description: Hack The Box is an online platform allowing you to test your penetration testing skills by providing challenges 
+  
     
