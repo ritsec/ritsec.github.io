@@ -38,6 +38,15 @@ links:
   - name: Physical Security IG
     link: https://docs.google.com/forms/d/e/1FAIpQLSc3KQFdaqVfvK0ICk2dk8ERX81qaAAeQSL-dU4MBOxGY_wVMw/viewform?usp=sf_link
     signin: True
+  - name: ShmooCon RIDE Share
+    link: https://forms.gle/t6wCH9fGS29qzx5C7
+    signin: False
+  - name: ShmooCon ROOM Share
+    link: https://forms.gle/C1n1PHjTyELPKojk6
+    signin: False
+  - name: ShmooCon TICKET share
+    link: https://forms.gle/BCWzq7rYRvpVkEjLA
+    signin: False
   - name: Incident Response IG
     link: https://docs.google.com/forms/d/e/1FAIpQLSfUEuISWd8svxlgdo99snTmRADpEX0s5IqVEA32u2AzeP6new/viewform?usp=sf_link
     signin: True
