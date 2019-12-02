@@ -1,6 +1,11 @@
 # Resources for other people to use
 
 categories:
+  - name: Coding
+    about: Let's get started with some fresh coding!
+    links:
+      - link: "https://adventofcode.com/"
+        description: 25 challenges to get you through this hoiday season
   - name: Intro to Linux
     about: Resources for getting started in Linux
     links:
