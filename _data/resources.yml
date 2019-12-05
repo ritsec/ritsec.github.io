@@ -25,5 +25,7 @@ categories:
       description: The source code for RITSEC Redteam's public tools.
     - link: "https://www.hackthebox.eu/"
       description: Hack The Box is an online platform allowing you to test your penetration testing skills by providing challenges 
+    - link: "https://github.com/chryzsh/awesome-windows-security"
+      description: List of awesome resources to learn Windows Red Teaming
   
     
