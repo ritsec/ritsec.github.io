@@ -28,4 +28,7 @@ categories:
     - link: "https://github.com/chryzsh/awesome-windows-security"
       description: List of awesome resources to learn Windows Red Teaming
   
-    
+   - name: IoT
+    about: Resources to learn more about hacking all hardware connected to the internet
+    - link: "https://github.com/fkie-cad/awesome-embedded-and-iot-security"
+      description: List of awesome resources to learn everything IOT including conferences and free courses!
