@@ -39,3 +39,9 @@ categories:
     links: 
     - link: "https://github.com/bkimminich/it-security-lecture/blob/master/slides/01-04-network_security.md"
       description: Demos and info on basic info like OSI, VPN, Wireshark and Wireless
+      
+  - name: Cloud Security
+    about: We do not use servers! We use the cloud! The future is now!
+    links: 
+    - link: "https://github.com/puresec/awesome-serverless-security"
+      description: AWS, Azure, Google Cloud and a bunch of other reading material on how all this works
