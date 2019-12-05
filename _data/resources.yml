@@ -30,5 +30,6 @@ categories:
   
   - name: IoT
     about: Resources to learn more about hacking all hardware connected to the internet
+    links: 
     - link: "https://github.com/fkie-cad/awesome-embedded-and-iot-security"
       description: List of awesome resources to learn everything IOT including conferences and free courses!
