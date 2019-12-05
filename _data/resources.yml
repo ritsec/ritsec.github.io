@@ -33,3 +33,9 @@ categories:
     links: 
     - link: "https://github.com/fkie-cad/awesome-embedded-and-iot-security"
       description: List of awesome resources to learn everything IOT including conferences and free courses!
+      
+  - name: Networking
+    about: Resources to learn more about how the beep boops connect
+    links: 
+    - link: "https://github.com/bkimminich/it-security-lecture/blob/master/slides/01-04-network_security.md"
+      description: Demos and info on basic info like OSI, VPN, Wireshark and Wireless
