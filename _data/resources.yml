@@ -5,7 +5,7 @@ categories:
     about: Let's get started with some fresh coding!
     links:
       - link: "https://adventofcode.com/"
-        description: 25 challenges to get you through this hoiday season
+        description: 25 challenges to get you through this holiday season
   - name: Intro to Linux
     about: Resources for getting started in Linux
     links:
@@ -16,8 +16,7 @@ categories:
     links:
       - link: "https://www.hacksplaining.com/lessons"
         description: HACKSPLAINING free walkthroughs on vulnerabilities along with hands on demos. 
-      - link: "https://www.hacker101.com/"
-        description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
+     
   - name: Red Teaming/Pentesting
     about: Resources for people interested in pentesting and competition red teaming 
     links:
@@ -51,3 +50,5 @@ categories:
     links: 
     - link: "https://github.com/djadmin/awesome-bug-bounty"
       description: Sources on how to get started. List of bug bounty reports.
+    - link: "https://www.hacker101.com/"
+      description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
