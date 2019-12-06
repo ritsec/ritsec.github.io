@@ -25,7 +25,9 @@ categories:
     - link: "https://www.hackthebox.eu/"
       description: Hack The Box is an online platform allowing you to test your penetration testing skills by providing challenges 
     - link: "https://github.com/chryzsh/awesome-windows-security"
-      description: List of awesome resources to learn Windows Red Teaming
+      description: WINDOWS list of resources
+    - link: "https://github.com/marcosValle/awesome-windows-red-team"
+      description: WINDOWS red teaming and pentesting resources. Check out the courses!
   
   - name: IoT
     about: Resources to learn more about hacking all hardware connected to the internet
