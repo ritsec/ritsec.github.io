@@ -20,6 +20,9 @@ links:
   - name: Feedback
     link: https://docs.google.com/forms/d/e/1FAIpQLScUGQWqbhjYFmdVw4oBEVV9xHt3-RUYMrgnep_qspMwAeCO9w/viewform?usp=sf_link
     signin: False
+  - name: Fall Semester Feedback
+    link: https://forms.gle/Ywm4ARVTTcNS7SPQA
+    signin: False
   - name: Constitution
     link: https://github.com/ritsec/constitution/releases/download/v1.1/constitution.pdf
     signin: False
