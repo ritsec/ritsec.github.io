@@ -1,6 +1,11 @@
 # Resources for other people to use
 
 categories:
+  - name: Coding
+    about: Let's get started with some fresh coding!
+    links:
+      - link: "https://adventofcode.com/"
+        description: 25 challenges to get you through this holiday season
   - name: Intro to Linux
     about: Resources for getting started in Linux
     links:
@@ -11,11 +16,41 @@ categories:
     links:
       - link: "https://www.hacksplaining.com/lessons"
         description: HACKSPLAINING free walkthroughs on vulnerabilities along with hands on demos. 
-      - link: "https://www.hacker101.com/"
-        description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
-  - name: Red Teaming
-    about: Resources for people interested in competition red teaming
+     
+  - name: Red Teaming/Pentesting
+    about: Resources for people interested in pentesting and competition red teaming 
     links:
     - link: "https://github.com/ritredteam/"
       description: The source code for RITSEC Redteam's public tools.
-    
+    - link: "https://www.hackthebox.eu/"
+      description: Hack The Box is an online platform allowing you to test your penetration testing skills by providing challenges 
+    - link: "https://github.com/chryzsh/awesome-windows-security"
+      description: WINDOWS list of resources
+    - link: "https://github.com/marcosValle/awesome-windows-red-team"
+      description: WINDOWS red teaming and pentesting resources. Check out the courses!
+  
+  - name: IoT
+    about: Resources to learn more about hacking all hardware connected to the internet
+    links: 
+    - link: "https://github.com/fkie-cad/awesome-embedded-and-iot-security"
+      description: List of awesome resources to learn everything IOT including conferences and free courses!
+      
+  - name: Networking
+    about: Resources to learn more about how the beep boops connect
+    links: 
+    - link: "https://github.com/bkimminich/it-security-lecture/blob/master/slides/01-04-network_security.md"
+      description: Demos and info on basic info like OSI, VPN, Wireshark and Wireless
+      
+  - name: Cloud Security
+    about: We do not use servers! We use the cloud! The future is now!
+    links: 
+    - link: "https://github.com/puresec/awesome-serverless-security"
+      description: AWS, Azure, Google Cloud and a bunch of other reading material on how all this works
+      
+  - name: Bug Bounty
+    about: Hack sites, get $$$
+    links: 
+    - link: "https://github.com/djadmin/awesome-bug-bounty"
+      description: Sources on how to get started. List of bug bounty reports.
+    - link: "https://www.hacker101.com/"
+      description: HackerOne's free online course. You will learn the basics of web security and will be ready to start participating in bug bountie$
