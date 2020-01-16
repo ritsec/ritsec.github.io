@@ -50,3 +50,6 @@ links:
   - name: Incident Response IG
     link: https://docs.google.com/forms/d/e/1FAIpQLSfUEuISWd8svxlgdo99snTmRADpEX0s5IqVEA32u2AzeP6new/viewform?usp=sf_link
     signin: True
+  - name: ISTS White Team Signups
+    link: https://docs.google.com/forms/d/1KoQzsjIy1WJM6wL6Xc1iPi4dMf-VtcuUfRVV5SVpNnA/
+    signin: False
