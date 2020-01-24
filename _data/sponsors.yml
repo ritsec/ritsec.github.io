@@ -25,7 +25,7 @@
 - name: Datto
   image: datto.png
   link: https://www.datto.com/
-  tier: NA
+  tier: Gold
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
@@ -38,3 +38,19 @@
   image: sra.png
   link: https://securityriskadvisors.com/
   tier: Gold
+- name: Indeed
+  image: indeed_logo.png
+  link: https://www.indeed.com/
+  tier: Gold
+- name: MITRE
+  image: mitre_logo.png
+  link: https://www.mitre.org/
+  tier: Gold
+- name: Caetra.io
+  image: caetra.png
+  link: https://caetra.io/
+  tier: Educational
+- name: Charles River Associates
+  image: cra.png
+  link: https://www.crai.com/
+  tier: Platinum
