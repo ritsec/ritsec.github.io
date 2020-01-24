@@ -8,7 +8,6 @@ description: >
   <br>
 ---
 
-<!-- I'll make a nice function for this eventually -->
 <style>
   img {
     display: block;
@@ -17,136 +16,67 @@ description: >
   }
 </style>
 
+{% assign tiers = "Diamond, Platinum, Gold, Silver, Educational" | split: ', ' %}
+{% for tier in tiers%}
 <div class="row" style="text-align: center">
-  <h2 style="text-align:center">Diamond</h2>
+  <h2 style="text-align:center">{{tier}}</h2>
   <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Diamond' %} {%
-  assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      <img
-        style="text-align:center"
-        class="ritsec-thumbnail img-responsive"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-    </a>
-  </div>
+  {% assign count = 0 %}
+  {% for sponsor in site.data.sponsors %}
+   {% if {{sponsor.tier}} == {{tier}} %} 
+   
+   {% assign link = sponsor.link %}
+   {% assign remainder = {{count}} | modulo: 3 %}
+   {% if remainder == 0 and count > 0 %}
+    <br>
+   {%endif%}
+   {% assign count = count | plus: 1 %}
+   <div
+      class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
+      style="display: inline-block;float: none;"
+    >
+      <a href="{{ link }}" target="_blank">
+   {% if sponsor.name == "Expel" or sponsor.name == "Security Risk Advisors" or sponsor.name
+   == "Indeed" %}
+   <img
+   style="text-align:center; position: relative; top: -50px"
+   class="ritsec-thumbnail img-responsive"
+   src="assets/images/sponsorLogos/{{ sponsor.image }}"
+   alt="{{ sponsor.name }}"
+ />
+ {% elsif sponsor.name == "MITRE" %}
+
+ <img
+ style="text-align:center; position: relative; top: -35px"
+ class="ritsec-thumbnail img-responsive"
+ src="assets/images/sponsorLogos/{{ sponsor.image }}"
+ alt="{{ sponsor.name }}"
+/>
+{% elsif  sponsor.name == "Caetra.io"  %}
+
+ <img
+ style="text-align:center; position: relative; top: -60px"
+ class="ritsec-thumbnail img-responsive"
+ src="assets/images/sponsorLogos/{{ sponsor.image }}"
+ alt="{{ sponsor.name }}"
+/>
+{% elsif  sponsor.name == "Charles River Associates"  %}
+ <img
+ style="text-align:center; position:relative; top: -45px; max-width: 200px; max-height: 200px;
+ class="ritsec-thumbnail img-responsive"
+ src="assets/images/sponsorLogos/{{ sponsor.image }}"
+ alt="{{ sponsor.name }}"
+/>
+    {% else %}
+        <img
+          class="ritsec-thumbnail img-responsive center"
+          src="assets/images/sponsorLogos/{{ sponsor.image }}"
+          alt="{{ sponsor.name }}"
+        />
+    {%endif%}
+  </a>
+</div>
   {% endif %} {% endfor %}
 </div>
+{% endfor %}
 
-<div class="row" style="text-align: center">
-  <h2 style="text-align:center">Platinum</h2>
-  <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Platinum' %} {%
-  assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      <img
-        style="text-align:center"
-        class="ritsec-thumbnail img-responsive"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</div>
-
-<div class="row" style="text-align: center">
-  <h2 style="text-align:center">Gold</h2>
-  <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Gold' %} {%
-  assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      {% if sponsor.name == "Expel" or sponsor.name == "Security Risk Advisors"
-      %}
-
-      <img
-        style="text-align:center; position: relative; top: -40px"
-        class="ritsec-thumbnail img-responsive"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-      {% else %}
-      <img
-        style="text-align:center"
-        class="ritsec-thumbnail img-responsive"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-      {% endif %}
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</div>
-
-<div class="row" style="text-align: center">
-  <h2 style="text-align:center">Silver</h2>
-  <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Silver' %} {%
-  assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      <img
-        class="ritsec-thumbnail img-responsive center-block"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</div>
-
-<div class="row" style="text-align: center">
-  <h2 style="text-align:center">Bronze</h2>
-  <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Bronze' %} {%
-  assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      <img
-        class="ritsec-thumbnail img-responsive center"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</div>
-
-<div class="row" style="text-align: center">
-  <h2 style="text-align:center">Educational</h2>
-  <br />
-  {% for sponsor in site.data.sponsors %} {% if sponsor.tier == 'Educational' %}
-  {% assign link = sponsor.link %}
-  <div
-    class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-    style="display: inline-block;float: none;"
-  >
-    <a href="{{ link }}" target="_blank">
-      <img
-        class="ritsec-thumbnail img-responsive center"
-        src="assets/images/sponsorLogos/{{ sponsor.image }}"
-        alt="{{ sponsor.name }}"
-      />
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</div>
