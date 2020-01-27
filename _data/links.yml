@@ -24,25 +24,22 @@ links:
     link: https://wk.ritsec.club
     signin: False
   - name: WiCyS IG
-    link: https://docs.google.com/forms/d/1b_xcbgxoR2SfEjyIc0NWokXRLTP8LnpFV8RpOn5mb-g/
+    link: https://docs.google.com/forms/d/e/1FAIpQLSee2ZKCmOJLCnNJgtAp2kCTcGFibse2_g73y0tS00VuIcfEqQ/viewform?usp=sf_link
     signin: True
   - name: RVAPT
-    link: https://docs.google.com/forms/d/e/1FAIpQLSec3nt9rNwqDXbTlDFV5cHCr6k9dNdN8oNAwiD1t0O9rczjJQ/viewform?usp=sf_link
+    link: https://docs.google.com/forms/d/e/1FAIpQLSc2PADtOJeSlYc-Wak9knuW8tfTyufpnM4SBH3HVmo-7BhTFw/viewform?usp=sf_link
     signin: True
   - name: Reversing IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSeMG796I6kOmOYuxdWvuqqdNUDmBy8ZxSZmluWbqDqz28X72A/viewform?usp=sf_link
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfjqVJ-2NcaMN4D0_Un60rwE7YIMi8dJFJ8sKgr5LojYQ_zsA/viewform?usp=sf_link
     signin: True
   - name: Physical Security IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSc3KQFdaqVfvK0ICk2dk8ERX81qaAAeQSL-dU4MBOxGY_wVMw/viewform?usp=sf_link
+    link: https://docs.google.com/forms/d/e/1FAIpQLSeXcwmE2z9UNtq2Ouaaqd3qRAH9KKgn2xzbpj2qRllS9HyU5g/viewform?usp=sf_link
     signin: True
   - name: Incident Response IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfUEuISWd8svxlgdo99snTmRADpEX0s5IqVEA32u2AzeP6new/viewform?usp=sf_link
+    link: https://docs.google.com/forms/d/e/1FAIpQLSeFzNBupM5bPEvolGVWAdm_LQQxyxwiIhArw83Ywsx1oJSVXw/viewform?usp=sf_link
     signin: True
   - name: ISTS White Team Signups
     link: https://docs.google.com/forms/d/1KoQzsjIy1WJM6wL6Xc1iPi4dMf-VtcuUfRVV5SVpNnA/
-    signin: False
-  - name: Red Team Signups
-    link: https://forms.gle/8wxt1YSr1rQtSYCM8
     signin: False
   - name: Women Unite CTF
     link: https://forms.gle/2cPYQTz5x3ALTyXQ7
