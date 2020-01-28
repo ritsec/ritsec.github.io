@@ -43,10 +43,18 @@ navbar:
         link: "eboard.html"
       - name: "Past EBoards"
         link: "past-eboards.html"
+      - name: "Alumni"
+        link: "alumni.html"
       - name: "Donors"
         link: "donors.html"
   - name: "Events"
     link: "events.html"
+    subitems:
+       - name: "Events"
+         link: "events.html"
+       - name: "Newsletters"
+         link: "newsletters.html"
+
   - name: "Resources"
     link: "resources.html"
   - name: "Sponsors"
