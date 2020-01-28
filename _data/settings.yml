@@ -52,8 +52,7 @@ navbar:
     subitems:
        - name: "Events"
          link: "events.html"
-       - name: "Newsletters"
-         link: "newsletters.html"
+
 
   - name: "Resources"
     link: "resources.html"
