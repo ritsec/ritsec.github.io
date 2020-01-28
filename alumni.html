@@ -1,0 +1,27 @@
+---	
+layout: info_page	
+title: Alumni	
+---	
+
+<h4 style="padding-left:2em">	
+  If you would like to be on this list submit a pull request to	
+  <a href="https://github.com/ritsec/ritsec.github.io"> RITSEC Github </a>	
+</h4>	
+<br />	
+<table class="alumni-table">	
+  <tbody>	
+    <tr>	
+      <th>Name</th>	
+      <th>Graduation</th>	
+    </tr>	
+    {% for alumni in site.data.alumni %}	
+    <tr>	
+      <td>{{ alumni.Name }}</td>	
+      <td>{{ alumni.Graduation }}</td>	
+    </tr>	
+    {% endfor %}	
+  </tbody>	
+</table>	
+<br />	
+<!-- Adding blank line to space things out-->	
+<br />
