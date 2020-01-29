@@ -16,6 +16,7 @@ description: >
   }
 </style>
 
+
 {% assign tiers = "Diamond, Platinum, Gold, Silver, Educational" | split: ', ' %}
 {% for tier in tiers%}
 <div class="row" style="text-align: center">
@@ -62,8 +63,7 @@ description: >
 />
 {% elsif  sponsor.name == "Charles River Associates"  %}
  <img
- style="text-align:center; position:relative; top: -45px; max-width: 200px; max-height: 200px;
- class="ritsec-thumbnail img-responsive"
+ style="text-align:center; position:relative; top: -45px; max-width: 200px; max-height: 200px;"
  src="assets/images/sponsorLogos/{{ sponsor.image }}"
  alt="{{ sponsor.name }}"
 />
@@ -79,4 +79,3 @@ description: >
   {% endif %} {% endfor %}
 </div>
 {% endfor %}
-
