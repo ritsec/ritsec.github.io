@@ -4,6 +4,10 @@ categories:
   - name: Coding
     about: Let's get started with some fresh coding!
     links:
+      - link: "https://www.edx.org/"
+        description: Harvard's FREE coding course
+      - link: "https://www.freecodecamp.org/"
+        description: Lessons, Certificates, Coding Interview Prep
       - link: "https://adventofcode.com/"
         description: 25 challenges to get you through this holiday season
   - name: Intro to Linux
