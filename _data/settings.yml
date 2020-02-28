@@ -67,7 +67,7 @@ eboard_roles:
   - name: President
     appointee: Shannon McHale
     image: ShannonBioPic.png
-    contact: sxm6549@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Shannon is a third-year computing security student. She has served as RC3 and RITSEC Treasurer and was also
       the Public Relations Head of Women in Computing. Shannon is currently a member of the RITSEC Red Team and does her best
@@ -76,7 +76,7 @@ eboard_roles:
   - name: Director of Public Relations
     appointee: Adrianna Visca
     image: AdriannaBioPic.jpg
-    contact: axv4486@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Adrianna is a third-year Computing Security student with a minor in Networking. Outside of security,
       she is involved in RIT Orientation, RIT365, and Women in Computing. She's always open to talk about anything
@@ -84,7 +84,7 @@ eboard_roles:
   - name: Head of Education
     appointee: Owen Siebert
     image: OwenBioPic.PNG
-    contact: osiebert@mail.rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Owen in a fourth-year computing security student, native of Rochester. He enjoys networking, red teaming,
       and trying to make C2’s. Owen was previously the NextHop Treasurer, and can often be found working shifts in the
@@ -93,7 +93,7 @@ eboard_roles:
   - name: Head of Research
     appointee: Ian Furr
     image: IanBioPic.jpg
-    contact: isf6751@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Ian is a fourth-year Computing Security student. Ian was previously the Vice President and Competition Director
       of NextHop, RITs Systems Administration & Networking Club. He loves Cyber Security Policy & Legislation, Disaster
@@ -102,7 +102,7 @@ eboard_roles:
   - name: "Competition Architect: ISTS & HackerThon"
     appointee: Jack "Hulto" McKenna
     image: JackBioPic.jpg
-    contact: hulto@mail.rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       "Hack the planet!"
       Popping boxes and teaching kiddos that's what it's all about. As ISTS CA I'm here to run some competitions and
@@ -111,14 +111,14 @@ eboard_roles:
   - name: "Competition Architect: IRSeC & CTF"
     appointee: Quintin Walters
     image: QuintinBioPic.jpg
-    contact: qxk3054@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Quintin is a fourth-year Computing Security student. He focuses on malware analysis, reverse engineering,
       and digital forensics. Outside of security Quintin enjoys reading, swimming, and playing Dungeons and Dragons.
   - name: Treasurer
     appointee: Amanda Brown
     image: AmandaBioPic.JPG
-    contact: aeb6590@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Amanda is a third-year computing security student. Her primary focus is in penetration testing and breaking
       things in fun ways. Amanda is on RIT’s CCDC team, serves as an ambassador for Golisano and Honors Program mentor,
@@ -127,7 +127,7 @@ eboard_roles:
   - name: Secretary
     appointee: Jon Bauer
     image: JonBioPic.jpg
-    contact: jmb4371@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Jon is a third-year computing security student with a minor in networking and systems administration.
       Relating to security Jon attends the weekly meets and is a part of the RITSEC Red Team. Currently his
@@ -136,7 +136,7 @@ eboard_roles:
   - name: Tech Lead
     appointee: Sunggwan Choi
     image: ChoiBioPic.jpg
-    contact: sxc2679@rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Choi is a third-year Computing Security student, from Korea. As much as he is trying to learn computer languages,
       he is also trying to learn the English language as well. He doesn't have a specialization yet, he is just trying
@@ -144,7 +144,7 @@ eboard_roles:
   - name: Operations Lead
     appointee: Evan Mikulski
     image: EvanBioPic.jpg
-    contact: riprock@mail.rit.edu
+    contact: ritsecclub@gmail.com
     description: >
       Evan is a second year computing security student. His interests lie in Red Teaming, Forensics, and Homelabbing.
       You can find him in the Labs messing with something. Outside of CSEC he is a member of K2GXT, RIT’s
@@ -194,7 +194,7 @@ interest_groups:
     description: This CTF Interest Group competes in Capture The Flag challenges.
     leader: Duc Phan
   - name: >-
-      <a style="color:: black;" href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
+      <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
     meeting_time: Every other Wednesday 7:45-8:45 PM GOL-2590 (even weeks)
     description: >-
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
@@ -216,6 +216,7 @@ events:
       practical experience with the topics discussed in the week's presentation.
       Club members can earn points that accumulate over the semester for
       completing challenges. How high up on the leaderboard can YOU make it?
+      You can participate in our weekly demos at <a target="_blank"; href="https://flags.ritsec.club">flags.ritsec.club</a>
     image: logo_header.png
   - name: Weekly Research Meeting
     description: >
