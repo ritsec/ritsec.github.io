@@ -38,11 +38,9 @@ links:
   - name: Incident Response IG
     link: https://docs.google.com/forms/d/e/1FAIpQLSeFzNBupM5bPEvolGVWAdm_LQQxyxwiIhArw83Ywsx1oJSVXw/viewform?usp=sf_link
     signin: True
-  - name: ISTS White Team Signups
-    link: https://docs.google.com/forms/d/1KoQzsjIy1WJM6wL6Xc1iPi4dMf-VtcuUfRVV5SVpNnA/
     signin: False
-  - name: Women Unite CTF
-    link: https://forms.gle/2cPYQTz5x3ALTyXQ7
+  - name: WiCyS Presentation Signup
+    link: https://forms.gle/Xmubyqtuqc8v3Yy29
     signin: False
   - name: IRSEC Blue Team
     link: https://forms.gle/tRGdb9jUTHsiBDk17
