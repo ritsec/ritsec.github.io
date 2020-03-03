@@ -17,7 +17,7 @@ description: >
 </style>
 
 
-{% assign tiers = "Diamond, Platinum, Gold, Silver, Educational" | split: ', ' %}
+{% assign tiers = "Diamond, Platinum, Gold, Silver, Bronze, Educational" | split: ', ' %}
 {% for tier in tiers%}
 <div class="row" style="text-align: center">
   <h2 style="text-align:center">{{tier}}</h2>
@@ -45,7 +45,7 @@ description: >
    src="assets/images/sponsorLogos/{{ sponsor.image }}"
    alt="{{ sponsor.name }}"
  />
- {% elsif sponsor.name == "MITRE" %}
+ {% elsif sponsor.name == "MITRE" or sponsor.name == "Redbull" or sponsor.name == "Carrier"%}
 
  <img
  style="text-align:center; position: relative; top: -35px"
@@ -53,7 +53,7 @@ description: >
  src="assets/images/sponsorLogos/{{ sponsor.image }}"
  alt="{{ sponsor.name }}"
 />
-{% elsif  sponsor.name == "Caetra.io"  %}
+{% elsif  sponsor.name == "Caetra.io" %}
 
  <img
  style="text-align:center; position: relative; top: -60px"
