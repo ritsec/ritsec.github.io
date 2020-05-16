@@ -34,6 +34,8 @@ categories:
       description: WINDOWS list of resources
     - link: "https://github.com/marcosValle/awesome-windows-red-team"
       description: WINDOWS red teaming and pentesting resources. Check out the courses!
+    - link: "https://ired.team/"
+      description: various tools and techniques used by penetration testers, red teams and actual adversaries.
   
   - name: IoT
     about: Resources to learn more about hacking all hardware connected to the internet
