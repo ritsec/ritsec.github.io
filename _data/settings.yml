@@ -66,91 +66,65 @@ navbar:
 
 eboard_roles:
   - name: President
-    appointee: Shannon McHale
-    image: ShannonBioPic.png
-    contact: ritsecclub@gmail.com
-    description: >
-      Shannon is a third-year computing security student. She has served as RC3 and RITSEC Treasurer and was also
-      the Public Relations Head of Women in Computing. Shannon is currently a member of the RITSEC Red Team and does her best
-      to attend as many free security conferences as possible. In her free time, Shannon tries to get to bed by 11pm
-      and watches an insane amount of TV.
-  - name: Director of Public Relations
-    appointee: Adrianna Visca
-    image: AdriannaBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Adrianna is a third-year Computing Security student with a minor in Networking. Outside of security,
-      she is involved in RIT Orientation, RIT365, and Women in Computing. She's always open to talk about anything
-      and everything, especially if the conversation includes pictures of dogs.
-  - name: Head of Education
-    appointee: Owen Siebert
-    image: OwenBioPic.PNG
-    contact: ritsecclub@gmail.com
-    description: >
-      Owen in a fourth-year computing security student, native of Rochester. He enjoys networking, red teaming,
-      and trying to make C2’s. Owen was previously the NextHop Treasurer, and can often be found working shifts in the
-      cage - stop by and say hi. He will never say no to going out for a drink and is down to talk anything security,
-      or otherwise.
-  - name: Head of Research
-    appointee: Ian Furr
-    image: IanBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Ian is a fourth-year Computing Security student. Ian was previously the Vice President and Competition Director
-      of NextHop, RITs Systems Administration & Networking Club. He loves Cyber Security Policy & Legislation, Disaster
-      Recovery/Incident Response, Social Engineering, and the Internet of things. When he's not in the labs he can
-      commonly be found hiking up a mountain, hanging in his hammock or out on his slackline.
-  - name: "Competition Architect: ISTS & HackerThon"
-    appointee: Jack "Hulto" McKenna
-    image: JackBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      "Hack the planet!"
-      Popping boxes and teaching kiddos that's what it's all about. As ISTS CA I'm here to run some competitions and
-      educate some folks. Hmu if you wanna help run ISTS or Hackerthon. If you're interested in competing
-      or running your own competitions drop me a line.
-  - name: "Competition Architect: IRSeC & CTF"
-    appointee: Quintin Walters
-    image: QuintinBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Quintin is a fourth-year Computing Security student. He focuses on malware analysis, reverse engineering,
-      and digital forensics. Outside of security Quintin enjoys reading, swimming, and playing Dungeons and Dragons.
-  - name: Treasurer
-    appointee: Amanda Brown
-    image: AmandaBioPic.JPG
-    contact: ritsecclub@gmail.com
-    description: >
-      Amanda is a third-year computing security student. Her primary focus is in penetration testing and breaking
-      things in fun ways. Amanda is on RIT’s CCDC team, serves as an ambassador for Golisano and Honors Program mentor,
-      and is involved in Women in Computing. Outside of security, Amanda enjoys hiking with lots of sunscreen,
-      traveling, and general tomfoolery.
-  - name: Secretary
     appointee: Jon Bauer
     image: JonBioPic.jpg
     contact: ritsecclub@gmail.com
     description: >
-      Jon is a third-year computing security student with a minor in networking and systems administration.
-      Relating to security Jon attends the weekly meets and is a part of the RITSEC Red Team. Currently his
-      favorite subjects in security are operating systems and penetration testing.
-      Outside of security he is also on the swimming and diving team and enjoys relaxing with friends.
+      Jon is a fourth-year computing security student with a minor in networking and systems administration. Jon does a lot of offensive security as well as run the RITSEC Red Team. Currently his favorite subjects in security are operating systems and penetration testing. Outside of security he is also on the swimming and diving team and enjoys relaxing with friends.
+  - name: Director of Public Relations
+    appointee: Dani Schloss
+    image: DaniBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Dani is a second-year Computing Security student working on a Language Science immersion. She initially became interested in security because she thought she could learn a lot from breaking stuff. Outside of security, she’s pole vaulter on the RIT track team and she can be found in the labs late at night.
+  - name: Head of Education
+    appointee: Phillip Babey
+    image: PhillipBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Phillip is a third-year Computing Security student with an interest in security competititions. He has competed multiple times, and enjoys the community that the security industry fosters. In his free time he games and researches Linux.
+  - name: Head of Research
+    appointee: Enzo DeStephano
+    image: EnzoBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Enzo is a third-year Computing Security student. He loves picking locks and is the head of the Physical Security Interest Group. He is currently on Co-Op at Principal Financial.
+  - name: "Competition Architect: ISTS & HackerThon"
+    appointee: Dan Szafran
+    image: DanBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Dan is a fourth-year Computing Security student with a minor in Math. Dan became interested in security because he wanted to do something helpful with the programming he already knew. In his free time he rock climbs and plays games.
+  - name: "Competition Architect: IRSeC & CTF"
+    appointee: Josh Niemann
+    image: JoshBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Josh is a fourth-year Computing Security student whose primary focus is penetration testing and Linux systems. Josh currently works at a penetration-testing firm, and has worked on Black Team as the Linux Lead. In his free time, Josh can be found climbing, biking, or reading.
+  - name: Treasurer
+    appointee: Ella Daugherty
+    image: EllaBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Ella is a second-year computing security student. She has always had a fascination with computers and how things work, and was drawn to security by her love of solving puzzles and helping people. Everyday she finds something new to dive into and learn about. In her spare time she enjoys the outdoors, visual and performance art, and playing video games.
+  - name: Secretary
+    appointee: Jason Howe
+    image: JasonBioPic.jpg
+    contact: ritsecclub@gmail.com
+    description: >
+      Jason is a second-year Computing Security student. He’s interested in Blue Teaming and Incident Response, and in his free time he’s involved with the Scouting Program.
   - name: Tech Lead
-    appointee: Sunggwan Choi
-    image: ChoiBioPic.jpg
+    appointee: Emmanuel Adewale
+    image: EmmanuelBioPic.jpg
     contact: ritsecclub@gmail.com
     description: >
-      Choi is a third-year Computing Security student, from Korea. As much as he is trying to learn computer languages,
-      he is also trying to learn the English language as well. He doesn't have a specialization yet, he is just trying
-      harder to learn new things everyday. And no, he is not from North Korea.
+      Emmanuel is a third-year Computing Security student who will be working at IBM X-Force Red this Summer. In his free time he plays with os kernels and plays the piano.
   - name: Operations Lead
-    appointee: Evan Mikulski
-    image: EvanBioPic.jpg
+    appointee: Kyle Schleich
+    image: KyleBioPic.jpg
     contact: ritsecclub@gmail.com
     description: >
-      Evan is a second year computing security student. His interests lie in Red Teaming, Forensics, and Homelabbing.
-      You can find him in the Labs messing with something. Outside of CSEC he is a member of K2GXT, RIT’s
-      amateur radio club. Feel free to go up and say hello if you see him. He will never turn down a chance to
-      hang out or go get food.
+      Kyle is a fifth-year Computing Security student with a minor in Networking and Systems Administration. He is an ansible connoisseur and likes solving the problems that Ops presents. In his free time he skis.
 
 #-------------------------------
 # About Us
