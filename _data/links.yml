@@ -2,9 +2,6 @@ links:
   - name: Stream
     link: https://www.twitch.tv/ritsec
     signin: False
-  - name: RITSEC
-    link: https://forms.gle/FA6c2JmkWRs2yaA76
-    signin: True
   - name: Newsletter
     link: http://eepurl.com/dFJtU1
     signin: False
@@ -22,34 +19,6 @@ links:
     signin: False
   - name: Workplace Sign up
     link: https://wk.ritsec.club
-    signin: False
-  - name: WiCyS IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSee2ZKCmOJLCnNJgtAp2kCTcGFibse2_g73y0tS00VuIcfEqQ/viewform?usp=sf_link
-    signin: True
-  - name: RVAPT
-    link: https://docs.google.com/forms/d/e/1FAIpQLSc2PADtOJeSlYc-Wak9knuW8tfTyufpnM4SBH3HVmo-7BhTFw/viewform?usp=sf_link
-    signin: True
-  - name: Reversing IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfjqVJ-2NcaMN4D0_Un60rwE7YIMi8dJFJ8sKgr5LojYQ_zsA/viewform?usp=sf_link
-    signin: True
-  - name: Physical Security IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSeXcwmE2z9UNtq2Ouaaqd3qRAH9KKgn2xzbpj2qRllS9HyU5g/viewform?usp=sf_link
-    signin: True
-  - name: Incident Response IG
-    link: https://docs.google.com/forms/d/e/1FAIpQLSeFzNBupM5bPEvolGVWAdm_LQQxyxwiIhArw83Ywsx1oJSVXw/viewform?usp=sf_link
-    signin: True
-    signin: False
-  - name: WiCyS Presentation Signup
-    link: https://forms.gle/Xmubyqtuqc8v3Yy29
-    signin: False
-  - name: IRSEC Blue Team
-    link: https://forms.gle/tRGdb9jUTHsiBDk17
-    signin: False
-  - name: EBoard Nominations
-    link: https://docs.google.com/forms/d/e/1FAIpQLSe18ys537dAhh65_mu1437eBx16_Zc88-LDxFUM6NOkbTb9xw/viewform?usp=sf_link
-    signin: False
-  - name: Discord
-    link: https://discord.gg/sK7zaf
     signin: False
   - name: WiCyS When2Meet
     link: https://www.when2meet.com/?9513320-Bh4hd
