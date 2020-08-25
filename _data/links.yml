@@ -25,16 +25,16 @@ links:
     signin: False
   - name: WiCyS Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSfzAA-IsPw_HfiM2mlpsMFbtiZiIX8_TY2y3viAl9WXvVCa0A/viewform?usp=sf_link
-    signin: False
+    signin: True
   - name: RVAPT Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSevQUKBPOEfvK-bhrnqdYyVSbo0DbOP57fE7RAPLtLx88I8rw/viewform?usp=sf_link
-    signin: False
+    signin: True
   - name: Reversing Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSdoejFkx2zW7rrT5KuNAVx3Ry0bf4a9GNjBm9aVfFxwxNuMNQ/viewform?usp=sf_link
-    signin: False
+    signin: True
   - name: Physical Security Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSerIVIe7bBKIe34N0QdUixOKEL2R_xbZoU59-fBb7VF9-QLig/viewform?usp=sf_link
-    signin: False
+    signin: True
   - name: IRIG Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSe3xXb4tQ0abbbO5Bf4HYl07DwcgctJ7rCOOGrn6ikc_s9EJQ/viewform?usp=sf_link
-    signin: False
+    signin: True
