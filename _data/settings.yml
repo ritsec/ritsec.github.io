@@ -61,6 +61,11 @@ navbar:
     link: "resources.html"
   - name: "Sponsors"
     link: "sponsors.html"
+    subitems:
+      - name: "Current Sponsors"
+        link: "sponsors.html"
+      - name: "Sponsor Info"
+        link: "sponsorship.pdf"
 
 #-------------------------------
 # EBoard Settings
