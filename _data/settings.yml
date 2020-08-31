@@ -64,7 +64,7 @@ navbar:
     subitems:
       - name: "Current Sponsors"
         link: "sponsors.html"
-      - name: "Sponsor Info"
+      - name: "Sponsorship Opportunities"
         link: "sponsorship.pdf"
 
 #-------------------------------
