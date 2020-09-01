@@ -151,24 +151,27 @@ about_us_long: >
 
 interest_groups:
   - name: Incident Response Interest Group
-    meeting_time: "7-8 PM Tuesdays in AirGap"
+    meeting_time: "7-8PM on the First Thursday of Every Month in GOL-2445"
     description: >-
       This group is focused on teaching the very basics of incident response. 
-      This includes going over how the industry works, major breaches, and forensics
-    leader: Ella Daugherty & Jason Howe
-  - name: RVAPT
-    meeting_time: "4-5 PM, Monday in GOL-2690"
-    description: RIT Vulnerability Assessment and Penetration Testing
+      This includes going over how the industry works, major breaches, forensics, tips, and tools
+    leader: Dani Schloss & Jason Howe
+  - name: RIT Vulnerability Assessment and Penetration Testing
+    meeting_time: "See Workplace for Announcements"
+    description: >-
+      RVAPT, focuses on learning offensive security, with a primary focus on vulnerability assessment and penetration testing. 
+      We equally value having a proper offensive security mindset as well as having technical skills. 
+      RVAPT will be meeting online this semester, and the time is currently TBD.
     leader: Choi & Mohammed
-  - name: Reversing Interest group
-    meeting_time: "5 pm, Saturday in Seclab"
+  - name: Reversing Interest Group
+    meeting_time: "See workplace for details!"
     description: Learn about reverse engineering!
     contact: NA
     leader: Stuart Nevans Locke
   - name: Team Contagion
     meeting_time: "As announced on Workplace"
     description: This CTF Interest Group competes in Capture The Flag challenges.
-    leader: Duc Phan
+    leader: Bader 
   - name: >-
       <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
     meeting_time: Every other Wednesday 7:45-8:45 PM GOL-2590 (even weeks)
@@ -178,8 +181,11 @@ interest_groups:
     leader: Shannon McHale
   - name: Physical Security Interest Group
     meeting_time: "1-2pm, Monday AirGap"
-    description: The physical security team looks into different ways a company can be attacked offline. They are currently exploring lockpicking.
-    leader: Enzo DeStephano
+    description: >-
+      Run by Loudon Mehling and Enzo DeStephano, physical security IG is all about learning the 
+      aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
+      See workplace for details!
+    leader: Enzo DeStephano and Loudon Mehling
 
 #-------------------------------
 # Events
