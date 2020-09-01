@@ -44,6 +44,27 @@ title: About Us
 
 <br />
 
+<h2 style="text-align: left; padding-left: 1em">Interest Programs</h2>
+<p style="font-size: 125%; padding-left: 2em">
+  Interest Programs hold meetings separate from RITSEC’s general meeting to go
+  over specific topics our members are passionate about. Interest Programs offer
+  more events, have larger presences, and usually have membership requirements in order to join!
+  Reach out to the leaders of the interest programs if you have any questions! Our current IP's are as follows:
+</p>
+
+<br />
+
+<div style="text-align: left; padding-left: 1em; color: black; margin: 15px">
+  {% for group in site.data.settings.interest_programs %}
+  <h3 style="color: black; text-decoration: underline;">{{ group.name }}</h3>
+  <p>Leader: {{ group.leader }}</p>
+  <p>{{ group.description }}</p>
+  <p>Meeting Time: {{ group.meeting_time }}</p>
+  {% endfor %}
+</div>
+
+<br />
+
 <div style="font-size: 200%; padding-left: 1em">
   <h2 style="text-align: left">Connect with us</h2>
   <a
