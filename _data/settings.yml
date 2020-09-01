@@ -172,13 +172,6 @@ interest_groups:
     meeting_time: "As announced on Workplace"
     description: This CTF Interest Group competes in Capture The Flag challenges.
     leader: Bader 
-  - name: >-
-      <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
-    meeting_time: Every other Wednesday 7:45-8:45 PM GOL-2590 (even weeks)
-    description: >-
-      Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
-      The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
-    leader: Shannon McHale
   - name: Physical Security Interest Group
     meeting_time: "1-2pm, Monday AirGap"
     description: >-
@@ -186,6 +179,32 @@ interest_groups:
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
       See workplace for details!
     leader: Enzo DeStephano and Loudon Mehling
+
+
+#-------------------------------
+# Interest Programs
+interest_programs:
+  - name: >-
+      <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
+    meeting_time: Every other Wednesday 7:45-8:45 PM GOL-2590 (even weeks)
+    description: >-
+      Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
+      The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
+    leader: Shannon McHale
+  - name: Operations Program
+    meeting_time: Reach out to Kyle Schleich with questions! 
+    description: >-
+      The Ops Program is responisble for supporting the physical infrastructure that is used for Competitions, 
+      weekly CTF challanges, and other club programs. 
+    leader: Kyle Schleich
+  - name: RITSEC Red Team 
+    meeting_time: Reach out to Jon Bauer with questions!
+    description: >- 
+      A group of students and alumni who use custom tooling to attack 
+      competition infrastructure and provide a challenging learning environment.
+    leader: Jon Bauer
+
+
 
 #-------------------------------
 # Events
