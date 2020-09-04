@@ -108,11 +108,11 @@ eboard_roles:
     description: >
       Josh is a fourth-year Computing Security student whose primary focus is penetration testing and Linux systems. Josh currently works at a penetration-testing firm, and has worked on Black Team as the Linux Lead. In his free time, Josh can be found climbing, biking, or reading.
   - name: Treasurer
-    appointee: Ella Daugherty
-    image: EllaBioPic.jpg
+    appointee: Spencer Roth
+    image: SpencerBioPic.png
     contact: ritsecclub@gmail.com
     description: >
-      Ella is a second-year computing security student. She has always had a fascination with computers and how things work, and was drawn to security by her love of solving puzzles and helping people. Everyday she finds something new to dive into and learn about. In her spare time she enjoys the outdoors, visual and performance art, and playing video games.
+      Spencer is a third-year Computing Security student. 
   - name: Secretary
     appointee: Jason Howe
     image: JasonBioPic.jpg
