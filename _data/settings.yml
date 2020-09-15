@@ -184,6 +184,14 @@ interest_groups:
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
       See workplace for details!
     leader: Enzo DeStephano and Loudon Mehling
+    - name: Nexthop
+    meeting_time: "6:30 PM Thursday / Fill out the when2meet on workplace"
+    description: >-
+      NextHop is an interest group focused on fundamental network concepts, network security, and systems administration. 
+      The interest group is all about moving information and managing different services that run on a network and be able to secure it. 
+      Our interactive learning community is built on our hands-on Build-It-Nights where members configure and work with new technologies
+      to get practical exposure and familiarity with information technology industry standards.
+    leader: Ali Alamri, Andrew Afonso, and Robert Gray
 
 
 #-------------------------------
