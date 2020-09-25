@@ -94,7 +94,7 @@ eboard_roles:
     image: EnzoBioPic.jpg
     contact: ritsecclub@gmail.com
     description: >
-      Enzo is a third-year Computing Security student. He loves picking locks and is the head of the Physical Security Interest Group. He is currently on Co-Op at Principal Financial.
+      Enzo is a third-year Computing Security student. He loves picking locks and is the head of the Physical Security Interest Group. He is currently on Co-Op at Principal Financial. He is also interested in Incident Response.
   - name: "Competition Architect: ISTS & HackerThon"
     appointee: Dan Szafran
     image: DanBioPic.jpg
@@ -178,7 +178,7 @@ interest_groups:
     description: This CTF Interest Group competes in Capture The Flag challenges.
     leader: Bader 
   - name: Physical Security Interest Group
-    meeting_time: "1-2pm, Monday AirGap"
+    meeting_time: "1-2pm, Tuesday GOL-2690"
     description: >-
       Run by Loudon Mehling and Enzo DeStephano, physical security IG is all about learning the 
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
