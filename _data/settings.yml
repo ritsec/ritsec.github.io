@@ -66,6 +66,8 @@ navbar:
         link: "sponsors.html"
       - name: "Sponsorship Opportunities"
         link: "sponsorship.pdf"
+  - name: "Links"
+    link: "links.html"
 
 #-------------------------------
 # EBoard Settings
@@ -154,7 +156,7 @@ about_us_long: >
   Windows and Linux server hardening,
   web security, network services, and more!
 
-interest_groups:
+interest_groups: >
   - name: Incident Response Interest Group
     meeting_time: "7-8PM on the First Thursday of Every Month in GOL-2445"
     description: >-
