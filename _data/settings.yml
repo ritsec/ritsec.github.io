@@ -179,6 +179,20 @@ interest_groups:
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
       See workplace for details!
     leader: Enzo DeStephano and Loudon Mehling
+  - name: NextHop
+    meeting_time: "See workplace for details!"
+    description: >-
+      NextHop is an interest group focused on exploring full stack network and systems security, administration, and implementation within the real world. 
+      By looking at business infrastructures as a whole, we can better observe and understand how information moves across networks and applications, 
+      and how different services and technologies are used to create secure computing environments. 
+      Our interactive learning community is built on providing students access to ecosystems that mirror industry standard setups, 
+      that might otherwise be difficult to gain exposure to. Our Community Build-It and Hack-It Nights will provide such experiences, 
+      focusing on building up, and tearing into an implementation of relevant topics of the communities choosing. 
+      Students of any level are welcome to all events, we never expect preexisting skills other than a willingness to try and figure new things out. 
+      In addition to meetings throughout the year, NextHop runs a competition, 
+      NSIC - Networking & Systems Infrastructure Competition, 
+      which will hopefully still occur in the coming spring. 
+    leader: Ali Amari and Andrew Alfonso
 
 
 #-------------------------------
