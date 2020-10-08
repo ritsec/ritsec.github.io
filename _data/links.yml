@@ -5,7 +5,7 @@ links:
   - name: Newsletter
     link: http://eepurl.com/dFJtU1
     signin: False
-  - name: Present
+  - name: Present at RITSEC
     link: https://forms.gle/bTCgBoHqN5fJGRTS9
     signin: False  
   - name: Resume Bank
@@ -14,10 +14,10 @@ links:
   - name: Feedback
     link: https://docs.google.com/forms/d/e/1FAIpQLScUGQWqbhjYFmdVw4oBEVV9xHt3-RUYMrgnep_qspMwAeCO9w/viewform?usp=sf_link
     signin: False
-  - name: Constitution
+  - name: RITSEC Constitution
     link: https://github.com/ritsec/constitution/releases/download/v1.2/constitution.pdf
     signin: False
-  - name: Workplace Sign up
+  - name: Workplace Signup
     link: https://wk.ritsec.club
     signin: False
   - name: WiCyS When2Meet
@@ -35,6 +35,9 @@ links:
   - name: Physical Security Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSerIVIe7bBKIe34N0QdUixOKEL2R_xbZoU59-fBb7VF9-QLig/viewform?usp=sf_link
     signin: True
-  - name: IRIG Signin
+  - name: Incident Response Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSe3xXb4tQ0abbbO5Bf4HYl07DwcgctJ7rCOOGrn6ikc_s9EJQ/viewform?usp=sf_link
+    signin: True
+  - name: CCDC Signin
+    link: coming-soon
     signin: True
