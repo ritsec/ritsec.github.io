@@ -20,9 +20,6 @@ links:
   - name: Workplace Signup
     link: https://wk.ritsec.club
     signin: False
-  - name: WiCyS When2Meet
-    link: https://www.when2meet.com/?9513320-Bh4hd
-    signin: False
   - name: WiCyS Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSfzAA-IsPw_HfiM2mlpsMFbtiZiIX8_TY2y3viAl9WXvVCa0A/viewform?usp=sf_link
     signin: True
