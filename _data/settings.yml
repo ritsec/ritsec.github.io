@@ -156,38 +156,46 @@ about_us_long: >
   Windows and Linux server hardening,
   web security, network services, and more!
 
-interest_groups: >
+#-------------------------------
+# Interest Groups
+
+interest_groups:
   - name: Incident Response Interest Group
-    meeting_time: "7-8PM on the First Thursday of Every Month in GOL-2445"
+    meeting_time: 7-8PM on the First Thursday of Every Month in GOL-2445
     description: >-
       This group is focused on teaching the very basics of incident response. 
       This includes going over how the industry works, major breaches, forensics, tips, and tools
     leader: Dani Schloss & Jason Howe
+  
   - name: RIT Vulnerability Assessment and Penetration Testing
-    meeting_time: "See Workplace for Announcements"
+    meeting_time: See Workplace for Announcements
     description: >-
       RVAPT, focuses on learning offensive security, with a primary focus on vulnerability assessment and penetration testing. 
       We equally value having a proper offensive security mindset as well as having technical skills. 
       RVAPT will be meeting online this semester, and the time is currently TBD.
     leader: Choi & Mohammed
+  
   - name: Reversing Interest Group
-    meeting_time: "See workplace for details!"
+    meeting_time: See workplace for details!
     description: Learn about reverse engineering!
     contact: NA
     leader: Stuart Nevans Locke
+  
   - name: Team Contagion
-    meeting_time: "As announced on Workplace"
+    meeting_time: As announced on Workplace
     description: This CTF Interest Group competes in Capture The Flag challenges.
     leader: Bader 
+  
   - name: Physical Security Interest Group
-    meeting_time: "1-2pm, Tuesday GOL-2690"
+    meeting_time: 1-2pm, Monday AirGap
     description: >-
       Run by Loudon Mehling and Enzo DeStephano, physical security IG is all about learning the 
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
       See workplace for details!
     leader: Enzo DeStephano and Loudon Mehling
+  
   - name: Nexthop
-    meeting_time: "6:30 PM Thursday / Fill out the when2meet on Workplace"
+    meeting_time: 6:30 PM Thursday / Fill out the when2meet on Workplace
     description: >-
       NextHop is an interest group focused on fundamental network concepts, network security, and systems administration. 
       The interest group is all about moving information and managing different services that run on a network and be able to secure it. 
@@ -195,9 +203,9 @@ interest_groups: >
       to get practical exposure and familiarity with information technology industry standards.
     leader: Ali Alamri, Andrew Afonso, and Robert Gray
 
-
 #-------------------------------
 # Interest Programs
+
 interest_programs:
   - name: >-
       <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
@@ -206,12 +214,14 @@ interest_programs:
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
     leader: Shannon McHale
+  
   - name: Operations Program
     meeting_time: Reach out to Kyle Schleich with questions! 
     description: >-
       The Ops Program is responisble for supporting the physical infrastructure that is used for Competitions, 
       weekly CTF challanges, and other club programs. 
     leader: Kyle Schleich
+  
   - name: RITSEC Red Team 
     meeting_time: Reach out to Jon Bauer with questions!
     description: >- 
