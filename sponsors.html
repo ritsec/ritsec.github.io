@@ -18,7 +18,7 @@ description:
 
 
 {% assign tiers = "Diamond, Platinum, Gold, Silver, Bronze, Educational" | split: ', ' %}
-{% for tier in tiers%}
+{% for tier in tiers %}
 <div class="row" style="text-align: center">
   <h2 style="text-align:center">{{tier}}</h2>
   <br />
@@ -37,7 +37,7 @@ description:
       style="display: inline-block;float: none;"
     >
       <a href="{{ link }}" target="_blank">
-   {% if sponsor.name == "Expel" or sponsor.name == "Security Risk Advisors" or sponsor.name
+   {% if sponsor.name == "Security Risk Advisors" or sponsor.name
    == "Indeed" %}
    <img
    style="text-align:center; position: relative; top: -50px"
@@ -67,6 +67,14 @@ description:
  src="assets/images/sponsorLogos/{{ sponsor.image }}"
  alt="{{ sponsor.name }}"
 />
+{% elsif  sponsor.name == "Facebook" %}
+ <img
+ class="img-responsive center"
+ style="text-align:center" width="800" height="400"
+ src="assets/images/sponsorLogos/{{ sponsor.image }}"
+ alt="{{ sponsor.name }}"
+/>
+
     {% else %}
         <img
           class="ritsec-thumbnail img-responsive center"

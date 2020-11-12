@@ -2,63 +2,39 @@
   image: Facebook.png
   link: https://www.facebook.com/careers/
   tier: Diamond
-- name: Palo Alto Cybersecurity Academy
-  image: paloalto.png
-  link: https://www.paloaltonetworks.com/services/education/academy
-  tier: Diamond
 - name: Carrier
   image: Carrier.png
   link: https://www.carrier.com/carrier/en/us/
   tier: Platinum
-- name: Iomaxis_Ingressive
-  image: ingressive_iomaxis.png
-  link: http://www.iomaxis.com
-  tier: Platinum
-- name: Eaton
-  link: https://expel.io/about/careers/#find-role
-  image: Eaton.png
-  tier: Gold
-- name: Expel
-  image: expel.png
-  link: https://expel.io/
-  tier: Gold
-- name: Datto
-  image: datto.png
-  link: https://www.datto.com/
-  tier: Gold
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
-  tier: NA
-- name: Hacker Culture
-  image: hacker_culture.png
-  link: https://hackerculture.fm/
-  tier: Educational
-- name: Security Risk Advisors
-  image: sra.png
-  link: https://securityriskadvisors.com/
-  tier: Gold
-- name: Indeed
-  image: indeed_logo.png
-  link: https://www.indeed.com/
-  tier: Gold
+  tier: Platinum
 - name: MITRE
   image: mitre_logo.png
   link: https://www.mitre.org/
-  tier: Gold
-- name: Caetra.io
-  image: caetra.png
-  link: https://caetra.io/
-  tier: Educational
+  tier: Platinum
 - name: Charles River Associates
   image: cra.png
   link: https://www.crai.com/
   tier: Platinum
-- name: Redbull
-  image: redbull.png
-  link: https://www.redbull.com
+- name: Wegmans
+  image: Wegmans.jpg
+  link: https://www.wegmans.com/
+  tier: Platinum
+- name: Mindex
+  image: MINDEX-RGB.jpg
+  link: https://www.mindex.com/
+  tier: Gold
+- name: Black Hills Information Security
+  image: BHIS.jpg
+  link: https://www.blackhillsinfosec.com/
+  tier: Gold
+- name: Expel
+  image: expel.png
+  link: https://expel.io/
+  tier: Silver
+- name: Miscreants
+  image: 'miscreants circle logo.png'
+  link: https://www.miscreants.co/
   tier: Educational
-- name: "Carve Systems"
-  image: CSLLC.png
-  link: https://carvesystems.com
-  tier: Bronze
