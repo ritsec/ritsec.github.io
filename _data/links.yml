@@ -38,3 +38,6 @@ links:
   - name: CCDC Signin
     link: coming-soon
     signin: True
+  - name: Challenges
+    link: https://docs.google.com/document/d/1xfzNiU0c3IdkyKSbYhxb55JwKMMuKwMxw8n6o5-IhWE/
+    signin: False
