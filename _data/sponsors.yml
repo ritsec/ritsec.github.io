@@ -30,10 +30,10 @@
   image: BHIS.jpg
   link: https://www.blackhillsinfosec.com/
   tier: Gold
-- name: Expel
-  image: expel.png
-  link: https://expel.io/
-  tier: Silver
+- name: SRA
+  image: sra.png
+  link: https://sra.io/
+  tier: Gold
 - name: Miscreants
   image: 'miscreants circle logo.png'
   link: https://www.miscreants.co/
