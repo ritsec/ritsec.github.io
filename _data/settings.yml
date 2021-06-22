@@ -139,15 +139,15 @@ eboard_roles:
 
 about_us_short: >
   <p>
-  RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating
+  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
   and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
-  in the current world of security today. Whether you are new to computing security or a veteran, RITSEC has a place for
+  in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
   </p>
 about_us_long: >
-  RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating
+  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
   and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
-  in the current world of security today. Whether you are new to computing security or a veteran, RITSEC has a place for
+  in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
   <br><br>
   We believe security is for anyone who wants to learn and center our activities around multiple aspects of security.
@@ -172,16 +172,16 @@ interest_groups:
   - name: Physical Security Interest Group
     meeting_time: 11am - 12pm GCI Conference Room 
     description: >-
-      Run by Loudon Mehling and Enzo DeStephano, the physical security Intrest Group is all about learning the 
+      Run by Loudon Mehling and Enzo DeStephano, physical security IG is all about learning the 
       aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
-      See discord for details!
+      See workplace for details!
     leader: Loudon Mehling
   
   - name: Nexthop
     meeting_time: 6:30 PM Thursday / Fill out the when2meet on Workplace
     description: >-
-      NextHop is an Interest Group focused on fundamental network concepts, network security, and systems administration. 
-      The Interest Group is all about moving information and managing different services that run on a network and be able to secure it. 
+      NextHop is an interest group focused on fundamental network concepts, network security, and systems administration. 
+      The interest group is all about moving information and managing different services that run on a network and be able to secure it. 
       Our interactive learning community is built on our hands-on Build-It-Nights where members configure and work with new technologies
       to get practical exposure and familiarity with information technology industry standards.
     leader: Ali Alamri, Andrew Afonso, and Robert Gray
@@ -194,15 +194,15 @@ interest_programs:
       <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
     meeting_time: Every Tuesday 7:00-8:00 PM on Zoom or in GCI
     description: >-
-      Women in Cybersecurity Student Chapter (WiCyS) at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
+      Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
-    leader: Chris Sequeira
+    leader: Shannon McHale
   
   - name: Operations Program
     meeting_time: Reach out to Kyle Schleich with questions! 
     description: >-
-      The Ops Program is responisble for supporting the physical infrastructure that is used for competitions, 
-      weekly capture the flag (CTF) challanges, and other club programs. 
+      The Ops Program is responisble for supporting the physical infrastructure that is used for Competitions, 
+      weekly CTF challanges, and other club programs. 
     leader: Kyle Schleich
   
   - name: RITSEC Red Team 
