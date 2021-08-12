@@ -1,4 +1,7 @@
 links:
+  - name: RITSEC Meeting Signin
+    link: https://signin.ritsec.club
+    signin: True
   - name: Stream
     link: https://www.twitch.tv/ritsec
     signin: False
@@ -16,9 +19,6 @@ links:
     signin: False
   - name: RITSEC Constitution
     link: https://github.com/ritsec/constitution/releases/download/v1.2/constitution.pdf
-    signin: False
-  - name: Workplace Signup
-    link: https://wk.ritsec.club
     signin: False
   - name: WiCyS Signin
     link: https://docs.google.com/forms/d/e/1FAIpQLSfzAA-IsPw_HfiM2mlpsMFbtiZiIX8_TY2y3viAl9WXvVCa0A/viewform?usp=sf_link
@@ -38,6 +38,9 @@ links:
   - name: CCDC Signin
     link: coming-soon
     signin: True
-  - name: Challenges
+  - name: Education Demos
     link: https://docs.google.com/document/d/1xfzNiU0c3IdkyKSbYhxb55JwKMMuKwMxw8n6o5-IhWE/
+    signin: False
+  - name: Education Flag Submissions
+    link: https://flags.ritsec.club
     signin: False

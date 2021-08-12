@@ -1,0 +1,7 @@
+What needs to be done in 2 days:
+Fix Color
+Image Slider
+Fix Content of Paragraphs
+Fix Sponsors
+Link that does a fast redirect to ISTS Sponsorship page
+Fix Bottom bar (Connect with us links) and remove Site Map
