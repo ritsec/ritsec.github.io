@@ -192,7 +192,7 @@ interest_groups:
 
   - name: Team Contagion
     meeting_time: Bi-weekly on Wednesday from 4:30pm to 5:30pm, Location TBD
-    description: TODO
+    description: Team Contagion is the CTF, or Capture the Flag, Team of RITSEC. Meetings focus on teaching members and taking deep dives into different CTF categories. Our goal is to develop interest towards CTF’s and create a competitive CTF team that competes at the international level.
     leader: Tenchi Mata, Chandi X
 
   - name: Physical Security Interest Group
