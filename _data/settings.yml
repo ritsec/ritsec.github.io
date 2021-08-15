@@ -23,12 +23,12 @@ slider:
   - image: ists_ultra.jpg
   - image: ISTS_0.jpg
   - image: ists_intro.jpg
-  - image: cfe.jpg
+  #- image: cfe.jpg
   - image: IRSeC2019_photo.jpg
   - image: pwnboard.jpg
   - image: ists_arrest.jpg
   - image: irsec_intro.jpg
-  - image: ists_halo.jpg
+  #- image: ists_halo.jpg
   #- image: ISTS_1.jpg
   #- image: ISTS_2.jpg
   #- image: ISTS_4.jpg
