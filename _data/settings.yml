@@ -89,7 +89,7 @@ eboard_roles:
     appointee: Bradley Harker
     image: BradBioPic.jpg
     contact: "bdh9046[at]rit.edu / ritsecclub[at]gmail.com"
-    description: 
+    description: Bradley is a second-year Computing Security student. He loves web development and DevOps. He has been working on developing the cyber competition automation software, LaForge, on co-op. In his free time, he enjoys reading a great sci-fi novel and cooking.
   - name: Head of Education
     appointee: Brayden Werner
     image: BraydenBioPic.jpg
@@ -99,7 +99,7 @@ eboard_roles:
     appointee: Tenchi Mata
     image: TenchiBioPic.jpg
     contact: ttm3669[at]rit.edu
-    description: 
+    description: Tenchi is a third-year Computing Security student who's interested in Windows and IoT Security. He loves the blue teaming and plays badminton in his free time.
   - name: "Competition Architect: ISTS"
     appointee: Alison Nakai-Lackey
     image: AlisonBioPic.jpg
@@ -184,7 +184,7 @@ interest_programs:
 
 interest_groups:
   - name: RIT Vulnerability Assessment and Penetration Testing
-    meeting_time: Time TBD, Location TBD
+    meeting_time: Thursdays 7pm ET, Location TBD
     description: >-
       RVAPT on vulnerability assessment and penetration testing. 
       We equally value having a proper offensive security mindset as well as having technical skills. 
@@ -209,8 +209,8 @@ interest_groups:
   
   - name: OPS Interest Group
     meeting_time: Time TBD, Location TBD
-    description: TODO
-    leader: Malik X
+    description: More info coming soon!
+    leader: Malik
 
 #-------------------------------
 # Events
