@@ -20,11 +20,18 @@ instagram: _ritsec_
 #-------------------------------
 # Main Image Slider Settings
 slider:
+  - image: ists_ultra.jpg
   - image: ISTS_0.jpg
+  - image: ists_intro.jpg
+  - image: cfe.jpg
   - image: IRSeC2019_photo.jpg
-  - image: ISTS_1.jpg
-  - image: ISTS_2.jpg
-  - image: ISTS_4.jpg
+  - image: pwnboard.jpg
+  - image: ists_arrest.jpg
+  - image: irsec_intro.jpg
+  - image: ists_halo.jpg
+  #- image: ISTS_1.jpg
+  #- image: ISTS_2.jpg
+  #- image: ISTS_4.jpg
 #-------------------------------
 # Navbar Settings
 favicon: favicon.png
@@ -74,65 +81,55 @@ navbar:
 
 eboard_roles:
   - name: President
-    appointee: Jon Bauer
-    image: JonBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Jon is a fourth-year computing security student with a minor in networking and systems administration. Jon does a lot of offensive security as well as run the RITSEC Red Team. Currently his favorite subjects in security are operating systems and penetration testing. Outside of security he is also on the swimming and diving team and enjoys relaxing with friends.
-  - name: Director of Public Relations
-    appointee: Dani Schloss
-    image: DaniBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Dani is a second-year Computing Security student working on a Language Science immersion. She initially became interested in security because she thought she could learn a lot from breaking stuff. Outside of security, she’s pole vaulter on the RIT track team and she can be found in the labs late at night.
-  - name: Head of Education
-    appointee: Phillip Babey
-    image: PhillipBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Phillip is a third-year Computing Security student with an interest in security competititions. He has competed multiple times, and enjoys the community that the security industry fosters. In his free time he games and researches Linux.
-  - name: Head of Research
     appointee: Enzo DeStephano
     image: EnzoBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Enzo is a third-year Computing Security student. He loves picking locks and is the head of the Physical Security Interest Group. This summer, he co-oped at Principal Financial. He is also interested in IR and is getting into pentesting.
-  - name: "Competition Architect: ISTS & HackerThon"
-    appointee: Dan Szafran
-    image: DanBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Dan is a fourth-year Computing Security student with a minor in Math. Dan became interested in security because he wanted to do something helpful with the programming he already knew. In his free time he rock climbs and plays games.
+    contact: "ead4635[at]rit.edu / ritsecclub[at]gmail.com"
+    description: Enzo is a fourth-year Computing Security student. He loves Windows offensive security, especially in red/blue competitions. 
+  - name: Director of Public Relations
+    appointee: Bradley Harker
+    image: BradBioPic.jpg
+    contact: "bdh9046[at]rit.edu / ritsecclub[at]gmail.com"
+    description: Bradley is a second-year Computing Security student. He loves web development and DevOps. He has been working on developing the cyber competition automation software, LaForge, on co-op. In his free time, he enjoys reading a great sci-fi novel and cooking.
+  - name: Head of Education
+    appointee: Brayden Werner
+    image: BraydenBioPic.jpg
+    contact: bjw5517[at]rit.edu
+    description: Brayden is a third-year Computing Security Student who has an interest in wireless security and blue teaming. This summer, Brayden co-oped at Security Risk Advisors working in a SOC. In his free time, Brayden enjoys simracing, playing guitar, and swimming.
+  - name: Head of Research
+    appointee: Tenchi Mata
+    image: TenchiBioPic.jpg
+    contact: ttm3669[at]rit.edu
+    description: Tenchi is a third-year Computing Security student who's interested in Windows and IoT Security. He loves the blue teaming and plays badminton in his free time.
+  - name: "Competition Architect: ISTS"
+    appointee: Alison Nakai-Lackey
+    image: AlisonBioPic.jpg
+    contact: asn5443[at]rit.edu
+    description: Alison is a third-year Computing Security student with a minor in Computer Science. Her primary focus is in malware analysis & research. Alison currently works as a defender and malware analyst at a SOC, and was previously the Black Team Logging Lead. Outside of security, she enjoys historical sewing in her free time.
   - name: "Competition Architect: IRSeC & CTF"
-    appointee: Josh Niemann
-    image: JoshBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Josh is a fourth-year Computing Security student whose primary focus is penetration testing and Linux systems. Josh currently works at a penetration-testing firm, and has worked on Black Team as the Linux Lead. In his free time, Josh can be found climbing, biking, or reading.
-  - name: Treasurer
-    appointee: Spencer Roth
-    image: SpencerBioPic.png
-    contact: ritsecclub@gmail.com
-    description: >
-      Spencer is a third-year Computing Security student who's interested in Internet Measurement Research and IoT Security. He currently works at Vivint.Smarthome as a Security Penetration Tester. He loves the competition side of security and plays piano in his free time.
-  - name: Secretary
     appointee: Jason Howe
     image: JasonBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Jason is a second-year Computing Security student. He’s interested in Blue Teaming and Incident Response, and in his free time he’s involved with the Scouting Program.
+    contact: jbh3464[at]rit.edu
+    description: Jason is a third year Computing Security student with an affinity to all-nighters and shenanigans. He enjoys red teaming and blue teaming, and working with networking and linux. Will most likely be found with a Monster in the labs at night. In his free time, he likes to workout and enjoy the Outdoors.
+  - name: Treasurer
+    appointee: Olivia Gallucci
+    image: OliviaBioPic.jpg
+    contact: gallucci[at]protonmail.com
+    description: Olivia is a sophomore in RIT’s Honors Program, double-majoring in Computing Security and Computer Science and minoring in Free and Open Source Software and Free Culture. Olivia’s interests include open-source malware, open-access research, and cybersecurity competitions. She has worked for Open@RIT, Deloitte, and Cyber Defense Magazine. Outside of security, Olivia enjoys sailing, blogging, and reading.
+  - name: Secretary
+    appointee: Jazmin Morales
+    image: JazminBioPic.jpg
+    contact: jab5879[at]rit.edu
+    description: Jazmin is a second  year Computing Security student with a minor in psychology. Currently interested software security but wants to take on more personal projects to widen her perspective. Outside of security she plays music, fishes and explores restaurant cuisine.
   - name: Tech Lead
-    appointee: Emmanuel Adewale
-    image: EmmanuelBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Emmanuel is a third-year Computing Security student who will be working at IBM X-Force Red this Summer. In his free time he plays with os kernels and plays the piano.
+    appointee: Max Fusco
+    image: MaxBioPic.jpg
+    contact: msf9542[at]rit.edu
+    description: Max is a third-year computing Security major with a minor in math. He’s interested in pentesting and where ever his personal projects take him.  He doesn’t have any free time but if he did he would sleep.
   - name: Operations Lead
-    appointee: Kyle Schleich
-    image: KyleBioPic.jpg
-    contact: ritsecclub@gmail.com
-    description: >
-      Kyle is a fifth-year Computing Security student with a minor in Networking and Systems Administration. He is an ansible connoisseur and likes solving the problems that Ops presents. In his free time he skis.
+    appointee: Philo Gray
+    image: PhiloBioPic.jpg
+    contact: rpg4231[at]rit.edu
+    description: Philo is a fourth-year Computing Security student interested in hardware and network security. In her free time, she plays games and does film photography.
 
 #-------------------------------
 # About Us
@@ -157,62 +154,63 @@ about_us_long: >
   web security, network services, and more!
 
 #-------------------------------
-# Interest Groups
-
-interest_groups:
-  
-  - name: RIT Vulnerability Assessment and Penetration Testing
-    meeting_time: See Workplace for Announcements
-    description: >-
-      RVAPT, focuses on learning offensive security, with a primary focus on vulnerability assessment and penetration testing. 
-      We equally value having a proper offensive security mindset as well as having technical skills. 
-      RVAPT will be meeting online this semester, and the time is currently TBD.
-    leader: Spencer Roth
-
-  - name: Physical Security Interest Group
-    meeting_time: 11am - 12pm GCI Conference Room 
-    description: >-
-      Run by Loudon Mehling and Enzo DeStephano, physical security IG is all about learning the 
-      aspects of physical pentesting, with a primary focus on lockpicking. We meet 1-2 on Tuesdays! 
-      See workplace for details!
-    leader: Loudon Mehling
-  
-  - name: Nexthop
-    meeting_time: 6:30 PM Thursday / Fill out the when2meet on Workplace
-    description: >-
-      NextHop is an interest group focused on fundamental network concepts, network security, and systems administration. 
-      The interest group is all about moving information and managing different services that run on a network and be able to secure it. 
-      Our interactive learning community is built on our hands-on Build-It-Nights where members configure and work with new technologies
-      to get practical exposure and familiarity with information technology industry standards.
-    leader: Ali Alamri, Andrew Afonso, and Robert Gray
-
-#-------------------------------
 # Interest Programs
 
 interest_programs:
   - name: >-
       <a href="https://wicysrit.weebly.com/">WiCyS Student Chapter</a>
-    meeting_time: Every Tuesday 7:00-8:00 PM on Zoom or in GCI
+    meeting_time: Time TBD, Location GCI or Zoom
     description: >-
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
-    leader: Shannon McHale
+    leader: Chris Sequeira, Olivia Gallucci, Kayla Hodgsen
   
   - name: Operations Program
-    meeting_time: Reach out to Kyle Schleich with questions! 
+    meeting_time: Reach out to Philo with questions! 
     description: >-
-      The Ops Program is responisble for supporting the physical infrastructure that is used for Competitions, 
-      weekly CTF challanges, and other club programs. 
-    leader: Kyle Schleich
+      The Ops Program is responsible for supporting our physical infrastructure that is used for competitions, weekly Capture the Flag challenges, and other club programs. 
+      Members learn the inner workings of topics like software-defined networking, infrastructure-as-code, and datacenter hardware configuration, all on cloud-scale infrastructure.
+    leader: Philo Gray
   
   - name: RITSEC Red Team 
-    meeting_time: Reach out to Jon Bauer with questions!
+    meeting_time: Keep an eye out for red team recruiting. Reach out to Emmanuel with questions!
     description: >- 
-      A group of students and alumni who use custom tooling to attack 
-      competition infrastructure and provide a challenging learning environment.
-    leader: Jon Bauer
+      A group of students and alumni write and use custom tooling to attack competition infrastructure. 
+      This provides a challenging learning environment for blue teams.
+    leader: Ayobami 'Emmanuel' Adewale
 
+#-------------------------------
+# Interest Groups
 
+interest_groups:
+  - name: RIT Vulnerability Assessment and Penetration Testing
+    meeting_time: Thursdays 7pm ET, Location TBD
+    description: >-
+      RVAPT on vulnerability assessment and penetration testing. 
+      We equally value having a proper offensive security mindset as well as having technical skills. 
+    leader: Spencer Roth
+
+  - name: Team Contagion
+    meeting_time: Bi-weekly on Wednesday from 4:30pm to 5:30pm, Location TBD
+    description: Team Contagion is the CTF (Capture the Flag) Team of RITSEC. Meetings focus on teaching members and taking deep dives into different CTF categories. Our goal is to develop interest towards CTF’s and create a competitive CTF team that competes at the international level.
+    leader: Tenchi Mata, Chandi X
+
+  - name: Physical Security Interest Group
+    meeting_time: Time TBD, Location TBD
+    description: >-
+      Run by Loudon Mehling, physical security IG is all about learning the 
+      aspects of physical pentesting, with a primary focus on lockpicking. 
+    leader: Loudon Mehling
+
+  - name: Incident Response Interest Group
+    meeting_time: Tuesday 3pm, Location TBD
+    description: IRIG focuses on learning defensive security in modern business security organizations.This is not just purly technical focused as Security Organizations have to have non technical skills beucase of the need for security policy, presentations, report writing etc. As such technical skill and soft skills are equally valued.
+    leader: Evan Mikulski
+  
+  - name: OPS Interest Group
+    meeting_time: Time TBD, Location TBD
+    description: More info coming soon!
+    leader: Malik
 
 #-------------------------------
 # Events
@@ -237,17 +235,11 @@ events:
     image: ritsec_research_logo.png
   - name: <a href="https://www.ists.io">ISTS</a>
     description: >
-      March 5th - March 7th 2021. The Information Security Talent Search is an annual three-day cyber
-      attack/defend competition typically hosted in the early spring at RIT.
-      Every year, competitors from both RIT and invited colleges from around the
-      country are faced with a wide variety of challenges which are designed to
-      cover as many facets of the security industry as possible. This includes
-      defensive and offensive capabilities, system administration, software
-      security, networking, programming, and much more! Challenges and activities
-      include a CTF, King-of-the-Hill, policy writing, incident response, and
-      code review -- all while defending a completely student-built
-      infrastructure!
-    image: ists_logo.png
+      The Information Security Talent Search (ISTS) is an annual three-day competition hosted in the early spring at RIT. 
+      Every year, competitors from both RIT and colleges around the country are faced with a wide variety of challenges which are designed to cover many facets of the security industry. 
+      This includes defensive and offensive capabilities, system administration, software security, networking, programming, and much more! 
+      Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure. 
+    image: ists21.png
   - name: RITSEC CTF
     description: >
       The RITSEC CTF is a <a href="https://ctftime.org/ctf-wtf/">Jeopardy-style
@@ -255,18 +247,17 @@ events:
       to all, and registered RIT teams are eligible for prizes! The CTF generally
       focuses on binary/RE, cryptography, forensics, progamming, and web security
       challenges. We welcome beginners and more advanced security friends alike!
-    image: ritsec-ctf19.png
+    image: ctf2021.png
   - name: IRSeC
     description: >
       The Incident Response Security Competition is our more beginner-friendly
-      Red/Blue competition. IRSeC is typically hosted in the late spring at RIT.
+      Red/Blue competition. IRSeC is typically hosted in the early fall at RIT.
       With IRSeC, we aim to provide RIT students with some initial defensive and
       incident response experience. IRSeC also features an entirely student-run
       Red Team comprised of RITSEC members.
-    image: IRSEC_Logo.png
-  - name: HackerThon
+    image: irsec20.png
+  - name: NSIC
     description: >
-      Our newest event in which we spend 24 hours creating a security related tool or project. 
-      This is a great way for our members to find a side project or dedicate time to one they already have. 
-      After the Hacker-Thon, our members present their work at the research portion of our meetings.
-    image: Hackerthon_Logo.png
+      The Networking and Systems Infrastructure Competition (NSIC) is focused on building a corporate network topology from the ground up. 
+      Participants work with hardware from multiple vendors, and must work together to configure and deploy software based on business task requirements.
+    image: nsic-logo-black.png

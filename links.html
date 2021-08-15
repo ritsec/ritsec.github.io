@@ -44,7 +44,7 @@ title: Links
   <div>
     <h1 style="text-align: center;"><u>Demos/Challenges</u></h1>
 
-  {% for link in site.data.links.links %} {% if link.name == 'Challenges' %}
+  {% for link in site.data.links.links %} {% if link.name == 'Education Demos' or link.name == 'Education Flag Submissions' %}
   <div class="row" style="text-align: center; ">
    <div class="col-xs-12 vcenter">
       <div style="display: inline-block;">
@@ -59,8 +59,8 @@ title: Links
 <br />
 
 <div>
-  <h1 style="text-align: center;"><u>Other Helpful Links</u></h1>
-  {% for link in site.data.links.links %} {% if link.signin == false %}
+  <h1 style="text-align: center;"><u>RITSEC Links</u></h1>
+  {% for link in site.data.links.links %} {% if link.name != 'Education Demos' and link.name != 'Education Flag Submissions' and link.signin == false %}
   <div class="row" style="text-align: center; ">
     <div class="col-xs-12 vcenter">
       <div style="display: inline-block;">
