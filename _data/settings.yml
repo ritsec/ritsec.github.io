@@ -203,14 +203,14 @@ interest_groups:
     leader: Loudon Mehling
   
   - name: Reversing Interest Group
-      meeting_time: Wednesday 4pm ET, Location TBD
-      description: Reversing IG focuses on the low level disassembly and decompilation of software. Meetings will focus on teaching members on the tools and techniques used in the process.
-      leader: Ayobami Emmanuel Adewale, Aaron Gdanski
+    meeting_time: Wednesday 4pm ET, Location TBD
+    description: Reversing IG focuses on the low level disassembly and decompilation of software. Meetings will focus on teaching members on the tools and techniques used in the process.
+    leader: Ayobami Emmanuel Adewale, Aaron Gdanski
 
   - name: Incident Response Interest Group
-      meeting_time: Tuesday 3pm, Location TBD
-      description: IRIG focuses on learning defensive security in modern business security organizations.This is not just purly technical focused as Security Organizations have to have non technical skills beucase of the need for security policy, presentations, report writing etc. As such technical skill and soft skills are equally valued.
-      leader: Evan Mikulski
+    meeting_time: Tuesday 3pm, Location TBD
+    description: IRIG focuses on learning defensive security in modern business security organizations. This is not just purely technical-focused as security organizations have to have non-technical skills because of the need for security policy, presentations, report writing, and more. As such, technical skill and soft skills are equally valued.
+    leader: Evan Mikulski
   
   - name: OPS Interest Group
     meeting_time: Time TBD, Location TBD
