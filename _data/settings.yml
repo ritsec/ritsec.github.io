@@ -136,13 +136,13 @@ eboard_roles:
 
 about_us_short: >
   <p>
-  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
+  RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating
   and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
   in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
   </p>
 about_us_long: >
-  RITSEC is a student club dedicated to teaching "Security Through Community". RITSEC is dedicated to educating
+  RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating
   and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent
   in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for
   you. All of the activities we host to promote this learning can be found on our 'Events' page.
@@ -191,16 +191,21 @@ interest_groups:
     leader: Spencer Roth
 
   - name: Team Contagion
-    meeting_time: Bi-weekly on Wednesday from 4:30pm to 5:30pm, Location TBD
+    meeting_time: Bi-weekly on Wednesday from 6:30pm ET, Location TBD
     description: Team Contagion is the CTF (Capture the Flag) Team of RITSEC. Meetings focus on teaching members and taking deep dives into different CTF categories. Our goal is to develop interest towards CTF’s and create a competitive CTF team that competes at the international level.
-    leader: Tenchi Mata, Chandi X
+    leader: Tenchi Mata, Chandi Kanhai
 
   - name: Physical Security Interest Group
-    meeting_time: Time TBD, Location TBD
+    meeting_time: Tuesdays 1pm, Location TBD
     description: >-
       Run by Loudon Mehling, physical security IG is all about learning the 
       aspects of physical pentesting, with a primary focus on lockpicking. 
     leader: Loudon Mehling
+  
+  - name: Reversing Interest Group
+      meeting_time: Wednesday 4pm ET, Location TBD
+      description: Reversing IG focuses on the low level disassembly and decompilation of software. Meetings will focus on teaching members on the tools and techniques used in the process.
+      leader: Ayobami Emmanuel Adewale, Aaron Gdanski
 
   - name: Incident Response Interest Group
     meeting_time: Tuesday 3pm, Location TBD
@@ -210,7 +215,7 @@ interest_groups:
   - name: OPS Interest Group
     meeting_time: Time TBD, Location TBD
     description: More info coming soon!
-    leader: Malik
+    leader: Malik Hammad
 
 #-------------------------------
 # Events
