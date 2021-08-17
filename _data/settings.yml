@@ -208,9 +208,9 @@ interest_groups:
       leader: Ayobami Emmanuel Adewale, Aaron Gdanski
 
   - name: Incident Response Interest Group
-    meeting_time: Tuesday 3pm, Location TBD
-    description: IRIG focuses on learning defensive security in modern business security organizations.This is not just purly technical focused as Security Organizations have to have non technical skills beucase of the need for security policy, presentations, report writing etc. As such technical skill and soft skills are equally valued.
-    leader: Evan Mikulski
+      meeting_time: Tuesday 3pm, Location TBD
+      description: IRIG focuses on learning defensive security in modern business security organizations.This is not just purly technical focused as Security Organizations have to have non technical skills beucase of the need for security policy, presentations, report writing etc. As such technical skill and soft skills are equally valued.
+      leader: Evan Mikulski
   
   - name: OPS Interest Group
     meeting_time: Time TBD, Location TBD
