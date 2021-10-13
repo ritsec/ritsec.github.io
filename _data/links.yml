@@ -1,6 +1,6 @@
 links:
   - name: RITSEC Meeting Signin
-    link: https://signin.ritsec.club
+    link: http://signin.ritsec.club
     signin: True
   - name: Stream
     link: https://www.twitch.tv/ritsec
@@ -9,31 +9,31 @@ links:
     link: http://eepurl.com/dFJtU1
     signin: False
   - name: Present at RITSEC
-    link: https://forms.gle/bTCgBoHqN5fJGRTS9
+    link: http://presentations.ritsec.club
     signin: False  
   - name: Resume Bank
     link: https://docs.google.com/forms/d/e/1FAIpQLSfY1XIUoeaYxx7j4RXxPbRqr9vqaDtg1kMeMhVwAjf2ho84fQ/viewform
     signin: False
   - name: Feedback
-    link: https://docs.google.com/forms/d/e/1FAIpQLScUGQWqbhjYFmdVw4oBEVV9xHt3-RUYMrgnep_qspMwAeCO9w/viewform?usp=sf_link
+    link: http://feedback.ritsec.club
     signin: False
   - name: RITSEC Constitution
     link: https://github.com/ritsec/constitution/releases/download/v1.2/constitution.pdf
     signin: False
   - name: WiCyS Signin
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfzAA-IsPw_HfiM2mlpsMFbtiZiIX8_TY2y3viAl9WXvVCa0A/viewform?usp=sf_link
+    link: http://signin.wicys.ritsec.club 
     signin: True
   - name: RVAPT Signin
-    link: https://docs.google.com/forms/d/e/1FAIpQLSevQUKBPOEfvK-bhrnqdYyVSbo0DbOP57fE7RAPLtLx88I8rw/viewform?usp=sf_link
+    link: http://signin.rvapt.ritsec.club 
     signin: True
   - name: Reversing Signin
-    link: https://docs.google.com/forms/d/e/1FAIpQLSdoejFkx2zW7rrT5KuNAVx3Ry0bf4a9GNjBm9aVfFxwxNuMNQ/viewform?usp=sf_link
+    link: http://signin.reversing.ritsec.club
     signin: True
   - name: Physical Security Signin
-    link: https://docs.google.com/forms/d/e/1FAIpQLSerIVIe7bBKIe34N0QdUixOKEL2R_xbZoU59-fBb7VF9-QLig/viewform?usp=sf_link
+    link: http://signin.physical.ritsec.club
     signin: True
   - name: Incident Response Signin
-    link: https://docs.google.com/forms/d/e/1FAIpQLSe3xXb4tQ0abbbO5Bf4HYl07DwcgctJ7rCOOGrn6ikc_s9EJQ/viewform?usp=sf_link
+    link: http://signin.irig.ritsec.club 
     signin: True
   - name: CCDC Signin
     link: coming-soon
