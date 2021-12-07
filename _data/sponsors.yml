@@ -27,12 +27,16 @@
 #   link: https://www.wegmans.com/
 #   tier: Platinum
 - name: Miscreants
-  image: 'miscreants circle logo.png'
+  image: Miscreants2021.png
   link: https://www.miscreants.co/
   tier: Gold
 - name: Mindex
   image: MINDEX-RGB.jpg
   link: https://www.mindex.com/
+  tier: Silver
+- name: Vinyl Agency
+  image: VinylAgency.png
+  link: https://www.vinylagency.com/
   tier: Silver
 # - name: Black Hills Information Security
 #   image: BHIS.jpg
