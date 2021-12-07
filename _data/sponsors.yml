@@ -1,11 +1,11 @@
-- name: Facebook
-  image: Facebook.png
-  link: https://www.facebook.com/careers/
-  tier: Diamond
-- name: Carrier
-  image: Carrier.png
-  link: https://www.carrier.com/carrier/en/us/
-  tier: Platinum
+# - name: Facebook
+#   image: Facebook.png
+#   link: https://www.facebook.com/careers/
+#   tier: Diamond
+# - name: Carrier
+#   image: Carrier.png
+#   link: https://www.carrier.com/carrier/en/us/
+#   tier: Platinum
 - name: CISCO
   image: cisco.png
   link: https://www.cisco.com/
@@ -14,27 +14,27 @@
   image: mitre_logo.png
   link: https://www.mitre.org/
   tier: Platinum
-- name: Charles River Associates
-  image: cra.png
-  link: https://www.crai.com/
-  tier: Platinum
-- name: Wegmans
-  image: Wegmans.jpg
-  link: https://www.wegmans.com/
-  tier: Platinum
-- name: Mindex
-  image: MINDEX-RGB.jpg
-  link: https://www.mindex.com/
-  tier: Gold
-- name: Black Hills Information Security
-  image: BHIS.jpg
-  link: https://www.blackhillsinfosec.com/
-  tier: Gold
 - name: SRA
   image: sra.png
   link: https://sra.io/
-  tier: Gold
+  tier: Platinum
+# - name: Charles River Associates
+#   image: cra.png
+#   link: https://www.crai.com/
+#   tier: Platinum
+# - name: Wegmans
+#   image: Wegmans.jpg
+#   link: https://www.wegmans.com/
+#   tier: Platinum
 - name: Miscreants
   image: 'miscreants circle logo.png'
   link: https://www.miscreants.co/
-  tier: Educational
+  tier: Gold
+- name: Mindex
+  image: MINDEX-RGB.jpg
+  link: https://www.mindex.com/
+  tier: Silver
+# - name: Black Hills Information Security
+#   image: BHIS.jpg
+#   link: https://www.blackhillsinfosec.com/
+#   tier: Gold
