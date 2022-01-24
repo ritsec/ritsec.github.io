@@ -1,7 +1,7 @@
-# - name: Facebook
-#   image: Facebook.png
-#   link: https://www.facebook.com/careers/
-#   tier: Diamond
+- name: Meta
+  image: Meta_Platforms_Inc._logo.svg.png
+  link: https://www.facebook.com/careers/
+  tier: Diamond
 # - name: Carrier
 #   image: Carrier.png
 #   link: https://www.carrier.com/carrier/en/us/
@@ -38,7 +38,11 @@
   image: VinylAgency.png
   link: https://www.vinylagency.com/
   tier: Silver
-# - name: Black Hills Information Security
-#   image: BHIS.jpg
-#   link: https://www.blackhillsinfosec.com/
-#   tier: Gold
+- name: Black Hills Information Security
+  image: BHIS.jpg
+  link: https://www.blackhillsinfosec.com/
+  tier: Gold
+- name: M&T Bank
+  image: MT-Bank-Logo.png
+  link: https://mtb.com
+  tier: Silver
