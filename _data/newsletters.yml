@@ -1,9 +1,13 @@
+- year: 2022
+  month:
+    Spring: "Alumni_Newsletter_Spring_2022.pdf spring2022_preview.png"
+
 - year: 2020
-  month: 
+  month:
     Shmoocon: "Shmoocon_Alumni_Newsletter_2020.pdf shmoocon_preview.jpg"
-    
+
 - year: 2019
-  month: 
+  month:
     January: "Alumni_Newsletter_January_2019.pdf january19_preview.jpg"
     February: "Alumni_Newsletter_February_2019.pdf february_preview.jpg"
     March: "Alumni_Newsletter_March_2019.pdf march19_preview.jpg"

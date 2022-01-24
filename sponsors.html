@@ -1,8 +1,9 @@
 ---
 layout: info_page
 title: Sponsors
-description: 
+description:
 ---
+
 <!--
 <a style="padding-left:1.5em; text-decoration: none; font-size: 150%;" href="/sponsorship.pdf">Benefits of Sponsorship</a>
   <br>
@@ -16,74 +17,64 @@ description:
   }
 </style>
 
-
-{% assign tiers = "Diamond, Platinum, Gold, Silver, Bronze, Educational" | split: ', ' %}
-{% for tier in tiers %}
+{% assign tiers = "Diamond, Platinum, Gold, Silver, Bronze, Educational" | split: ', ' %} {% for tier in tiers %}
 <div class="row" style="text-align: center">
-  <h2 style="text-align:center">{{tier}}</h2>
+  <h2 style="text-align: center">{{tier}}</h2>
   <br />
   {% assign count = 0 %}
   {% for sponsor in site.data.sponsors %}
-   {% if {{sponsor.tier}} == {{tier}} %} 
-   
-   {% assign link = sponsor.link %}
-   {% assign remainder = {{count}} | modulo: 3 %}
-   {% if remainder == 0 and count > 0 %}
-    <br>
-   {%endif%}
-   {% assign count = count | plus: 1 %}
-   <div
-      class="col-lg-2 col-md-4 col-sm-3 col-xs-6"
-      style="display: inline-block;float: none;"
-    >
-      <a href="{{ link }}" target="_blank">
-   {% if sponsor.name == "Security Risk Advisors" or sponsor.name
-   == "Indeed" %}
-   <img
-   style="text-align:center; position: relative; top: -50px"
-   class="ritsec-thumbnail img-responsive"
-   src="assets/images/sponsorLogos/{{ sponsor.image }}"
-   alt="{{ sponsor.name }}"
- />
- {% elsif sponsor.name == "MITRE" or sponsor.name == "Redbull" or sponsor.name == "Carrier"%}
+    {% if sponsor.tier == tier %}
+  {% assign link = sponsor.link %}
+  {% assign remainder = count | modulo: 3 %}
+  {% if remainder == 0 and count > 0 %}
+  <br />
+  {%endif%} {% assign count = count | plus: 1 %}
+  <div class="col-lg-2 col-md-4 col-sm-3 col-xs-6" style="display: inline-block; float: none">
+    <a href="{{ link }}" target="_blank">
+      {% if sponsor.name == "Security Risk Advisors" or sponsor.name == "Indeed" %}
+      <img
+        style="text-align: center; position: relative; top: -50px"
+        class="ritsec-thumbnail img-responsive"
+        src="assets/images/sponsorLogos/{{ sponsor.image }}"
+        alt="{{ sponsor.name }}"
+      />
+      {% elsif sponsor.name == "MITRE" or sponsor.name == "Redbull" or sponsor.name == "Carrier"%}
 
- <img
- style="text-align:center; position: relative; top: -35px"
- class="ritsec-thumbnail img-responsive"
- src="assets/images/sponsorLogos/{{ sponsor.image }}"
- alt="{{ sponsor.name }}"
-/>
-{% elsif  sponsor.name == "Caetra.io" %}
+      <img
+        style="text-align: center; position: relative; top: -35px"
+        class="ritsec-thumbnail img-responsive"
+        src="assets/images/sponsorLogos/{{ sponsor.image }}"
+        alt="{{ sponsor.name }}"
+      />
+      {% elsif sponsor.name == "Caetra.io" %}
 
- <img
- style="text-align:center; position: relative; top: -60px"
- class="ritsec-thumbnail img-responsive"
- src="assets/images/sponsorLogos/{{ sponsor.image }}"
- alt="{{ sponsor.name }}"
-/>
-{% elsif  sponsor.name == "Charles River Associates"  %}
- <img
- style="text-align:center; position:relative; top: -45px; max-width: 200px; max-height: 200px;"
- src="assets/images/sponsorLogos/{{ sponsor.image }}"
- alt="{{ sponsor.name }}"
-/>
-{% elsif  sponsor.name == "Facebook" %}
- <img
- class="img-responsive center"
- style="text-align:center" width="800" height="400"
- src="assets/images/sponsorLogos/{{ sponsor.image }}"
- alt="{{ sponsor.name }}"
-/>
+      <img
+        style="text-align: center; position: relative; top: -60px"
+        class="ritsec-thumbnail img-responsive"
+        src="assets/images/sponsorLogos/{{ sponsor.image }}"
+        alt="{{ sponsor.name }}"
+      />
+      {% elsif sponsor.name == "Charles River Associates" %}
+      <img
+        style="text-align: center; position: relative; top: -45px; max-width: 200px; max-height: 200px"
+        src="assets/images/sponsorLogos/{{ sponsor.image }}"
+        alt="{{ sponsor.name }}"
+      />
+      {% elsif sponsor.name == "Facebook" %}
+      <img
+        class="img-responsive center"
+        style="text-align: center"
+        width="800"
+        height="400"
+        src="assets/images/sponsorLogos/{{ sponsor.image }}"
+        alt="{{ sponsor.name }}"
+      />
 
-    {% else %}
-        <img
-          class="ritsec-thumbnail img-responsive center"
-          src="assets/images/sponsorLogos/{{ sponsor.image }}"
-          alt="{{ sponsor.name }}"
-        />
-    {%endif%}
-  </a>
-</div>
+      {% else %}
+      <img class="ritsec-thumbnail img-responsive center" src="assets/images/sponsorLogos/{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+      {%endif%}
+    </a>
+  </div>
   {% endif %} {% endfor %}
 </div>
 {% endfor %}

@@ -16,7 +16,7 @@ function shuffle(array) {
     
 function reload_sponsors(){
     var images = [
-        ['assets/images/sponsorLogos/Facebook.png', "https://www.facebook.com/careers/"],['assets/images/sponsorLogos/Carrier.png', "https://www.carrier.com/carrier/en/us/"],['assets/images/sponsorLogos/cisco.png', "https://www.cisco.com/"],['assets/images/sponsorLogos/mitre_logo.png', "https://www.mitre.org/"],['assets/images/sponsorLogos/cra.png', "https://www.crai.com/"],['assets/images/sponsorLogos/Wegmans.jpg', "https://www.wegmans.com/"],['assets/images/sponsorLogos/MINDEX-RGB.jpg', "https://www.mindex.com/"],['assets/images/sponsorLogos/BHIS.jpg', "https://www.blackhillsinfosec.com/"],['assets/images/sponsorLogos/sra.png', "https://sra.io/"],['assets/images/sponsorLogos/miscreants circle logo.png', "https://www.miscreants.co/"],
+        ['assets/images/sponsorLogos/cisco.png', "https://www.cisco.com/"],['assets/images/sponsorLogos/mitre_logo.png', "https://www.mitre.org/"],['assets/images/sponsorLogos/sra.png', "https://sra.io/"],['assets/images/sponsorLogos/Miscreants2021.png', "https://www.miscreants.co/"],['assets/images/sponsorLogos/MINDEX-RGB.jpg', "https://www.mindex.com/"],['assets/images/sponsorLogos/VinylAgency.png', "https://www.vinylagency.com/"],
     ];
     images = shuffle(images);
     for(i=0;i<4;i++){
