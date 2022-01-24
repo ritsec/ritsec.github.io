@@ -20,14 +20,14 @@ instagram: _ritsec_
 #-------------------------------
 # Main Image Slider Settings
 slider:
-  - image: ists_ultra.jpg
-  - image: ISTS_0.jpg
-  - image: ists_intro.jpg
-  #- image: cfe.jpg
-  - image: IRSeC2019_photo.jpg
-  - image: pwnboard.jpg
-  - image: ists_arrest.jpg
-  - image: irsec_intro.jpg
+  - image: ritsec21_1.jpeg
+  - image: ritsec21_2.jpeg
+  - image: ritsec21_3.jpeg
+  - image: ritsec21_4.jpeg
+  # - image: ritsec21_5.jpeg
+  - image: irsec21_1.jpeg
+  - image: irsec21_2.jpeg
+  - image: irsec21_3.jpeg
   #- image: ists_halo.jpg
   #- image: ISTS_1.jpg
   #- image: ISTS_2.jpg
@@ -58,11 +58,10 @@ navbar:
   - name: "Events"
     link: "events.html"
     subitems:
-       - name: "Events"
-         link: "events.html"
-       - name: "Newsletters"
-         link: "newsletters.html"
-
+      - name: "Events"
+        link: "events.html"
+      - name: "Newsletters"
+        link: "newsletters.html"
 
   - name: "Resources"
     link: "resources.html"
@@ -84,7 +83,7 @@ eboard_roles:
     appointee: Enzo DeStephano
     image: EnzoBioPic.jpg
     contact: "ead4635[at]rit.edu / ritsecclub[at]gmail.com"
-    description: Enzo is a fourth-year Computing Security student. He loves Windows offensive security, especially in red/blue competitions. 
+    description: Enzo is a fourth-year Computing Security student. He loves Windows offensive security, especially in red/blue competitions.
   - name: Director of Public Relations
     appointee: Bradley Harker
     image: BradBioPic.jpg
@@ -164,17 +163,17 @@ interest_programs:
       Women in Cybersecurity Student Chapter at RIT is an all-inclusive interest group dedicated to making RIT's computing security community a better environment for women.
       The chapter holds meetings and events for students to come together and share their passion for security while also creating a supportive network.
     leader: Chris Sequeira, Olivia Gallucci, Kayla Hodgson
-  
+
   - name: Operations Program
-    meeting_time: Reach out to Philo with questions! 
+    meeting_time: Reach out to Philo with questions!
     description: >-
       The Ops Program is responsible for supporting our physical infrastructure that is used for competitions, weekly Capture the Flag challenges, and other club programs. 
       Members learn the inner workings of topics like software-defined networking, infrastructure-as-code, and datacenter hardware configuration, all on cloud-scale infrastructure.
     leader: Philo Gray
-  
-  - name: RITSEC Red Team 
+
+  - name: RITSEC Red Team
     meeting_time: Keep an eye out for red team recruiting. Reach out to Emmanuel with questions!
-    description: >- 
+    description: >-
       A group of students and alumni write and use custom tooling to attack competition infrastructure. 
       This provides a challenging learning environment for blue teams.
     leader: Ayobami 'Emmanuel' Adewale
@@ -187,7 +186,7 @@ interest_groups:
     meeting_time: Thursdays 7pm ET, Location TBD
     description: >-
       RVAPT on vulnerability assessment and penetration testing. 
-      We equally value having a proper offensive security mindset as well as having technical skills. 
+      We equally value having a proper offensive security mindset as well as having technical skills.
     leader: Spencer Roth
 
   - name: Team Contagion
@@ -199,9 +198,9 @@ interest_groups:
     meeting_time: Tuesdays 1pm, Location TBD
     description: >-
       Run by Loudon Mehling, physical security IG is all about learning the 
-      aspects of physical pentesting, with a primary focus on lockpicking. 
+      aspects of physical pentesting, with a primary focus on lockpicking.
     leader: Loudon Mehling
-  
+
   - name: Reversing Interest Group
     meeting_time: Wednesday 4pm ET, Location TBD
     description: "Reversing IG focuses on the low level disassembly and decompilation of software. Meetings will focus on teaching members on the tools and techniques used in the process."
@@ -211,7 +210,7 @@ interest_groups:
     meeting_time: Tuesday 3pm, Location TBD
     description: "IRIG focuses on learning defensive security in modern business security organizations. This is not just purely technical-focused as security organizations have to have non-technical skills because of the need for security policy, presentations, report writing, and more. As such, technical skill and soft skills are equally valued."
     leader: Evan Mikulski
-  
+
   - name: OPS Interest Group
     meeting_time: 12:30pm to 1:30pm, Location TBD
     description: More info coming soon!
@@ -243,7 +242,7 @@ events:
       The Information Security Talent Search (ISTS) is an annual three-day competition hosted in the early spring at RIT. 
       Every year, competitors from both RIT and colleges around the country are faced with a wide variety of challenges which are designed to cover many facets of the security industry. 
       This includes defensive and offensive capabilities, system administration, software security, networking, programming, and much more! 
-      Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure. 
+      Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure.
     image: ists21.png
   - name: RITSEC CTF
     description: >
