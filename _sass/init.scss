@@ -20,13 +20,7 @@ html {
   // Header variables
   --header-color: rgba(18, 16, 19, 0.35);
   --header-color-mobile: rgba(18, 16, 19, 0.95);
-  --header-image-url: url("/assets/images/ritsec_logo_final-05.png");
-
-  // Home page variables
-  // --background-image: url("/assets/images/ritsec_bg.png");
-  // --gradient-1: #9c491c;
-  // --gradient-2: #524f52;
-  // --gradient-3: #554139;
+  --header-image-url: url(/assets/images/ritsec_logo_final-05.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -43,10 +37,10 @@ html {
     // Header variables
     --header-color: rgba(211, 210, 211, 0.35);
     --header-color-mobile: rgba(211, 210, 211, 0.95);
-    --header-image-url: url("/assets/images/ritsec_logo_final-05.png");
+    --header-image-url: url(/assets/images/ritsec_logo_final-05.png);
 
     // Home page variables
-    --background-image: url("/assets/images/ritsec_bg.png");
+    --background-image: url(/assets/images/ritsec_bg.png);
     --gradient-1: #97715c;
     --gradient-2: #9e9791;
     --gradient-3: #b38978;
