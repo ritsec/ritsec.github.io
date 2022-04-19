@@ -1,0 +1,474 @@
+sections:
+  - title: About Us
+    description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
+
+  - title: Interest Groups
+    description: TBD
+
+  - title: 2021-2022 E-Board
+    members:
+      - name: Enzo D.
+        position: President
+        grad_year: 22
+        avatar: "assets/images/2021eboard/enzo.jpeg"
+        socials:
+          github: d3adzo
+          linkedin:
+          email: enzo.destephano@rit.edu
+          other:
+
+      - name: Bradley H.
+        position: Public Relations
+        grad_year: 24
+        avatar: "assets/images/2021eboard/brad.jpeg"
+        socials:
+          github: BradHacker
+          linkedin: bradley-harker-60604262
+          email: bdh9046@rit.edu
+          other:
+
+      - name: Brayden W.
+        position: Head of Education
+        grad_year: 23
+        avatar: "assets/images/2021eboard/brayden.jpeg"
+        socials:
+          github: PapaChain
+          linkedin: braydenwerner
+          email: bjw5517@mail.rit.edu
+          other:
+
+      - name: Tenchi M.
+        position: Head of Research
+        grad_year: 23
+        avatar: "assets/images/2021eboard/tenchi.jpeg"
+        socials:
+          github: Kagu7uchi
+          linkedin: tenchimata
+          email: ttm3669@rit.edu
+          other:
+
+      - name: Alison N.
+        position: ISTS CA
+        grad_year: 23
+        avatar: "assets/images/2021eboard/alison.jpeg"
+        socials:
+          github:
+          linkedin: alison-nakai-lackey
+          email: asn5443@rit.edu
+          other: twitter.com/REscrabble
+
+      - name: Jason H.
+        position: IRSec & CTF CA
+        grad_year: 23
+        avatar: "assets/images/2021eboard/jason.jpeg"
+        socials:
+          github: P0nt14c
+          linkedin: JasonHowe
+          email: jbh3464@rit.edu
+          other:
+
+      - name: Olivia G.
+        position: Treasurer
+        grad_year: 25
+        avatar: "assets/images/2021eboard/olivia.jpeg"
+        socials:
+          github: oliviagallucci
+          linkedin: olivia-gallucci
+          email: gallucci@protonmail.com
+          other: https://oliviagallucci.com/
+
+      - name: Jazmin M.
+        position: Secretary
+        grad_year: 24
+        avatar: "assets/images/2021eboard/jazmin.jpeg"
+        socials:
+          github:
+          linkedin: jazmin-berduo-morales
+          email: jab5879@rit.edu
+          other:
+
+      - name: Max F.
+        position: Tech Lead
+        grad_year: 23
+        avatar: "assets/images/2021eboard/max.jpeg"
+        socials:
+          github: 1nv8rZim
+          linkedin: maxfusco
+          email: maxfusco@mail.rit.edu
+          other:
+
+      - name: Philomena G.
+        position: Operations Lead
+        grad_year: 22
+        avatar: "assets/images/2021eboard/philo.jpeg"
+        socials:
+          github: FlamingSpork
+          linkedin:
+          email: rpg4231@rit.edu
+          other:
+
+  - title: Social Media
+    description: Stay up to date with our social media pages!
+
+past_eboards:
+  - year: 2020-2021
+    org_name: RITSEC
+    members:
+      - name: Jonathan Bauer
+        position: President
+      - name: Phillip Babey
+        position: Head of Education
+      - name: Enzo DeStephano
+        position: Head of Research
+      - name: Daniel Szafran
+        position: ISTS Competition Architect
+      - name: Joshua Niemann
+        position: IRSeC CA
+      - name: Spencer Roth
+        position: Treasurer
+      - name: Jason Howe
+        position: Secretary
+      - name: Danielle Schloss
+        position: Director of Public Relations
+      - name: Kyle Schleich
+        position: Operations Lead
+      - name: Ayobami 'Emmanuel' Adewale
+        position: Tech Lead
+  - year: 2019-2020
+    org_name: RITSEC
+    members:
+      - name: Shannon McHale
+        position: President
+      - name: Owen Siebert
+        position: Head of Education
+      - name: Ian Furr
+        position: Head of Research
+      - name: Jack McKenna
+        position: ISTS Competition Architect
+      - name: Quintin Walters
+        position: IRSEC CA
+      - name: Amanda Brown
+        position: Treasurer
+      - name: Jon Bauer
+        position: Secretary
+      - name: Adrianna Visca
+        position: Director of Public Relations
+      - name: Evan Mikulski/Kyle Schleich
+        position: Operations Lead
+      - name: Sunggwan Choi
+        position: Tech Lead
+        
+  - year: 2018-2019
+    org_name: RITSEC
+    members:
+      - name: Micah Martin
+        position: President
+      - name: Russell Babarsky
+        position: Head of Education
+      - name: Nick O'Brien
+        position: Head of Research
+      - name: Sean Newman
+        position: Competition Architect
+      - name: Shannon McHale
+        position: Treasurer
+      - name: Jack McKenna
+        position: Secretary
+      - name: Alicen Dipiano
+        position: Director of Public Relations
+      - name: Brandon Adler
+        position: Operations Lead
+      - name: Scott Brink
+        position: Tech Lead
+  - year: 2017-2018
+    multi_org: yes
+    organizations:
+      - org_name: RC3
+        members:
+          - name: Sean Sun
+            position: President
+          - name: Ohan Fillbach
+            position: Vice President
+          - name: Kristen Tumacder
+            position: Competition Architect
+          - name: Sean Newman
+            position: Secretary
+          - name: Michael Milkovich/Shannon McHale
+            position: Treasurer
+          - name: Bryson McIver
+            position: Web Admin
+          - name: Susan Lunn
+            position: Operations
+          - name: Megan Fritts, Bill Stackpole
+            position: Faculty Advisor
+      - org_name: SPARSA
+        members:
+          - name: Micah Martin
+            position: President
+          - name: Kyle Carretto
+            position: Vice President of Practices
+          - name: Cameron Clark
+            position: Vice President of Research
+          - name: Josh Stuts
+            position: Treasurer
+          - name: Russell Babarsky
+            position: Secretary
+          - name: Bo Yuan
+            position: Faculty Advisor
+  - year: 2016-2017
+    multi_org: yes
+    organizations:
+      - org_name: RC3
+        members:
+          - name: Ben Bornholm
+            position: President
+          - name: Nicholas Piazza
+            position: Vice President
+          - name: Brad Campbell
+            position: Tech Lead
+          - name: Sarah Jacobus/Sean Sun
+            position: Competition Architect
+          - name: Sean Sun/Ohan Fillbach
+            position: Web
+          - name: Michael Milkovich
+            position: Treasurer
+          - name: Kristen Tumacder
+            position: Secretary
+      - org_name: SPARSA
+        members:
+          - name: Jesse Buonanno
+            position: President
+          - name: Cameron Clark
+            position: Vice President of Practices
+          - name: Dave Kukfa
+            position: Vice President of Research
+          - name: Brandon Adler
+            position: Treasurer
+          - name: Jon Myers
+            position: Secretary
+          - name: Bo Yuan
+            position: Faculty Advisor
+  - year: 2015-2016
+    multi_org: yes
+    organizations:
+      - org_name: RC3
+        members:
+          - name: Scott Vincent
+            position: President
+          - name: Sean McConnell
+            position: Vice President
+          - name: Ed Mead
+            position: Tech Lead
+          - name: Luke Matarazzo
+            position: Competition Architect
+          - name: Jaime Geiger
+            position: Web
+          - name: Ben Bornholm
+            position: Treasurer
+          - name: Pooja Sharma
+            position: Secretary
+      - org_name: SPARSA
+        members:
+          - name: Corrine Smith
+            position: President
+          - name: Tyler Fornes
+            position: Vice President of Research
+          - name: Jesse Buonanno
+            position: Treasurer
+          - name: Peter Muller
+            position: Secretary
+          - name: Jared Stroud and Bryan Harmat
+            position: Graduate Advisor
+          - name: Bo Yuan
+            position: Faculty Advisor
+  - year: 2014-2015
+    multi_org: yes
+    organizations:
+      - org_name: RC3
+        members:
+          - name: Jon Barber/Jaime Geiger
+            position: President
+          - name: Jaime Geiger/Nicholas Piazza
+            position: Vice President
+          - name: Scott Vincent
+            position: Vice President of Administration
+          - name: Sean McConnell
+            position: Vice President of Technology
+          - name: Ben Bornholm
+            position: Treasurer
+          - name: Sean McConnell/Luke Christian
+            position: Secretary
+      - org_name: SPARSA
+        members:
+          - name: Bryan Harmat
+            position: President
+          - name: Jared Stroud
+            position: Vice President of Practices
+          - name: Jon Barber/Stanley Chan
+            position: Vice President of Research
+          - name: Mike O’Gorman/Peter Muller
+            position: Treasurer
+          - name: Corinne Smith
+            position: Secretary
+          - name: Stanley Chan
+            position: Graduate Advisor
+          - name: Bo Yuan
+            position: Faculty Advisor
+  - year: 2013-2014
+    multi_org: yes
+    organizations:
+      - org_name: RC3
+        members:
+          - name: Brandon Maur and Thomas Desrosiers
+            position: Founders
+          - name: Zuhdi "Z" Abdelkarim
+            position: President
+          - name: Daniel Syed
+            position: Vice President
+          - name: Jon Barber
+            position: Vice President of Technology
+      - org_name: SPARSA
+        members:
+          - name: Ben Kelley
+            position: President
+          - name: Bryan Harmat
+            position: Vice President of Practices
+          - name: Lucas Duffey/Stanley Chan
+            position: Vice President of Research
+          - name: Claire McKenna
+            position: Treasurer
+          - name: Jared Stroud
+            position: Secretary
+          - name: Ben Andrews
+            position: Graduate Advisor
+          - name: Bo Yuan
+            position: Faculty Advisor
+
+  - year: 2012-2013
+    org_name: SPARSA
+    members:
+      - name: Stanley Chan
+        position: President
+      - name: Ben Kelley
+        position: Vice President of Practices
+      - name: Brandon Myers
+        position: Vice President of Research
+      - name: Lucas Duffey
+        position: Treasurer
+      - name: Kayla Green
+        position: Secretary
+      - name: Chaim Sanders
+        position: Graduate Advisor
+      - name: Gary Scarborough and Bo Yuan
+        position: Faculty Advisor
+  - year: 2011-2012
+    org_name: SPARSA
+    members:
+      - name: Ryan Peck
+        position: President
+      - name: Neil Zimmerman
+        position: Vice President of Practices
+      - name: Chaim Sanders
+        position: Vice President of Research
+      - name: Lucas Duffey
+        position: Treasurer
+      - name: Stanley Chan
+        position: Secretary
+      - name: Gary Scarborough
+        position: Faculty Advisor
+  - year: 2010-2011
+    org_name: SPARSA
+    members:
+      - name: Jacob Ruppal
+        position: President
+      - name: Chaim Sanders
+        position: Vice President of Practices
+      - name: Ryan Peck
+        position: Treasurer
+      - name: Michael Tortora
+        position: Secretary
+      - name: Gary Scarborough
+        position: Faculty Advisor
+  - year: 2009-2010
+    org_name: SPARSA
+    members:
+      - name: Conner Finlay
+        position: President
+      - name: Jacob Ruppal
+        position: Vice President of Practices
+      - name: Josh Smith
+        position: Vice President of Research
+      - name: Chaim Sanders
+        position: Treasurer
+      - name: Neil Zimmerman
+        position: Secretary
+  - year: 2007-2008
+    org_name: SPARSA
+    members:
+      - name: Alex Getty
+        position: President
+      - name: Connor Finlay
+        position: Vice President of Practices
+      - name: Josh Smith
+        position: Vice President of Research
+      - name: Adam Burke
+        position: Treasurer
+      - name: Jacob Ruppal
+        position: Secretary
+  - year: 2006-2007
+    org_name: SPARSA
+    members:
+      - name: Jason Batchelor
+        position: President
+      - name: Alex Getty
+        position: Vice President of Practices
+      - name: Nick Carpenter
+        position: Vice President of Research
+  - year: 2005-2006
+    org_name: SPARSA
+    members:
+      - name: Jason Batchelor
+        position: Vice President of Practices
+  - year: 2004-2005
+    org_name: SPARSA
+    members:
+      - name: Jeff Volante
+        position: President
+      - name: Jim Farrelly
+        position: Vice President of Practices
+      - name: Sara Berg
+        position: Vice President of Research
+      - name: Brian Luteran
+        position: Treasurer
+      - name: Jason Batchelor
+        position: Secretary
+  - year: 2003-2004
+    org_name: SPARSA
+    members:
+      - name: Keith LeClaire
+        position: President
+  - year: 2002-2003
+    org_name: SPARSA
+    members:
+      - name: Steve Frank
+        position: President
+      - name: Jeff Volante
+        position: Vice President of Practices
+      - name: Keith LeClaire
+        position: Vice President of Research
+      - name: Katie Hathaway
+        position: Treasurer
+      - name: Jim Farrelly
+        position: Secretary
+  - year: 2001-2002
+    org_name: SPARSA
+    members:
+      - name: Jared Campbell
+        position: President
+      - name: Matt Hile
+        position: Vice President of Practices
+      - name: Gena Daley
+        position: Vice President of Research
+      - name: Reina Smith
+        position: Treasurer
+      - name: Aksh Sehgal
+        position: Secretary

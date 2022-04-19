@@ -1,0 +1,177 @@
+sections:
+  - title: Alumni
+    description: Meet all of our wonderful alumni!
+
+alumni:
+
+  # make visible after finals :)
+  # - year: 2022 
+  #   name: Enzo DeStephano
+  # - year: 2022
+  #   name: Jake McLellan 
+  # - year: 2022 
+  #   name: Loudon Mehling
+  # - year: 2022
+  #   name: Fred Rybin
+  # - year: 2022
+  #   name: Brendan McGlynn
+  # - year: 2022
+  #   name: Phillip Babey 
+  # - year: 2022
+  #   name: Ayobami Emmanuel Adawale 
+  # - year: 2022
+  #   name: Philomena Gray 
+  # - year: 2022
+  #   name: Andrew Quan
+  # - year: 2022 
+  #   name: Ian Stroszeck
+  # - year: 2022
+  #   name: Chris Sequeira
+  # - year: 2022
+  #   name: Andrew Afonso
+  # - year: 2022
+  #   name: Josh Brown
+  # - year: 2022
+  #   name: Mona Naveed
+  # - year: 2022
+  #   name: Michael Madden
+  # - year: 2022
+  #   name: Anna Volpova 
+  # - year: 2022
+  #   name: Valerie Lidiak
+  # - year: 2022
+  #   name: Patrick Marchione
+  # - year: 2022 
+  #   name: Patrick Lamanna
+  - year: 2021
+    name: Daniel Szafran
+  - year: 2021
+    name: Adrianna Visca
+  - year: 2021
+    name: Jonathan Bauer
+  - year: 2021
+    name: Marc Barclay
+  - year: 2021
+    name: Connor Leavesley
+  - year: 2021
+    name: Becca Fried
+  - year: 2021
+    name: Julie McGlensey
+  - year: 2021
+    name: Shannon McHale
+  - year: 2021
+    name: Zach Jorgensen
+  - year: 2021
+    name: Emily Wu
+  - year: 2021
+    name: Simon Buchheit
+  - year: 2021
+    name: Joshua Niemann
+  - year: 2021
+    name: Adriano DeCastro
+  - year: 2021
+    name: Jared Albert
+  - year: 2020
+    name: Ian Furr
+  - year: 2020
+    name: Quintin Walters
+  - year: 2020
+    name: Owen Siebert
+  - year: 2020
+    name: Brandon Adler
+  - year: 2020
+    name: Jack McKenna
+  - year: 2020
+    name:  Kyle Schleich
+  - year: 2019
+    name: Scott Brink
+  - year: 2019
+    name: Micah Martin
+  - year: 2019
+    name: Jim Maskelony
+  - year: 2019
+    name: Nick O’Brien
+  - year: 2018
+    name: Kyle Carretto
+  - year: 2018
+    name: Lucas Christian
+  - year: 2012
+    name: Ryan Peck
+  - year: 2012
+    name: Brian Muller
+  - year: 2012
+    name: Corey Sinay
+  - year: 2012
+    name: Rusty Bower
+  - year: 2012
+    name: Zack Allen
+  - year: 2012
+    name: James Gimbi
+  - year: 2012
+    name: Kirk Pinto
+  - year: 2012
+    name: James Brigden
+  - year: 2012 
+    name: David Pearson
+  - year: 2011
+    name: Michael Tortora
+  - year: 2011
+    name: Susy Munoz
+  - year: 2011
+    name: Silas Cutler
+  - year: 2011
+    name: Jacob Ruppal
+  - year: 2011
+    name: Jacob Valletta
+  - year: 2011
+    name: Alex Shagla-McKotch
+  - year: 2010
+    name: Liz Kiewiet
+  - year: 2010
+    name: Tim Guyot
+  - year: 2010
+    name: Gerry Brunelle
+  - year: 2010
+    name: Conner Finlay
+  - year: 2010
+    name: Josh Smith
+  - year: 2010
+    name: Nathan Przybyszewski
+  - year: 2009
+    name: Aidan Blake
+  - year: 2009
+    name: Adam Burke
+  - year: 2009
+    name: Alex Getty
+  - year: 2008
+    name: Jason Batchelor
+  - year: 2007
+    name: Derek Anderson
+  - year: 2007
+    name: Nick Carpenter
+  - year: 2006
+    name: Sara Berg
+  - year: 2006
+    name: Greg Snyder
+  - year: 2006
+    name: Brian Luteran
+  - year: 2006
+    name: Jim Farrelly
+  - year: 2006
+    name: Jeff Volante
+  - year: 2006
+    name: Aron Stern
+  - year: 2005
+    name: Blake Darche
+  - year: 2004
+    name: Matthew Repicky
+  - year: 2004
+    name: Steve Frank
+  - year: 2004
+    name: Keith LeClaire Jr.
+  - year: 2003
+    name: Alex Moundalexis
+  - year: 2003
+    name: Aksh Sehgal
+  - year: 2003
+    name: Jeremy Beyette

@@ -1,48 +1,58 @@
-- name: Meta
-  image: Meta_Platforms_Inc._logo.svg.png
-  link: https://www.facebook.com/careers/
-  tier: Diamond
-# - name: Carrier
-#   image: Carrier.png
-#   link: https://www.carrier.com/carrier/en/us/
-#   tier: Platinum
-- name: CISCO
-  image: cisco.png
-  link: https://www.cisco.com/
-  tier: Platinum
-- name: MITRE
-  image: mitre_logo.png
-  link: https://www.mitre.org/
-  tier: Platinum
-- name: SRA
-  image: sra.png
-  link: https://sra.io/
-  tier: Platinum
-# - name: Charles River Associates
-#   image: cra.png
-#   link: https://www.crai.com/
-#   tier: Platinum
-# - name: Wegmans
-#   image: Wegmans.jpg
-#   link: https://www.wegmans.com/
-#   tier: Platinum
-- name: Miscreants
-  image: Miscreants2021.png
-  link: https://www.miscreants.co/
-  tier: Gold
-- name: Mindex
-  image: MINDEX-RGB.jpg
-  link: https://www.mindex.com/
-  tier: Silver
-- name: Vinyl Agency
-  image: VinylAgency.png
-  link: https://www.vinylagency.com/
-  tier: Silver
-- name: Black Hills Information Security
-  image: BHIS.jpg
-  link: https://www.blackhillsinfosec.com/
-  tier: Gold
-- name: M&T Bank
-  image: MT-Bank-Logo.png
-  link: https://mtb.com
-  tier: Silver
+sections:
+  - title: Sponsors
+    description:
+
+    sponsors:
+      - title: Meta
+        tier: Diamond
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/meta.png
+        url: https://www.metacareers.com/
+
+      - title: Cisco
+        tier: Platinum
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/cisco.png
+        url: https://www.cisco.com/
+
+      - title: MITRE
+        tier: Platinum
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/mitre.png
+        url: https://www.mitre.org/
+
+      - title: Security Risk Advisors
+        tier: Platinum
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/sra.png
+        url: https://sra.io/
+
+      - title: Miscreants
+        tier: Gold
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/miscreants.svg
+        url: https://www.miscreants.co/
+
+      - title: Black Hills Information Security
+        tier: Gold
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/bhis.webp
+        url: https://www.blackhillsinfosec.com/
+
+      - title: Mindex
+        tier: Silver
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/mindex.jpeg
+        url: https://www.blackhillsinfosec.com/
+
+      - title: Vinyl
+        tier: Silver
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/vinyl.png
+        url: https://www.vinylagency.com/
+
+      - title: M&T Bank
+        tier: Silver
+        # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non tincidunt tellus. Nunc suscipit ligula purus, quis bibendum lacus sodales in. Integer eleifend venenatis ornare. Cras egestas ornare mauris, nec posuere purus gravida ac. Vivamus sem est, pulvinar a velit id, maximus pharetra tortor. In et enim et mauris mattis scelerisque.
+        image: /assets/images/sponsors/mt.png
+        url: https://www3.mtb.com/

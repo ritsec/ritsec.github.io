@@ -1,0 +1,39 @@
+sections:
+  - title: Events
+    description: Here are some events that we have coming up
+
+    events:
+      - title: Weekly Education Meeting
+        date: 12 - 2 PM on Fridays
+        location: Rochester, NY
+        image: "assets/images/education.jpg"
+        url: https://twitch.tv/ritsec
+
+      - title: Weekly Research Meeting
+        date: 2 - 4 PM on Fridays
+        location: Rochester, NY
+        image: "assets/images/research.jpg"
+        url: https://twitch.tv/ritsec
+
+      - title: ISTS
+        date: TBD
+        location: Rochester, NY
+        image: "assets/images/ists2022.JPG"
+        url: https://ists.io/
+
+      - title: RITSEC CTF
+        date: TBD
+        location: Rochester, NY & Virtual!
+        image: "assets/images/ctf_22.png"
+        url: https://ctftime.org/ctf-wtf/
+
+      - title: IRSeC
+        date: TBD
+        location: Rochester, NY
+        image: "assets/images/irsec2021.jpeg"
+        url: https://irsec.club/
+
+      - title: Career Fair Eve
+        date: TBD
+        location: Rochester, NY
+        image: "assets/images/cfe.jpg"

@@ -1,0 +1,50 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors.html
+---
+
+{%- assign data = site.data.sponsors -%}
+<div>
+  {%- for section in data.sections -%}
+  <section class="sponsors-section">
+    <div class="heading-title">{{ section.title }}</div>
+    <div class="heading-description">{{ section.description }}</div>
+    <a class="sponsor-button become-a-sponsor" href="assets/sponsorship.pdf"> Become a Sponsor </a>
+    <div class="sponsors-container">
+      <div class="sponsors-grid">
+        {%- for sponsor in section.sponsors -%} {%- assign prevIndex = forloop.index | minus: 2 -%} {%- if prevIndex < 0 or
+        section.sponsors[prevIndex].tier != sponsor.tier -%}
+        <div class="sponsor-tier {{sponsor.tier | downcase}}">{{sponsor.tier}} Sponsors</div>
+        {%- endif -%} {%- assign modulo = forloop.index | modulo: 2 -%} {%- if modulo == 1 -%}
+        <div class="sponsor">
+          <div class="sponsor-info">
+            <div class="sponsor-title">{{ sponsor.title }}</div>
+            <div class="sponsor-description">{{ sponsor.description }}</div>
+            <a class="sponsor-button" href="{{ sponsor.url }}"> Learn More </a>
+          </div>
+          <div class="sponsor-image-container">
+            <a class="sponsor-image-wrapper" href="{{ sponsor.url }}">
+              <img src="{{ sponsor.image | relative_url }}" alt="sponsor-image" class="sponsor-image"
+            /></a>
+          </div>
+        </div>
+        {%- else -%}
+        <div class="sponsor-odd">
+          <div class="sponsor-image-container">
+            <a class="sponsor-image-wrapper" href="{{ sponsor.url }}">
+              <img src="{{ sponsor.image | relative_url }}" alt="sponsor-image" class="sponsor-image"
+            /></a>
+          </div>
+          <div class="sponsor-info-odd">
+            <div class="sponsor-title">{{ sponsor.title }}</div>
+            <div class="sponsor-description">{{ sponsor.description }}</div>
+            <a class="sponsor-button" href="{{ sponsor.url }}"> Learn More </a>
+          </div>
+        </div>
+        {%- endif -%} {%- endfor -%}
+      </div>
+    </div>
+  </section>
+  {%- endfor -%}
+</div>
