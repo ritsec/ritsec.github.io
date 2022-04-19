@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+// Default variables
+
+html {
+  transition: all 0.3s ease;
+}
+
+// Dark mode styles
+html {
+  // Base variables
+  --background-color: #0d0d0f;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-color: #ffffff;
+  --light-text-color: #ccc;
+  --link-color: #ff7613;
+  --card-color: #26262b;
+  --card-color-light: #2d2d33;
+
+  // Header variables
+  --header-color: rgba(18, 16, 19, 0.35);
+  --header-color-mobile: rgba(18, 16, 19, 0.95);
+  --header-image-url: url("/assets/images/ritsec_logo_final-05.png");
+
+  // Home page variables
+  // //--background-image: url("/assets/images/ritsec_bg.png");
+  // --gradient-1: #9c491c;
+  // --gradient-2: #524f52;
+  // --gradient-3: #554139;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    // Base variables
+    --background-color: #d3d2d3;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --text-color: #000000;
+    --light-text-color: #525252;
+    --link-color: #ff7613;
+    --card-color: #f3f3f4;
+    --card-color-light: #e2e2e7;
+
+    // Header variables
+    --header-color: rgba(211, 210, 211, 0.35);
+    --header-color-mobile: rgba(211, 210, 211, 0.95);
+    --header-image-url: url("/assets/images/ritsec_logo_final-05.png");
+
+    // Home page variables
+    --background-image: url("/assets/images/ritsec_bg.png");
+    --gradient-1: #97715c;
+    --gradient-2: #9e9791;
+    --gradient-3: #b38978;
+  }
+}
+
+@import "main", "pages/home", "pages/about", "pages/education", "pages/events", "pages/gallery", "pages/links", "pages/sponsors",
+  "pages/alumni";

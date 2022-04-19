@@ -1,10 +1,15 @@
-host: 0.0.0.0
+title: RITSEC
+author:
+  name: RITSEC
+  email: ritsecclub@gmail.com
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown
+social_links:
+  github: ritsec
+  facebook: RITSEC
+  twitter: ritsecclub
+  instagram: _ritsec_
+  youtube: RITSEC
+  discord: W7NefdyzHZ
 
 plugins:
-  - jekyll-sitemap
+  - jekyll-seo-tag
