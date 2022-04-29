@@ -13,7 +13,7 @@ permalink: /gallery.html
     <div class="gallery-container">
       <div class="gallery-grid">
         {%- for photo in section.photos -%}
-        <div class="gallery-photo">
+        <a href="{{photo.link}}" class="gallery-photo" target="_blank" rel="noreferrer">
           <div>
             <img class="gallery-photo_image" src="{{photo.image}}" />
           </div>
@@ -21,7 +21,7 @@ permalink: /gallery.html
             <div class="gallery-photo_caption-title">{{photo.title}}</div>
             <div class="gallery-photo_caption-description">{{photo.caption}}</div>
           </div>
-        </div>
+        </a>
         {%- endfor -%}
       </div>
     </div>
