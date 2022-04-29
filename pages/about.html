@@ -332,7 +332,7 @@ members_section = site.data.about.sections[2] -%} {%- assign socials_section = s
     </div>
   </section>
   <section class="about-past-eboard-section">
-    <div class="about-section-heading">Past Eboards</div>
+    <div class="about-section-heading">Legacy E-Boards</div>
     <div class="about-past-eboard-container">
       {%- for eboard in site.data.about.past_eboards -%}
       <div class="about-past-eboard">
@@ -344,7 +344,7 @@ members_section = site.data.about.sections[2] -%} {%- assign socials_section = s
             <div class="past-eboard-orgname">{{ org.org_name }}</div>
             <div class="past-eboard-members">
               {%- for member in org.members -%}
-              <div class="past-eboard-member">{{ member.position }}, {{ member.name }}</div>
+              <div class="past-eboard-member">{{ member.position }}: {{ member.name }}</div>
               {%- endfor -%}
             </div>
           </div>
@@ -354,7 +354,7 @@ members_section = site.data.about.sections[2] -%} {%- assign socials_section = s
         <div class="past-eboard-orgname">{{ eboard.org_name }}</div>
         <div class="past-eboard-members">
           {%- for member in eboard.members -%}
-          <div class="past-eboard-member">{{ member.position }}, {{ member.name }}</div>
+          <div class="past-eboard-member">{{ member.position }}: {{ member.name }}</div>
           {%- endfor -%}
         </div>
         {%- endif -%}

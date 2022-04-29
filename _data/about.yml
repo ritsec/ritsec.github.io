@@ -5,20 +5,13 @@ sections:
   - title: Interest Groups
     description: TBD
 
-  - title: 2021-2022 E-Board
-    members:
-      - name: Enzo D.
-        position: President
-        grad_year: 22
-        avatar: "assets/images/2021eboard/enzo.jpeg"
-        socials:
-          github: d3adzo
-          linkedin:
-          email: enzo.destephano@rit.edu
-          other:
+  - title: 2022-2023 E-Board
 
+  
+    members:
+    # done
       - name: Bradley H.
-        position: Public Relations
+        position: President
         grad_year: 24
         avatar: "assets/images/2021eboard/brad.jpeg"
         socials:
@@ -26,69 +19,9 @@ sections:
           linkedin: bradley-harker-60604262
           email: bdh9046@rit.edu
           other:
-
-      - name: Brayden W.
-        position: Head of Education
-        grad_year: 23
-        avatar: "assets/images/2021eboard/brayden.jpeg"
-        socials:
-          github: PapaChain
-          linkedin: braydenwerner
-          email: bjw5517@mail.rit.edu
-          other:
-
-      - name: Tenchi M.
-        position: Head of Research
-        grad_year: 23
-        avatar: "assets/images/2021eboard/tenchi.jpeg"
-        socials:
-          github: Kagu7uchi
-          linkedin: tenchimata
-          email: ttm3669@rit.edu
-          other:
-
-      - name: Alison N.
-        position: ISTS CA
-        grad_year: 23
-        avatar: "assets/images/2021eboard/alison.jpeg"
-        socials:
-          github:
-          linkedin: alison-nakai-lackey
-          email: asn5443@rit.edu
-          other: twitter.com/REscrabble
-
-      - name: Jason H.
-        position: IRSec & CTF CA
-        grad_year: 23
-        avatar: "assets/images/2021eboard/jason.jpeg"
-        socials:
-          github: P0nt14c
-          linkedin: JasonHowe
-          email: jbh3464@rit.edu
-          other:
-
-      - name: Olivia G.
-        position: Treasurer
-        grad_year: 25
-        avatar: "assets/images/2021eboard/olivia.jpeg"
-        socials:
-          github: oliviagallucci
-          linkedin: olivia-gallucci
-          email: gallucci@protonmail.com
-          other: https://oliviagallucci.com/
-
-      - name: Jazmin M.
-        position: Secretary
-        grad_year: 24
-        avatar: "assets/images/2021eboard/jazmin.jpeg"
-        socials:
-          github:
-          linkedin: jazmin-berduo-morales
-          email: jab5879@rit.edu
-          other:
-
+    # done
       - name: Max F.
-        position: Tech Lead
+        position: Vice President
         grad_year: 23
         avatar: "assets/images/2021eboard/max.jpeg"
         socials:
@@ -96,21 +29,124 @@ sections:
           linkedin: maxfusco
           email: maxfusco@mail.rit.edu
           other:
-
-      - name: Philomena G.
-        position: Operations Lead
-        grad_year: 22
-        avatar: "assets/images/2021eboard/philo.jpeg"
+    # done
+      - name: Mohammad E.
+        position: Public Relations
+        grad_year: 23
+        avatar: "assets/images/2022eboard/eshan.JPG"
+        socials: 
+          github: evilpepe 
+          linkedin: moheshan
+          email: me3031@rit.edu
+          other: https://www.moheshan.com
+    # done
+      - name: Kenneth A. 
+        position: Head of Education
+        grad_year: 24
+        avatar: "assets/images/2022eboard/kenny.jpeg"
         socials:
-          github: FlamingSpork
-          linkedin:
-          email: rpg4231@rit.edu
+          github: kc0sm0s
+          linkedin: 
+          email: kaa5408@rit.edu
+          other:
+    
+      - name: Anthony I. 
+        position: Head of Research
+        grad_year: 24
+        avatar: "assets/images/2022eboard/anthony.png"
+        socials:
+          github: 20ioppolan
+          linkedin: anthony-ioppolo
+          email: aji4345@rit.edu
           other:
 
+      - name: Alison N.
+        position: IRSec/CTF CA
+        grad_year: 23
+        avatar: "assets/images/2021eboard/alison.jpeg"
+        socials:
+          github:
+          linkedin: alison-nakai-lackey
+          email: asn5443@rit.edu
+          other: 
+
+      - name: Michael V. 
+        position: ISTS CA
+        grad_year: 23
+        avatar: "assets/images/2022eboard/mav.png"
+        socials:
+          github: mav8557
+          linkedin: michael-vaughan-rit
+          email: mav8557@rit.edu
+          other:
+
+      - name: Bailey P. 
+        position: Treasurer
+        grad_year: 24
+        avatar: "assets/images/2022eboard/bailey.jpeg"
+        socials:
+          github: Pow3r5
+          linkedin: bailey-a-powers
+          email: bap8519@rit.edu
+          other:
+
+      - name: Sarah D. 
+        position: Secretary
+        grad_year: 24
+        avatar: "assets/images/2022eboard/sarah.JPG"
+        socials:
+          github: sarah-dill
+          linkedin: sarah-d-991990125
+          email: sed6542@rit.edu
+          other:
+    # need photo
+      - name: Abdulmalik B.
+        position: Operations Lead
+        grad_year: 23
+        avatar: "assets/images/2022eboard/malik.jpeg"
+        socials:
+          github: Abanaser
+          linkedin: abdulmalik-banaser
+          email: ab4594@rit.edu
+          other:
+
+      - name: Alex B. 
+        position: Tech Lead
+        grad_year: 25
+        avatar: "assets/images/2022eboard/alex.jpg"
+        socials:
+          github: alexander-beaver
+          linkedin: alex-beaver
+          email: acb9901@rit.edu
+          other: https://alexbeaver.com/
   - title: Social Media
     description: Stay up to date with our social media pages!
 
 past_eboards:
+  - year: 2021-2022
+    org_name: RITSEC
+    members:
+      - name: Enzo DeStephano
+        position: President
+      - name: Brayden Werner
+        position: Head of Education
+      - name: Tenchi Mata
+        position: Head of Research
+      - name: Alison Nakai-Lackey
+        position: ISTS Competition Architect
+      - name: Jason Howe
+        position: IRSeC CA
+      - name: Olivia Gallucci
+        position: Treasurer
+      - name: Jazmin Morales
+        position: Secretary
+      - name: Bradley Harker
+        position: Director of Public Relations
+      - name: Philomena Gray
+        position: Operations Lead
+      - name: Max Fusco
+        position: Tech Lead
+
   - year: 2020-2021
     org_name: RITSEC
     members:
