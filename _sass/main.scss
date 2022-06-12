@@ -105,11 +105,6 @@ body {
   height: 48px;
   content: var(--header-image-url);
   z-index: 105;
-
-  @media (max-width: 1024px) {
-    width: 202px;
-    height: 26px;
-  }
 }
 
 .navbar-links {
