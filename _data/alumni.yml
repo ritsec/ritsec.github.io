@@ -4,49 +4,48 @@ sections:
 
 alumni:
 
-  # make visible after finals :)
-  # - year: 2022 
-  #   name: Enzo DeStephano
-  # - year: 2022
-  #   name: Jake McLellan 
-  # - year: 2022 
-  #   name: Loudon Mehling
-  # - year: 2022
-  #   name: Fred Rybin
-  # - year: 2022
-  #   name: Brendan McGlynn
-  # - year: 2022
-  #   name: Phillip Babey 
-  # - year: 2022
-  #   name: Ayobami Emmanuel Adawale 
-  # - year: 2022
-  #   name: Philomena Gray 
-  # - year: 2022
-  #   name: Andrew Quan
-  # - year: 2022 
-  #   name: Ian Stroszeck
-  # - year: 2022
-  #   name: Chris Sequeira
-  # - year: 2022
-  #   name: Andrew Afonso
-  # - year: 2022
-  #   name: Josh Brown
-  # - year: 2022
-  #   name: Mona Naveed
-  # - year: 2022
-  #   name: Michael Madden
-  # - year: 2022
-  #   name: Anna Volpova 
-  # - year: 2022
-  #   name: Valerie Lidiak
-  # - year: 2022
-  #   name: Patrick Marchione
-  # - year: 2022 
-  #   name: Patrick Lamanna
-  # - year: 2022
-  #   name: Stuart Nevans Locke
-  # - year: 2022 
-  #   name: Chris Cheney
+  - year: 2022 
+    name: Enzo DeStephano
+  - year: 2022
+    name: Jake McLellan 
+  - year: 2022 
+    name: Loudon Mehling
+  - year: 2022
+    name: Fred Rybin
+  - year: 2022
+    name: Brendan McGlynn
+  - year: 2022
+    name: Phillip Babey 
+  - year: 2022
+    name: Ayobami Emmanuel Adawale 
+  - year: 2022
+    name: Philomena Gray 
+  - year: 2022
+    name: Andrew Quan
+  - year: 2022 
+    name: Ian Stroszeck
+  - year: 2022
+    name: Chris Sequeira
+  - year: 2022
+    name: Andrew Afonso
+  - year: 2022
+    name: Josh Brown
+  - year: 2022
+    name: Mona Naveed
+  - year: 2022
+    name: Michael Madden
+  - year: 2022
+    name: Anna Volpova 
+  - year: 2022
+    name: Valerie Lidiak
+  - year: 2022
+    name: Patrick Marchione
+  - year: 2022 
+    name: Patrick Lamanna
+  - year: 2022
+    name: Stuart Nevans Locke
+  - year: 2022 
+    name: Chris Cheney
   - year: 2021
     name: Daniel Szafran
   - year: 2021
