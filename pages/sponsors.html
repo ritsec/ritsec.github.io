@@ -15,8 +15,9 @@ permalink: /sponsors.html
       <div class="sponsors-grid">
         {%- for tier in section.tier -%}
           <div class="sponsor-tier">
-            {{ tier[0] }}
-            <br>
+            <div class="sponsor-tier-title {{ tier[0] | downcase }}">
+              {{ tier[0] }}
+            </div>
             {%- for sponsor in tier[1] -%}
             <div class="sponsor">
               <div class="sponsor-info">
