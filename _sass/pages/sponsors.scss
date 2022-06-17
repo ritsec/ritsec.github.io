@@ -1,3 +1,7 @@
+// * {
+//   outline: 1px solid pink
+// }
+
 .sponsors-section {
   width: 100%;
   max-width: 100%;
@@ -10,6 +14,10 @@
   @media (min-width: 576px) {
     padding: 0px 64px;
   }
+}
+
+.sponsor-tier {
+  width: 100%;
 }
 
 .sponsors-container {
@@ -27,7 +35,7 @@
 }
 
 .sponsors-grid {
-  max-width: 72rem;
+  max-width: 70rem;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -35,48 +43,31 @@
   justify-content: center;
 }
 
+.sponsor-tier-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 .sponsor {
-  width: 100%;
-  max-width: 100%;
-  height: 250px;
-  display: grid;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--border-color);
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.1);
   grid-template-columns: 1fr 300px;
   align-items: center;
   padding: 1rem;
-}
-
-.sponsor-odd {
-  width: 100%;
-  max-width: 100%;
-  height: 250px;
-  display: grid;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.1);
-  grid-template-columns: 300px 1fr;
-  align-items: center;
-  padding: 1rem;
+  margin: 30px 15px;
 }
 
 .sponsor-info {
   width: 100%;
   max-height: 100%;
   padding-right: 5%;
-  text-align: left;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-}
-
-.sponsor-info-odd {
-  width: 100%;
-  max-height: 100%;
-  padding-left: 5%;
-  text-align: right;
-  display: flex;
-  align-items: flex-end;
   flex-direction: column;
 }
 
@@ -105,6 +96,7 @@
 .sponsor-button {
   text-align: center;
   width: 8rem;
+  margin: auto;
   padding: 0.5rem 0;
   background-color: var(--card-color);
   border: 1px solid var(--border-color);
@@ -161,16 +153,6 @@
 }
 
 @media (max-width: 1024px) {
-  .sponsor,
-  .sponsor-odd {
-    height: 250px;
-    grid-template-columns: 1fr 200px;
-    padding: 0.25rem 1rem;
-  }
-
-  .sponsor-odd {
-    grid-template-columns: 200px 1fr;
-  }
 
   .sponsor-description {
     -webkit-line-clamp: 6;
@@ -184,8 +166,7 @@
 }
 
 @media (max-width: 576px) {
-  .sponsor,
-  .sponsor-odd {
+  .sponsor{
     height: 490px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 200px;
@@ -195,8 +176,7 @@
     padding: 0.5rem;
   }
 
-  .sponsor-info,
-  .sponsor-info-odd {
+  .sponsor-info{
     order: 1;
     width: 100%;
     align-items: center;
@@ -208,8 +188,9 @@
   }
 }
 
-.sponsor-tier {
-  font-size: 1.25rem;
+.sponsor-tier-title{
+  font-size: 2.5rem;
+  text-align: center;
   color: var(--text-color);
 }
 

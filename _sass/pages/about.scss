@@ -1,3 +1,9 @@
+.about-container {
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
+}
+
 .about-section {
   width: 100%;
   max-width: 100%;
@@ -89,11 +95,6 @@
   grid-template-rows: 1fr 100px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-
-  @media (max-width: 1024px) {
-    width: 200px;
-    height: 300px;
-  }
 }
 
 .member_avatar-container {
