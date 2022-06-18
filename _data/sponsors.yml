@@ -3,6 +3,11 @@ sections:
     description:
 
     tier:
+      Titanium:
+        - title: Android
+          image: /assets/images/sponsors/android.png
+          url: https://www.android.com/
+
       Diamond:
         - title: Meta
           image: /assets/images/sponsors/meta.png
@@ -12,6 +17,7 @@ sections:
         - title: Cisco
           image: /assets/images/sponsors/cisco.png
           url: https://www.cisco.com/
+
         - title: MITRE
           tier: Platinum
           image: /assets/images/sponsors/mitre.png
