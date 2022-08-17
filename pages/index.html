@@ -27,6 +27,21 @@ site.data.sponsors.sections[0] -%}
       </div>
     </div>
   </section>
+  <!-- Interest Section -->
+  <section class="home_join-section">
+    <div class="home_about-gradient-1"></div>
+    <div class="home_about-background home_join-background">
+      <div class="home_about-container">
+        <div class="home_join-content">
+          {%- if join_section_data.title -%}
+          <div class="home_join-title">{{ join_section_data.title }}</div>
+          {%- endif -%}{%- if join_section_data.buttons -%} {%- for button in join_section_data.buttons -%}
+          <a class="home_about-button" href="{{ button.url | relative_url }}"> {{ button.content }} </a>
+          {%- endfor -%} {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- About Section -->
   <section class="home_about-section">
     <div class="home_about-gradient-1"></div>
@@ -91,21 +106,5 @@ site.data.sponsors.sections[0] -%}
         {%- endfor -%}
       </div>
     </div>
-  </section>
-  <!-- Interest Section -->
-  <section class="home_join-section">
-    <div class="home_about-gradient-1"></div>
-    <div class="home_about-background">
-      <div class="home_about-container">
-        <div class="home_join-content">
-          {%- if join_section_data.title -%}
-          <div class="home_join-title">{{ join_section_data.title }}</div>
-          {%- endif -%}{%- if join_section_data.buttons -%} {%- for button in join_section_data.buttons -%}
-          <a class="home_about-button" href="{{ button.url | relative_url }}"> {{ button.content }} </a>
-          {%- endfor -%} {%- endif -%}
-        </div>
-      </div>
-    </div>
-    <div class="home_about-gradient-2" style="margin-bottom: 3rem"></div>
   </section>
 </div>

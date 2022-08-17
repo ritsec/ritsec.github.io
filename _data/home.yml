@@ -14,7 +14,7 @@ sections:
       - /assets/images/image8.jpeg
 
     # About Section
-  - title: About Us 
+  - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
     buttons:
@@ -30,8 +30,10 @@ sections:
   - title: Our Sponsors
 
     # Join Section
-  - title: Join us on Discord!
+  - title: Join us!
 
     buttons:
       - content: Discord
-        url: "https://discord.com/invite/YPPZTbAqnF"
+        url: "http://discord.ritsec.club"
+      - content: Calendar
+        url: "http://calendar.ritsec.club"
