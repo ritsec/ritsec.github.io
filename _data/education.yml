@@ -1,4 +1,26 @@
 sections:
+  - title: Fall 2022
+    description: Education Slides more about some of our favorite topics with our project-focused education system
+
+    sets:
+      - title: Week 0 | Intro to RITSEC
+        description: Introduction to RITSEC
+        lessons:
+          - title: Education Slides
+            description: Welcome to RITSEC Slides (2022-2023)
+            url: https://docs.google.com/presentation/d/1dlTSqxIIB2iMKT3g3fhWqGY4Z3jE-esEG8_sQOEVBWs/
+     
+      - title: Week 1 | Intro to Linux
+        description: Introduction to Basics of Linux
+        lessons:
+          - title: Education Slides
+            description: Slides on Basic Linux
+            url: https://docs.google.com/presentation/d/1OS9TN9_R7KxgwY0IWmo4ckmRlYPmoL-SgudbpYi9kLM/
+          - title: Demo Download
+            description: Download this Week's Demo
+            url: https://drive.google.com/file/d/1eT7IG5GVn8uJxl4kOmdgdUd0B37No1IU/view?usp=sharing.
+
+          
   - title: Spring 2022
     description: Learn more about some of our favorite topics with our project-focused education system
 
