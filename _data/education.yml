@@ -21,7 +21,7 @@ sections:
             url: https://mirrors.ritsec.club/index.html
 
       - title: Week 2 | Intro to Windows
-        description: Introduction to Basics of Linux
+        description: Introduction to Basics of Windows
         lessons:
           - title: Education Slides
             description: Slides on Basic Windows
