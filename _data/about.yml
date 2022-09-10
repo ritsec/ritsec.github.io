@@ -25,6 +25,12 @@ sections:
       - name: Incident Response IG
         meeting_time: Thursday 1-2pm GOL-2740
         description: The Incident Response Interest group is focused on all things Incident Response. We specifically target incident response in a corporate environment but cover technical and non technical aspects of Incident Response.  During meetings I talk and give a presentation in the beginning then after the fact we go through activities to practice IR skills.
+      - name: Reversing IG
+        meeting_time: Thursday 6-7pm GOL-2780
+        description: The Reversing Interest Group revolves around the in-depth knowledge of binary applications and ultimately reversing malware. Topics such as assembly, executable formats, malware tactics, and much more will be discussed over the entire program's running. All are welcome from first years on no matter the knowledge level.
+      - name: Physical Security
+        meeting_time: Tuesday 2-3pm GOL-2750
+        description: In Physical Security Interest group you will learn all the basics of the world outside of the computer. You will learn to pick locks, alternative entry methods and many other things that computing security experts don't tend to think of when they are securing a system. Any level is welcome to come learn!
 
   - title: 2022-2023 E-Board
 
