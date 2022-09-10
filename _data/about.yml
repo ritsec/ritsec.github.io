@@ -3,7 +3,28 @@ sections:
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
   - title: Interest Groups
-    description: TBD
+    groups:
+      - name: WiCyS @ RIT
+        meeting_time: Wednesday 7-8pm GOL-2740
+        description: The WiCyS RIT Student Chapter is an all-inclusive interest program within RITSEC dedicated to making RIT’s Computing Security program more equitable. The chapter holds meetings and social events for students to come together and share their passion for security while creating a supportive network.
+      - name: Team Contagion
+        meeting_time: Tuesday 6:30-7:30pm GOL-2780
+        description: Contagion represents RITSEC in a variety of Capture the Flag (CTF) competitions. We compete at different ranges of difficulty and on both the national and international levels. Everyone is welcome to join at any skill level as we provide weekly educational presentations and demos.
+      - name: Red Team Recruiting
+        meeting_time: Thursday 7-9pm GOL-2750
+        description: Red Team is the hub for all things red teaming at RIT. We develop robust red team tools, infrastructure, and implants to play the role of an effective adversary in a red vs blue competition setting. We research and implement the latest techniques to pull networks apart and build them back better. As an RITSEC interest program we focus on developing offensive security skills, working as a team, and having fun! 
+      - name: RVAPT
+        meeting_time: Tuesday 7:30-9pm GOL-2780
+        description: At RVAPT, we learn how to find and exploit vulnerabilities in networks and associated services by hands on custom labs. Each week we learn one to two ways to break in into a network and keep building up on it through out the semester.
+      - name: Wireless IG
+        meeting_time: Wednesday 6-7pm GOL-2780
+        description: The Wireless Interest Group (aka Wiggles) focuses on all thing wireless. We focus more on cybersecurity related topics in wireless but we also go outside of this realm covering all things wireless and RF. Anyone interested in the topic or learning more is welcome to join!
+      - name: Operations IG
+        meeting_time: Wednesday 5-6pm GOL-2750
+        description: The operations interest group focuses on various topics related to RITSEC's infrastructure. These topics could be related to hardware, virtualization, networking, automation, cloud computing, and server management. During our meeting time, we will cover a wide variety of these topics. Lastly, the OPS IG will be a pipeline to the OPS Program.
+      - name: Incident Response IG
+        meeting_time: Thursday 1-2pm GOL-2740
+        description: The Incident Response Interest group is focused on all things Incident Response. We specifically target incident response in a corporate environment but cover technical and non technical aspects of Incident Response.  During meetings I talk and give a presentation in the beginning then after the fact we go through activities to practice IR skills.
 
   - title: 2022-2023 E-Board
 
