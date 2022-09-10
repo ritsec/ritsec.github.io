@@ -2,7 +2,7 @@ sections:
   - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
-  - title: Interest Groups
+  - title: Interest Groups and Independent Programs
     groups:
       - name: WiCyS @ RIT
         meeting_time: Wednesday 7-8pm GOL-2740

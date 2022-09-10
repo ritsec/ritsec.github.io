@@ -278,3 +278,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .about-groups-container {
+    width: 100% !important;
+
+    .group_container {
+      min-width: 100% !important;
+
+      .group_title {
+        flex-direction: column;
+      }
+    }
+  }
+}
