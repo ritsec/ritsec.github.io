@@ -20,7 +20,7 @@ sections:
         meeting_time: Wednesday 6-7pm GOL-2780
         description: The Wireless Interest Group (aka Wiggles) focuses on all thing wireless. We focus more on cybersecurity related topics in wireless but we also go outside of this realm covering all things wireless and RF. Anyone interested in the topic or learning more is welcome to join!
       - name: Operations IG
-        meeting_time: Wednesday 5-6pm GOL-2750
+        meeting_time: Monday 6:30-7:30pm GOL-2750
         description: The operations interest group focuses on various topics related to RITSEC's infrastructure. These topics could be related to hardware, virtualization, networking, automation, cloud computing, and server management. During our meeting time, we will cover a wide variety of these topics. Lastly, the OPS IG will be a pipeline to the OPS Program.
       - name: Incident Response IG
         meeting_time: Thursday 1-2pm GOL-2740
