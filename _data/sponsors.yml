@@ -14,10 +14,6 @@ sections:
           url: https://www.metacareers.com/
 
       Platinum:
-        - title: Cisco
-          image: /assets/images/sponsors/cisco.png
-          url: https://www.cisco.com/
-
         - title: MITRE
           tier: Platinum
           image: /assets/images/sponsors/mitre.png
@@ -32,19 +28,23 @@ sections:
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
 
-        - title: Black Hills Information Security
-          image: /assets/images/sponsors/bhis.webp
-          url: https://www.blackhillsinfosec.com/
+        - title: Reliaquest
+          image: /assets/images/sponsors/reliaquest.png
+          url: https://www.reliaquest.com/
+          
+        - title: FM Global
+          image: /assets/images/sponsors/fmglobal.png
+          url: https://www.fmglobal.com/
 
       Silver:
         - title: Mindex
           image: /assets/images/sponsors/mindex.jpeg
-          url: https://www.blackhillsinfosec.com/
+          url: https://www.mindex.com/
 
-        - title: Vinyl
-          image: /assets/images/sponsors/vinyl.png
-          url: https://www.vinylagency.com/
+        - title: Akamai
+          image: /assets/images/sponsors/akamai.png
+          url: https://www.akamai.com/
 
-        - title: M&T Bank
-          image: /assets/images/sponsors/mt.png
-          url: https://www3.mtb.com/
+        - title: RET2 Systems
+          image: /assets/images/sponsors/RET2Systems.png
+          url: https://ret2.io/
