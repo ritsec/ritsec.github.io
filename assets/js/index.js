@@ -37,6 +37,6 @@ setInterval(function () {
 }, 5000);
 
 
-window.addEventListener('scroll', function() {
-  document.body.style.backgroundPositionY = -window.pageYOffset/8 + "px";
-});
+// window.addEventListener('scroll', function() {
+//   document.body.style.backgroundPositionY = -window.pageYOffset/8 + "px";
+// });
