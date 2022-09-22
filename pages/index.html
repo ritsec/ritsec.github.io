@@ -12,8 +12,8 @@ site.data.sponsors.sections[0] -%}
 <div>
   <!-- Intro Section -->
   <section class="intro-section">
-    <div class="heading-title" style="margin-top: 100px">{{ intro_section_data.title }}</div>
-    <div class="heading-description">{{ intro_section_data.description }}</div>
+    <div class="heading-title">{{ intro_section_data.title }}</div>
+    <div class="heading-description type-animate">{{ intro_section_data.description }}</div>
     <div class="slideshow">
       <div class="slideshow_wrapper" id="slideshow">
         {%- for imageUrl in intro_section_data.slideshow -%} {%- if imageUrl -%}
