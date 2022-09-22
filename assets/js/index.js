@@ -35,3 +35,8 @@ setInterval(function () {
     .end()
     .appendTo("#slideshow");
 }, 5000);
+
+
+window.addEventListener('scroll', function() {
+  document.body.style.backgroundPositionY = -window.pageYOffset/8 + "px";
+});

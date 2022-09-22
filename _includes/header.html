@@ -12,20 +12,20 @@ site.pages | map: 'title' | join: '' | size -%}
     {%- if titles_size > 0 -%}
     <ul class="navbar-links">
       <li>
-        <a href="/" {% if page.url == "/" %}style="color: #ff7613; text-decoration: underline; opacity: 1;"{% endif %}>Home</a>
+        <a href="/" {% if page.url == "/" %}style="color: #E69132; opacity: 1;"{% endif %}><span class="navbar-slash">/</span>Home</a>
       </li>
       {%- for path in page_paths -%} {%- assign my_page = site.pages | where:
       "path", path | first -%} {%- if my_page.title and my_page.title != "Home"
       -%}
       <li>
-        <a href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url %}style="color: #ff7613; text-decoration: underline; opacity: 1;"{% endif %}
-          >{{ my_page.title | escape }}</a
+        <a href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url %}style="color: #E69132; opacity: 1;"{% endif %}
+          ><span class="navbar-slash">/</span>{{ my_page.title | escape }}</a
         >
       </li>
       {%- endif -%} {%- endfor -%}
       <li>
-        <a href="https://blog.ritsec.club" {% if page.url == my_page.url %}style="color: #ff7613; text-decoration: underline; opacity: 1;"{% endif %}
-          >Blog</a
+        <a href="https://blog.ritsec.club" {% if page.url == my_page.url %}style="color: #E69132; opacity: 1;"{% endif %}
+          ><span class="navbar-slash">/</span>Blog</a
         >
       </li>
       <!-- <li class="navbar-theme-toggle_container">
