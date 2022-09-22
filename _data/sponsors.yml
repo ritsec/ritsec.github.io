@@ -48,3 +48,13 @@ sections:
         - title: RET2 Systems
           image: /assets/images/sponsors/RET2Systems.png
           url: https://ret2.io/
+          
+          
+      Educational:
+        - title: Splunk
+          image: /assets/images/sponsors/splunk.png
+          url: https://www.splunk.com/
+
+        - title: Binary Defense
+          image: /assets/images/sponsors/binarydefense.png
+          url: https://www.binarydefense.com/
