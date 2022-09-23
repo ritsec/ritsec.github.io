@@ -3,6 +3,12 @@ sections:
     description: Here are some events that we have coming up
 
     events:
+      - title: IRSeC
+        date: Nov 5th 2022
+        location: Rochester, NY
+        image: "assets/images/irsec2021.jpeg"
+        url: https://irsec.club/
+        
       - title: Weekly Education Meeting
         date: 12 - 2 PM on Fridays
         location: Rochester, NY
@@ -26,12 +32,6 @@ sections:
         location: Rochester, NY & Virtual!
         image: "assets/images/ctf_22.png"
         url: https://ctftime.org/ctf-wtf/
-
-      - title: IRSeC
-        date: TBD
-        location: Rochester, NY
-        image: "assets/images/irsec2021.jpeg"
-        url: https://irsec.club/
 
       - title: Career Fair Eve
         date: TBD
