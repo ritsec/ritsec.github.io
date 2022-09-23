@@ -29,3 +29,23 @@ sections:
           - title: Demo Download
             description: Download this Week's Demo
             url: https://mirrors.ritsec.club/index.html
+
+      - title: Week 3 | Career Fair Prep
+        description: Searching for a job, getting the job, and how to not get fired
+        lessons:
+          - title: Education Slides
+            description: Slides on Career Fair Prep
+            url: https://docs.google.com/presentation/d/1N-w45Zz52t_LDUmFh8GaqCMbocA580pavMuf2KB1w4o/
+          - title: No demo this week
+            description: Work on your resume :)
+            url:
+
+      - title: Week 4 | Intro to Networking
+        description: Introduction to the Basics of Networking
+        lessons:
+          - title: Education Slides
+            description: Slides on Intro to Networking
+            url: https://docs.google.com/presentation/d/1B_ECrqhjFN2ngq5gHX-XrFzuaJCymmzUnlmdPWDW6h8/
+          - title: Demo Download
+            description: Download only required for Easy and Medium 2
+            url: https://mirrors.ritsec.club/index.html

@@ -4,11 +4,11 @@ sections:
 
     events:
       - title: IRSeC
-        date: Saturday Oct 5th 2022
+        date: Nov 5th 2022
         location: Rochester, NY
         image: "assets/images/irsec2021.jpeg"
         url: https://irsec.club/
-
+        
       - title: Weekly Education Meeting
         date: 12 - 2 PM on Fridays
         location: Rochester, NY
