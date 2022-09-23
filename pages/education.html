@@ -17,7 +17,11 @@ permalink: /education.html
         <div class="education-set_description">{{set.description}}</div>
         <div class="education-set_lesson-container">
           {%- for lesson in set.lessons -%}
+          {%- if lesson.url -%}
           <a class="link_container" href="{{ lesson.url | relative_url }}" target="_blank">
+            {%- else -%}
+            <a class="link_container">
+          {%- endif -%}
             <div class="link_info-container">
               <div class="link_title">{{ lesson.title }}</div>
               <div class="link_description">{{ lesson.description }}</div>
