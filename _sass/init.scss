@@ -23,9 +23,7 @@ html {
   --header-color-mobile: rgba(18, 16, 19, 0.95);
   --header-image-url: url(/assets/images/ritsec_logo_final-05.png);
 }
-
-@media (prefers-color-scheme: light) {
-  html {
+  html.light {
     // Base variables
     --background-color: #F1F1F1;
     --background-image: url(/assets/images/bg-light.svg);
@@ -46,7 +44,6 @@ html {
     --gradient-2: #cbcbcb;
     --gradient-3: #b2b2b2;
   }
-}
 
 @import "main", "pages/home", "pages/about", "pages/education", "pages/events", "pages/gallery", "pages/links", "pages/sponsors",
   "pages/alumni";
