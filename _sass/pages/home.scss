@@ -39,7 +39,6 @@
   justify-content: center;
   width: 100%;
   max-width: 1100px;
-  border: 2px solid rgba(255, 255, 255, 0.2);
   padding: 2%;
   aspect-ratio: 1.67;
   img {
@@ -381,4 +380,24 @@
     flex-direction: column;
     gap: 16px;
   }
+}
+
+.type-animate {
+  overflow: hidden;
+  border-right: .15em solid #E69132;
+  white-space: nowrap;
+  max-width: max-content;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #E69132; }
 }
