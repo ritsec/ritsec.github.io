@@ -10,6 +10,7 @@ html {
 html {
   // Base variables
   --background-color: #0d0d0f;
+  --background-image: url(/assets/images/bg-dark.svg);
   --border-color: rgba(255, 255, 255, 0.1);
   --text-color: #ffffff;
   --light-text-color: #ccc;
@@ -22,11 +23,10 @@ html {
   --header-color-mobile: rgba(18, 16, 19, 0.95);
   --header-image-url: url(/assets/images/ritsec_logo_final-05.png);
 }
-
-@media (prefers-color-scheme: light) {
-  html {
+  html.light {
     // Base variables
-    --background-color: #d3d2d3;
+    --background-color: #F1F1F1;
+    --background-image: url(/assets/images/bg-light.svg);
     --border-color: rgba(0, 0, 0, 0.1);
     --text-color: #000000;
     --light-text-color: #525252;
@@ -40,12 +40,10 @@ html {
     --header-image-url: url(/assets/images/ritsec_logo_final-05.png);
 
     // Home page variables
-    --background-image: url(/assets/images/ritsec_bg.png);
-    --gradient-1: #97715c;
-    --gradient-2: #9e9791;
-    --gradient-3: #b38978;
+    --gradient-1: #e6e6e6;
+    --gradient-2: #cbcbcb;
+    --gradient-3: #b2b2b2;
   }
-}
 
 @import "main", "pages/home", "pages/about", "pages/education", "pages/events", "pages/gallery", "pages/links", "pages/sponsors",
   "pages/alumni";
