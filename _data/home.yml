@@ -5,7 +5,7 @@ sections:
 
     slideshow:
       - /assets/images/slideshow/image1.png
-      - /assets/images/slideshow/image2.jpeg
+      # - /assets/images/slideshow/image2.jpeg
       - /assets/images/slideshow/image3.jpeg
       - /assets/images/slideshow/image4.jpeg
       - /assets/images/slideshow/image5.jpeg
