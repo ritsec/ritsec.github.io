@@ -49,3 +49,13 @@ sections:
           - title: Demo Download
             description: Download only required for Easy and Medium 2
             url: https://mirrors.ritsec.club/index.html
+
+      - title: Week 5 | Web
+        description: Introduction to Web Security
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1VcmBZ15V8RnIO3egjNzUBeU0AI1wIeLALwjUwOj8f14/
+          - title: Demo Download
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club/index.html
