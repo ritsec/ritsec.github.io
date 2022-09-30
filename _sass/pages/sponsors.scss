@@ -68,10 +68,12 @@
 }
 
 .sponsor-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-top:1.5rem;
   line-height: 2rem;
   font-weight: 700;
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .sponsor-description {
@@ -87,26 +89,6 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.sponsor-button {
-  text-align: center;
-  width: 8rem;
-  margin: auto;
-  padding: 0.5rem 0;
-  background-color: var(--card-color);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  color: var(--text-color);
-  opacity: 0.85;
-  text-decoration: none;
-  transition: all 0.15s ease-in-out;
-  font-size: 0.75rem;
-  line-height: 1rem;
-
-  &:hover {
-    opacity: 1;
-  }
 }
 
 .become-a-sponsor {
