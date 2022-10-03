@@ -36,7 +36,9 @@ sections:
   - title: Join us!
 
     buttons:
-      - content: Discord
+      - content: <i class="fa-brands fa-discord"></i>
         url: "http://discord.ritsec.club"
-      - content: Calendar
+      - content: <i class="fa-solid fa-calendar-days"></i>
         url: "http://calendar.ritsec.club"
+      - content: <i class="fa-solid fa-envelope"></i>
+        url: "http://mail.ritsec.club/"

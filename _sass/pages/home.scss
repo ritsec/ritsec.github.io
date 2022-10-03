@@ -188,6 +188,27 @@
   }
 }
 
+.home_about-icon-button {
+  text-align: center;
+  width: 3rem;
+  padding: 0.75rem 0;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  background-color: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+  color: var(--text-color);
+  opacity: 0.85;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 /** Events Section **/
 .home_events-sponsors-section {
   background: linear-gradient(165deg, var(--background-color) 50%, #1b171b62 0);
@@ -341,7 +362,7 @@
 
 /** Join Section **/
 .home_join-background {
-  padding: 1rem 0;
+  padding: 1rem 0 3rem;
 }
 
 .home_join-section {
@@ -374,6 +395,13 @@
     flex-direction: column;
     gap: 16px;
   }
+}
+
+.home_join-button-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
 }
 
 .type-animate {
