@@ -64,3 +64,11 @@ toggleButton.addEventListener("click", () => {
 // window.addEventListener('scroll', function() {
 //   document.body.style.backgroundPositionY = -window.pageYOffset/8 + "px";
 // });
+
+$(window).bind("load resize scroll",function(e) {
+  var y = $(window).scrollTop();
+  $("body").filter(function() {
+      return $(this).offset().top < (y + $(window).height()) &&
+             $(this).offset().top + $(this).height() > y;
+  }).css('background-position', '0px ' + parseInt(-y / 15) + 'px');
+});
