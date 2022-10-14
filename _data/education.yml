@@ -59,3 +59,23 @@ sections:
           - title: Demo Download
             description: Download this Week's Demo
             url: https://mirrors.ritsec.club/index.html
+
+      - title: Week 6 | Core Services
+        description: Intro to Core Network Services
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1xSAaJYvu5mU4YgC1i-8w_x7WbzObV1Irnu4GSq85cpE/
+          - title: Demo Download
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club/index.html
+
+      - title: Week 7 | Physical
+        description: Introduction to Physical Security
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/10yRwucHuiFqQvNjEisV6mfiXAphjrLxX/
+          - title: Demo Challenges
+            description: This week is Trivia!
+            url: https://flags.ritsec.club/
