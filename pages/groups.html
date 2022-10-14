@@ -29,6 +29,9 @@ site.data.groups.sections[1] -%}
         <div class="group_description">
           {{group.description}}
         </div>
+        {%- if group.url -%}
+        <a class="group-url-button" href="{{ group.url }}">{{ group.url-title }}</a>
+        {%- endif -%}
       </div>
       {%- endfor -%}
     </div>
