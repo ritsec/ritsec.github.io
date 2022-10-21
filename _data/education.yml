@@ -79,3 +79,14 @@ sections:
           - title: Demo Challenges
             description: This week is Trivia!
             url: https://flags.ritsec.club/
+
+      - title: Week 8 | Blue Linux/Windows
+        description: Introduction to defending Linux and Windows
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/15FN3TpnOvmQRs-Z0K0Um-5zm7HP6kN9T7z1A2-2eGjo/
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club/index.html
+            
