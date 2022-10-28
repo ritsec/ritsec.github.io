@@ -90,3 +90,12 @@ sections:
             description: Download this Week's Demo
             url: https://mirrors.ritsec.club/index.html
             
+      - title: Week 9 | Red Team
+        description: Introduction to offensive security and Red Team
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1efyf_pzsCSJ1y_iSOUrO2FEj2UucMo3zaA5lLppyTsQ/
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
