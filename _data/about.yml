@@ -114,6 +114,13 @@ sections:
           linkedin: alex-beaver
           email: acb9901@rit.edu
           other: https://alexbeaver.com/
+
+      - name: Zach P. 
+        position: CTF CA
+        grad_year: 25
+        avatar: "assets/images/2022eboard/zachp.png"
+        socials:
+          linkedin: zachary-price-567661232
   - title: Social Media
     description: Stay up to date with our social media pages!
 
