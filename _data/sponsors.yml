@@ -3,15 +3,15 @@ sections:
     description:
 
     tier:
-      Titanium:
-        - title: Android
-          image: /assets/images/sponsors/android.png
-          url: https://www.android.com/
+      # Titanium:
+        # - title: Android
+        #   image: /assets/images/sponsors/android.png
+        #   url: https://www.android.com/
 
-      Diamond:
-        - title: Meta
-          image: /assets/images/sponsors/meta.png
-          url: https://www.metacareers.com/
+      # Diamond:
+        # - title: Meta
+        #   image: /assets/images/sponsors/meta.png
+        #   url: https://www.metacareers.com/
 
       Platinum:
         - title: MITRE
@@ -22,6 +22,11 @@ sections:
         - title: Security Risk Advisors
           image: /assets/images/sponsors/sra.png
           url: https://sra.io/
+
+        - title: Eaton Corporation
+          image: /assets/images/sponsors/eaton.png
+          url: https://www.eaton.com/us/en-us.html
+          
 
       Gold:
         - title: Miscreants
@@ -35,6 +40,19 @@ sections:
         - title: FM Global
           image: /assets/images/sponsors/fmglobal.png
           url: https://www.fmglobal.com/
+
+        - title: Amplify
+          image: /assets/images/sponsors/amplify.jpeg
+          url: https://amplify.com/
+
+        - title: Black Hills Infosec
+          image: /assets/images/sponsors/bhis.webp
+          url: https://www.blackhillsinfosec.com/
+
+        - title: Synack Red Team
+          image: /assets/images/sponsors/synack.jpeg
+          url: https://www.synack.com/red-team/
+
 
       Silver:
         - title: Mindex
@@ -51,6 +69,10 @@ sections:
           
           
       Educational:
+        - title: Hak5
+          image: /assets/images/sponsors/hak5.png
+          url: https://shop.hak5.org/
+
         - title: Splunk
           image: /assets/images/sponsors/splunk.png
           url: https://www.splunk.com/
