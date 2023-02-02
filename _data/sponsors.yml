@@ -53,6 +53,10 @@ sections:
           image: /assets/images/sponsors/synack.jpeg
           url: https://www.synack.com/red-team/
 
+        - title: Battelle
+          image: /assets/images/sponsors/battelle.jpg
+          url: https://www.battelle.org/
+
 
       Silver:
         - title: Mindex
@@ -80,3 +84,7 @@ sections:
         - title: Binary Defense
           image: /assets/images/sponsors/binarydefense.png
           url: https://www.binarydefense.com/
+
+        - title: Google
+          image: /assets/images/sponsors/google.png
+          url: https://www.google.com/
