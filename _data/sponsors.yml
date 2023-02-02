@@ -57,6 +57,10 @@ sections:
           image: /assets/images/sponsors/battelle.jpg
           url: https://www.battelle.org/
 
+        - title: MetaCTF
+          image: /assets/images/sponsors/metactf.png
+          url: https://metactf.com/
+
 
       Silver:
         - title: Mindex
