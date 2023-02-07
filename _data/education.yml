@@ -99,3 +99,13 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
+
+      - title: Week 10 | Cloud
+        description: Introduction to Cloud Computing
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1q2sV8liV_DHybsXcyLtwBogjfKIBS-fIIgcAL7PUtyg
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club/S23-Advanced-Windows.ova
