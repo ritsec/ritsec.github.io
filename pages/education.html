@@ -11,7 +11,7 @@ permalink: /education.html
     <div class="heading-title">{{ section.title }}</div>
     <div class="heading-description">{{ section.description }}</div>
     <div class="education-set-container">
-      {%- for set in section.sets -%}
+      {%- for set in section.sets reversed -%}
       <div class="education-set">
         <div class="education-set_title">{{set.title}}</div>
         <div class="education-set_description">{{set.description}}</div>

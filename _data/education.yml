@@ -1,7 +1,50 @@
 sections:
+  - title: Spring 2023
+    description: Education Slides more about some of our favorite topics with our project-focused education system
+    
+    sets:
+      - title: Week 13 | Cloud
+        description: Introduction to Cloud Computing
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1q2sV8liV_DHybsXcyLtwBogjfKIBS-fIIgcAL7PUtyg
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club
+      - title: Week 14 | Advanced Windows
+        description: Introduction to Advanced Windows
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1zxte83jVRONVW18zfoflnwELtK2wIadzSe2fTdf3N0k
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club
+      - title: Week 15 | Advanced Linux
+        description: Introduction to Advanced Linux
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1JYcMVli5RooDA7dDTo28WFnpFCM48BZK-mU8IBesYVY
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club
+      - title: Week 16 | Wireless
+        description: Introduction to Wireless
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/18WIPk6KGk__cgOZqhmto618MLEIIQ__EeTbYV2qs2z0
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://mirrors.ritsec.club
+
+
+
   - title: Fall 2022
     description: Education Slides more about some of our favorite topics with our project-focused education system
-
+    
     sets:
       - title: Week 0 | Intro to RITSEC
         description: Introduction to RITSEC
@@ -99,13 +142,3 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
-
-      - title: Week 10 | Cloud
-        description: Introduction to Cloud Computing
-        lessons:
-          - title: Education Slides
-            description: Slides on Web
-            url: https://docs.google.com/presentation/d/1q2sV8liV_DHybsXcyLtwBogjfKIBS-fIIgcAL7PUtyg
-          - title: Demo Challenges
-            description: Download this Week's Demo
-            url: https://mirrors.ritsec.club/S23-Advanced-Windows.ova
