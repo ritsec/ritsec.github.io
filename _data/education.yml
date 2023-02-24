@@ -39,6 +39,15 @@ sections:
           - title: Demo Challenges
             description: Download this Week's Demo
             url: https://mirrors.ritsec.club
+      - title: Week 17 | Pentesting
+        description: Introduction to Pentesting
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1viEPKTimIxQbTh8lp_8tZCCyJB6k0nORR1mAQXyRAVk
+          - title: Demo Challenges
+            description: Download this Week's Demo
+            url: https://gist.github.com/alexander-beaver/2871b7b2d9388e6815f2fcfa874b7e1f
 
 
 
