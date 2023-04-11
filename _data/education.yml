@@ -48,6 +48,41 @@ sections:
           - title: Demo Challenges
             description: Download this Week's Demo
             url: https://gist.github.com/alexander-beaver/2871b7b2d9388e6815f2fcfa874b7e1f
+      - title: Week 18 | Hardware/Embedded
+        description: Introduction to Hardware and Embedded Security
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1jZu1CK7yI9q1cIQ0iW_OoSMC_u4MtKpLu_MAAxIYWMM/edit?usp=sharing
+      - title: Week 19 | DevOps/Blackteaming
+        description: Introduction to RITSEC's OPs program
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1egtmM3BA67ijv196C7r8NZ4Py7W1zDWuH0e9-zHtRK8/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 20 | Digital Forensics / Incident Response
+        description: Introduction to Digital Forensics and Incident Response
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1_XPcKtC8nM_PiW6k0gu0nma_iGgAi3VtPKCUuFi0myw/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 21 | Containerization
+        description: Introduction to Docker and Kubernetes
+        lessons:
+          - title: Education Slides
+            description: Slides on Web
+            url: https://docs.google.com/presentation/d/1o2pJlWbeIDlfcE0_XeSu6PJ-gniCkInKDg2vcq61sww/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+
+
 
 
 
