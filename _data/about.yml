@@ -126,6 +126,34 @@ sections:
     description: Stay up to date with our social media pages!
 
 past_eboards:
+  - year: 2022-2023
+    org_name: RITSEC
+    members:
+      - name: Bradley Harker
+        position: President
+      - name: Max Fusco
+        position: Vice President
+      - name: Mohammad Eshan
+        position: Director of Public Relations
+      - name: Sarah Dill
+        position: Secretary
+      - name: Kenneth Anderson
+        position: Head of Education
+      - name: Anthony Iopollo
+        position: Head of Research
+      - name: Michael Vaughan
+        position: ISTS Competition Architect
+      - name: Jacob Doll
+        position: IRSeC CA
+      - name: Zach Price
+        position: CTF CA 
+      - name: Bailey Powers
+        position: Treasurer
+      - name: Abdulmalik Banaser
+        position: Operations Lead
+      - name: Alex Beaver 
+        position: Tech Lead
+
   - year: 2021-2022
     org_name: RITSEC
     members:
