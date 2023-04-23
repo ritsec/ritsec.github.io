@@ -2,41 +2,21 @@ sections:
   - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
-  - title: 2022-2023 E-Board
+  - title: 2023-2024 E-Board
     members:
     # done
-      - name: Bradley H.
+      - name: Anthony Ioppolo
         position: President
-        grad_year: 24
-        avatar: "assets/images/2021eboard/brad.jpeg"
+        grad_year: 25
+        avatar: "assets/images/2022eboard/anthony.png"
         socials:
-          github: BradHacker
-          linkedin: bradley-harker-60604262
-          email: bdh9046@rit.edu
+          github: 20ioppolan
+          linkedin: anthony-ioppolo
+          email: aji4345@rit.edu
           other:
     # done
-      - name: Max F.
+      - name: Kenneth Anderson
         position: Vice President
-        grad_year: 23
-        avatar: "assets/images/2021eboard/max.jpeg"
-        socials:
-          github: 1nv8rZim
-          linkedin: maxfusco
-          email: maxfusco@mail.rit.edu
-          other:
-    # done
-      - name: Mohammad E.
-        position: Public Relations
-        grad_year: 23
-        avatar: "assets/images/2022eboard/eshan.JPG"
-        socials: 
-          github: evilpepe 
-          linkedin: moheshan
-          email: me3031@rit.edu
-          other: https://www.moheshan.com
-    # done
-      - name: Kenneth A. 
-        position: Head of Education
         grad_year: 24
         avatar: "assets/images/2022eboard/kenny.jpeg"
         socials:
@@ -44,84 +24,95 @@ sections:
           linkedin: 
           email: kaa5408@rit.edu
           other:
-    
-      - name: Anthony I. 
-        position: Head of Research
-        grad_year: 24
-        avatar: "assets/images/2022eboard/anthony.png"
-        socials:
-          github: 20ioppolan
-          linkedin: anthony-ioppolo
-          email: aji4345@rit.edu
-          other:
-
-      - name: Jacob D.
-        position: IRSec CA
-        grad_year: 22
-        avatar: "assets/images/2022eboard/jacob.jpeg"
+    # done
+      - name: Sophie Larson 
+        position: Public Relations
+        grad_year: 25
+        avatar: ""
+        socials: 
+          github: 
+          linkedin: 
+          email:
+          other: 
+    # done
+      - name: Kasey Kiggins
+        position: Head of Education
+        grad_year: 26
+        avatar: ""
         socials:
           github:
-          linkedin: jacob-doll
-          email: jgd4299@rit.edu
+          linkedin: 
+          email:
+          other:
+    
+      - name: Chase Kilorin
+        position: Head of Research
+        grad_year: 26
+        avatar: ""
+        socials:
+          github: 
+          linkedin: 
+          email: 
+          other:
+
+      - name: Jack Audino
+        position: IRSec CA
+        grad_year: 24
+        avatar: ""
+        socials:
+          github:
+          linkedin: 
+          email: 
           other: 
 
-      - name: Michael V. 
-        position: ISTS CA
-        grad_year: 23
-        avatar: "assets/images/2022eboard/mav2.png"
-        socials:
-          github: mav8557
-          linkedin: michael-vaughan-rit
-          email: mav8557@rit.edu
-          other:
-
-      - name: Bailey P. 
-        position: Treasurer
-        grad_year: 24
-        avatar: "assets/images/2022eboard/bailey.jpeg"
-        socials:
-          github: Pow3r5
-          linkedin: bailey-a-powers
-          email: bap8519@rit.edu
-          other:
-
-      - name: Sarah D. 
-        position: Secretary
-        grad_year: 24
-        avatar: "assets/images/2022eboard/sarah.JPG"
-        socials:
-          github: sarah-dill
-          linkedin: sarah-d-991990125
-          email: sed6542@rit.edu
-          other:
-    # need photo
-      - name: Abdulmalik B.
-        position: Operations Lead
-        grad_year: 23
-        avatar: "assets/images/2022eboard/malik.jpeg"
-        socials:
-          github: Abanaser
-          linkedin: abdulmalik-banaser
-          email: ab4594@rit.edu
-          other:
-
-      - name: Alex B. 
-        position: Tech Lead
-        grad_year: 25
-        avatar: "assets/images/2022eboard/alex.jpg"
-        socials:
-          github: alexander-beaver
-          linkedin: alex-beaver
-          email: acb9901@rit.edu
-          other: https://alexbeaver.com/
-
       - name: Zach P. 
-        position: CTF CA
+        position: ISTS CA
         grad_year: 25
         avatar: "assets/images/2022eboard/zachp.png"
         socials:
           linkedin: zachary-price-567661232
           email: ztp6893@rit.edu
+
+      - name: Albie Snyder 
+        position: Treasurer
+        grad_year: 25
+        avatar: ""
+        socials:
+          github: 
+          linkedin: 
+          email: 
+          other:
+
+      - name: Raina Freeman
+        position: Secretary
+        grad_year: 25
+        avatar: ""
+        socials:
+          github:
+          linkedin: 
+          email:
+          other:
+    # need photo
+      - name: Ross Mckee
+        position: Operations Lead
+        grad_year: 25
+        avatar: ""
+        socials:
+          github:
+          linkedin: 
+          email: 
+          other:
+
+      - name: Alex Noble
+        position: 
+        grad_year: 26
+        avatar: ""
+        socials:
+          github:
+          linkedin: 
+          email: 
+          other: 
+
   - title: Social Media
     description: Stay up to date with our social media pages!
 
@@ -139,7 +130,7 @@ past_eboards:
         position: Secretary
       - name: Kenneth Anderson
         position: Head of Education
-      - name: Anthony Iopollo
+      - name: Anthony Ioppolo
         position: Head of Research
       - name: Michael Vaughan
         position: ISTS Competition Architect
