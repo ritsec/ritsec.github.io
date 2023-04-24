@@ -45,7 +45,7 @@ sections:
           email:
           other:
     
-      - name: Chase Kilorin
+      - name: Chase Killorin
         position: Head of Research
         grad_year: 26
         avatar: ""
@@ -65,7 +65,7 @@ sections:
           email: 
           other: 
 
-      - name: Zach P. 
+      - name: Zach Price 
         position: ISTS CA
         grad_year: 25
         avatar: "assets/images/2022eboard/zachp.png"
@@ -104,7 +104,7 @@ sections:
           other:
 
       - name: Alex Noble
-        position: 
+        position: Tech Lead
         grad_year: 26
         avatar: ""
         socials:
