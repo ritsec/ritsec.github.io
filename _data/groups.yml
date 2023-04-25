@@ -5,7 +5,7 @@ sections:
     groups:
       - name: WiCyS @ RIT
         meeting_time: Wednesday 7-8pm GOL-2740
-        description: The WiCyS RIT Student Chapter is an all-inclusive interest program within RITSEC dedicated to making RIT’s Computing Security program more equitable. The chapter holds meetings and social events for students to come together and share their passion for security while creating a supportive network.
+        description: The WiCyS RIT Student Chapter is an all-inclusive interest group within RITSEC dedicated to making RIT’s Computing Security program more equitable. The chapter holds meetings and social events for students to come together and share their passion for security while creating a supportive network.
         url: "https://wicysrit.wordpress.com/"
         url-title: Website
       - name: Team Contagion
@@ -13,7 +13,7 @@ sections:
         description: Contagion represents RITSEC in a variety of Capture the Flag (CTF) competitions. We compete at different ranges of difficulty and on both the national and international levels. Everyone is welcome to join at any skill level as we provide weekly educational presentations and demos.
       - name: Red Team Recruiting
         meeting_time: Thursday 7-9pm GOL-2750
-        description: Red Team is the hub for all things red teaming at RIT. We develop robust red team tools, infrastructure, and implants to play the role of an effective adversary in a red vs blue competition setting. We research and implement the latest techniques to pull networks apart and build them back better. As an RITSEC interest program we focus on developing offensive security skills, working as a team, and having fun! 
+        description: Red Team is the hub for all things red teaming at RIT. We develop robust red team tools, infrastructure, and implants to play the role of an effective adversary in a red vs blue competition setting. We research and implement the latest techniques to pull networks apart and build them back better. As an RITSEC interest group we focus on developing offensive security skills, working as a team, and having fun! ull networks apart and build them back better. As an RITSEC interest program we focus on developing offensive security skills, working as a team, and having fun! 
       - name: RVAPT
         meeting_time: Tuesday 7:30-9pm GOL-2780
         description: At RVAPT, we learn how to find and exploit vulnerabilities in networks and associated services by hands on custom labs. Each week we learn one to two ways to break in into a network and keep building up on it through out the semester.
