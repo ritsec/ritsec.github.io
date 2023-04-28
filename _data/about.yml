@@ -8,7 +8,7 @@ sections:
       - name: Anthony Ioppolo
         position: President
         grad_year: 25
-        avatar: "assets/images/2022eboard/anthony.png"
+        avatar: "assets/images/2023eboard/anthonyi.png"
         socials:
           github: 20ioppolan
           linkedin: anthony-ioppolo
@@ -18,7 +18,7 @@ sections:
       - name: Kenneth Anderson
         position: Vice President
         grad_year: 24
-        avatar: "assets/images/2022eboard/kenny.jpeg"
+        avatar: "assets/images/2023eboard/kennetha.png"
         socials:
           github: kc0sm0s
           linkedin: 
@@ -28,7 +28,7 @@ sections:
       - name: Sophie Larson 
         position: Public Relations
         grad_year: 25
-        avatar: ""
+        avatar: "assets/images/2023eboard/sophiel.png"
         socials: 
           github: 
           linkedin: 
@@ -38,7 +38,7 @@ sections:
       - name: Kasey Kiggins
         position: Head of Education
         grad_year: 26
-        avatar: ""
+        avatar: "assets/images/2023eboard/kaseyk.png"
         socials:
           github:
           linkedin: 
@@ -48,7 +48,7 @@ sections:
       - name: Chase Killorin
         position: Head of Research
         grad_year: 26
-        avatar: ""
+        avatar: "assets/images/2023eboard/chasek.png"
         socials:
           github: 
           linkedin: 
@@ -58,7 +58,7 @@ sections:
       - name: Jack Audino
         position: IRSec CA
         grad_year: 24
-        avatar: ""
+        avatar: "assets/images/2023eboard/jacka.png"
         socials:
           github:
           linkedin: 
@@ -68,7 +68,7 @@ sections:
       - name: Zach Price 
         position: ISTS CA
         grad_year: 25
-        avatar: "assets/images/2022eboard/zachp.png"
+        avatar: "assets/images/2023eboard/zachprice.png"
         socials:
           linkedin: zachary-price-567661232
           email: ztp6893@rit.edu
@@ -76,7 +76,7 @@ sections:
       - name: Albie Snyder 
         position: Treasurer
         grad_year: 25
-        avatar: ""
+        avatar: "assets/images/2023eboard/albies.png"
         socials:
           github: 
           linkedin: 
@@ -86,7 +86,7 @@ sections:
       - name: Raina Freeman
         position: Secretary
         grad_year: 25
-        avatar: ""
+        avatar: "assets/images/2023eboard/rainaf.png"
         socials:
           github:
           linkedin: 
@@ -96,7 +96,7 @@ sections:
       - name: Ross Mckee
         position: Operations Lead
         grad_year: 25
-        avatar: ""
+        avatar: "assets/images/2023eboard/rossm.png"
         socials:
           github:
           linkedin: 
@@ -106,7 +106,7 @@ sections:
       - name: Alex Noble
         position: Tech Lead
         grad_year: 26
-        avatar: ""
+        avatar: "assets/images/2023eboard/alexn.png"
         socials:
           github:
           linkedin: 
