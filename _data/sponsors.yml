@@ -8,87 +8,34 @@ sections:
         #   image: /assets/images/sponsors/android.png
         #   url: https://www.android.com/
 
-      # Diamond:
-        # - title: Meta
-        #   image: /assets/images/sponsors/meta.png
-        #   url: https://www.metacareers.com/
-
-      Platinum:
-        - title: MITRE
-          tier: Platinum
-          image: /assets/images/sponsors/mitre.png
-          url: https://www.mitre.org/
-
-        - title: Security Risk Advisors
-          image: /assets/images/sponsors/sra.png
-          url: https://sra.io/
+      Diamond:
+        - title: Google
+          image: /assets/images/sponsors/google.png
+          url: https://careers.google.com/
 
         - title: Eaton Corporation
           image: /assets/images/sponsors/eaton.png
           url: https://www.eaton.com/us/en-us.html
-          
+
+      Platinum:
+        - title: Security Risk Advisors
+          image: /assets/images/sponsors/sra.png
+          url: https://sra.io/
+
+        - title: Battelle
+          image: /assets/images/sponsors/battelle.jpg
+          url: https://www.battelle.org/
+        
+        - title: FM Global
+          image: /assets/images/sponsors/fmglobal.png
+          url: https://www.fmglobal.com/
 
       Gold:
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
-
-        - title: ReliaQuest
-          image: /assets/images/sponsors/reliaquest.png
-          url: https://www.reliaquest.com/
-          
-        - title: FM Global
-          image: /assets/images/sponsors/fmglobal.png
-          url: https://www.fmglobal.com/
-
-        - title: Amplify
-          image: /assets/images/sponsors/amplify.jpeg
-          url: https://amplify.com/
-
-        - title: Black Hills Infosec
-          image: /assets/images/sponsors/bhis.webp
-          url: https://www.blackhillsinfosec.com/
-
-        - title: Synack Red Team
-          image: /assets/images/sponsors/synack.jpeg
-          url: https://www.synack.com/red-team/
-
-        - title: Battelle
-          image: /assets/images/sponsors/battelle.jpg
-          url: https://www.battelle.org/
-
-        - title: MetaCTF
-          image: /assets/images/sponsors/metactf.png
-          url: https://metactf.com/
-
-
-      Silver:
-        - title: Mindex
-          image: /assets/images/sponsors/mindex.jpeg
-          url: https://www.mindex.com/
-
-        - title: Akamai
-          image: /assets/images/sponsors/akamai.png
-          url: https://www.akamai.com/
-
-        - title: RET2 Systems
-          image: /assets/images/sponsors/RET2Systems.png
-          url: https://ret2.io/
-          
           
       Educational:
-        - title: Hak5
-          image: /assets/images/sponsors/hak5.png
-          url: https://shop.hak5.org/
-
-        - title: Splunk
-          image: /assets/images/sponsors/splunk.png
-          url: https://www.splunk.com/
-
-        - title: Binary Defense
-          image: /assets/images/sponsors/binarydefense.png
-          url: https://www.binarydefense.com/
-
-        - title: Google
-          image: /assets/images/sponsors/google.png
-          url: https://www.google.com/
+        - title: No Starch Press
+          image: /assets/images/sponsors/nostarchpress.webp
+          url: https://nostarch.com/
