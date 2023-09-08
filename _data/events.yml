@@ -4,15 +4,15 @@ sections:
 
     events:
       - title: ISTS
-        date: March 3-5th 2023
+        date: March 1st-3rd 2024
         location: (Invite Only) Rochester, NY
-        image: "assets/images/ists2022.JPG"
+        image: "assets/images/ists2023.png"
         url: https://ists.io/
         
       - title: IRSeC
-        date: Nov 5th 2022
+        date: Nov 4th 2022
         location: Rochester, NY
-        image: "assets/images/irsec2021.jpeg"
+        image: "assets/images/irsec2022.jpg"
         url: https://irsec.club/
         
       - title: Weekly Education Meeting
@@ -28,12 +28,12 @@ sections:
         url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
-        date: March 31st - April 2nd
+        date: TBD (April)
         location: Rochester, NY & Virtual!
         image: "assets/images/ritsec_ctf_2023_1024.png"
-        url: https://ctftime.org/event/1860
+        url: https://ctftime.org/ctf/170
 
       - title: Career Fair Eve
-        date: Sep 20th 2022
+        date: Sep 26th 2023
         location: Rochester, NY
         image: "assets/images/cfe.jpg"
