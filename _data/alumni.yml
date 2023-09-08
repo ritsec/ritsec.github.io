@@ -3,7 +3,42 @@ sections:
     description: Meet all of our wonderful alumni!
 
 alumni:
-
+	- year: 2023
+		name: Abdulmalik Banaser
+	- year: 2023
+		name: Aedan (AT) Taylor
+	- year: 2023
+		name: Aidan Kies
+	- year: 2023
+		name: Alison Nakai-Lackey
+	- year: 2023
+		name: Brayden Werner
+	- year: 2023
+		name: Cameron Carey
+	- year: 2023
+		name: Evan Mikulski
+	- year: 2023
+		name: Kayla Hodgson
+	- year: 2023
+		name: Maxwell Fusco
+	- year: 2023
+		name: Mike Turkowski
+	- year: 2023
+		name: Pranav Sarma
+	- year: 2023
+		name: Rayhan Baig
+	- year: 2023
+		name: Saakshi Gupta
+	- year: 2023
+		name: Salomi Rao
+	- year: 2023
+		name: Sarah Dill
+	- year: 2023
+		name: Sarthak Mathur
+	- year: 2023
+		name: Sma Das
+	- year: 2023
+		name: Spencer Roth
   - year: 2022 
     name: Enzo DeStephano
   - year: 2022
