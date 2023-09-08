@@ -2,7 +2,7 @@ sections:
   - title: Gallery
 
     photos:
-      - image: "assets/images/ists2023.png"
+      - image: "assets/images/ists2023.jpg"
         title: "ISTS 2024"
         caption: "The Information Security Talent Search (ISTS) is an annual three-day competition hosted in the early spring at RIT. Every year, competitors from both RIT and colleges around the country are faced with a wide variety of challenges which are designed to cover many facets of the security industry. This includes defensive and offensive capabilities, system administration, software security, networking, programming, and much more! Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure."
         link: https://drive.google.com/drive/folders/11-HIeMS1lFkwtvfQaUP5GeiJDppzgU-I?usp=sharing
