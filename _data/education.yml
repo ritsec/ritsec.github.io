@@ -7,8 +7,18 @@ sections:
         description: Introduction to RITSEC
         lessons:
           - title: Education Slides
-            description: Welcome to RITSEC Slides (2022-2023)
-            url: https://docs.google.com/presentation/d/1dlTSqxIIB2iMKT3g3fhWqGY4Z3jE-esEG8_sQOEVBWs/
+            description: Welcome to RITSEC Slides (2023-2024)
+            url: https://docs.google.com/presentation/d/1HfP5tMy80c2VXhLMldh8ONfczJp6xXZ-4ONtqixWZZA/edit?usp=sharing
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
+      - title: Week 1 | Intro to Linux
+        description: Introduction to Linux
+        lessons:
+          - title: Education Slides
+            description: Introduction to the Linux Operating System
+            url: https://docs.google.com/presentation/d/1uasSZtAfLjLJOsHU5OMqJ0IEorJeqfbC50bv47Jb6a4/edit?usp=sharing
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
+
