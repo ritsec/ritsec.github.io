@@ -29,11 +29,24 @@ sections:
         - title: FM Global
           image: /assets/images/sponsors/fmglobal.png
           url: https://www.fmglobal.com/
+        
+        - title: ICR Inc.
+          image: /assets/images/sponsors/icrinc.jpg
+          url: https://icr-team.com/
+
+        - title: Amplify
+          image: /assets/images/sponsors/amplify.jpeg
+          url: https://amplify.com/
 
       Gold:
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
+      
+      Silver:
+        - title: Mindex
+          image: /assets/images/sponsors/mindex.jpeg
+          url: https://www.mindex.com/
           
       Educational:
         - title: No Starch Press
