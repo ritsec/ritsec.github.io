@@ -21,4 +21,13 @@ sections:
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
+      - title: Week 2 | Intro to Windows
+        description: Introduction to Windows
+        lessons:
+          - title: Education Slides
+            description: Introduction to the Windows Operating System
+            url: https://docs.google.com/presentation/d/1e5mUkus-_QQJpR07gUie1ItoR2A7TD-w5c5snYcmnwE/edit#slide=id.g1525a048bbb_2_5
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
 
