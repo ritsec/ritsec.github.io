@@ -18,7 +18,7 @@ sections:
       - name: Kenneth Anderson
         position: Vice President
         grad_year: 24
-        avatar: "assets/images/2023eboard/kennetha.png"
+        avatar: "assets/images/2023eboard/kennetha.jpg"
         socials:
           github: kc0sm0s
           linkedin: 
@@ -28,7 +28,7 @@ sections:
       - name: Sophie Larson 
         position: Public Relations
         grad_year: 25
-        avatar: "assets/images/2023eboard/sophiel.png"
+        avatar: "assets/images/2023eboard/sophiel.jpg"
         socials: 
           github: 
           linkedin: 
@@ -48,7 +48,7 @@ sections:
       - name: Chase Killorin
         position: Head of Research
         grad_year: 26
-        avatar: "assets/images/2023eboard/chasek.png"
+        avatar: "assets/images/2023eboard/chasek.jpg"
         socials:
           github: 
           linkedin: 
@@ -58,7 +58,7 @@ sections:
       - name: Jack Audino
         position: IRSec CA
         grad_year: 24
-        avatar: "assets/images/2023eboard/jacka.png"
+        avatar: "assets/images/2023eboard/jacka.jpg"
         socials:
           github:
           linkedin: 
@@ -68,7 +68,7 @@ sections:
       - name: Zach Price 
         position: ISTS CA
         grad_year: 25
-        avatar: "assets/images/2023eboard/zachprice.png"
+        avatar: "assets/images/2023eboard/zachprice.jpg"
         socials:
           linkedin: zachary-price-567661232
           email: ztp6893@rit.edu
@@ -86,27 +86,27 @@ sections:
       - name: Raina Freeman
         position: Secretary
         grad_year: 25
-        avatar: "assets/images/2023eboard/rainaf.png"
+        avatar: "assets/images/2023eboard/rainaf.jpg"
         socials:
           github:
           linkedin: 
           email:
           other:
-    # need photo
-      - name: Ross Mckee
+
+      - name: Michael Scalzetti
         position: Operations Lead
-        grad_year: 25
-        avatar: "assets/images/2023eboard/rossm.png"
+        grad_year: 24
+        avatar: "assets/images/2023eboard/michaels.jpg"
         socials:
           github:
           linkedin: 
-          email: 
+          email: contact@scalz.cloud
           other:
 
       - name: Alex Noble
         position: Tech Lead
         grad_year: 26
-        avatar: "assets/images/2023eboard/alexn.png"
+        avatar: "assets/images/2023eboard/alexn.jpg"
         socials:
           github:
           linkedin: 
