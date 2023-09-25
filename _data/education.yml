@@ -30,4 +30,13 @@ sections:
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
+      - title: Week 3 | Career Fair Prep
+        description: Career Fair Prep
+        lessons: Preparation for the Career Fair and Networking Events
+          - title: Education Slides
+            description: Introduction to the Windows Operating System
+            url: https://docs.google.com/presentation/d/1iacZdoL88PEe215i9a7LEYAnSB3fiokiPZx-3EEKi5E/edit?usp=sharing
+          - title: Demo Challenges
+            description: Create a resume and submit it to RITSEC Resume Review
+            url: https://flags.ritsec.club
 
