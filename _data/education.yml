@@ -26,8 +26,42 @@ sections:
         lessons:
           - title: Education Slides
             description: Introduction to the Windows Operating System
-            url: https://docs.google.com/presentation/d/1e5mUkus-_QQJpR07gUie1ItoR2A7TD-w5c5snYcmnwE/edit#slide=id.g1525a048bbb_2_5
-          - title: Demo Challenges
+            url: https://docs.google.com/presentation/d/1e5mUkus-_QQJpR07gUie1ItoR2A7TD-w5c5snYcmnwE/edit?usp=sharing
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
-
+      - title: Week 3 | Career Fair Prep
+        description: Career Fair Preparations
+        lessons:
+          - title: Education Slides
+            description: Preparation for the Fall 2023 Career Fair
+            url: https://docs.google.com/presentation/d/1iacZdoL88PEe215i9a7LEYAnSB3fiokiPZx-3EEKi5E/edit?usp=sharing
+      - title: Week 5 | Core Services
+        description: Introduction to Core Services
+        lessons:
+          - title: Education Slides
+            description: Introduction to Core Services
+            url: https://docs.google.com/presentation/d/1vX9dJB0VbzK7b4KTeU1gSdxDXLelcWumP7c6xsZbz8M/edit?usp=sharing
+      - title: Week 6 | Intro to Blue Teaming
+        description: Blue Team Windows/Linux
+        lessons:
+          - title: Education Slides
+            description: Introduction to Blue Teaming
+            url: https://docs.google.com/presentation/d/1MZSUmJgCMwgDnS33Ro3XcddQw_pt9i7us9GpfVOSykc/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 8 | Intro to Web
+        description: Introduction to Web
+        lessons:
+          - title: Education Slides
+            description: Introduction to Web
+            url: https://docs.google.com/presentation/d/1wIFdVwlJXKrOsxhaZA2gKMxXR9yCaSM-dMaOxD82m4M/edit?usp=sharing
+      - title: Week 10 | RITSEC Redteam
+        description: Introduction to Red Team
+        lessons:
+          - title: Education Slides
+            description: Introduction to Red Team @ RITSEC
+            url: https://docs.google.com/presentation/d/1RzScwUcZj1etjMjLhJQEf0trlHikLcfthxgOvvfotsM/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
