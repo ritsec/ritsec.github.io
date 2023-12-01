@@ -74,4 +74,13 @@ sections:
             url: https://docs.google.com/presentation/d/1RLl3QDkbbO8rOtGaGFKg7Tzdei1mJes3fUN99lUd224/edit?usp=sharing
           - title: Demo Challenges
             description: No VM needed this week!
-            url: https://flags.ritsec.club    
+            url: https://flags.ritsec.club
+      - title: Week 12 | The Docker Talk
+        description: Intro to Containerization
+        lessons:
+          - title: Education Slides
+            description: The Docker Talk
+            url: https://docs.google.com/presentation/d/1Q7HeARpfvk5X-zCVJBg1le72dozGj59E9zwEKBA9EfM/edit?usp=sharing
+          - title: Demo Challenges
+            description: Docker Engine required!
+            url: https://flags.ritsec.club
