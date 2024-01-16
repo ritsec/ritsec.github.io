@@ -112,6 +112,16 @@ sections:
           linkedin: 
           email: 
           other: 
+      
+      - name: Rachel Leone
+        position: CTF CA
+        grad_year: 25
+        avatar: "assets/images/2023eboard/rachell.jpg"
+        socials:
+          github:
+          linkedin: rachel-leone217
+          email: 
+          other: 
 
   - title: Social Media
     description: Stay up to date with our social media pages!
