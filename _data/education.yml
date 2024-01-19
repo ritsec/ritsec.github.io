@@ -1,6 +1,6 @@
 sections:
   - title: Fall 2023
-    description: Education Slides more about some of our favorite topics with our project-focused education system
+    description: Education Slides - more about some of our favorite topics with our project-focused education system
     
     sets:
       - title: Week 0 | Intro to RITSEC
@@ -83,4 +83,17 @@ sections:
             url: https://docs.google.com/presentation/d/1Q7HeARpfvk5X-zCVJBg1le72dozGj59E9zwEKBA9EfM/edit?usp=sharing
           - title: Demo Challenges
             description: Docker Engine required!
+            url: https://flags.ritsec.club
+  - title: Spring 2024
+    description: Education Slides - more about some of our favorite topics with our project-focused education system
+    
+    sets:
+      - title: Week 1 | The Cloud
+        description: The Cloud
+        lessons:
+          - title: Education Slides
+            description: The Cloud
+            url: https://docs.google.com/presentation/d/1UcGF5l8s0GzOQTReSS1gZ6qORh8mFICiz1V5odbvoCI/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
             url: https://flags.ritsec.club
