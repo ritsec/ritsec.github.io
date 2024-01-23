@@ -32,7 +32,7 @@ sections:
         socials: 
           github: 
           linkedin: 
-          email:
+          email: sil6343@rit.edu
           other: 
     # done
       - name: Kasey Kiggins
@@ -42,7 +42,7 @@ sections:
         socials:
           github:
           linkedin: 
-          email:
+          email: kak8381@rit.edu
           other:
     
       - name: Chase Killorin
@@ -52,7 +52,7 @@ sections:
         socials:
           github: 
           linkedin: 
-          email: 
+          email: csk1188@rit.edu
           other:
 
       - name: Jack Audino
