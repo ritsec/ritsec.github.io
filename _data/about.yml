@@ -37,7 +37,7 @@ sections:
     # done
       - name: Kasey Kiggins
         position: Head of Education
-        grad_year: 26
+        grad_year: 27
         avatar: "assets/images/2023eboard/kaseyk.jpg"
         socials:
           github:
@@ -47,7 +47,7 @@ sections:
     
       - name: Chase Killorin
         position: Head of Research
-        grad_year: 26
+        grad_year: 27
         avatar: "assets/images/2023eboard/chasek.jpg"
         socials:
           github: 

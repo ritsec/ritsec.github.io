@@ -52,3 +52,7 @@ sections:
         - title: No Starch Press
           image: /assets/images/sponsors/nostarchpress.png
           url: https://nostarch.com/
+
+        - title: Fortra
+          image: /assets/images/sponsors/fortra-logo-forest-green.png
+          url: https://fortra.com/
