@@ -97,3 +97,21 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
+      - title: Week 3 | Pentesting
+        description: Pentesting
+        lessons:
+          - title: Education Slides
+            description: Pentesting
+            url: Week 3 - https://docs.google.com/presentation/d/1mwC3Ty2VI6phjvUCYnRPWL7fPpndlFuTxJfJB3ut-n4/edit?usp=sharing
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
+      - title: Week 4 | Advanced Linux
+        description: Advanced Linux
+        lessons:
+          - title: Education Slides
+            description: Advanced Linux
+            url: Week 4 - https://docs.google.com/presentation/d/1Bbjop1qRsCiMp7FIpJhZ3u0hqGzw4gg01QcRvjEGzdU/edit?usp=sharing
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
