@@ -84,7 +84,7 @@ body {
   flex: 1 1;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 90rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -115,7 +115,7 @@ body {
 .navbar-links {
   display: flex;
   justify-content: space-around;
-  width: 116%;
+  width: 65%;
   z-index: 20;
 
   li {
@@ -123,6 +123,7 @@ body {
   }
 
   a {
+    display: flex;
     color: var(--text-color);
     opacity: 0.7;
     text-decoration: none;
