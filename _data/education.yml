@@ -115,3 +115,12 @@ sections:
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
+      - title: Week 5 | Advanced Windows
+        description: Advanced Windows
+        lessons:
+          - title: Education Slides
+            description: Advanced Windows
+            url: Week 5 - https://docs.google.com/presentation/d/1S-u_4QMEcgbwRz_e71lW3S_m-lT7qmO_H2Svntkysec/edit?usp=sharing
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
