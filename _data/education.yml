@@ -1,7 +1,7 @@
 sections:
   - title: Fall 2023
     description: Education Slides - more about some of our favorite topics with our project-focused education system
-    
+
     sets:
       - title: Week 0 | Intro to RITSEC
         description: Introduction to RITSEC
@@ -86,7 +86,7 @@ sections:
             url: https://flags.ritsec.club
   - title: Spring 2024
     description: Education Slides - more about some of our favorite topics with our project-focused education system
-    
+
     sets:
       - title: Week 1 | The Cloud
         description: The Cloud
@@ -102,7 +102,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Pentesting
-            url: Week 3 - https://docs.google.com/presentation/d/1mwC3Ty2VI6phjvUCYnRPWL7fPpndlFuTxJfJB3ut-n4/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1mwC3Ty2VI6phjvUCYnRPWL7fPpndlFuTxJfJB3ut-n4/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
@@ -111,7 +111,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Advanced Linux
-            url: Week 4 - https://docs.google.com/presentation/d/1Bbjop1qRsCiMp7FIpJhZ3u0hqGzw4gg01QcRvjEGzdU/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1Bbjop1qRsCiMp7FIpJhZ3u0hqGzw4gg01QcRvjEGzdU/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
@@ -120,7 +120,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Advanced Windows
-            url: Week 5 - https://docs.google.com/presentation/d/1S-u_4QMEcgbwRz_e71lW3S_m-lT7qmO_H2Svntkysec/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1S-u_4QMEcgbwRz_e71lW3S_m-lT7qmO_H2Svntkysec/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
