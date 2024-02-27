@@ -124,3 +124,12 @@ sections:
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
+      - title: Week 6 | OSINT
+        description: OSINT
+        lessons:
+          - title: Education Slides
+            description: OSINT
+            url: https://docs.google.com/presentation/d/1wFwLnokEgHAJCdmA36XsM45xTB6UpU6EYmdpY4Bev-k/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
