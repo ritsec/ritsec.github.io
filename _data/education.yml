@@ -133,3 +133,17 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
+      - title: Week 7 | Hardware Security
+        description: Hardware Security
+        lessons:
+          - title: Education Slides
+            description: Hardware Security
+            url: https://docs.google.com/presentation/d/1UozFVWK9zgkbq91c78O188tnQAFm_nnHaocc3PiZ7iA/edit?usp=sharing
+      - title: Week 8 | FreeBSD
+        description: FreeBSD
+        lessons:
+          - title: Education Slides
+            description: FreeBSD
+            url: https://docs.google.com/presentation/d/1F7coGRZfqux1Nb80cwXPRA0Lu1c-feAODIRWEC0-gSw/edit?usp=sharing
+          - title: Demo Challenges
+            description: Download the VMs from the ctfd
