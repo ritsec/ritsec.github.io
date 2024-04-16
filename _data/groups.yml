@@ -32,3 +32,6 @@ sections:
       - name: Vulnerability Research
         meeting_time: Wednesday 4-5pm CYB-2750
         description: To introduce members of the club to the concepts of vulnerability and security research. This includes concepts such as bug bounties, code analysis, and fuzzing.
+      - name: Incident Response IG
+        meeting_time: Monday 4-5pm CYB-2780
+        description: The incident response interest group focuses on all topics related to cyber incidents. This includes topics such as SANS PICERL & NIST Frameworks, SOC/SIEM/SOAR monitoring tools, forensics analysis, log analysis, and cyber defense techniques. We love Blue teaming and getting hands on experiences such as competitons that that can lead to a greater understanding of incident response in the professional setting. Anyone interested in Incident response, blue team, or even cyber security in general is encouraged and welcome to join.
