@@ -127,6 +127,34 @@ sections:
     description: Stay up to date with our social media pages!
 
 past_eboards:
+  - year: 2023-2024
+    org_name: RITSEC
+    members:
+      - name: Anthony Ioppolo
+        position: President
+      - name: Kenneth Anderson
+        position: Vice President
+      - name: Sophie Larson 
+        position: Director of Public Relations
+      - name: Raina Freeman
+        position: Secretary
+      - name: Kasey Kiggins
+        position: Head of Education
+      - name: Chase Killorin
+        position: Head of Research
+      - name: Zach Price
+        position: ISTS Competition Architect
+      - name: Jack Audino
+        position: IRSeC CA
+      - name: Rachel Leone
+        position: CTF CA 
+      - name: Albie Snyder
+        position: Treasurer
+      - name: Michael Scalzetti
+        position: Operations Lead
+      - name: Alex Noble 
+        position: Tech Lead
+        
   - year: 2022-2023
     org_name: RITSEC
     members:
