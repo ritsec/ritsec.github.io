@@ -5,121 +5,121 @@ sections:
   - title: 2023-2024 E-Board
     members:
     # done
-      - name: Anthony Ioppolo
-        position: President
-        grad_year: 25
-        avatar: "assets/images/2023eboard/anthonyi.png"
-        socials:
-          github: 20ioppolan
-          linkedin: anthony-ioppolo
-          email: aji4345@rit.edu
-          other:
-    # done
-      - name: Kenneth Anderson
-        position: Vice President
-        grad_year: 24
-        avatar: "assets/images/2023eboard/kennetha.jpg"
-        socials:
-          github: kc0sm0s
-          linkedin: 
-          email: kaa5408@rit.edu
-          other:
-    # done
-      - name: Sophie Larson 
-        position: Public Relations
-        grad_year: 25
-        avatar: "assets/images/2023eboard/sophiel.jpg"
-        socials: 
-          github: 
-          linkedin: 
-          email: sil6343@rit.edu
-          other: 
-    # done
       - name: Kasey Kiggins
-        position: Head of Education
+        position: President
         grad_year: 27
         avatar: "assets/images/2023eboard/kaseyk.jpg"
         socials:
-          github:
+          github: 
           linkedin: 
           email: kak8381@rit.edu
           other:
-    
-      - name: Chase Killorin
-        position: Head of Research
-        grad_year: 27
-        avatar: "assets/images/2023eboard/chasek.jpg"
-        socials:
-          github: 
-          linkedin: 
-          email: csk1188@rit.edu
-          other:
-
-      - name: Jack Audino
-        position: IRSec CA
-        grad_year: 24
-        avatar: "assets/images/2023eboard/jacka.jpg"
-        socials:
-          github:
-          linkedin: 
-          email: 
-          other: 
-
-      - name: Zach Price 
-        position: ISTS CA
-        grad_year: 25
-        avatar: "assets/images/2023eboard/zachprice.jpg"
-        socials:
-          linkedin: zachary-price-567661232
-          email: ztp6893@rit.edu
-
-      - name: Albie Snyder 
-        position: Treasurer
-        grad_year: 25
-        avatar: "assets/images/2023eboard/albies.png"
-        socials:
-          github: 
-          linkedin: 
-          email: 
-          other:
-
-      - name: Raina Freeman
-        position: Secretary
-        grad_year: 25
-        avatar: "assets/images/2023eboard/rainaf.jpg"
-        socials:
-          github:
-          linkedin: 
-          email:
-          other:
-
-      - name: Michael Scalzetti
-        position: Operations Lead
-        grad_year: 24
-        avatar: "assets/images/2023eboard/michaels.jpg"
-        socials:
-          github:
-          linkedin: 
-          email: contact@scalz.cloud
-          other:
-
-      - name: Alex Noble
-        position: Tech Lead
-        grad_year: 26
-        avatar: "assets/images/2023eboard/alexn.jpg"
-        socials:
-          github:
-          linkedin: 
-          email: 
-          other: 
-      
+    # done
       - name: Rachel Leone
-        position: CTF CA
+        position: Vice President
         grad_year: 25
         avatar: "assets/images/2023eboard/rachell.jpg"
         socials:
-          github:
+          github: 
           linkedin: rachel-leone217
+          email: ral4123@rit.edu
+          other:
+    # not done
+      - name: Chris (Kip) Rath
+        position: Public Relations
+        grad_year: 25
+        avatar: 
+        socials: 
+          github: 
+          linkedin: 
+          email: ccr8497@rit.edu
+          other: 
+    # not done
+      - name: Leah Kvares
+        position: Head of Education
+        grad_year: 
+        avatar: 
+        socials:
+          github:
+          linkedin: 
+          email: lk3053@rit.edu
+          other:
+    
+      - name: yonmo
+        position: Head of Research
+        grad_year: 
+        avatar: 
+        socials:
+          github: 
+          linkedin: 
+          email: yonmo@idolum.io
+          other:
+
+      - name: Maxim Kochnev
+        position: IRSec CA
+        grad_year: 
+        avatar: 
+        socials:
+          github:
+          linkedin: 
+          email: mvk5375@g.rit.edu
+          other: 
+
+      - name: Drew Young 
+        position: ISTS CA
+        grad_year: 26
+        avatar: 
+        socials:
+          linkedin: 
+          email: dmy3070@rit.edu
+
+      - name: David Girard 
+        position: Treasurer
+        grad_year: 
+        avatar: 
+        socials:
+          github: 
+          linkedin: 
+          email: dwg5906@rit.edu
+          other:
+
+      - name: Lukas Peters
+        position: Secretary
+        grad_year: 
+        avatar: 
+        socials:
+          github:
+          linkedin: 
+          email: lmp6173@rit.edu
+          other:
+
+      - name: John Arrandale
+        position: Operations Lead
+        grad_year: 
+        avatar: 
+        socials:
+          github:
+          linkedin: 
+          email: jca7237@rit.edu
+          other:
+
+      - name: Dan Lachance
+        position: Tech Lead
+        grad_year: 
+        avatar: 
+        socials:
+          github:
+          linkedin: 
+          email: dgl2362@rit.edu
+          other: 
+      
+      - name: TBD till Spring 25'
+        position: CTF CA
+        grad_year:
+        avatar:
+        socials:
+          github:
+          linkedin: 
           email: 
           other: 
 
