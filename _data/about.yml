@@ -67,10 +67,11 @@ sections:
 
       - name: Drew Young 
         position: ISTS CA
-        grad_year: 26
-        avatar: 
+        grad_year: 25
+        avatar: "assets/images/2024eboard/drew.jpeg"
         socials:
-          linkedin: 
+          github: drew-young
+          linkedin: drew-m-young
           email: dmy3070@rit.edu
 
       - name: David Girard 
@@ -85,11 +86,11 @@ sections:
 
       - name: Lukas Peters
         position: Secretary
-        grad_year: 
-        avatar: 
+        grad_year: 26
+        avatar: "assets/images/2024eboard/lukas.jpg"
         socials:
-          github:
-          linkedin: 
+          github: c0untingNumbers
+          linkedin: lukasmpeters
           email: lmp6173@rit.edu
           other:
 
@@ -103,13 +104,13 @@ sections:
           email: jca7237@rit.edu
           other:
 
-      - name: Dan Lachance
+      - name: Dan LaChance
         position: Tech Lead
-        grad_year: 
-        avatar: 
+        grad_year: 26
+        avatar: "assets/images/2024eboard/dan.png"
         socials:
           github:
-          linkedin: 
+          linkedin: daniel-lachance-319068290
           email: dgl2362@rit.edu
           other: 
       
