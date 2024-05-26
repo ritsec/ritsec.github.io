@@ -93,11 +93,11 @@ sections:
           linkedin: lukasmpeters
           email: lmp6173@rit.edu
           other:
-    # not done
+    # done
       - name: John Arrandale
         position: Operations Lead
         grad_year: 26
-        avatar: 
+        avatar: "assets/images/2024eboard/John.jpg"
         socials:
           github: bootsie123
           linkedin: john-arrandale
