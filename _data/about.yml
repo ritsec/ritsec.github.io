@@ -44,17 +44,17 @@ sections:
           linkedin: 
           email: lk3053@rit.edu
           other:
-    
+    # not done
       - name: yonmo
         position: Head of Research
-        grad_year: 
+        grad_year: 25
         avatar: 
         socials:
           github: 
           linkedin: 
           email: yonmo@idolum.io
           other:
-
+    # not done
       - name: Maxim Kochnev
         position: IRSec CA
         grad_year: 
@@ -64,7 +64,7 @@ sections:
           linkedin: 
           email: mvk5375@g.rit.edu
           other: 
-
+    # done
       - name: Drew Young 
         position: ISTS CA
         grad_year: 25
@@ -73,7 +73,7 @@ sections:
           github: drew-young
           linkedin: drew-m-young
           email: dmy3070@rit.edu
-
+    # not done
       - name: David Girard 
         position: Treasurer
         grad_year: 
@@ -83,7 +83,7 @@ sections:
           linkedin: 
           email: dwg5906@rit.edu
           other:
-
+    # done
       - name: Lukas Peters
         position: Secretary
         grad_year: 26
@@ -93,17 +93,17 @@ sections:
           linkedin: lukasmpeters
           email: lmp6173@rit.edu
           other:
-
+    # not done
       - name: John Arrandale
         position: Operations Lead
-        grad_year: 
+        grad_year: 26
         avatar: 
         socials:
-          github:
-          linkedin: 
+          github: bootsie123
+          linkedin: john-arrandale
           email: jca7237@rit.edu
           other:
-
+    # done
       - name: Dan LaChance
         position: Tech Lead
         grad_year: 26
@@ -113,7 +113,7 @@ sections:
           linkedin: daniel-lachance-319068290
           email: dgl2362@rit.edu
           other: 
-      
+    # not done
       - name: TBD till Spring 25'
         position: CTF CA
         grad_year:
