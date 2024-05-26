@@ -114,15 +114,15 @@ sections:
           email: dgl2362@rit.edu
           other: 
     # not done
-      - name: TBD till Spring 25'
-        position: CTF CA
-        grad_year:
-        avatar:
-        socials:
-          github:
-          linkedin: 
-          email: 
-          other: 
+    #  - name: TBD till Spring 25'
+    #   position: CTF CA
+    #   grad_year:
+    #   avatar:
+    #   socials:
+    #     github:
+    #     linkedin: 
+    #     email: 
+    #     other: 
 
   - title: Social Media
     description: Stay up to date with our social media pages!
