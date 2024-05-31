@@ -37,18 +37,18 @@ sections:
     # not done
       - name: Leah Kvares
         position: Head of Education
-        grad_year: 
-        avatar: 
+        grad_year: 27
+        avatar: "assets/images/2024eboard/leah.jpg"
         socials:
-          github:
-          linkedin: 
+          github: leahkvares
+          linkedin: leahkvares
           email: lk3053@rit.edu
           other:
     # not done
       - name: yonmo
         position: Head of Research
         grad_year: 25
-        avatar: assets/images/2024eboard/yonmo.jpeg"
+        avatar: "assets/images/2024eboard/yonmo.jpeg"
         socials:
           github: 
           linkedin: 
