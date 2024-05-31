@@ -24,7 +24,7 @@ sections:
           linkedin: rachel-leone217
           email: ral4123@rit.edu
           other:
-    # not done
+    # done
       - name: Kip Rath
         position: Public Relations
         grad_year: 25
@@ -34,7 +34,7 @@ sections:
           linkedin: christopherrath
           email: kiprath3@gmail.com
           other: 
-    # not done
+    # done
       - name: Leah Kvares
         position: Head of Education
         grad_year: 27
@@ -44,7 +44,7 @@ sections:
           linkedin: leahkvares
           email: lk3053@rit.edu
           other:
-    # not done
+    # done
       - name: yonmo
         position: Head of Research
         grad_year: 25
@@ -54,7 +54,7 @@ sections:
           linkedin: 
           email: yonmo@idolum.io
           other:
-    # not done
+    # done
       - name: Maxim Kochnev
         position: IRSec CA
         grad_year: 26
@@ -73,14 +73,14 @@ sections:
           github: drew-young
           linkedin: drew-m-young
           email: dmy3070@rit.edu
-    # not done
+    # done
       - name: David Girard 
         position: Treasurer
-        grad_year: 
-        avatar: 
+        grad_year: 27
+        avatar: "assets/images/2024eboard/david.png"
         socials:
-          github: 
-          linkedin: 
+          github: DaveTheBearMan
+          linkedin: david-wg2
           email: dwg5906@rit.edu
           other:
     # done
