@@ -57,11 +57,11 @@ sections:
     # not done
       - name: Maxim Kochnev
         position: IRSec CA
-        grad_year: 
-        avatar: 
+        grad_year: 26
+        avatar: "assets/images/2024eboard/maxim.png"
         socials:
-          github:
-          linkedin: 
+          github: 1gB0rdeaux
+          linkedin: maxim-v-kochnev
           email: mvk5375@g.rit.edu
           other: 
     # done
