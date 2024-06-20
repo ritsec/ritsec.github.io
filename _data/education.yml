@@ -147,3 +147,19 @@ sections:
             url: https://docs.google.com/presentation/d/1F7coGRZfqux1Nb80cwXPRA0Lu1c-feAODIRWEC0-gSw/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
+            url: https://flags.ritsec.club
+      - title: Week 9 | Kubernetes
+        description: Kubernetes
+        lessons:
+          - title: Education Slides
+            description: Kubernetes
+            url: https://docs.google.com/presentation/d/1uUcJ7ZKOZhQzXbAYL-bQgSTTB4ZK2TRxPSlWkUeSY-U/edit?usp=sharing
+      - title: Week 11 | Wireless
+        description: Wireless
+        lessons:
+          - title: Education Slides
+            description: Wireless
+            url: https://docs.google.com/presentation/d/16NY2_G482BySQTUG_5zJYa-cFp5JZcnc/edit?usp=sharing&ouid=110550895706208937111&rtpof=true&sd=true
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
