@@ -5,8 +5,8 @@ sections:
   - title: 2023-2024 E-Board
     members:
     # done
-      - name: Kasey Kiggins
-        pronouns: she/her
+      - name: Kasey Kiggins (she/her)
+        pronouns: she her
         position: President
         grad_year: 26
         avatar: "assets/images/2023eboard/kaseyk.jpg"
