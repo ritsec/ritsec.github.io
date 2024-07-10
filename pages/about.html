@@ -32,7 +32,7 @@ members_section = site.data.about.sections[1] -%} {%- assign socials_section = s
               {{member.name}}
               <span style="color: #ff7613; opacity: 0.9"> '{{member.grad_year}} </span>
             </div>
-            <div class="member_details">{{member.position}}\n{{member.pronouns}}</div>
+            <div class="member_details">{{member.position}}("\n"){{member.pronouns}}</div>
             <div class="member_socials">
               {%- if member.socials.github -%}
               <a class="member_social" href="https://github.com/{{ member.socials.github | cgi_escape | escape }}"
