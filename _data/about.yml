@@ -6,8 +6,8 @@ sections:
     members:
     # done
       - name: Kasey Kiggins
-        pronouns: she/her
         position: President
+        pronouns: she/her
         grad_year: 26
         avatar: "assets/images/2023eboard/kaseyk.jpg"
         socials:
