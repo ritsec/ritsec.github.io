@@ -46,14 +46,11 @@ sections:
           email: lk3053@rit.edu
           other:
     # done
-      - name: yonmo
+      - name: TBD
         position: Head of Research
-        grad_year: 25
+        grad_year: TBD
         avatar: "assets/images/2024eboard/yonmo.jpeg"
         socials:
-          github: 
-          linkedin: 
-          email: yonmo@idolum.io
           other:
     # done
       - name: Maxim Kochnev
