@@ -2,7 +2,7 @@ sections:
   - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
-  - title: 2023-2024 E-Board
+  - title: 2024-2025 E-Board
     members:
     # done
       - name: Kasey Kiggins
@@ -46,10 +46,10 @@ sections:
           email: lk3053@rit.edu
           other:
     # done
-      - name: TBD
+      - name: Will D'Amdrade
         position: Head of Research
-        grad_year: TBD
-        avatar: "assets/images/2024eboard/yonmo.jpeg"
+        grad_year: 27
+        avatar: "assets/images/2024eboard"
         socials:
           other:
     # done
