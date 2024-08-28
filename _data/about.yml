@@ -51,6 +51,8 @@ sections:
         grad_year: 27
         avatar: "assets/images/2024eboard/will.jpg"
         socials:
+          github: will-dandrade
+          email: wtd7176@rit.edu
           other:
     # done
       - name: Maxim Kochnev
