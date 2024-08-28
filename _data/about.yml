@@ -27,7 +27,7 @@ sections:
           other:
     # done
       - name: Kip Rath
-        position: Public Relations(he/him)
+        position: Public Relations
         grad_year: 25
         avatar: "assets/images/2024eboard/kip.jpg"
         socials: 
@@ -75,7 +75,7 @@ sections:
           email: dmy3070@rit.edu
     # done
       - name: David Girard 
-        position: Treasurer
+        position: Treasurer(he/him)
         grad_year: 27
         avatar: "assets/images/2024eboard/david.png"
         socials:
