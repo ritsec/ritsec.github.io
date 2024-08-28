@@ -17,7 +17,7 @@ sections:
           other:
     # done
       - name: Rachel Leone
-        position: Vice President(she/her)
+        position: Vice President
         grad_year: 25
         avatar: "assets/images/2023eboard/rachell.jpg"
         socials:
@@ -47,7 +47,7 @@ sections:
           other:
     # done
       - name: Will D'Amdrade
-        position: Head of Research(he/him)
+        position: Head of Research
         grad_year: 27
         avatar: "assets/images/2024eboard/will2.0.jpg"
         socials:
