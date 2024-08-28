@@ -17,7 +17,7 @@ sections:
           other:
     # done
       - name: Rachel Leone
-        position: Vice President
+        position: Vice President(she/her)
         grad_year: 25
         avatar: "assets/images/2023eboard/rachell.jpg"
         socials:
@@ -47,7 +47,7 @@ sections:
           other:
     # done
       - name: Will D'Amdrade
-        position: Head of Research
+        position: Head of Research(he/him)
         grad_year: 27
         avatar: "assets/images/2024eboard/will.jpg"
         socials:
@@ -56,7 +56,7 @@ sections:
           other:
     # done
       - name: Maxim Kochnev
-        position: IRSec CA
+        position: IRSec CA(he/him)
         grad_year: 26
         avatar: "assets/images/2024eboard/maxim.png"
         socials:
@@ -66,7 +66,7 @@ sections:
           other: 
     # done
       - name: Drew Young 
-        position: ISTS CA
+        position: ISTS CA(he/him)
         grad_year: 25
         avatar: "assets/images/2024eboard/drew.jpeg"
         socials:
@@ -85,7 +85,7 @@ sections:
           other:
     # done
       - name: Lukas Peters
-        position: Secretary
+        position: Secretary(he/him)
         grad_year: 26
         avatar: "assets/images/2024eboard/lukas.jpg"
         socials:
