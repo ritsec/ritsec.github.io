@@ -1,13 +1,5 @@
 sections:
   - title: Groups
-  
- - title: Partnership
-    groups:
-      - name: WiCyS @ RIT
-        meeting_time: Tuesday 5-6pm CYB-1710/1720/1730
-        description: The WiCyS RIT Student Chapter is an all-inclusive interest group within RITSEC dedicated to making RIT’s Computing Security program more equitable. The chapter holds meetings and social events for students to come together and share their passion for security while creating a supportive network.
-        url: "https://wicysrit.org/"
-        url-title: Website
   - title: Interest Groups
     groups:
       - name: Team Contagion
