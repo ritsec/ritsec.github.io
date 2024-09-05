@@ -1,5 +1,6 @@
 sections:
   - title: Groups
+  - title: WiCyS
   - title: Interest Groups
     groups:
       - name: Team Contagion
