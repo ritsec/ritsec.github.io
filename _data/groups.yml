@@ -11,29 +11,30 @@ sections:
   - title: Interest Groups
     groups:
       - name: Team Contagion
-        meeting_time: Wednesday 6-7pm CYB-2780
+        meeting_time: Thursday 5-6pm CYB-2780
         description: Contagion represents RITSEC in a variety of Capture the Flag (CTF) competitions. We compete at different ranges of difficulty and on both the national and international levels. Everyone is welcome to join at any skill level as we provide weekly educational presentations and demos.
       - name: Red Team Recruiting
         meeting_time: Thursday 7-8:30pm CYB-2750
         description: Red Team is the hub for all things red teaming at RIT. We develop robust red team tools, infrastructure, and implants to play the role of an effective adversary in a red vs blue competition setting. We research and implement the latest techniques to pull networks apart and build them back better. As an RITSEC interest group we focus on developing offensive security skills, working as a team, and having fun! As an RITSEC interest program we focus on developing offensive security skills, working as a team, and having fun! 
       - name: RVAPT
-        meeting_time: Tuesday 7:30-9pm CYB-2780
+        meeting_time: Tuesday 7-8pm CYB-2780
         description: At RVAPT, we learn how to find and exploit vulnerabilities in networks and associated services by hands on custom labs. Each week we learn one to two ways to break in into a network and keep building up on it through out the semester.
       - name: Wireless IG
-        meeting_time: Wednesday 7-8pm CYB-2780
+        meeting_time: Wednesday 5-6pm CYB-2780
         description: The Wireless Interest Group (aka Wiggles) focuses on all thing wireless. We focus more on cybersecurity related topics in wireless but we also go outside of this realm covering all things wireless and RF. Anyone interested in the topic or learning more is welcome to join!
       - name: Operations IG
-        meeting_time: Monday 6:30-7:30pm CYB-2780
+        meeting_time: Monday 6-7pm CYB-2780
         description: The operations interest group focuses on various topics related to RITSEC's infrastructure. These topics could be related to hardware, virtualization, networking, automation, cloud computing, and server management. During our meeting time, we will cover a wide variety of these topics. Lastly, the OPS IG will be a pipeline to the OPS Program.
       - name: Reversing IG
-        meeting_time: Tuesday 6:30-7:30pm CYB-2780
+        meeting_time: Tuesday 5-6pm CYB-2750
         description: The Reversing Interest Group revolves around the in-depth knowledge of binary applications and ultimately reversing malware. Topics such as assembly, executable formats, malware tactics, and much more will be discussed over the entire program's running. All are welcome from first years on no matter the knowledge level.
       - name: Physical Security
-        meeting_time: Thursday 11am-12pm CYB-2750
+        meeting_time: Thursday 6-7pm CYB-2780
         description: In Physical Security Interest group you will learn all the basics of the world outside of the computer. You will learn to pick locks, alternative entry methods and many other things that computing security experts don't tend to think of when they are securing a system. Any level is welcome to come learn!
       - name: Vulnerability Research
-        meeting_time: Wednesday 4-5pm CYB-2750
+        meeting_time: Monday 7-10pm CYB-2750
+        meeting_time: Tuesday 7-10pm CYB-2750
         description: To introduce members of the club to the concepts of vulnerability and security research. This includes concepts such as bug bounties, code analysis, and fuzzing.
       - name: Incident Response IG
-        meeting_time: Monday 4-5pm CYB-2780
+        meeting_time: Monday 6-7pm CYB-2780
         description: The incident response interest group focuses on all topics related to cyber incidents. This includes topics such as SANS PICERL & NIST Frameworks, SOC/SIEM/SOAR monitoring tools, forensics analysis, log analysis, and cyber defense techniques. We love Blue teaming and getting hands on experiences such as competitons that that can lead to a greater understanding of incident response in the professional setting. Anyone interested in Incident response, blue team, or even cyber security in general is encouraged and welcome to join.
