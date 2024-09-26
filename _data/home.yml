@@ -4,7 +4,8 @@ sections:
     description: Security Through Community
 
     slideshow:
-      - /assets/images/slideshow/image1.jpg
+      - /assets/images/slideshow/RS{URL_GRABBING}.jpg
+      # - /assets/images/slideshow/image1.jpg
       - /assets/images/slideshow/image2.jpg
       - /assets/images/slideshow/image3.jpg
       - /assets/images/slideshow/image4.jpg
