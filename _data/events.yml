@@ -4,13 +4,13 @@ sections:
 
     events:
       - title: ISTS
-        date: Febuary 28th-March 2nd 2024
+        date: Febuary 28th-March 2nd 2025
         location: (Invite Only) Rochester, NY
         image: "assets/images/ists2024.jpg"
         url: https://ists.io/
         
       - title: IRSeC
-        date: Nov 2th 2023
+        date: Nov 2th 2024
         location: Rochester, NY
         image: "assets/images/irsec2023.JPG"
         url: https://irsec.club/
@@ -28,7 +28,7 @@ sections:
         url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
-        date: TBD (April)
+        date: TBD (April 2025)
         location: Rochester, NY & Virtual!
         image: "assets/images/ritsec_ctf_2024.jpg"
         url: https://ctftime.org/ctf/170
