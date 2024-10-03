@@ -7,8 +7,8 @@ sections:
         description: Introduction to RITSEC
         lessons:
           - title: Education Slides
-            description: Welcome to RITSEC Slides (2023-2024)
-            url: https://docs.google.com/presentation/d/1HfP5tMy80c2VXhLMldh8ONfczJp6xXZ-4ONtqixWZZA/edit?usp=sharing
+            description: Welcome to RITSEC Slides (2024-2025)
+            url: https://docs.google.com/presentation/d/1Iz-toxC9dM8MK3UoPwEm-WxZFQ5c7h42SzF9H6Is10c/edit?usp=sharing
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
@@ -17,7 +17,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Introduction to the Linux Operating System
-            url: https://docs.google.com/presentation/d/1uasSZtAfLjLJOsHU5OMqJ0IEorJeqfbC50bv47Jb6a4/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1Iz-toxC9dM8MK3UoPwEm-WxZFQ5c7h42SzF9H6Is10c/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
@@ -26,7 +26,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Introduction to the Windows Operating System
-            url: https://docs.google.com/presentation/d/1e5mUkus-_QQJpR07gUie1ItoR2A7TD-w5c5snYcmnwE/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/15uWuZYHAP62OMmmkEAGcwQ5w1sM24lUa65hV3r_euxA/edit?usp=sharing
           - title: Demo Challenges
             description: Download the VMs from the ctfd
             url: https://flags.ritsec.club
@@ -34,116 +34,11 @@ sections:
         description: Career Fair Preparations
         lessons:
           - title: Education Slides
-            description: Preparation for the Fall 2023 Career Fair
-            url: https://docs.google.com/presentation/d/1iacZdoL88PEe215i9a7LEYAnSB3fiokiPZx-3EEKi5E/edit?usp=sharing
-      - title: Week 5 | Core Services
-        description: Introduction to Core Services
+            description: Preparation for the Fall 2024 Career Fair
+            url: https://docs.google.com/presentation/d/1oKhqSoQc6egFW9pOHP7Un2TGfby-BsYjKx1jjbzXfgY/edit?usp=sharing
+      - title: Week 4 | Networking
+        description: Introduction to Networking
         lessons:
           - title: Education Slides
             description: Introduction to Core Services
-            url: https://docs.google.com/presentation/d/1vX9dJB0VbzK7b4KTeU1gSdxDXLelcWumP7c6xsZbz8M/edit?usp=sharing
-      - title: Week 6 | Intro to Blue Teaming
-        description: Blue Team Windows/Linux
-        lessons:
-          - title: Education Slides
-            description: Introduction to Blue Teaming
-            url: https://docs.google.com/presentation/d/1MZSUmJgCMwgDnS33Ro3XcddQw_pt9i7us9GpfVOSykc/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 8 | Intro to Web
-        description: Introduction to Web
-        lessons:
-          - title: Education Slides
-            description: Introduction to Web
-            url: https://docs.google.com/presentation/d/1wIFdVwlJXKrOsxhaZA2gKMxXR9yCaSM-dMaOxD82m4M/edit?usp=sharing
-      - title: Week 10 | RITSEC Redteam
-        description: Introduction to Red Team
-        lessons:
-          - title: Education Slides
-            description: Introduction to Red Team @ RITSEC
-            url: https://docs.google.com/presentation/d/1RzScwUcZj1etjMjLhJQEf0trlHikLcfthxgOvvfotsM/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 11 | Intro to Black Teaming
-        description: Introduction to Black Team
-        lessons:
-          - title: Education Slides
-            description: Introduction to Black Teaming
-            url: https://docs.google.com/presentation/d/1RLl3QDkbbO8rOtGaGFKg7Tzdei1mJes3fUN99lUd224/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 12 | The Docker Talk
-        description: Intro to Containerization
-        lessons:
-          - title: Education Slides
-            description: The Docker Talk
-            url: https://docs.google.com/presentation/d/1Q7HeARpfvk5X-zCVJBg1le72dozGj59E9zwEKBA9EfM/edit?usp=sharing
-          - title: Demo Challenges
-            description: Docker Engine required!
-            url: https://flags.ritsec.club
-  - title: Spring 2024
-    description: Education Slides - more about some of our favorite topics with our project-focused education system
-
-    sets:
-      - title: Week 1 | The Cloud
-        description: The Cloud
-        lessons:
-          - title: Education Slides
-            description: The Cloud
-            url: https://docs.google.com/presentation/d/1UcGF5l8s0GzOQTReSS1gZ6qORh8mFICiz1V5odbvoCI/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 3 | Pentesting
-        description: Pentesting
-        lessons:
-          - title: Education Slides
-            description: Pentesting
-            url: https://docs.google.com/presentation/d/1mwC3Ty2VI6phjvUCYnRPWL7fPpndlFuTxJfJB3ut-n4/edit?usp=sharing
-          - title: Demo Challenges
-            description: Download the VMs from the ctfd
-            url: https://flags.ritsec.club
-      - title: Week 4 | Advanced Linux
-        description: Advanced Linux
-        lessons:
-          - title: Education Slides
-            description: Advanced Linux
-            url: https://docs.google.com/presentation/d/1Bbjop1qRsCiMp7FIpJhZ3u0hqGzw4gg01QcRvjEGzdU/edit?usp=sharing
-          - title: Demo Challenges
-            description: Download the VMs from the ctfd
-            url: https://flags.ritsec.club
-      - title: Week 5 | Advanced Windows
-        description: Advanced Windows
-        lessons:
-          - title: Education Slides
-            description: Advanced Windows
-            url: https://docs.google.com/presentation/d/1S-u_4QMEcgbwRz_e71lW3S_m-lT7qmO_H2Svntkysec/edit?usp=sharing
-          - title: Demo Challenges
-            description: Download the VMs from the ctfd
-            url: https://flags.ritsec.club
-      - title: Week 6 | OSINT
-        description: OSINT
-        lessons:
-          - title: Education Slides
-            description: OSINT
-            url: https://docs.google.com/presentation/d/1wFwLnokEgHAJCdmA36XsM45xTB6UpU6EYmdpY4Bev-k/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 7 | Hardware Security
-        description: Hardware Security
-        lessons:
-          - title: Education Slides
-            description: Hardware Security
-            url: https://docs.google.com/presentation/d/1UozFVWK9zgkbq91c78O188tnQAFm_nnHaocc3PiZ7iA/edit?usp=sharing
-      - title: Week 8 | FreeBSD
-        description: FreeBSD
-        lessons:
-          - title: Education Slides
-            description: FreeBSD
-            url: https://docs.google.com/presentation/d/1F7coGRZfqux1Nb80cwXPRA0Lu1c-feAODIRWEC0-gSw/edit?usp=sharing
-          - title: Demo Challenges
-            description: Download the VMs from the ctfd
+            url: https://docs.google.com/presentation/d/1RNwg_6TTkAODB2SMRWPfu7TjKzjff2O2GZcbeWLGxWg/edit?usp=sharing
