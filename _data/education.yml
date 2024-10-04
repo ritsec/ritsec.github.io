@@ -36,7 +36,7 @@ sections:
           - title: Education Slides
             description: Preparation for the Fall 2024 Career Fair
             url: https://docs.google.com/presentation/d/1oKhqSoQc6egFW9pOHP7Un2TGfby-BsYjKx1jjbzXfgY/edit?usp=sharing
-      - title: Week 4 | Networking
+      - title: Week 4 | Intro to Networking
         description: Introduction to Networking
         lessons:
           - title: Education Slides
@@ -45,7 +45,7 @@ sections:
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 5 | Forensics
+      - title: Week 5 | Intro to Forensics
         description: Introduction to Forensics
         lessons:
           - title: Education Slides
