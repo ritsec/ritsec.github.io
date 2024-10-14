@@ -17,7 +17,7 @@ sections:
         lessons:
           - title: Education Slides
             description: Introduction to the Linux Operating System
-            url: https://docs.google.com/presentation/d/1Iz-toxC9dM8MK3UoPwEm-WxZFQ5c7h42SzF9H6Is10c/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1emgW4orPXfLB4vy2UlxHq2v-I7aDYhZLjX2Fhiaj9SE/edit?usp=sharing
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
