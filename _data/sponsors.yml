@@ -26,9 +26,9 @@ sections:
           image: /assets/images/sponsors/battelle.jpg
           url: https://www.battelle.org/
         
-        - title: FM Global
-          image: /assets/images/sponsors/fmglobal.png
-          url: https://www.fmglobal.com/
+        - title: FM
+          image: /assets/images/sponsors/fm.png
+          url: https://www.fm.com/
         
         - title: ICR Inc.
           image: /assets/images/sponsors/icrinc.jpg
