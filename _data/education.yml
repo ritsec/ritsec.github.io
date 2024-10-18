@@ -63,3 +63,12 @@ sections:
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
+      - title: Week 7 | Intro to Core Services
+        description: Introduction to Identity and Access Management
+        lessons:
+          - title: Education Slides
+            description: Introduction to Core Services
+            url: https://docs.google.com/presentation/d/1Bub94UxS0dV9M5WMwY9ST5y9lP0AIg_qPlhWWvFyam8/edit?usp=sharing
+          - title: Demo Challenges
+            description: Deploy the VM from the stack
+            url: https://flags.ritsec.club
