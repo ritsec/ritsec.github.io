@@ -72,3 +72,40 @@ sections:
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
+      - title: Week 8 | Intro to Blue Teaming
+        description: Introduction to Blue Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Blue Teaming
+            url: https://docs.google.com/presentation/d/1_Y4eSrmpUEutK9k0ZLZEy3ntqOD18Wn8UGROjAkk8ac/edit?usp=sharing
+          - title: Demo Challenges
+            description: Deploy the VM from the stack
+            url: https://flags.ritsec.club
+      - title: Week 9 | Intro to Red Teaming
+        description: Introduction to Red Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Red Teaming
+            url: https://docs.google.com/presentation/d/1iqyV0_pTvx4Nqz9cXZWuN2gfgrqGdxwvH5qAppnHd_Y/edit?usp=sharing
+          - title: Demo Challenges
+            description: Use any box on DEMONET the stack
+            url: https://flags.ritsec.club
+      - title: Week 10 | Intro to Black Teaming
+        description: Introduction to Black Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Black Teaming
+            url: https://docs.google.com/presentation/d/1OX8-01F88Bgb_FfRgXdL-ag8NBEXOpDwE2y5a9tt6hs/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 11 | Intro to Reversing
+        description: Introduction to Reversing
+        lessons:
+          - title: Education Slides
+            description: Introduction to Reversing
+            url: https://docs.google.com/presentation/d/1XQK4UENnnknqeQVD8jAtHFFGF9xVzSfjxRIeQHQzyd8/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+    
