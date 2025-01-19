@@ -78,11 +78,11 @@ sections:
        position: CTF CA
        grad_year: 26
        avatar: "assets/images/2024eboard/chasek.jpg"
-    #   socials:
-    #     github:
-    #     linkedin: 
-    #     email: 
-    #     other: 
+       socials:
+         github:
+         linkedin: 
+         email: 
+         other: 
     # done
       - name: David Girard 
         position: Treasurer(he/him)
@@ -98,11 +98,11 @@ sections:
        position: Treasurer
        grad_year: 26
        avatar: "assets/images/2024eboard/alexn.jpg"
-    #   socials:
-    #     github:
-    #     linkedin: 
-    #     email: 
-    #     other: 
+       socials:
+         github:
+         linkedin: 
+         email: 
+         other: 
     # done
       - name: Lukas Peters
         position: Secretary(he/him)
@@ -133,16 +133,7 @@ sections:
           linkedin: daniel-lachance-319068290
           email: dgl2362@rit.edu
           other: 
-    # not done
-    #  - name: TBD till Spring 25'
-    #   position: CTF CA
-    #   grad_year:
-    #   avatar:
-    #   socials:
-    #     github:
-    #     linkedin: 
-    #     email: 
-    #     other: 
+
 
   - title: Social Media
     description: Stay up to date with our social media pages!
