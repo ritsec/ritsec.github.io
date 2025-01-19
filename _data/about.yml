@@ -75,14 +75,14 @@ sections:
           email: dmy3070@rit.edu
     # done-ish
       - name: Chase Killorin
-       position: CTF CA
-       grad_year: 26
-       avatar: "assets/images/2024eboard/chasek.jpg"
-       socials:
-         github:
-         linkedin: 
-         email: 
-         other: 
+        position: CTF CA
+        grad_year: 26
+        avatar: "assets/images/2024eboard/chasek.jpg"
+        socials:
+          github: 
+          linkedin: 
+          email: 
+          other:
     # done
       - name: David Girard 
         position: Treasurer(he/him)
@@ -95,14 +95,14 @@ sections:
           other:
     # done-ish
       - name: Alex Noble
-       position: Treasurer
-       grad_year: 26
-       avatar: "assets/images/2024eboard/alexn.jpg"
-       socials:
-         github:
-         linkedin: 
-         email: 
-         other: 
+        position: Treasurer
+        grad_year: 26
+        avatar: "assets/images/2024eboard/alexn.png"
+        socials:
+          github: 
+          linkedin: 
+          email: 
+          other:
     # done
       - name: Lukas Peters
         position: Secretary(he/him)
