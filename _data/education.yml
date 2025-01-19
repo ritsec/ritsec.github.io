@@ -108,4 +108,18 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
+  - title: Spring 2025
+    description: Education Slides - more about some of our favorite topics with our project-focused education system
+
+    sets:
+      - title: Week 1 | RITSEC Resources
+      description: RITSEC Resources
+      lessons:
+        - title: Education Slides
+          description: RITSEC Resources
+          url: https://docs.google.com/presentation/d/1CcN1oKuS7ZmrQBdVdhDzNVmmUyvF_-LL4kc5vayePZo/edit?usp=sharing
+        - title: Demo Challenges
+          description: No VM needed this week!
+          url: https://flags.ritsec.club
+
     
