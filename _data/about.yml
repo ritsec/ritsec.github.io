@@ -6,8 +6,8 @@ sections:
     members:
     # done
       - name: Kasey Kiggins
-        position: President(she/her)
-        # pronouns: (she/her)
+        position: President
+        pronouns: (she/her)
         grad_year: 26
         avatar: "assets/images/2023eboard/kaseyk.jpg"
         socials:
@@ -18,6 +18,7 @@ sections:
     # done
       - name: Rachel Leone
         position: Vice President
+        pronouns: (she/her)
         grad_year: 25
         avatar: "assets/images/2023eboard/rachell.jpg"
         socials:
@@ -28,6 +29,7 @@ sections:
     # done
       - name: Kip Rath
         position: Public Relations
+        pronouns: (he/they)
         grad_year: 25
         avatar: "assets/images/2024eboard/kip.jpg"
         socials: 
@@ -38,6 +40,7 @@ sections:
     # done
       - name: Leah Kvares
         position: Head of Education
+        pronouns: (she/her)
         grad_year: 27
         avatar: "assets/images/2024eboard/leah.jpg"
         socials:
@@ -55,37 +58,30 @@ sections:
           email: wtd7176@rit.edu
           other:
     # done
-      - name: Maxim Kochnev
-        position: IRSec CA(he/him)
+      - name: Chase Killorin
+        position: CTF CA
+        pronouns: (he/him)
         grad_year: 26
-        avatar: "assets/images/2024eboard/maxim.png"
+        avatar: "assets/images/2024eboard/chasek.jpg"
         socials:
-          github: 1gB0rdeaux
-          linkedin: maxim-v-kochnev
-          email: mvk5375@g.rit.edu
-          other: 
+    #     github:
+         linkedin: chase-killorin
+         email: csk1188@rit.edu
+    #     other: 
     # done
       - name: Drew Young 
-        position: ISTS CA(he/him)
+        position: ISTS CA
+        pronouns: (he/him)
         grad_year: 25
         avatar: "assets/images/2024eboard/drew.jpeg"
         socials:
           github: drew-young
           linkedin: drew-m-young
           email: dmy3070@rit.edu
-    # done-ish
-      - name: Chase Killorin
-        position: CTF CA
-        grad_year: 26
-        avatar: "assets/images/2024eboard/chasek.jpg"
-        socials:
-          github: 
-          linkedin: 
-          email: 
-          other:
     # done
       - name: David Girard 
-        position: Treasurer(he/him)
+        position: Treasurer
+        pronouns: (he/him)
         grad_year: 27
         avatar: "assets/images/2024eboard/david.png"
         socials:
@@ -93,19 +89,21 @@ sections:
           linkedin: david-wg2
           email: dwg5906@rit.edu
           other:
-    # done-ish
+    # done
       - name: Alex Noble
         position: Treasurer
+        pronouns: (he/him)
         grad_year: 26
-        avatar: "assets/images/2024eboard/alexn.png"
+        avatar: "assets/images/2024eboard/alexn.jpg"
         socials:
-          github: 
-          linkedin: 
-          email: 
-          other:
+    #     github:
+         linkedin: alexnoble079
+         email: adn7297@rit.edu
+    #     other: 
     # done
       - name: Lukas Peters
-        position: Secretary(he/him)
+        position: Secretary
+        pronouns: (he/him)
         grad_year: 26
         avatar: "assets/images/2024eboard/lukas.jpg"
         socials:
@@ -116,6 +114,7 @@ sections:
     # done
       - name: John Arrandale
         position: Operations Lead
+        pronouns: (he/him)
         grad_year: 26
         avatar: "assets/images/2024eboard/John.jpg"
         socials:
@@ -126,6 +125,7 @@ sections:
     # done
       - name: Dan LaChance
         position: Tech Lead
+        pronouns: (he/him)
         grad_year: 26
         avatar: "assets/images/2024eboard/dan.png"
         socials:
@@ -133,7 +133,6 @@ sections:
           linkedin: daniel-lachance-319068290
           email: dgl2362@rit.edu
           other: 
-
 
   - title: Social Media
     description: Stay up to date with our social media pages!
