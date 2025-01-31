@@ -110,8 +110,7 @@ sections:
             description: No VM needed this week!
             url: https://flags.ritsec.club
   - title: Spring 2025
-    description: Education Slides - more about some of our favorite topics with our
-      project-focused education system
+    description: Education Slides - more about some of our favorite topics with our project-focused education system
     sets:
       - title: Week 1 | RITSEC Resources
         description: RITSEC Resources
@@ -122,5 +121,13 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
-
+      - title: Week 2 | Advanced Linux
+        description: Advanced Linux
+        lessons:
+          - title: Education Slides
+            description: Advanced Linux
+            url: https://docs.google.com/presentation/d/1U-pYLXf3fm3E4QMwNnW1D1L99zhRTRLgpld3NF7afgo/edit?usp=sharing
+          - title: Demo Challenges
+            description: Be sure to login to the box AdvLinuxDemo on the stack.
+            url: https://flags.ritsec.club
     
