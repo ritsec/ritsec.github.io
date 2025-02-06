@@ -1,7 +1,8 @@
+---
 sections:
   - title: Fall 2024
-    description: Education Slides - more about some of our favorite topics with our project-focused education system
-
+    description: Education Slides - more about some of our favorite topics with our
+      project-focused education system
     sets:
       - title: Week 0 | Intro to RITSEC
         description: Introduction to RITSEC
@@ -72,3 +73,61 @@ sections:
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
+      - title: Week 8 | Intro to Blue Teaming
+        description: Introduction to Blue Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Blue Teaming
+            url: https://docs.google.com/presentation/d/1_Y4eSrmpUEutK9k0ZLZEy3ntqOD18Wn8UGROjAkk8ac/edit?usp=sharing
+          - title: Demo Challenges
+            description: Deploy the VM from the stack
+            url: https://flags.ritsec.club
+      - title: Week 9 | Intro to Red Teaming
+        description: Introduction to Red Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Red Teaming
+            url: https://docs.google.com/presentation/d/1iqyV0_pTvx4Nqz9cXZWuN2gfgrqGdxwvH5qAppnHd_Y/edit?usp=sharing
+          - title: Demo Challenges
+            description: Use any box on DEMONET the stack
+            url: https://flags.ritsec.club
+      - title: Week 10 | Intro to Black Teaming
+        description: Introduction to Black Teaming
+        lessons:
+          - title: Education Slides
+            description: Introduction to Black Teaming
+            url: https://docs.google.com/presentation/d/1OX8-01F88Bgb_FfRgXdL-ag8NBEXOpDwE2y5a9tt6hs/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 11 | Intro to Reversing
+        description: Introduction to Reversing
+        lessons:
+          - title: Education Slides
+            description: Introduction to Reversing
+            url: https://docs.google.com/presentation/d/1XQK4UENnnknqeQVD8jAtHFFGF9xVzSfjxRIeQHQzyd8/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+  - title: Spring 2025
+    description: Education Slides - more about some of our favorite topics with our project-focused education system
+    sets:
+      - title: Week 1 | RITSEC Resources
+        description: RITSEC Resources
+        lessons:
+          - title: Education Slides
+            description: RITSEC Resources
+            url: https://docs.google.com/presentation/d/1CcN1oKuS7ZmrQBdVdhDzNVmmUyvF_-LL4kc5vayePZo/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week!
+            url: https://flags.ritsec.club
+      - title: Week 2 | Advanced Linux
+        description: Advanced Linux
+        lessons:
+          - title: Education Slides
+            description: Advanced Linux
+            url: https://docs.google.com/presentation/d/1U-pYLXf3fm3E4QMwNnW1D1L99zhRTRLgpld3NF7afgo/edit?usp=sharing
+          - title: Demo Challenges
+            description: Be sure to login to the box AdvLinuxDemo on the stack.
+            url: https://flags.ritsec.club
+    
