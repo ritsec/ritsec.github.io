@@ -51,6 +51,7 @@ sections:
     # done
       - name: Will D'Andrade
         position: Head of Research
+        pronouns: (he/him)
         grad_year: 27
         avatar: "assets/images/2024eboard/will2.0.jpg"
         socials:
