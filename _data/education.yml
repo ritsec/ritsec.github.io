@@ -112,7 +112,7 @@ sections:
   - title: Spring 2025
     description: Education Slides - more about some of our favorite topics with our project-focused education system
     sets:
-      - title: Week 1 | RITSEC Resources
+      - title: RITSEC Resources
         description: RITSEC Resources
         lessons:
           - title: Education Slides
@@ -121,7 +121,7 @@ sections:
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
-      - title: Week 2 | Advanced Linux
+      - title: Week 1 | Advanced Linux
         description: Advanced Linux
         lessons:
           - title: Education Slides
@@ -130,4 +130,30 @@ sections:
           - title: Demo Challenges
             description: Be sure to login to the box AdvLinuxDemo on the stack.
             url: https://flags.ritsec.club
-    
+      - title: Week 2 | Advanced Windows
+        description: Advanced Windows
+        lessons:
+        - title: Education Slides
+          description: Advanced Windows
+          url: https://docs.google.com/presentation/d/1r-eaHTTY1je2AHkHmzPuixS4N4mhV4CQz34xy6R7pK4/edit?usp=sharing
+        - title: Demo Challenges
+          description: No VM needed this week.
+          url: https://flags.ritsec.club
+      - title: Week 3 | Physical Security 
+        description: Physical Security
+        lessons:
+          - title: Education Slides
+            description: Physical Security
+            url: https://docs.google.com/presentation/d/1Wa3TNT6IAdWf9tC3iBVxNok9AzR_VytJO1yA1WxGKXQ/edit?usp=sharing
+          - title: Demo Challenges
+            description: No VM needed this week.
+            url: https://flags.ritsec.club
+      - title: Week 4 | Mobile Security
+        description: Mobile Security
+        lessons:
+          - title: Education Slides
+            description: Mobile Security
+            url: https://docs.google.com/presentation/d/1ShEZFfB8IGhllEpZ6oR18nimBetKLcey60nhitGEqk0/edit?usp=sharing
+          - title: Demo Challenges
+            description: Use the Android Demo image on the stack.
+            url: https://flags.ritsec.club
