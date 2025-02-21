@@ -38,12 +38,23 @@ sections:
           image: /assets/images/sponsors/amplify.jpeg
           url: https://amplify.com/
 
+        - title: Datadog
+          image: /assets/images/sponsors/datadog.png
+          url: https://www.datadoghq.com/
+
       Gold:
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
+        - title: American Express
+          image: /assets/images/sponsors/amex.png
+          url: https://www.americanexpress.com/en-us/careers/
       
       Silver:
+        - title: Wings Over
+          image: /assets/images/sponsors/wingsover.png
+          url: https://wingsover.com/
+
         - title: Mindex
           image: /assets/images/sponsors/mindex.jpeg
           url: https://www.mindex.com/
@@ -56,3 +67,8 @@ sections:
         - title: Fortra
           image: /assets/images/sponsors/fortra-logo-forest-green.png
           url: https://fortra.com/
+
+        - title: MetaCTF
+          image: /assets/images/sponsors/metactf.png
+          url: https://metactf.com/
+
