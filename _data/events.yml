@@ -28,10 +28,10 @@ sections:
         url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
-        date: TBD (April 2025)
+        date: March 21st-March 23rd 2025
         location: Rochester, NY & Virtual!
-        image: "assets/images/ritsec_ctf_2024.jpg"
-        url: https://ctftime.org/ctf/170
+        image: "assets/images/ritsec_ctf_2025_resized.svg"
+        url: https://ctf.ritsec.club
 
       - title: Career Fair Eve
         date: Sep 24th 2024
