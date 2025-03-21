@@ -4,47 +4,47 @@ sections:
 
 alumni:
   - year: 2024
-    Name: Ryan Cheevers-Brown
+    name: Ryan Cheevers-Brown
   - year: 2024
-    Name: Seth Teller
+    name: Seth Teller
   - year: 2024
-    Name: Colin O'Rourke
-  - year: 2024 
-    Name: Allison Jankowski
+    name: Colin O'Rourke 
   - year: 2024
-    Name: Alex Beaver
+    name: Allison Jankowski
   - year: 2024
-    Name: Christopher Dutko
+    name: Alex Beaver
   - year: 2024
-    Name: Joseph Abbate
+    name: Christopher Dutko
   - year: 2024
-    Name: Kat Nayan
+    name: Joseph Abbate
   - year: 2024
-    Name: Alec Bhaskaran
+    name: Kat Nayan
   - year: 2024
-    Name: Max Fusco
+    name: Alec Bhaskaran
   - year: 2024
-    Name: Jenna Weinman
+    name: Max Fusco
   - year: 2024
-    Name: Bradley Harker
+    name: Jenna Weinman
   - year: 2024
-    Name: Jason Howe
+    name: Bradley Harker
   - year: 2024
-    Name: Sarah Dill
+    name: Jason Howe
   - year: 2024
-    Name: Bailey Powers
+    name: Sarah Dill
   - year: 2024
-    Name: Kenneth Anderson
+    name: Bailey Powers
   - year: 2024
-    Name: Jack Audino
+    name: Kenneth Anderson
   - year: 2024
-    Name: Nathan Belcher
+    name: Jack Audino
   - year: 2024
-    Name: Olivia Gallucci
-  - year: 2024 
-    Name: George Link
+    name: Nathan Belcher
   - year: 2024
-    Name: Alec Miller
+    name: Olivia Gallucci
+  - year: 2024
+    name: George Link
+  - year: 2024
+    name: Alec Miller
   - year: 2023
     name: Abdulmalik Banaser
   - year: 2023
