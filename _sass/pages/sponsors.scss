@@ -74,6 +74,11 @@
   font-weight: 700;
   color: var(--text-color);
   text-decoration: none;
+  min-height: 2.5em;
+  line-height: 1.2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sponsor-description {
