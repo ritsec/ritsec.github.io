@@ -46,11 +46,16 @@ sections:
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
+
         - title: American Express
           image: /assets/images/sponsors/amex.png
           url: https://www.americanexpress.com/en-us/careers/
       
       Silver:
+        - title: Travelers Insurance
+          image: /assets/images/sponsors/travelers.png
+          url: https://www.travelers.com/ 
+
         - title: Wings Over
           image: /assets/images/sponsors/wingsover.png
           url: https://wingsover.com/
