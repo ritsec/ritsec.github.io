@@ -9,7 +9,7 @@ sections:
     groups: 
       - name: Collegiate Cyber Defense Competition (CCDC)
         meeting_time:
-        description: The Collegiate Cyber Defense Competition (CCDC) is a national collegiate competition that focuses on the operational aspects of managing and protecting an existing, operational business network. The competition simulates a real-world environment where students are tasked with defending a network from a team of professional penetration testers. The CCDC team meets weekly to prepare for the competition and learn about various cybersecurity topics.
+        description: Our CCDC team trains throughout the year for competitions that focus on securing and managing a fictitious corporate network. While defending against real-time cyber attacks from industry red teamers, the team must also keep critical services up and balance security with business needs. We host team tryouts every fall semester and meet weekly to prepare for the competition.
       - name: Collegiate Penetration Testing Competition (CPTC)
         meeting_time:
         description: The Collegiate Penetration Testing Competition (CPTC) is a national collegiate competition that focuses on the offensive aspects of cybersecurity. The competition simulates a real-world environment where students are tasked with attacking a network and finding vulnerabilities. Additionally, they must write reports on every vulnerability they discover. The CPTC team meets weekly to prepare.
