@@ -61,7 +61,7 @@ sections:
         description: Containerization
         lessons:
           - title: Education Slides
-            description: 
+            description: Containerization
             url: https://docs.google.com/presentation/d/1kN4QWUWFaGceMhKi7FStrVHSUejMiWDsEtSEYLdH1XE/edit#slide=id.g2e3cde0e9d7_2_213
           - title: Demo Challenges
             description: Use the Containerization image on the stack.

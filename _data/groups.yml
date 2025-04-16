@@ -5,6 +5,14 @@ sections:
       - name: WiCyS @ RIT
         meeting_time: Monday 2-3PM GOL-1400
         description: The WiCyS RIT Student Chapter is an all-inclusive interest group within RITSEC dedicated to making RIT’s Computing Security program more equitable. The chapter holds meetings and social events for students to come together and share their passion for security while creating a supportive network.
+  - title: Competition Teams
+    groups: 
+      - name: Collegiate Cyber Defense Competition (CCDC)
+        meeting_time:
+        description: The Collegiate Cyber Defense Competition (CCDC) is a national collegiate competition that focuses on the operational aspects of managing and protecting an existing, operational business network. The competition simulates a real-world environment where students are tasked with defending a network from a team of professional penetration testers. The CCDC team meets weekly to prepare for the competition and learn about various cybersecurity topics.
+      - name: Collegiate Penetration Testing Competition (CPTC)
+        meeting_time:
+        description: The Collegiate Penetration Testing Competition (CPTC) is a national collegiate competition that focuses on the offensive aspects of cybersecurity. The competition simulates a real-world environment where students are tasked with attacking a network and finding vulnerabilities. Additionally, they must write reports on every vulnerability they discover. The CPTC team meets weekly to prepare.
   - title: Interest Groups
     groups:
       - name: Team Contagion
