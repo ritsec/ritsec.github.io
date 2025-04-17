@@ -6,13 +6,13 @@ sections:
       - title: ISTS
         date: Febuary 28th-March 2nd 2025
         location: (Invite Only) Rochester, NY
-        image: "assets/images/ists2024.jpg"
+        image: "assets/images/complogos/ISTS_2025.png"
         url: https://ists.io/
         
       - title: IRSeC
         date: Nov 2th 2024
         location: Rochester, NY
-        image: "assets/images/irsec2023.JPG"
+        image: "assets/images/complogos/IRSeC_2024.png"
         url: https://irsec.club/
         
       - title: Weekly Education Meeting
@@ -30,7 +30,7 @@ sections:
       - title: RITSEC CTF
         date: March 21st-March 23rd 2025
         location: Rochester, NY & Virtual!
-        image: "assets/images/ritsec_ctf_2025_resized.svg"
+        image: "assets/images/complogos/ritsec_ctf_2025.png"
         url: https://ctf.ritsec.club
 
       - title: Career Fair Eve
