@@ -2,141 +2,170 @@ sections:
   - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
-  - title: 2024-2025 E-Board
+  - title: 2025-2026 E-Board
     members:
     # done
-      - name: Kasey Kiggins
+      - name: Dan LaChance
         position: President
-        pronouns: (she/her)
+        # pronouns: (she/her)
         grad_year: 26
-        avatar: "assets/images/2023eboard/kaseyk.jpg"
+        avatar: "assets/images/2025eboard/danl.jpg"
         socials:
           github: 
-          linkedin: 
-          email: kak8381@rit.edu
+          linkedin: dan-lachance
+          email: dgl2362@rit.edu
           other:
     # done
-      - name: Rachel Leone
+      - name: David Girard
         position: Vice President
-        pronouns: (she/her)
-        grad_year: 25
-        avatar: "assets/images/2023eboard/rachell.jpg"
+        # pronouns: (she/her)
+        grad_year: 27
+        avatar: "assets/images/2025eboard/davidg.jpg"
         socials:
           github: 
-          linkedin: rachel-leone217
-          email: ral4123@rit.edu
-          other:
-    # done
-      - name: Kip Rath
-        position: Public Relations
-        pronouns: (he/they)
-        grad_year: 25
-        avatar: "assets/images/2024eboard/kip.jpg"
-        socials: 
-          github: kipth3gr8
-          linkedin: christopherrath
-          email: kiprath3@gmail.com
-          other: 
-    # done
-      - name: Leah Kvares
-        position: Head of Education
-        pronouns: (she/her)
-        grad_year: 27
-        avatar: "assets/images/2024eboard/leah.jpg"
-        socials:
-          github: leahkvares
-          linkedin: leahkvares
-          email: lk3053@rit.edu
-          other:
-    # done
-      - name: Will D'Andrade
-        position: Head of Research
-        pronouns: (he/him)
-        grad_year: 27
-        avatar: "assets/images/2024eboard/will2.0.jpg"
-        socials:
-          linkedin: will-dandrade
-          email: wtd7176@rit.edu
-          other:
-    # done
-      - name: Chase Killorin
-        position: CTF CA
-        pronouns: (he/him)
-        grad_year: 26
-        avatar: "assets/images/2024eboard/chasek.jpg"
-        socials:
-    #     github:
-         linkedin: chase-killorin
-         email: csk1188@rit.edu
-    #     other: 
-    # done
-      - name: Drew Young 
-        position: ISTS CA
-        pronouns: (he/him)
-        grad_year: 25
-        avatar: "assets/images/2024eboard/drew.jpeg"
-        socials:
-          github: drew-young
-          linkedin: drew-m-young
-          email: dmy3070@rit.edu
-    # done
-      - name: David Girard 
-        position: Treasurer
-        pronouns: (he/him)
-        grad_year: 27
-        avatar: "assets/images/2024eboard/david.png"
-        socials:
-          github: DaveTheBearMan
           linkedin: david-wg2
           email: dwg5906@rit.edu
           other:
     # done
+      - name: Danny Nichols
+        position: Public Relations
+        # pronouns: (he/they)
+        grad_year: 27
+        avatar: "assets/images/2025eboard/dannyn.jpg"
+        socials: 
+          github: 
+          linkedin: daniel-t-nichols
+          email: dtn7890@rit.edu
+          other: 
+    # done
+      - name: Adam Braccia
+        position: Head of Education
+        # pronouns: (she/her)
+        grad_year: 26
+        avatar: "assets/images/2025eboard/adamb.jpg"
+        socials:
+          github: 
+          linkedin: adam-braccia-350407251
+          email: arb1514@rit.edu
+          other:
+    # done
+      - name: Hayden Hartman
+        position: Head of Research
+        # pronouns: (he/him)
+        grad_year: 29
+        avatar: "assets/images/2025eboard/haydenh.jpg"
+        socials:
+          linkedin: hayden-hartman-60a042293
+          email: hmh615@rit.edu
+          other:
+    # done
+      # - name: 
+      #   position: 
+      #   pronouns: 
+      #   grad_year: 
+      #   avatar:
+      #   socials:
+    #     github:
+        #  linkedin: chase-killorin
+        #  email: csk1188@rit.edu
+    #     other: 
+    # done
+      - name: Leah Kvares
+        position: ISTS CA
+        # pronouns: (he/him)
+        grad_year: 27
+        avatar: "assets/images/2025eboard/leahk.jpeg"
+        socials:
+          github: 
+          linkedin: leahkvares
+          email: lk3053@rit.edu
+    # # done
+      - name: Arianna Schwartz
+        position: IRSeC CA
+        # pronouns: (she/her)
+        grad_year: 26
+        avatar: "assets/images/2025eboard/ariannas.jpg"
+        socials:
+          github: 
+          linkedin: arianna--schwartz
+          email: ans3629@rit.edu
+          other:
+    # done
       - name: Alex Noble
         position: Treasurer
-        pronouns: (he/him)
+        # pronouns: (he/him)
         grad_year: 26
-        avatar: "assets/images/2024eboard/alexn.jpg"
+        avatar: "assets/images/2025eboard/alexn.jpg"
         socials:
     #     github:
          linkedin: alexnoble079
          email: adn7297@rit.edu
     #     other: 
     # done
-      - name: Lukas Peters
+      - name: Lukasz Ozimek
         position: Secretary
-        pronouns: (he/him)
-        grad_year: 26
-        avatar: "assets/images/2024eboard/lukas.jpg"
+        # pronouns: (he/him)
+        grad_year: 27
+        avatar: "assets/images/2025eboard/lukao.jpg"
         socials:
-          github: c0untingNumbers
-          linkedin: lukasmpeters
-          email: lmp6173@rit.edu
+          github: 
+          linkedin: lukasz-ozimek-1376752a2
+          email: lno5555@rit.edu
           other:
     # done
       - name: John Arrandale
         position: Operations Lead
         pronouns: (he/him)
         grad_year: 26
-        avatar: "assets/images/2024eboard/John.jpg"
+        avatar: "assets/images/2025eboard/John.jpg"
         socials:
           github: bootsie123
           linkedin: john-arrandale
           email: jca7237@rit.edu
           other:
     # done
-      - name: Dan LaChance
+      - name: Anish Bokka
         position: Tech Lead
-        pronouns: (he/him)
-        grad_year: 26
-        avatar: "assets/images/2024eboard/dan.png"
+        # pronouns: (he/him)
+        grad_year: 28
+        avatar: "assets/images/2025eboard/anishb.jpg"
         socials:
           github:
-          linkedin: daniel-lachance-319068290
-          email: dgl2362@rit.edu
+          linkedin: anishbokka
+          email: ab9255@rit.edu
           other: 
 
   - title: Social Media
     description: Stay up to date with our social media pages!
+
+past_eboards:
+  - year: 2024-2025
+    org_name: RITSEC
+    members:
+      - name: Kasey Kiggins
+        position: President
+      - name: Rachel Leone
+        position: Vice President
+      - name: Kip Rath
+        position: Director of Public Relations
+      - name: Lukas Peters
+        position: Secretary
+      - name: Leah Kvares
+        position: Head of Education
+      - name: Will D'Andrade
+        position: Head of Research
+      - name: Drew Young
+        position: ISTS Competition Architect
+      - name: Maxim Kochnev
+        position: IRSeC CA
+      - name: Rachel Leone
+        position: CTF CA 
+      - name: David Girard
+        position: Treasurer
+      - name: John Arrandale
+        position: Operations Lead
+      - name: Dan LaChance
+        position: Tech Lead
 
 past_eboards:
   - year: 2023-2024
