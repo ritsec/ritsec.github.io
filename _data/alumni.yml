@@ -3,6 +3,45 @@ sections:
     description: Meet all of our wonderful alumni!
 
 alumni:
+  - year: 2025
+    name: Chris (Kip) Rath
+  - year: 2025
+    name: Kyle Mullen
+  - year: 2025
+    name: Rachel Leone
+  - year: 2025
+    name: Asa Horn
+  - year: 2025
+    name: Sohan Saimbhi
+  - year: 2025
+    name: Anthony Ioppolo
+  - year: 2025
+    name: Kyri Lea
+  - year: 2025
+    name: Sierra Kennedy
+  - year: 2025
+    name: Jacob Highfield
+  - year: 2025
+    name: Aaron Schwager
+  - year: 2025
+    name: Drew Young
+  - year: 2025
+    name: Zach Price
+  - year: 2025
+    name: Aaron Schwager
+  - year: 2025
+    name: Atharv Mungikar
+  - year: 2025
+    name: Hal Williams
+  - year: 2025
+    name: Rich Kleinhenz
+  - year: 2025
+    name: Cipriana Sorenson
+  - year: 2025
+    name: Jenna Weinman
+  - year: 2025
+    name: Danielle Schloss
+
   - year: 2024
     name: Ryan Cheevers-Brown
   - year: 2024
@@ -45,6 +84,7 @@ alumni:
     name: George Link
   - year: 2024
     name: Alec Miller
+
   - year: 2023
     name: Abdulmalik Banaser
   - year: 2023
@@ -79,6 +119,7 @@ alumni:
     name: Sma Das
   - year: 2023
     name: Spencer Roth
+
   - year: 2022 
     name: Enzo DeStephano
   - year: 2022
@@ -123,6 +164,7 @@ alumni:
     name: Omar Aljaloud
   - year: 2022 
     name: Chris Cheney
+
   - year: 2021
     name: Mohammed Alshehri
   - year: 2021
@@ -157,6 +199,7 @@ alumni:
     name: Ali Alamri
   - year: 2021
     name: Adin Drabkin
+    
   - year: 2020
     name: Ian Furr
   - year: 2020
