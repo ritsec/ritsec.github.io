@@ -4,14 +4,11 @@ sections:
 
     tier:
       # Titanium:
-        # - title: Android
-        #   image: /assets/images/sponsors/android.png
-        #   url: https://www.android.com/
+        # - title: 
+        #   image:
+        #   url:
 
       Diamond:
-        - title: Google
-          image: /assets/images/sponsors/google.png
-          url: https://careers.google.com/
 
         - title: Eaton Corporation
           image: /assets/images/sponsors/eaton.png
@@ -65,6 +62,14 @@ sections:
           url: https://www.mindex.com/
           
       Educational:
+        - title: Bugcrowd
+          image: /assets/images/sponsors/bugcrowd.jpg
+          url: https://www.bugcrowd.com/
+
+        - title: MetaCTF
+          image: /assets/images/sponsors/metactf.png
+          url: https://metactf.com/
+
         - title: No Starch Press
           image: /assets/images/sponsors/nostarchpress.png
           url: https://nostarch.com/
@@ -72,8 +77,4 @@ sections:
         - title: Fortra
           image: /assets/images/sponsors/fortra-logo-forest-green.png
           url: https://fortra.com/
-
-        - title: MetaCTF
-          image: /assets/images/sponsors/metactf.png
-          url: https://metactf.com/
 
