@@ -63,7 +63,7 @@ sections:
           
       Educational:
         - title: Bugcrowd
-          image: /assets/images/sponsors/bugcrowd.png
+          image: /assets/images/sponsors/bugcrowd.jpg
           url: https://www.bugcrowd.com/
 
         - title: MetaCTF
