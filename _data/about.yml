@@ -119,7 +119,7 @@ sections:
         grad_year: 26
         avatar: "assets/images/2025eboard/John.jpg"
         socials:
-          github: bootsie123
+          # github: bootsie123
           linkedin: john-arrandale
           email: jca7237@rit.edu
           other:
@@ -166,8 +166,6 @@ past_eboards:
         position: Operations Lead
       - name: Dan LaChance
         position: Tech Lead
-
-past_eboards:
   - year: 2023-2024
     org_name: RITSEC
     members:
