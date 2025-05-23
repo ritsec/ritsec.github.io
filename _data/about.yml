@@ -119,7 +119,7 @@ sections:
         grad_year: 26
         avatar: "assets/images/2024eboard/John.jpg"
         socials:
-          github: bootsie123
+          # github: bootsie123
           linkedin: john-arrandale
           email: jca7237@rit.edu
           other:
@@ -139,6 +139,33 @@ sections:
     description: Stay up to date with our social media pages!
 
 past_eboards:
+  - year: 2024-2025
+    org_name: RITSEC
+    members:
+      - name: Kasey Kiggins
+        position: President
+      - name: Rachel Leone
+        position: Vice President
+      - name: Kip Rath
+        position: Director of Public Relations
+      - name: Lukas Peters
+        position: Secretary
+      - name: Leah Kvares
+        position: Head of Education
+      - name: Will D'Andrade
+        position: Head of Research
+      - name: Drew Young
+        position: ISTS Competition Architect
+      - name: Maxim Kochnev
+        position: IRSeC CA
+      - name: Rachel Leone
+        position: CTF CA 
+      - name: David Girard
+        position: Treasurer
+      - name: John Arrandale
+        position: Operations Lead
+      - name: Dan LaChance
+        position: Tech Lead
   - year: 2023-2024
     org_name: RITSEC
     members:
