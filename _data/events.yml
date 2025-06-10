@@ -1,39 +1,39 @@
 sections:
   - title: Events
-    description: Here are some events that we have coming up
+    description: Our upcoming events, including meetings and competitions.
 
     events:
       - title: ISTS
-        date: Febuary 28th-March 2nd 2025
-        location: (Invite Only) Rochester, NY
+        date: February 27th-March 1st, 2026
+        location: Rochester, NY (Invite Only)
         image: "assets/images/ists2024.jpg"
         url: https://ists.io/
         
       - title: IRSeC
-        date: Nov 2th 2024
+        date: November 1st, 2025
         location: Rochester, NY
         image: "assets/images/irsec2023.JPG"
         url: https://irsec.club/
         
       - title: Weekly Education Meeting
-        date: 12 - 2 PM on Fridays
+        date: Fridays 12:00-2:00 PM
         location: Rochester, NY
         image: "assets/images/education.jpg"
         url: https://twitch.tv/ritsec
 
       - title: Weekly Research Meeting
-        date: 2 - 4 PM on Fridays
+        date: Fridays 2:00-4:00 PM
         location: Rochester, NY
         image: "assets/images/research.jpg"
         url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
-        date: March 21st-March 23rd 2025
-        location: Rochester, NY & Virtual!
+        date: TBD
+        location: Rochester, NY & virtual
         image: "assets/images/ritsec_ctf_2025_resized.svg"
         url: https://ctf.ritsec.club
 
       - title: Career Fair Eve
-        date: Sep 24th 2024
+        date: TBD
         location: Rochester, NY
         image: "assets/images/cfe2024.JPEG"
