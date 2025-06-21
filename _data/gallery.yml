@@ -4,9 +4,9 @@ sections:
     photos:
       - image: "assets/images/ists2025.jpg"
         title: "ISTS 2025"
-        caption: "The Information Security Talent Search (ISTS) is an annual three-day competition hosted in the early spring at RIT. Every year, competitors from both RIT and colleges around the country are faced with a wide variety of challenges which are designed to cover many facets of the security industry. This includes defensive and offensive capabilities, system administration, software security, networking, programming, and much more! Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure."
-        link: https://drive.google.com/drive/folders/1iO9GtCU74RXtNyQ_U9qRPRlu4I6U-Uc8?usp=drive_link
-      - image: "assets/images/irsec2024.JPG"
+        caption: "The Information Security Talent Search (ISTS) is an annual three-day competition hosted in the spring semester at RIT. Competitors from both RIT and colleges around the country are faced with a wide variety of challenges which are designed to cover many facets of the security industry. This includes defensive and offensive capabilities, system administration, software security, networking, programming, and much more! Challenges and activities include a thematic game, Capture the Flag (CTF), King-of-the-Hill (KoTH), policy writing, incident response, and code review—all while defending a completely student-built infrastructure."
+        link: https://ists.io/
+      - image: "assets/images/irsec2024.jpg"
         title: "IRSeC 2024"
-        caption: "The Incident Response Security Competition is our more beginner-friendly Red/Blue competition. IRSeC is typically hosted in the early fall at RIT. With IRSeC, we aim to provide RIT students with some initial defensive and incident response experience. IRSeC also features an entirely student-run Red Team comprised of RITSEC members."
-        link: https://drive.google.com/drive/folders/1rAzhJ0RUweZt1jMu2piLB_mDx7f-DI3l?usp=drive_link
+        caption: "The Incident Response Security Competition (IRSeC) is our internal beginner-friendly red vs. blue competition, hosted in the fall semester at RIT. Through IRSeC, we aim to provide RIT students with some initial defensive and incident response experience. IRSeC also features an entirely student-run red team comprised of RITSEC members."
+        link: https://irsec.club/
