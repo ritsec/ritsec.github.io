@@ -4,61 +4,51 @@ sections:
 
   - title: 2025-2026 E-Board
     members:
-    # done
       - name: Dan LaChance
         position: President
-        # pronouns: (she/her)
         grad_year: 26
         avatar: "assets/images/2025eboard/danl.jpg"
         socials:
           github: 
           linkedin: dan-lachance
-          email: dgl2362@rit.edu
+          email: president@ritsec.club
           other:
-    # done
       - name: David Girard
         position: Vice President
-        # pronouns: (she/her)
         grad_year: 27
         avatar: "assets/images/2025eboard/davidg.jpg"
         socials:
           github: 
           linkedin: david-wg2
-          email: dwg5906@rit.edu
+          email: vicepresident@ritsec.club
           other:
-    # done
       - name: Danny Nichols
         position: Public Relations
-        # pronouns: (he/they)
         grad_year: 27
         avatar: "assets/images/2025eboard/dannyn.jpg"
         socials: 
           github: 
           linkedin: daniel-t-nichols
-          email: dtn7890@rit.edu
+          email: publicrelations@ritsec.club
           other: 
-    # done
       - name: Adam Braccia
         position: Head of Education
-        # pronouns: (she/her)
         grad_year: 26
         avatar: "assets/images/2025eboard/adamb.jpg"
         socials:
           github: 
           linkedin: adam-braccia-350407251
-          email: arb1514@rit.edu
+          email: education@ritsec.club
           other:
-    # done
       - name: Hayden Hartman
         position: Head of Research
-        # pronouns: (he/him)
         grad_year: 29
         avatar: "assets/images/2025eboard/haydenh.jpg"
         socials:
+          github:
           linkedin: hayden-hartman-60a042293
-          email: hmh615@rit.edu
+          email: research@ritsec.club
           other:
-    # done
       # - name: 
       #   position: 
       #   pronouns: 
@@ -66,73 +56,62 @@ sections:
       #   avatar:
       #   socials:
     #     github:
-        #  linkedin: chase-killorin
-        #  email: csk1188@rit.edu
+        #  linkedin:
+        #  email: ctf@ritsec.club
     #     other: 
-    # done
       - name: Leah Kvares
         position: ISTS CA
-        # pronouns: (he/him)
         grad_year: 27
         avatar: "assets/images/2025eboard/leahk.jpeg"
         socials:
           github: 
           linkedin: leahkvares
-          email: lk3053@rit.edu
-    # # done
+          email: ists@ritsec.club
+          other:
       - name: Arianna Schwartz
         position: IRSeC CA
-        # pronouns: (she/her)
         grad_year: 26
         avatar: "assets/images/2025eboard/ariannas.jpg"
         socials:
           github: 
           linkedin: arianna--schwartz
-          email: ans3629@rit.edu
+          email: irsec@ritsec.club
           other:
-    # done
       - name: Alex Noble
         position: Treasurer
-        # pronouns: (he/him)
         grad_year: 26
         avatar: "assets/images/2025eboard/alexn.jpg"
         socials:
-    #     github:
-         linkedin: alexnoble079
-         email: adn7297@rit.edu
-    #     other: 
-    # done
+          github:
+          linkedin: alexnoble079
+          email: treasurer@ritsec.club
+          other: 
       - name: Lukasz Ozimek
         position: Secretary
-        # pronouns: (he/him)
         grad_year: 27
         avatar: "assets/images/2025eboard/lukao.jpg"
         socials:
           github: 
           linkedin: lukasz-ozimek-1376752a2
-          email: lno5555@rit.edu
+          email: secretary@ritsec.club
           other:
-    # done
       - name: John Arrandale
         position: Operations Lead
-        pronouns: (he/him)
         grad_year: 26
         avatar: "assets/images/2025eboard/John.jpg"
         socials:
           # github: bootsie123
           linkedin: john-arrandale
-          email: jca7237@rit.edu
+          email: operations@ritsec.club
           other:
-    # done
       - name: Anish Bokka
         position: Tech Lead
-        # pronouns: (he/him)
         grad_year: 28
         avatar: "assets/images/2025eboard/anishb.jpg"
         socials:
           github:
           linkedin: anishbokka
-          email: ab9255@rit.edu
+          email: tech@ritsec.club
           other: 
 
   - title: Social Media
