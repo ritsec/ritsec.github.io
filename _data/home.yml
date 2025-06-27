@@ -4,18 +4,13 @@ sections:
     description: Security Through Community
 
     slideshow:
-      - /assets/images/slideshow/RS{Meeeeeeeeep}.jpg
-      # - /assets/images/slideshow/image1.jpg
+      - /assets/images/slideshow/image1.jpg
       - /assets/images/slideshow/image2.jpg
       - /assets/images/slideshow/image3.jpg
       - /assets/images/slideshow/image4.jpg
       - /assets/images/slideshow/image5.jpg
       - /assets/images/slideshow/image6.jpg
-      # - /assets/images/slideshow/image7.jpeg
-      # - /assets/images/slideshow/image8.jpeg
-      # - /assets/images/slideshow/image9.jpg
-      # - /assets/images/slideshow/image10.jpg
-      # - /assets/images/slideshow/image11.jpg
+      - /assets/images/slideshow/image7.jpg
 
     # About Section
   - title: About Us
