@@ -9,15 +9,15 @@ sections:
         #   url:
 
       Diamond:
+        - title: Security Risk Advisors
+          image: /assets/images/sponsors/sra.png
+          url: https://sra.io/
 
         - title: Eaton Corporation
           image: /assets/images/sponsors/eaton.png
           url: https://www.eaton.com/us/en-us.html
 
       Platinum:
-        - title: Security Risk Advisors
-          image: /assets/images/sponsors/sra.png
-          url: https://sra.io/
 
         - title: Battelle
           image: /assets/images/sponsors/battelle.jpg
@@ -52,6 +52,10 @@ sections:
         - title: Travelers Insurance
           image: /assets/images/sponsors/travelers.png
           url: https://www.travelers.com/ 
+
+        - title: Lockheed Martin
+          image: /assets/images/sponsors/lockheed.jpg
+          url: https://www.lockheedmartin.com/
 
         - title: Wings Over
           image: /assets/images/sponsors/wingsover.png
