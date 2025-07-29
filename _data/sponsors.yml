@@ -40,14 +40,18 @@ sections:
           url: https://www.datadoghq.com/
 
       Gold:
+        - title: M&T Bank
+          image: /assets/images/sponsors/mt.png
+          url: https://www.mtb.com/
+
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
 
         - title: American Express
           image: /assets/images/sponsors/amex.png
-          url: https://www.americanexpress.com/en-us/careers/
-      
+          url: https://www.americanexpress.com/
+
       Silver:
         - title: Travelers Insurance
           image: /assets/images/sponsors/travelers.png
