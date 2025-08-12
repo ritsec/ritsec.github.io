@@ -16,24 +16,29 @@ sections:
         url: https://irsec.club/
         
       - title: Weekly Education Meeting
-        date: Fridays 12:00-2:00 PM
+        date: Fridays 12:00-2:30 PM
         location: Rochester, NY
         image: "assets/images/education.jpg"
         url: https://twitch.tv/ritsec
 
       - title: Weekly Research Meeting
-        date: Fridays 2:00-4:00 PM
+        date: Fridays 2:30-4:00 PM
         location: Rochester, NY
         image: "assets/images/research.jpg"
         url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
         date: TBD
-        location: Rochester, NY & virtual
+        location: Virtual & Rochester, NY
         image: "assets/images/ritsec_ctf_2025_resized.svg"
         url: https://ctf.ritsec.club
 
-      - title: Career Fair Eve
-        date: TBD
+      - title: Virtual Career Fair Eve
+        date: 6:00-8:00 PM October 6th, 2025
+        location: Virtual & Rochester, NY
+        image: "assets/images/ritsec_logo_final-07.png"
+
+      - title: In-Person Career Fair Eve
+        date: 6:00-8:00 PM October 7th, 2025
         location: Rochester, NY
         image: "assets/images/cfe2024.JPEG"

@@ -100,19 +100,18 @@ sections:
         grad_year: 26
         avatar: "assets/images/2025eboard/John.jpg"
         socials:
-          # github: bootsie123
           linkedin: john-arrandale
           email: operations@ritsec.club
           other:
-      - name: Anish Bokka
-        position: Tech Lead
-        grad_year: 28
-        avatar: "assets/images/2025eboard/anishb.jpg"
-        socials:
-          github:
-          linkedin: anishbokka
-          email: tech@ritsec.club
-          other: 
+      # - name: 
+      #   position: Tech Lead
+      #   grad_year: 
+      #   avatar: 
+      #   socials:
+      #     github:
+      #     linkedin: 
+      #     email: tech@ritsec.club
+      #     other: 
 
   - title: Social Media
     description: Stay up to date with our social media pages!
