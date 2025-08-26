@@ -103,15 +103,14 @@ sections:
           linkedin: john-arrandale
           email: operations@ritsec.club
           other:
-      # - name: 
-      #   position: Tech Lead
-      #   grad_year: 
-      #   avatar: 
-      #   socials:
-      #     github:
-      #     linkedin: 
-      #     email: tech@ritsec.club
-      #     other: 
+      - name: 
+        position: Tech Lead
+        grad_year: 28
+        avatar: "assets/images/2025eboard/owens.jpeg"
+        socials:
+          linkedin: owensilsbee
+          email: tech@ritsec.club
+          other: 
 
   - title: Social Media
     description: Stay up to date with our social media pages!
