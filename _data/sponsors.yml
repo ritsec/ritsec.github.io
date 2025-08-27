@@ -40,6 +40,14 @@ sections:
           url: https://www.datadoghq.com/
 
       Gold:
+        - title: Magnet Forensics
+          image: /assets/images/sponsors/magnet.png
+          url: https://www.magnetforensics.com/
+
+        - title: Research Innovations Incorporated
+          image: /assets/images/sponsors/rii.jpg
+          url: https://www.researchinnovations.com/
+
         - title: M&T Bank
           image: /assets/images/sponsors/mt.png
           url: https://www.mtb.com/
