@@ -24,12 +24,12 @@ sections:
       - name: Physical Security
         meeting_time: Tuesday 5:30-6:30PM CYB-2780
         description: In Physical Security Interest group you will learn all the basics of the world outside of the computer. You will learn to pick locks, alternative entry methods and many other things that computing security experts don't tend to think of when they are securing a system. Any level is welcome to come learn!
-      - name: OT Security
-        meeting_time: Tuesday 5:00-6:00PM CYB-2750
-        description: Operational Technology (OT) Security protects the computers and machines that control real-world things like power plants, water treatment facilities, traffic lights, and factory machines.
       - name: Team Contagion
         meeting_time: Thursday 5:00-6:00PM CYB-1710
         description: Contagion represents RITSEC in a variety of Capture the Flag (CTF) competitions. We compete at different ranges of difficulty and on both the national and international levels. Everyone is welcome to join at any skill level as we provide weekly educational presentations and demos.
+      - name: OT Security
+        meeting_time: Tuesday 5:00-6:00PM CYB-2750
+        description: Operational Technology (OT) Security protects the computers and machines that control real-world things like power plants, water treatment facilities, traffic lights, and factory machines.
       - name: Zero-to-Hero IG
         meeting_time: Thursday 6:00-7:00PM CYB-2750
         description: Learn a little bit of everything. Build the foundation you need to go above and beyond in cybersecurity. Discover what your passion is in cybersecurity.
