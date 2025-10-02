@@ -60,6 +60,10 @@ sections:
           image: /assets/images/sponsors/amex.png
           url: https://www.americanexpress.com/
 
+        - title: Sharad Khanna
+          image: /assets/images/sponsors/sharad.jpg
+          url: https://www.linkedin.com/in/khanna-sharad/
+
       Silver:
         - title: Travelers Insurance
           image: /assets/images/sponsors/travelers.png
