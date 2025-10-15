@@ -82,6 +82,10 @@ sections:
           url: https://www.mindex.com/
           
       Educational:
+        - title: Hack The Box
+          image: /assets/images/sponsors/hackthebox.png
+          url: https://www.hackthebox.com/
+
         - title: Bugcrowd
           image: /assets/images/sponsors/bugcrowd.jpg
           url: https://www.bugcrowd.com/
