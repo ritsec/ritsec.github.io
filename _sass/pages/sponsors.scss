@@ -96,31 +96,34 @@
   text-overflow: ellipsis;
 }
 
+.sponsor-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
 .sponsor-button {
   text-align: center;
-  width: 8rem;
-  margin: auto;
-  padding: 0.5rem 0;
+  width: 16rem; 
+  padding: 1rem;
   background-color: var(--card-color);
   border: 1px solid var(--border-color);
   border-radius: 6px;
-  color: var(--text-color);
+  color: #e69138;
   opacity: 0.85;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   line-height: 1rem;
-
-  &:hover {
-    opacity: 1;
-  }
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.become-a-sponsor {
-  font-size: 1.25rem;
-  width: 16rem;
-  padding: 1rem;
-  color: #e69138;
+.sponsor-button:hover {
+  opacity: 1;
 }
 
 .sponsor-image-container {
