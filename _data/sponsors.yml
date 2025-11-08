@@ -1,6 +1,9 @@
 sections:
   - title: Sponsors
     description:
+    buttons:
+      - text: "Become a Sponsor"
+        url: "assets/sponsorship.pdf"
 
     tier:
       # Titanium:
@@ -60,10 +63,6 @@ sections:
           image: /assets/images/sponsors/amex.png
           url: https://www.americanexpress.com/
 
-        - title: Sharad Khanna
-          image: /assets/images/sponsors/sharad.jpg
-          url: https://www.linkedin.com/in/khanna-sharad/
-
       Silver:
         - title: Travelers Insurance
           image: /assets/images/sponsors/travelers.png
@@ -102,3 +101,16 @@ sections:
           image: /assets/images/sponsors/fortra-logo-forest-green.png
           url: https://fortra.com/
 
+  - title: Alumni Sponsors
+    description: 
+    buttons:
+      - text: "Learn About Sponsorship"
+        url: "assets/sponsorship.pdf"
+      - text: "Become an Alumni Sponsor"
+        url: "https://tigers.rit.edu/site/Donation2?df_id=1960&mfc_pref=T&1960.donation=form1&set.SingleDesignee=2125"
+
+    tier:
+      Gold:
+        - title: Sharad Khanna
+          image: /assets/images/sponsors/sharad.jpg
+          url: https://www.linkedin.com/in/khanna-sharad/
