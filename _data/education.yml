@@ -1,178 +1,112 @@
 ---
 sections:
-  - title: Spring 2025
-    description: Education Slides - more about some of our favorite topics with our project-focused education system
-    sets:
-      - title: Week 1 | RITSEC Resources
-        description: RITSEC Resources
-        lessons:
-          - title: Education Slides
-            description: RITSEC Resources
-            url: https://docs.google.com/presentation/d/1CcN1oKuS7ZmrQBdVdhDzNVmmUyvF_-LL4kc5vayePZo/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
-      - title: Week 2 | Advanced Linux
-        description: Advanced Linux
-        lessons:
-          - title: Education Slides
-            description: Advanced Linux
-            url: https://docs.google.com/presentation/d/1U-pYLXf3fm3E4QMwNnW1D1L99zhRTRLgpld3NF7afgo/edit?usp=sharing
-          - title: Demo Challenges
-            description: Be sure to login to the box AdvLinuxDemo on the stack.
-            url: https://flags.ritsec.club
-      - title: Week 3 | Advanced Windows
-        description: Advanced Windows
-        lessons:
-        - title: Education Slides
-          description: Advanced Windows
-          url: https://docs.google.com/presentation/d/1r-eaHTTY1je2AHkHmzPuixS4N4mhV4CQz34xy6R7pK4/edit?usp=sharing
-        - title: Demo Challenges
-          description: No VM needed this week.
-          url: https://flags.ritsec.club
-      - title: Week 4 | Physical Security 
-        description: Physical Security
-        lessons:
-          - title: Education Slides
-            description: Physical Security
-            url: https://docs.google.com/presentation/d/1Wa3TNT6IAdWf9tC3iBVxNok9AzR_VytJO1yA1WxGKXQ/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week.
-            url: https://flags.ritsec.club
-      - title: Week 5 | Mobile Security
-        description: Mobile Security
-        lessons:
-          - title: Education Slides
-            description: Mobile Security
-            url: https://docs.google.com/presentation/d/1ShEZFfB8IGhllEpZ6oR18nimBetKLcey60nhitGEqk0/edit?usp=sharing
-          - title: Demo Challenges
-            description: Use the Android Demo image on the stack.
-            url: https://flags.ritsec.club
-      - title: Week 6 | CSEC Careers
-        description: CSEC Careers
-        lessons:
-          - title: Education Slides
-            description: CSEC Careers
-            url: https://docs.google.com/presentation/d/1wAZZ3X0GOgX4iDSoBnlJAbwnJvzinj_qr6wg5fiTKQw/edit?usp=sharing
-          - title: Demo Challenges
-            description: Speak to Dan for the demos this week
-            url: https://flags.ritsec.club
-      - title: Week 8 | Containerization
-        description: Containerization
-        lessons:
-          - title: Education Slides
-            description: Containerization
-            url: https://docs.google.com/presentation/d/1kN4QWUWFaGceMhKi7FStrVHSUejMiWDsEtSEYLdH1XE/edit#slide=id.g2e3cde0e9d7_2_213
-          - title: Demo Challenges
-            description: Use the Containerization image on the stack.
-            url: https://flags.ritsec.club
-            
-  - title: Fall 2024
-    description: Education Slides - more about some of our favorite topics with our
+  - title: Fall 2025
+    description:
+      Education Slides - more about some of our favorite topics with our
       project-focused education system
     sets:
-      - title: Week 0 | Intro to RITSEC
+      - title: Week 1 | Intro to RITSEC
         description: Introduction to RITSEC
         lessons:
           - title: Education Slides
-            description: Welcome to RITSEC Slides (2024-2025)
-            url: https://docs.google.com/presentation/d/1Iz-toxC9dM8MK3UoPwEm-WxZFQ5c7h42SzF9H6Is10c/edit?usp=sharing
+            description: Welcome to RITSEC (2025-2026)
+            url: https://docs.google.com/presentation/d/1FTrOHBGc8fqchM6ScoFtfYr96FoHx0uIb3_nKTLp_GE/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
           - title: Demo Challenges
             description: No VM needed this week!
             url: https://flags.ritsec.club
-      - title: Week 1 | Intro to Linux
+      - title: Week 2 | Intro to CSEC
+        description: Introduction to Cybersecurity
+        lessons:
+          - title: Education Slides
+            description: Introduction to Cybersecurity
+            url: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
+          - title: Demo Challenges
+            description: Deploy the VM from the stack
+            url: https://flags.ritsec.club
+      - title: Week 3 | Intro to Linux
         description: Introduction to Linux
         lessons:
           - title: Education Slides
             description: Introduction to the Linux Operating System
-            url: https://docs.google.com/presentation/d/1emgW4orPXfLB4vy2UlxHq2v-I7aDYhZLjX2Fhiaj9SE/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1BylGCmyZDcSzIPrq7tFQeeLfUrERDSdk1k1suUavcJg/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 2 | Intro to Windows
+      - title: Week 4 | Intro to Windows
         description: Introduction to Windows
         lessons:
           - title: Education Slides
             description: Introduction to the Windows Operating System
-            url: https://docs.google.com/presentation/d/15uWuZYHAP62OMmmkEAGcwQ5w1sM24lUa65hV3r_euxA/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1Gv4KzZHQlNQM3G0nyRA0-gXx4TQeVRYAypddDSuz_90/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 3 | Career Fair Prep
-        description: Career Fair Preparations
-        lessons:
-          - title: Education Slides
-            description: Preparation for the Fall 2024 Career Fair
-            url: https://docs.google.com/presentation/d/1oKhqSoQc6egFW9pOHP7Un2TGfby-BsYjKx1jjbzXfgY/edit?usp=sharing
-      - title: Week 4 | Intro to Networking
+      - title: Week 5 | Intro to Networking
         description: Introduction to Networking
         lessons:
           - title: Education Slides
             description: Introduction to Networking
-            url: https://docs.google.com/presentation/d/1RNwg_6TTkAODB2SMRWPfu7TjKzjff2O2GZcbeWLGxWg/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1PQ1S-k2qqt0mQIK4Kk2X94ionfNHQUSufSjI6o4ZENM/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 5 | Intro to Forensics
-        description: Introduction to Forensics
+      - title: Week 6 | Career Fair Prep
+        description: Career Fair Preparations
         lessons:
           - title: Education Slides
-            description: Introduction to Forensics
-            url: https://docs.google.com/presentation/d/11v29mYPffl2JQ_9tvsESsNsy9TIv5cYRcOJeeazMNAQ/edit?usp=sharing
-          - title: Demo Challenges
-            description: Deploy the VM from the stack
-            url: https://flags.ritsec.club
-      - title: Week 6 | Intro to IAM
-        description: Introduction to Identity and Access Management
-        lessons:
-          - title: Education Slides
-            description: Introduction to IAM
-            url: https://docs.google.com/presentation/d/1zIgcotkP_fToFSMFSxtI4HIYxf8_In__LufAA-1-UH0/edit?usp=sharing
-          - title: Demo Challenges
-            description: Deploy the VM from the stack
-            url: https://flags.ritsec.club
+            description: Preparation for the Fall 2025 Career Fair
+            url: https://docs.google.com/presentation/d/14XDgC3sirOr2Wz6Z_pWCpCwcL76JZzITUtN52XtLpPA/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
       - title: Week 7 | Intro to Core Services
-        description: Introduction to Identity and Access Management
+        description: Introduction to Core Services
         lessons:
           - title: Education Slides
             description: Introduction to Core Services
-            url: https://docs.google.com/presentation/d/1Bub94UxS0dV9M5WMwY9ST5y9lP0AIg_qPlhWWvFyam8/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/15up682g7ttvppNp4yHaBy9t0P7SNyTGoxILy_NjUlEY/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 8 | Intro to Blue Teaming
+      - title: Week 8 | Intro to Cloud
+        description: Introduction to Cloud Services
+        lessons:
+          - title: Education Slides
+            description: Introduction to Cloud
+            url: https://docs.google.com/presentation/d/1LZ-vWZG1iSom3b9RMl6CH8DZe_w65mplvyd3agcyH50/edit?slide=id.g38f20c7b97a_0_412#slide=id.g38f20c7b97a_0_412
+          - title: Demo Challenges
+            description: Deploy the VM from the stack
+            url: https://flags.ritsec.club
+      - title: Week 9 | Intro to Blue Team
         description: Introduction to Blue Teaming
         lessons:
           - title: Education Slides
             description: Introduction to Blue Teaming
-            url: https://docs.google.com/presentation/d/1_Y4eSrmpUEutK9k0ZLZEy3ntqOD18Wn8UGROjAkk8ac/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1jSgjJ1nGZNnfu5AvSsUsyqKU4IBw2tZHBBH_VeIUIuI/edit?slide=id.g38f20c7b97a_0_412#slide=id.g38f20c7b97a_0_412
           - title: Demo Challenges
             description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 9 | Intro to Red Teaming
-        description: Introduction to Red Teaming
-        lessons:
-          - title: Education Slides
-            description: Introduction to Red Teaming
-            url: https://docs.google.com/presentation/d/1iqyV0_pTvx4Nqz9cXZWuN2gfgrqGdxwvH5qAppnHd_Y/edit?usp=sharing
-          - title: Demo Challenges
-            description: Use any box on DEMONET the stack
-            url: https://flags.ritsec.club
-      - title: Week 10 | Intro to Black Teaming
+      - title: Week 10 | Intro to Black Team
         description: Introduction to Black Teaming
         lessons:
           - title: Education Slides
             description: Introduction to Black Teaming
-            url: https://docs.google.com/presentation/d/1OX8-01F88Bgb_FfRgXdL-ag8NBEXOpDwE2y5a9tt6hs/edit?usp=sharing
+            url: https://docs.google.com/presentation/d/1nUrVO8Nz2JvkDHfWaJpK19tUFgWLEbp-fx3RJTcnZNc/edit?slide=id.g38f20c7b97a_0_412#slide=id.g38f20c7b97a_0_412
           - title: Demo Challenges
-            description: No VM needed this week!
+            description: Deploy the VM from the stack
             url: https://flags.ritsec.club
-      - title: Week 11 | Intro to Reversing
-        description: Introduction to Reversing
-        lessons:
-          - title: Education Slides
-            description: Introduction to Reversing
-            url: https://docs.google.com/presentation/d/1XQK4UENnnknqeQVD8jAtHFFGF9xVzSfjxRIeQHQzyd8/edit?usp=sharing
-          - title: Demo Challenges
-            description: No VM needed this week!
-            url: https://flags.ritsec.club
+      # - title: Week 11 | Hardware Security
+      #   description: Hardware Security Fundamentals
+      #   lessons:
+      #     - title: Education Slides
+      #       description: Hardware Security Fundamentals
+      #       url:
+      #     - title: Demo Challenges
+      #       description:
+      #       url: https://flags.ritsec.club
+      # - title: Week 12 | Intro to AI
+      #   description: Introduction to Artificial Intelligence
+      #   lessons:
+      #     - title: Education Slides
+      #       description: Introduction to Artificial Intelligence
+      #       url:
+      #     - title: Demo Challenges
+      #       description:
+      #       url: https://flags.ritsec.club
