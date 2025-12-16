@@ -82,6 +82,12 @@ sections:
           url: https://www.mindex.com/
           
       Educational:
+
+        - title: Crowdstrike
+          image: /assets/images/sponsors/crowdstrike.png
+          url: https://www.crowdstrike.com/
+
+
         - title: Hack The Box
           image: /assets/images/sponsors/hackthebox.png
           url: https://www.hackthebox.com/
