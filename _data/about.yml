@@ -49,16 +49,15 @@ sections:
           linkedin: hayden-hartman-60a042293
           email: research@ritsec.club
           other:
-      # - name: 
-      #   position: 
-      #   pronouns: 
-      #   grad_year: 
-      #   avatar:
-      #   socials:
-    #     github:
-        #  linkedin:
-        #  email: ctf@ritsec.club
-    #     other: 
+      - name: Manav Malik
+        position: CTF CA
+        grad_year: 26
+        avatar: "assets/images/2025eboard/manavm.jpeg"
+        socials:
+          github:
+          linkedin: manav-malik
+          email: ctfca@ritsec.club
+          other:
       - name: Leah Kvares
         position: ISTS CA
         grad_year: 27
