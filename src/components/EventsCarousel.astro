@@ -1,0 +1,267 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+import { formatDates } from "@/utils.js";
+import { ArrowRight, ArrowLeft } from "@lucide/astro";
+
+const events = await getCollection("events");
+
+function getBadgeDate(date) {
+    if (!date) return null;
+    const isUtcMidnight =
+        date.getUTCHours() === 0 &&
+        date.getUTCMinutes() === 0 &&
+        date.getUTCSeconds() === 0;
+
+    const timeZone = isUtcMidnight ? "UTC" : "America/New_York";
+
+    return {
+        month: date.toLocaleString("default", { month: "short", timeZone }),
+        day: new Intl.DateTimeFormat("en-US", {
+            day: "numeric",
+            timeZone,
+        }).format(date),
+    };
+}
+---
+
+<div>
+    <div class="carousel" id="events-carousel">
+        <div class="slide-container">
+            {
+                events.concat(events).map((event) => {
+                    const startBadge = getBadgeDate(event.data.start);
+                    const endBadge = getBadgeDate(event.data.end);
+
+                    const showEndBadge =
+                        endBadge &&
+                        startBadge &&
+                        (endBadge.month !== startBadge.month ||
+                            endBadge.day !== startBadge.day);
+
+                    return (
+                        <div class="slide">
+                            <article class="card interactive">
+                                <div class="card-img">
+                                    <Picture
+                                        src={event.data.image}
+                                        alt={event.data.title}
+                                        width={800}
+                                        height={400}
+                                    />
+                                    {startBadge && (
+                                        <div class="date-badge left">
+                                            <span class="month">
+                                                {startBadge.month}
+                                            </span>
+                                            <span class="day">
+                                                {startBadge.day}
+                                            </span>
+                                        </div>
+                                    )}
+                                    {showEndBadge && (
+                                        <div class="date-badge right">
+                                            <span class="month">
+                                                {endBadge.month}
+                                            </span>
+                                            <span class="day">
+                                                {endBadge.day}
+                                            </span>
+                                        </div>
+                                    )}
+                                </div>
+
+                                <div class="card-content">
+                                    <h3>{event.data.title}</h3>
+
+                                    <div class="meta-info">
+                                        <div class="meta-item">
+                                            <div class="meta-label">Where:</div>
+                                            <div class="meta-value">
+                                                {event.data.location}
+                                            </div>
+                                        </div>
+                                        <div class="meta-item">
+                                            <div class="meta-label">
+                                                Access:
+                                            </div>
+                                            <div class="meta-value">
+                                                {event.data.access}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p class="expand">{event.data.summary}</p>
+
+                                    <div class="list">
+                                        {event.data.website && (
+                                            <a
+                                                href={event.data.website}
+                                                class="link-button secondary"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Website
+                                            </a>
+                                        )}
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    );
+                })
+            }
+        </div>
+    </div>
+    <div class="carousel-scroll-text">
+        <button id="group-prev"><ArrowLeft /></button>
+        ← Drag To View More →
+        <button id="group-next"><ArrowRight /></button>
+    </div>
+</div>
+
+<script>
+    import EmblaCarousel from "embla-carousel";
+    import Autoplay from "embla-carousel-autoplay";
+    import WheelGestures from "embla-carousel-wheel-gestures";
+
+    document.addEventListener("astro:page-load", () => {
+        const carousel = document.querySelector(
+            "#events-carousel",
+        ) as HTMLElement;
+
+        if (carousel) {
+            const emblaApi = EmblaCarousel(
+                carousel,
+                {
+                    loop: true,
+                    align: "start",
+                    dragFree: true,
+                },
+                [
+                    Autoplay({ delay: 3000, stopOnMouseEnter: true }),
+                    WheelGestures(),
+                ],
+            );
+
+            const prevBtn = document.querySelector("#group-prev");
+            const nextBtn = document.querySelector("#group-next");
+
+            const scrollPrev = () => {
+                emblaApi.scrollPrev();
+            };
+            const scrollNext = () => {
+                emblaApi.scrollNext();
+            };
+            prevBtn.addEventListener("click", scrollPrev, false);
+            nextBtn.addEventListener("click", scrollNext, false);
+        }
+    });
+</script>
+
+<style>
+    .card-img {
+        height: 200px;
+        position: relative;
+        user-select: none;
+    }
+
+    .date-badge {
+        position: absolute;
+        bottom: 0;
+        background-color: var(--bg-panel);
+        padding: var(--padding-sm);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1;
+        width: 60px;
+        user-select: none;
+    }
+
+    .date-badge.left {
+        left: 0;
+        border-top-right-radius: var(--padding-sm);
+    }
+
+    .date-badge.right {
+        right: 0;
+        border-top-left-radius: var(--padding-sm);
+    }
+
+    .date-badge .month {
+        font-size: var(--sm);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--accent);
+    }
+
+    .date-badge .day {
+        font-size: var(--lg);
+        font-weight: bold;
+        color: var(--fg);
+    }
+
+    .card-content {
+        flex-direction: column;
+        display: flex;
+        gap: var(--padding);
+        padding: var(--padding);
+        text-align: left;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: var(--lg);
+        text-align: left;
+    }
+
+    .meta-info {
+        display: flex;
+        flex-direction: column;
+        font-size: var(--sm);
+        border-top: var(--border);
+        padding-top: var(--padding-sm);
+        margin-top: auto;
+        user-select: none;
+    }
+
+    .meta-label {
+        font-weight: bold;
+        color: var(--accent);
+    }
+
+    .meta-value {
+        font-weight: bold;
+    }
+
+    .expand {
+        font-size: var(--sm);
+        flex-grow: 1;
+        user-select: none;
+    }
+
+    .list {
+        gap: var(--padding-sm);
+    }
+
+    .carousel-scroll-text {
+        text-align: center;
+        padding: var(--padding) 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button {
+        border: var(--border);
+        padding: var(--padding-sm);
+        background: var(--bg);
+        color: var(--fg);
+    }
+
+    button:hover,
+    button:active {
+        color: var(--accent);
+    }
+</style>

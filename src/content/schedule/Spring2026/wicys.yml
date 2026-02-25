@@ -1,0 +1,11 @@
+- title: Intro to WiCys
+  hosts:
+      - name: Emmalee
+      - name: Anushka
+      - name: Arshia
+      - name: Lily
+      - name: Ariana
+  start: 2026-01-26T17:30:00-5:00
+  end: 2026-01-26T18:00:00-5:00
+  location: GOL-1710
+  group: wicys

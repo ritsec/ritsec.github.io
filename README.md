@@ -1,43 +1,16 @@
-# ritsec.github.io
+# RITSEC Website
 
-Website for RITESC. Built using [Jekyll](https://jekyllrb.com/)
+Website for RITSEC, built in Astro.
 
-## Development
+## 🧞 Commands
 
-### Install Ruby
+All commands are run from the root of the project, from a terminal:
 
-#### Method 1 - `rbenv` (Recommended)
-
-1. Install `rbenv` with your package manager (see [here](https://github.com/rbenv/rbenv?tab=readme-ov-file#using-package-managers))
-2. Install the proper `ruby` version with `rbenv install`
-
-#### Method 2 - Manual Installation
-
-> ⚠️ **Be sure to check the [`.ruby-version`](./.ruby-version) file to ensure you're installing the correct Ruby version**
-
-You can install Ruby manually using the instructions found [here](https://www.ruby-lang.org/en/documentation/installation/).
-
-### Install dependencies
-
-Install [`bundler`](https://bundler.io/) to easily install all of the dependency gems:
-
-```shell
-gem install bundler
-bundle
-```
-
-### Development Server
-
-To start up the dev server (runs locally on `http://127.0.0.1:4000`) run:
-
-```shell
-bundle exec jekyll serve
-```
-
-### Development Build
-
-To generate a static build of the site run:
-
-```shell
-bundle exec jekyll build
-```
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |

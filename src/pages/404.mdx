@@ -1,0 +1,18 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+<BaseLayout title="404">
+    <Hero 
+            reverse="true"
+        >
+            <Fragment slot="title">
+                404: Page Not Found
+            </Fragment>
+    </Hero>
+
+</BaseLayout>

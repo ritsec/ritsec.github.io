@@ -1,0 +1,102 @@
+- title: RITSEC Resources
+  hosts:
+      - name: Leah Kvares
+      - name: Kasey Kiggins
+      - name: Lukas Peters
+  start: 2025-01-17T12:00:00-04:00
+  end: 2025-01-17T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1CcN1oKuS7ZmrQBdVdhDzNVmmUyvF_-LL4kc5vayePZo
+  video: https://www.youtube.com/watch?v=2zoDI1TRmHY
+
+- title: Advanced Linux
+  hosts:
+      - name: Stella Morrow
+  start: 2025-01-24T12:00:00-04:00
+  end: 2025-01-24T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1U-pYLXf3fm3E4QMwNnW1D1L99zhRTRLgpld3NF7afgo
+  video: https://www.youtube.com/watch?v=uU7BDTqjHHQ
+
+- title: Advanced Windows
+  hosts:
+      - name: Asa Horn
+      - name: James Southcott
+  start: 2025-01-31T12:00:00-04:00
+  end: 2025-01-31T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1r-eaHTTY1je2AHkHmzPuixS4N4mhV4CQz34xy6R7pK4
+  video: https://www.youtube.com/watch?v=LrOJInKEZOo
+
+- title: Physical Security
+  hosts:
+      - name: Anthony Ioppolo
+  start: 2025-02-07T12:00:00-04:00
+  end: 2025-02-07T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1Wa3TNT6IAdWf9tC3iBVxNok9AzR_VytJO1yA1WxGKXQ
+  video: https://www.youtube.com/watch?v=7nVt0__Ki9M
+
+- title: Mobile Security
+  hosts:
+      - name: Sharad Khanna
+  start: 2025-02-14T12:00:00-04:00
+  end: 2025-02-14T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1ShEZFfB8IGhllEpZ6oR18nimBetKLcey60nhitGEqk0
+  video: https://www.youtube.com/watch?v=WHsPl5__sFc
+
+- title: CSEC Careers
+  hosts:
+      - name: Dom Cunningham
+      - name: Anthony Ioppolo
+      - name: Aaron Schwager
+  start: 2025-02-21T12:00:00-04:00
+  end: 2025-02-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1wAZZ3X0GOgX4iDSoBnlJAbwnJvzinj_qr6wg5fiTKQw/
+  video: https://www.youtube.com/watch?v=fvwAEyr7LUw
+
+- title: Containerization
+  hosts:
+      - name: Maxim Kochnev
+  start: 2025-03-07T12:00:00-04:00
+  end: 2025-03-07T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1kN4QWUWFaGceMhKi7FStrVHSUejMiWDsEtSEYLdH1XE/
+  video: https://www.youtube.com/watch?v=HEWpLhGw_sc
+
+- title: Social Engineering & OSINT
+  hosts:
+      - name: Anthony Ioppolo
+      - name: Leah Kvares
+  start: 2025-03-21T12:00:00-04:00
+  end: 2025-03-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=cHHeRIn2_hc
+
+- title: Wireless
+  hosts:
+      - name: Dan LaChance
+  start: 2025-03-28T12:00:00-04:00
+  end: 2025-03-28T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=ZC1MrzrJU10
+
+- title: Hardware Security
+  hosts:
+      - name: Kasey Kiggins
+  start: 2025-04-04T12:00:00-04:00
+  end: 2025-04-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=RIhwpKhD1Es

@@ -1,0 +1,91 @@
+- title: Cloud Computing
+  hosts:
+      - name: Bradley Harker
+  start: 2023-01-20T12:00:00-04:00
+  end: 2023-01-20T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1q2sV8liV_DHybsXcyLtwBogjfKIBS-fIIgcAL7PUtyg
+  video: https://www.youtube.com/watch?v=JHO5Mstb0Uc
+
+- title: Advanced Windows
+  hosts:
+      - name: Dominic Cunningham
+  start: 2023-01-27T12:00:00-04:00
+  end: 2023-01-27T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1zxte83jVRONVW18zfoflnwELtK2wIadzSe2fTdf3N0k
+  video: https://www.youtube.com/watch?v=br24G_3l29U
+
+- title: Advanced Linux
+  hosts:
+      - name: Michael Vaughan
+  start: 2023-02-03T12:00:00-04:00
+  end: 2023-02-03T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1JYcMVli5RooDA7dDTo28WFnpFCM48BZK-mU8IBesYVY
+  video: https://www.youtube.com/watch?v=lK5XCVR1VDw
+
+- title: Wireless
+  hosts:
+      - name: Brayden Werner
+  start: 2023-02-10T12:00:00-04:00
+  end: 2023-02-10T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/18WIPk6KGk__cgOZqhmto618MLEIIQ__EeTbYV2qs2z0
+  video: https://www.youtube.com/watch?v=sm2ITEtza_Q
+
+- title: Penetration Testing
+  hosts:
+      - name: Smash
+  start: 2023-02-17T12:00:00-04:00
+  end: 2023-02-17T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1viEPKTimIxQbTh8lp_8tZCCyJB6k0nORR1mAQXyRAVk
+  video: https://www.youtube.com/watch?v=5M3pyAy8qWI
+
+- title: Hardware/Embedded
+  hosts:
+      - name: Kenneth Anderson
+  start: 2023-03-03T12:00:00-04:00
+  end: 2023-03-03T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1jZu1CK7yI9q1cIQ0iW_OoSMC_u4MtKpLu_MAAxIYWMM
+  video: https://www.youtube.com/watch?v=IktRzhOSnLk
+
+- title: DevOps/Blackteaming
+  hosts:
+      - name: Ross McKee
+      - name: Michael Scalzetti
+  start: 2023-03-10T12:00:00-04:00
+  end: 2023-03-10T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1egtmM3BA67ijv196C7r8NZ4Py7W1zDWuH0e9-zHtRK8
+  video: https://www.youtube.com/watch?v=dKW3-MjyOBE
+
+- title: DFIR
+  hosts:
+      - name: Brad
+      - name: Malik
+  start: 2023-03-24T12:00:00-04:00
+  end: 2023-03-24T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1_XPcKtC8nM_PiW6k0gu0nma_iGgAi3VtPKCUuFi0myw
+  video: https://www.youtube.com/watch?v=Lsrl0GHHLuM
+
+- title: Containerization/Kubernetes
+  hosts:
+      - name: Max Fusco
+  start: 2023-03-31T12:00:00-04:00
+  end: 2023-03-31T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1o2pJlWbeIDlfcE0_XeSu6PJ-gniCkInKDg2vcq61sww
+  video: https://www.youtube.com/watch?v=1Vloq76fEWo

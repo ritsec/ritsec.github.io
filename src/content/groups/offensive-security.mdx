@@ -1,0 +1,28 @@
+---
+name: "Offensive Security"
+summary: "We develop robust red team tools, infrastructure, and implants to play the role of an effective adversary in a red vs blue competition setting."
+meetings:
+    - day: "Wednesday"
+      start: "8:15 PM"
+      end: "9:15 PM"
+      location: "CYB-2750"
+leads:
+    - name: "Camden"
+    - name: "James"
+logo: "@/assets/icons/swords.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

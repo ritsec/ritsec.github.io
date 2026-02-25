@@ -1,0 +1,90 @@
+- title: Intro to Operations
+  hosts:
+      - name: Lukas Peters
+  start: 2026-01-16T12:00:00-5:00
+  end: 2026-01-16T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/12sa6PnpnNiof13Ip_wCSu9uFcNjIXGWqKJjZlxgJSwI/edit
+  video: https://www.youtube.com/watch?v=VNXxFlY1tjw
+
+- title: Penetration Testing
+  hosts:
+      - name: Leah Kvares
+  start: 2026-01-23T12:00:00-5:00
+  end: 2026-01-23 14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1w_KRCtv4oZpnsXQB2CuwM-1rjo9WnMoJX8l_nk9ZkMU/edit
+  video: https://www.youtube.com/watch?v=TClozkI_klI
+
+- title: Web3 Security
+  hosts:
+      - name: Arianna Schwartz
+  start: 2026-01-30T12:00:00-5:00
+  end: 2026-01-30T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/13nXXHyiZZnpkej7JUqYfsXenCswZ3GoOffN0rzu7xXM/edit
+  video: https://www.youtube.com/watch?v=iK-HpMr5mK4
+
+- title: OT Security
+  start: 2026-02-06T12:00:00-5:00
+  end: 2026-02-06T12:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1KZTbm6Sw0srkcW9tJgRdafkL1yNHRHeYmHAvpOlMhFA/edit
+
+- title: CSEC Law
+  start: 2026-02-13T12:00:00-5:00
+  end: 2026-02-13T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: Intro to Red Teaming
+  start: 2026-02-20T12:00:00-5:00
+  end: 2026-02-20T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: Incident Response
+  start: 2026-03-06T12:00:00-5:00
+  end: 2026-03-06T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: CTF Basics
+  start: 2026-03-13T12:00:00-5:00
+  end: 2026-03-13T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: Vulnerability Research
+  start: 2026-03-27T12:00:00-5:00
+  end: 2026-03-27T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: OSINT
+  start: 2026-04-03T12:00:00-5:00
+  end: 2026-04-03T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: E-Board Elections (1)
+  start: 2026-04-10T12:00:00-5:00
+  end: 2026-04-10T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: E-Board Elections (2)
+  start: 2026-04-17T12:00:00-5:00
+  end: 2026-04-17T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general
+
+- title: Slide Roulette & Graduation
+  start: 2026-04-24T12:00:00-5:00
+  end: 2026-04-24T14:00:00-5:00
+  location: GOL-1710/20/30
+  group: general

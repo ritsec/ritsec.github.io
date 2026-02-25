@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import ResearchListComponent from "@/components/ResearchList.jsx";
+
+interface Props {
+    group?: string;
+    count?: number;
+}
+
+const { group, count } = Astro.props;
+
+const allResearch = await getCollection("research");
+
+const research = allResearch.map((post) => ({
+    slug: post.slug,
+    data: {
+        ...post.data,
+        date: post.data.date.toISOString(),
+        group: post.data.group ? { id: post.data.group.id } : null,
+        authors: post.data.authors.map((a) => ({ name: a.name })),
+        video: post.data.video,
+        slideshow: post.data.slideshow,
+        hasContent: (post.body || "").trim().length > 0,
+    },
+}));
+---
+
+<ResearchListComponent
+    data={research}
+    group={group}
+    count={count}
+    ascending={false}
+    client:load
+/>
+
+<noscript>
+    <p>
+        Sorry, the interactive research list requires JavaScript. Please enable
+        it to filter by year or group.
+    </p>
+</noscript>

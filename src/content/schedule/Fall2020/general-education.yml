@@ -1,0 +1,116 @@
+- title: Intro to Linux
+  hosts:
+      - name: RITSEC
+  start: 2020-08-21T12:00:00-04:00
+  end: 2020-08-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=uaemH_Y6FHc
+
+- title: Intro to Windows
+  hosts:
+      - name: RITSEC
+  start: 2020-08-28T12:00:00-04:00
+  end: 2020-08-28T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=csjr-W9_yRo
+
+- title: Intro to Networking
+  hosts:
+      - name: RITSEC
+  start: 2020-09-04T12:00:00-04:00
+  end: 2020-09-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=uPiMs-2HYPs
+
+- title: Intro to Services
+  hosts:
+      - name: RITSEC
+  start: 2020-09-11T12:00:00-04:00
+  end: 2020-09-11T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=HYbwn-WGWP8
+
+- title: Career Fair Prep
+  hosts:
+      - name: RITSEC
+  start: 2020-09-18T12:00:00-04:00
+  end: 2020-09-18T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=FnWibRp-t6Y
+
+- title: Blue Linux
+  hosts:
+      - name: RITSEC
+  start: 2020-09-25T12:00:00-04:00
+  end: 2020-09-25T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=4SjgMEtb27w
+
+- title: Blue Windows
+  hosts:
+      - name: RITSEC
+  start: 2020-10-02T12:00:00-04:00
+  end: 2020-10-02T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=hum4hzNE_j8
+
+- title: Blue Networking
+  hosts:
+      - name: RITSEC
+  start: 2020-10-09T12:00:00-04:00
+  end: 2020-10-09T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=w8Xs58cHcr8
+
+- title: Pentesting
+  hosts:
+      - name: RITSEC
+  start: 2020-10-16T12:00:00-04:00
+  end: 2020-10-16T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=t-Iih1H5WOk
+
+- title: Mobile Security
+  hosts:
+      - name: RITSEC
+  start: 2020-10-23T12:00:00-04:00
+  end: 2020-10-23T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=E9wv-nJFj3U
+
+- title: Incident Response Basics
+  hosts:
+      - name: RITSEC
+  start: 2020-10-30T12:00:00-04:00
+  end: 2020-10-30T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=VvoDrT452Jc
+
+- title: Cloud
+  hosts:
+      - name: RITSEC
+  start: 2020-11-06T12:00:00-04:00
+  end: 2020-11-06T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=3ljgdc8D7Fk
+
+- title: Intro to Web
+  hosts:
+      - name: RITSEC
+  start: 2020-11-13T12:00:00-04:00
+  end: 2020-11-13T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=FIFntzVbuXI

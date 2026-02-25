@@ -1,0 +1,112 @@
+- title: Intro to RITSEC
+  hosts:
+      - name: RITSEC
+  start: 2022-08-26T12:00:00-04:00
+  end: 2022-08-26T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1dlTSqxIIB2iMKT3g3fhWqGY4Z3jE-esEG8_sQOEVBWs
+  video: https://www.youtube.com/watch?v=cuQsNU8bsno
+
+- title: Intro to Linux
+  hosts:
+      - name: Daniel Railic
+  start: 2022-09-02T12:00:00-04:00
+  end: 2022-09-02T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1OS9TN9_R7KxgwY0IWmo4ckmRlYPmoL-SgudbpYi9kLM/
+  video: https://www.youtube.com/watch?v=AicC-pTUDmE
+
+- title: Intro to Windows
+  hosts:
+      - name: Tenchi Mata
+  start: 2022-09-09T12:00:00-04:00
+  end: 2022-09-09T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1Wwd8hcbhqoVCWY_tNbtdpW-H0hZdRUZaGwRLNS78lJI/
+  video: https://www.youtube.com/watch?v=6BXMoRujx5Y
+
+- title: Career Fair Prep
+  hosts:
+      - name: Kat Nayan
+  start: 2022-09-16T12:00:00-04:00
+  end: 2022-09-16T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1N-w45Zz52t_LDUmFh8GaqCMbocA580pavMuf2KB1w4o/
+  video: https://www.youtube.com/watch?v=vW_vGcL-e_U
+
+- title: Intro to Networking
+  hosts:
+      - name: Jonathan S. Weissman
+  start: 2022-09-23T12:00:00-04:00
+  end: 2022-09-23T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1B_ECrqhjFN2ngq5gHX-XrFzuaJCymmzUnlmdPWDW6h8/
+  video: https://www.youtube.com/watch?v=sQQkzUCv3QA
+
+- title: Intro to Web Security
+  start: 2022-09-30T12:00:00-04:00
+  end: 2022-09-30T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1VcmBZ15V8RnIO3egjNzUBeU0AI1wIeLALwjUwOj8f14/
+
+- title: Core Services
+  hosts:
+      - name: Malik
+      - name: Smash
+  start: 2022-10-07T12:00:00-04:00
+  end: 2022-10-07T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1xSAaJYvu5mU4YgC1i-8w_x7WbzObV1Irnu4GSq85cpE/
+  video: https://www.youtube.com/watch?v=v41Nrbe0rrs
+
+- title: Physical Security
+  hosts:
+      - name: Bailey Powers
+  start: 2022-10-14T12:00:00-04:00
+  end: 2022-10-14T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/10yRwucHuiFqQvNjEisV6mfiXAphjrLxX/
+  video: https://www.youtube.com/watch?v=1jNelZYaU7o
+
+- title: Blue Linux/Windows
+  start: 2022-10-21T12:00:00-04:00
+  end: 2022-10-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/15FN3TpnOvmQRs-Z0K0Um-5zm7HP6kN9T7z1A2-2eGjo/
+
+- title: Red Team
+  hosts:
+      - name: Jason, Mav, Anni, Kenny
+  start: 2022-10-28T12:00:00-04:00
+  end: 2022-10-28T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=Nsww1tD3SBE
+  slide: https://docs.google.com/presentation/d/1efyf_pzsCSJ1y_iSOUrO2FEj2UucMo3zaA5lLppyTsQ/
+
+- title: Social Engineering/OSINT
+  hosts:
+      - name: Max Fusco
+  start: 2022-11-04T12:00:00-04:00
+  end: 2022-11-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=8PnYcQH0YJs
+
+- title: SWRE
+  hosts:
+      - name: Jacob Doll
+  start: 2022-11-11T12:00:00-04:00
+  end: 2022-11-11T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=3NfHJPNfGLQ

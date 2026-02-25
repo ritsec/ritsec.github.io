@@ -1,0 +1,38 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import GroupCarousel from "@/components/GroupCarousel.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image3.jpg";
+
+<BaseLayout title="Join">
+    <Hero 
+            image={heroImg}
+            imageAlt="Letchworth State Park landscape"
+        >
+            <Fragment slot="title">
+                <strong>Join</strong> Us
+            </Fragment>
+
+            <Fragment slot="bottom">
+                <a class="link-button primary" href="https://discord.ritsec.club">DISCORD</a>
+                <a class="link-button secondary" href="https://mail.ritsec.club/">NEWSLETTER</a>
+            </Fragment>
+
+            <Fragment slot="image">
+                <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="RITSEC in the Cyber Range." />
+            </Fragment>
+
+            RITSEC is open to all RIT students, regardless of major.
+    </Hero>
+
+    ---
+      ## Getting Connected
+
+      TODO: write real copy (except maybe not too much...)
+
+</BaseLayout>

@@ -1,0 +1,67 @@
+---
+title: "Creating an IPTables Backdoor"
+summary: "Hacking the firewall."
+date: 2022-04-06
+authors:
+    - name: Philomena Gray
+---
+
+## Introduction
+
+For my project, I chose the ambitious goal of adding a backdoor to Linux’s iptables firewall. In order to do this, I had to delve deep into the Linux kernel and study the inner workings of the networking stack. Through my efforts, I was able to make iptables accept specially-crafted packets, even if the user-defined rules say otherwise.
+
+---
+
+## The Evil Bit
+
+In April 2003, the Internet Engineering Task Force published [RFC3514](https://tools.ietf.org/html/rfc3514), which defines a previously-unused bit of the IPv4 fragment offset field as the “evil bit” or security flag. All packets containing malicious contents were supposed to have the evil bit set and thus be blocked. This, of course, was an overly complicated joke, but the idea of using this bit that no one will notice stuck with me after reading about it. Most conventional network diagnostic tools are not aware of the evil bit, as it is almost never set or used. Wireshark labels it as the “reserved bit”, and tcpdump requires a very specific filter to detect it.
+
+---
+
+## A Quick Intro To IPTables
+
+When a packet is received by the Linux kernel, it is processed by iptables and either sent to userspace, rejected, or modified based on the rules configured. On a standard build of iptables, there are several tables, which each contain chains of rules that send packets to targets. The most commonly used table is the filter table, but the nat, mangle, raw, and security tables are just a command line option away. The default targets are ACCEPT, DROP, and RETURN, but custom targets can be created by writing kernel modules and extensions to the iptables CLI to handle them. Custom tables are much more difficult to add, as they were not intended in the original design and require modifications to kernel headers, as there are only a limited number of spaces for tables in the kernel.
+
+This diagram is a rough approximation of how packets are processed in the Linux kernel. If a packet is dropped by BPF or by any table, it is not processed by anything further along in the chain. For a packet to be accepted, it has to be accepted by every table. In order to insert a backdoor, it needs to either be applied to every table (the option I chose) or pass the packet directly to userspace, bypassing all other tables.
+
+---
+
+## How This Works/What Did I Do?
+
+My initial plan was to write a Berkeley Packet Filter (BPF) program, but I couldn’t find a good starting point and gave up on that approach as soon as I discovered Ben Cox’s iptables_uwu example. iptables_uwu, which messes with the contents of packets to “uwu-ify” text before passing them along, was a good starting point for delving into the internals of iptables and discovering where to look for the functions to add tables and targets to iptables.
+
+I attempted to add another table to iptables, which I called iptable_evil, but I could not figure out how to make it hand processed packets off to the next legitimate iptables table. It also required modifying kernel headers and spending several hours to recompile the entirety of the Linux kernel, which is very annoying, and makes use impractical. I then discovered that each legitimate table calls the function [ipt_do_table](https://elixir.bootlin.com/linux/v5.8/source/net/ipv4/netfilter/ip_tables.c##L225.) to iterate over the chains and rules in that table and decide whether to accept a packet. By modifying ipt_do_table to always accept any packet with the evil bit set before any other rules are processed, I was able to create a backdoor.
+
+Backdoor packets still show up in tcpdump and Wireshark captures because they both use libpcap, which is very difficult to bypass without interrupting network communications. Libpcap compiles filters into BPF programs, which are processed before any iptables rules are applied, as shown in the iptables network flow diagram.
+
+---
+
+## Why Do This?
+
+My code has no practical use outside of red/blue team competitions, but it’s been a good learning experience for me. I’ve learned a lot about how iptables and the Linux kernel build system work under the hood, and I’ve already come up with some more ideas of what to do with this knowledge.
+
+Red teaming a competition often entails writing or using malware and tools with no use in conventional penetration tests, and this is no different. My backdoor requires either setting up a build environment with the exact same kernel version and distribution-specific patches or building a build environment on each target machine.
+
+---
+
+## Further Research
+
+With my new understanding of Linux kernel networking internals, there’s a lot of possible further work that can be done. One example I’m particularly interested in trying is hiding packets from libpcap by not writing a BPF program that prevents libpcap from capturing any packets.
+
+I might also try to create a custom table that takes precedence over all others to create more flexibility in backdoors and allow changes without reinstalling kernel modules. In addition, a better install and deployment process will make my development process much less painful and will make my code more attractive to competition red teams.
+
+Another idea that I’ve been considering is creating a more useful backdoor in iptables that allows traffic based on characteristics that are easier to set than the evil bit, such as TTL or IP address. Sending evil bit packets requires either modifying and rebuilding the Linux kernel or using software that sends packets using raw sockets, which most commonly-used red team and system administration tools do not.
+
+Thank you for reading! My code is on GitHub [here](https://github.com/FlamingSpork/iptable_evil) if you’d like to take a look.
+
+---
+
+## References
+
+- RFC 3514 introducing the evil bit: https://tools.ietf.org/html/rfc3514
+- Ben Cox’s introduction to the evil bit: https://blog.benjojo.co.uk/post/evil-bit-RFC3514-real-world-usage
+- Ben Cox’s iptables_uwu (mostly just for giving the names of things to research): https://github.com/benjojo/iptables-uwu
+- A somewhat outdated but very detailed explanation of how iptables works and how to add targets and modules to it: https://inai.de/documents/Netfilter_Modules.pdf
+- A detailed diagram of how packets pass through iptables: https://upload.wikimedia.org/wikipedia/commons/3/37/Netfilter-packet-flow.svg
+- Bootlin’s Elixir search (significantly easier and faster to use to find identifiers in the kernel than grep): https://elixir.bootlin.com/linux/v5.8/source/net/ipv4/netfilter/ip_tables.c##L225
+- Ubuntu’s docs explaining how to build the kernel: https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel

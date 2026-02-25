@@ -1,0 +1,53 @@
+- title: IR Wrapped
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-01-20T17:30:00-5:00
+  end: 2026-01-20T18:30:00-5:00
+  location: CYB-2780
+  group: incident response
+
+- title: Data Privacy
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-01-27T17:30:00-5:00
+  end: 2026-01-27T18:30:00-5:00
+  location: CYB-2780
+  group: incident response
+
+- title: Why Incidents Happen
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-02-03T17:30:00-5:00
+  end: 2026-02-03T18:30:00-5:00
+  location: CYB-2780
+  group: incident response
+
+- title: Careers in IR
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-02-10T17:30:00-5:00
+  end: 2026-02-10T18:30:00-5:00
+  location: CYB-2780
+  group: incident response
+
+- title: Career Fair Prep
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-02-24T17:30:00-5:00
+  end: 2026-02-24T18:30:00-5:00
+  location: CYB-2780
+  group: incident response
+
+- title: Threat Hunting
+  hosts:
+      - name: Chloe
+      - name: Eva
+  start: 2026-03-03T17:30:00-5:00
+  end: 2026-03-03T18:30:00-5:00
+  location: CYB-2780
+  group: incident response

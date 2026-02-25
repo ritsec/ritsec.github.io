@@ -1,0 +1,33 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import AlumniGrid from "@/components/AlumniGrid.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image3.jpg";
+
+<BaseLayout title="Alumni">
+    <Hero 
+            image={heroImg}
+            imageAlt="Letchworth State Park landscape"
+        >
+            <Fragment slot="title">
+                RITSEC's <strong>Alumni</strong>
+            </Fragment>
+
+            <Fragment slot="image">
+                <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="RITSEC in the Cyber Range." />
+            </Fragment>
+
+            Meet all of our wonderful alumni!
+    </Hero>
+
+    ---
+      ## Alumni
+
+      <AlumniGrid />
+
+</BaseLayout>

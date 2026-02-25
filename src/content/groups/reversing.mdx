@@ -1,0 +1,37 @@
+---
+name: "Reversing"
+summary: "Focusing on binary applications, such as assembly, executable formats, and malware tactics."
+meetings:
+    - day: "Monday"
+      start: "6:00 PM"
+      end: "8:00 PM"
+      location: "CYB-2750"
+leads:
+    - name: "Tanush"
+    - name: "Thomas"
+logo: "@/assets/icons/rotate-cw-square.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>
+    ## About Reversing
+
+    The plan for this semester is going to creating your own decompiler for ARM 64 from scratch that's the entire/only project for the semester and we will work on it incrementally throughout the semester.
+
+    We'll start with reading ELF binaries, then (optionally) writing an aarch64 dissassembler, and then finally implementing the lifting algorithms from ASM to pseudo-c.
+
+    We're expecting it to take a while!
+
+</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

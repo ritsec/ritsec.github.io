@@ -1,0 +1,176 @@
+---
+import { Picture } from "astro:assets";
+import logoLarge from "@/assets/logo.svg";
+
+const path = Astro.url.pathname.substring(import.meta.env.BASE_URL.length);
+
+const navLinks = [
+    { text: "HOME", href: "/" },
+    { text: "ABOUT", href: "/about" },
+    { text: "ALUMNI", href: "/alumni" },
+    { text: "EDUCATION", href: "/education" },
+    { text: "EVENTS", href: "/events" },
+    { text: "GROUPS", href: "/groups" },
+    { text: "RESEARCH", href: "/research" },
+    { text: "SPONSORS", href: "/sponsors" },
+    { text: "JOIN", href: "/join" },
+];
+
+function joinPath(base: string, path: string) {
+    if (path === "/" && base !== "/") return base; // Special case for home
+    if (base === "/") return path;
+    if (base.endsWith("/")) base = base.slice(0, -1);
+    if (!path.startsWith("/")) path = "/" + path;
+    return base + path;
+}
+
+const currentPath = Astro.url.pathname;
+const base = import.meta.env.BASE_URL;
+---
+
+<header>
+    <a class="logo link-button tertiary" href={joinPath(base, "/")}>
+        <Picture src={logoLarge} alt="RITSEC Logo" loading="eager" />
+    </a>
+
+    <input type="checkbox" id="checkbox" />
+
+    <label for="checkbox">
+        <span>☰</span>
+    </label>
+
+    <nav>
+        {
+            navLinks.map((link) => {
+                const href = joinPath(base, link.href);
+                // Active state logic:
+                // Exact match or starts with (for subpages), but avoid "/" matching everything
+                // If href is base (home), only exact match or if current is exactly base + /
+                const isActive =
+                    currentPath === href ||
+                    (href !== base &&
+                        href !== base + "/" &&
+                        currentPath.startsWith(href));
+
+                return (
+                    <a
+                        class:list={[
+                            "link-button",
+                            isActive ? "secondary" : "",
+                        ]}
+                        href={href}
+                        aria-current={isActive ? "page" : undefined}
+                    >
+                        <span class="accent" aria-hidden="true">
+                            /
+                        </span>
+                        {link.text}
+                    </a>
+                );
+            })
+        }
+    </nav>
+</header>
+
+<style>
+    header {
+        position: sticky;
+        top: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: var(--padding-sm) var(--padding-lg);
+        border-bottom: var(--border);
+        background-color: var(--bg-header);
+
+        z-index: 999;
+    }
+
+    .link-button {
+        border: unset;
+    }
+
+    .link-button.secondary {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
+        color: var(--accent);
+    }
+
+    .logo img {
+        height: 3.25rem;
+        width: auto;
+    }
+
+    .logo {
+        display: inline-block;
+        border: unset;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        gap: 0.75rem;
+        align-items: center;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+        cursor: pointer;
+        user-select: none;
+        padding: 0.75rem 1.125rem;
+        font-size: 1.125rem;
+        transition: background-color 0.1s linear;
+    }
+
+    label:hover,
+    label:active,
+    label:focus {
+        background-color: var(--bg-panel);
+    }
+
+    @media (max-width: 1000px) {
+        label {
+            display: block;
+        }
+
+        input {
+            display: unset;
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        input:focus-visible + label {
+            background-color: var(--bg-panel);
+        }
+
+        header nav {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            margin-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        input:checked ~ nav {
+            display: flex;
+        }
+
+        header nav a {
+            width: 100%;
+            text-align: center;
+            padding: 0.75rem 0;
+        }
+    }
+</style>

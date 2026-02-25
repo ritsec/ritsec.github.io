@@ -1,0 +1,128 @@
+- title: Intro to Reversing
+  hosts:
+      - name: Sharad Khanna
+  start: 2024-11-22T12:00:00-04:00
+  end: 2024-11-22T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1XQK4UENnnknqeQVD8jAtHFFGF9xVzSfjxRIeQHQzyd8
+  video: https://www.youtube.com/watch?v=TIQyKUtkfXE
+
+- title: Black Teaming
+  hosts:
+      - name: Drew Young
+      - name: Zachary Price
+  start: 2024-11-15T12:00:00-04:00
+  end: 2024-11-15T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1OX8-01F88Bgb_FfRgXdL-ag8NBEXOpDwE2y5a9tt6hs/
+  video: https://www.youtube.com/watch?v=eEHUjy5RItI
+
+- title: Red Teaming
+  hosts:
+      - name: Drew Young
+      - name: Connor Fox
+  start: 2024-11-08T12:00:00-04:00
+  end: 2024-11-08T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1iqyV0_pTvx4Nqz9cXZWuN2gfgrqGdxwvH5qAppnHd_Y
+  video: https://www.youtube.com/watch?v=TMwftOwx5lQ
+
+- title: Intro to Blue Team
+  hosts:
+      - name: Asa Horn
+      - name: Justin Huang
+      - name: Tri Tran
+      - name: Zachary Price
+  start: 2024-10-25T12:00:00-04:00
+  end: 2024-10-25T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1_Y4eSrmpUEutK9k0ZLZEy3ntqOD18Wn8UGROjAkk8ac
+  video: https://www.youtube.com/watch?v=2IHaxaaM3ks
+
+- title: Core Services
+  hosts:
+      - name: Leah Kvares
+      - name: John Arrandale
+  start: 2024-10-18T12:00:00-04:00
+  end: 2024-10-18T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1Bub94UxS0dV9M5WMwY9ST5y9lP0AIg_qPlhWWvFyam8
+  video: https://www.youtube.com/watch?v=dUHgI6ie5o4
+
+- title: Intro to IAM
+  hosts:
+      - name: James Southcott
+      - name: Braeden Villano
+  start: 2024-10-11T12:00:00-04:00
+  end: 2024-10-11T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1zIgcotkP_fToFSMFSxtI4HIYxf8_In__LufAA-1-UH0
+  video: https://www.youtube.com/watch?v=9IR3j1FaOek
+
+- title: Intro to Forensics
+  hosts:
+      - name: Ariana Ciaschi
+  start: 2024-10-04T12:00:00-04:00
+  end: 2024-10-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/11v29mYPffl2JQ_9tvsESsNsy9TIv5cYRcOJeeazMNAQ
+  video: https://www.youtube.com/watch?v=gZIggKADc_g
+
+- title: Intro to Networking
+  hosts:
+      - name: Zachary Price
+  start: 2024-09-27T12:00:00-04:00
+  end: 2024-09-27T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1RNwg_6TTkAODB2SMRWPfu7TjKzjff2O2GZcbeWLGxWg
+  video: https://www.youtube.com/watch?v=S1ds768_8us
+
+- title: Career Fair Prep
+  hosts:
+      - name: Anthony Ioppolo
+  start: 2024-09-20T12:00:00-04:00
+  end: 2024-09-20T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1oKhqSoQc6egFW9pOHP7Un2TGfby-BsYjKx1jjbzXfgY
+  video: https://www.youtube.com/watch?v=yxsP-8Y2ihc
+
+- title: Intro to Windows
+  hosts:
+      - name: Adam Braccia
+      - name: Asa Horn
+      - name: James Southcott
+  start: 2024-09-13T12:00:00-04:00
+  end: 2024-09-13T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/15uWuZYHAP62OMmmkEAGcwQ5w1sM24lUa65hV3r_euxA
+  video: https://www.youtube.com/watch?v=81YllyXazj4
+
+- title: Intro to Linux
+  hosts:
+      - name: Aleksi Karttunen
+  start: 2024-09-06T12:00:00-04:00
+  end: 2024-09-06T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1emgW4orPXfLB4vy2UlxHq2v-I7aDYhZLjX2Fhiaj9SE
+  video: https://www.youtube.com/watch?v=tSiVU6NGTwg
+
+- title: Welcome to RITSEC
+  hosts:
+      - name: RITSEC
+  start: 2024-08-30T12:00:00-04:00
+  end: 2024-08-30T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/15uWuZYHAP62OMmmkEAGcwQ5w1sM24lUa65hV3r_euxA
+  video: https://www.youtube.com/watch?v=0Jz4Bnh7Sgk

@@ -1,0 +1,89 @@
+- title: Intro to Linux
+  hosts:
+      - name: RITSEC
+  start: 2019-09-06T12:00:00-04:00
+  end: 2019-09-06T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=V6arbqK4hDM
+
+- title: Intro to Windows
+  hosts:
+      - name: RITSEC
+  start: 2019-09-13T12:00:00-04:00
+  end: 2019-09-13T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=a7HOzwVkUuo
+
+- title: Intro To Networking
+  hosts:
+      - name: RITSEC
+  start: 2019-09-27T12:00:00-04:00
+  end: 2019-09-27T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=56bj0vwDHzU
+
+- title: Core Services
+  hosts:
+      - name: RITSEC
+  start: 2019-10-04T12:00:00-04:00
+  end: 2019-10-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=Y7ahZOjZYJw
+
+- title: Blue Team Linux
+  hosts:
+      - name: RITSEC
+  start: 2019-10-11T12:00:00-04:00
+  end: 2019-10-11T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=9EZkjDzuPEA
+
+- title: Blue Windows
+  hosts:
+      - name: RITSEC
+  start: 2019-10-18T12:00:00-04:00
+  end: 2019-10-18T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=Z2QjPE7vV24
+
+- title: Crypto
+  hosts:
+      - name: RITSEC
+  start: 2019-10-25T12:00:00-04:00
+  end: 2019-10-25T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=NW58NhgXcc0
+
+- title: Web
+  hosts:
+      - name: RITSEC
+  start: 2019-11-01T12:00:00-04:00
+  end: 2019-11-01T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=O7VUba29d8k
+
+- title: Cloud
+  hosts:
+      - name: RITSEC
+  start: 2019-11-08T12:00:00-04:00
+  end: 2019-11-08T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=YEH3-GDgbB4
+
+- title: Pentesting
+  hosts:
+      - name: RITSEC
+  start: 2019-11-22T12:00:00-04:00
+  end: 2019-11-22T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=6--j46oqrkQ

@@ -1,0 +1,120 @@
+- title: Intro to RITSEC
+  hosts:
+      - name: RITSEC
+  start: 2025-08-29T12:00:00-04:00
+  end: 2025-08-29T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1FTrOHBGc8fqchM6ScoFtfYr96FoHx0uIb3_nKTLp_GE
+  video: https://www.youtube.com/watch?v=cc5rFzT4htI
+
+- title: Intro to Cybersecurity
+  hosts:
+      - name: Adam Braccia
+  start: 2025-09-05T12:00:00-04:00
+  end: 2025-09-05T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/
+  video: https://www.youtube.com/watch?v=DnGfsxmYBNc
+
+- title: Intro to Linux
+  hosts:
+      - name: Odessa Rybski
+  start: 2025-09-12T12:00:00-04:00
+  end: 2025-09-12T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1BylGCmyZDcSzIPrq7tFQeeLfUrERDSdk1k1suUavcJg/
+  video: https://www.youtube.com/watch?v=yy1ChxRu7dk
+
+- title: Intro to Windows
+  hosts:
+      - name: James Southcott
+  start: 2025-09-19T12:00:00-04:00
+  end: 2025-09-19T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1Gv4KzZHQlNQM3G0nyRA0-gXx4TQeVRYAypddDSuz_90/
+  video: https://www.youtube.com/watch?v=l95znODSVHQ
+
+- title: Intro to Networking
+  hosts:
+      - name: Tri Tran
+  start: 2025-09-26T12:00:00-04:00
+  end: 2025-09-26T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1PQ1S-k2qqt0mQIK4Kk2X94ionfNHQUSufSjI6o4ZENM/
+  video: https://www.youtube.com/watch?v=mARKayIdcxY
+
+- title: Career Fair Prep
+  hosts:
+      - name: James Southcott
+      - name: Daniel LaChance
+  start: 2025-10-03T12:00:00-04:00
+  end: 2025-10-03T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/14XDgC3sirOr2Wz6Z_pWCpCwcL76JZzITUtN52XtLpPA/
+  video: https://www.youtube.com/watch?v=RHAj8rwrYrE
+
+- title: Core Services
+  hosts:
+      - name: John Arrandale
+  start: 2025-10-10T12:00:00-04:00
+  end: 2025-10-10T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/15up682g7ttvppNp4yHaBy9t0P7SNyTGoxILy_NjUlEY/
+  video: https://www.youtube.com/watch?v=DDlRaMFNOSs
+
+- title: Cloud Security
+  hosts:
+      - name: Lucas Frink
+  start: 2025-10-17T12:00:00-04:00
+  end: 2025-10-17T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1LZ-vWZG1iSom3b9RMl6CH8DZe_w65mplvyd3agcyH50/
+  video: https://www.youtube.com/watch?v=EcIx1CA52EE
+
+- title: Intro to Blue Team
+  hosts:
+      - name: Luke Demi, Massimo Marino, Tri Tran
+  start: 2025-10-24T12:00:00-04:00
+  end: 2025-10-24T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1jSgjJ1nGZNnfu5AvSsUsyqKU4IBw2tZHBBH_VeIUIuI/
+  video: https://www.youtube.com/watch?v=o26rnpy_V30
+
+- title: Intro to Black Team
+  hosts:
+      - name: Leah Kvares
+  start: 2025-11-07T12:00:00-04:00
+  end: 2025-11-07T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1nUrVO8Nz2JvkDHfWaJpK19tUFgWLEbp-fx3RJTcnZNc/
+  video: https://www.youtube.com/watch?v=y_yWka_CKYE
+
+- title: Hardware Security Fundamentals
+  hosts:
+      - name: Bug Crowd
+  start: 2025-11-14T12:00:00-04:00
+  end: 2025-11-14T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1nUrVO8Nz2JvkDHfWaJpK19tUFgWLEbp-fx3RJTcnZNc/
+
+- title: Intro to Artificial Intelligence
+  hosts:
+      - name: Adam Braccia
+      - name: Oleg Lazari
+  start: 2025-11-21T12:00:00-04:00
+  end: 2025-11-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1PQskkLsIpFj3Y83pSQOsOz815xBcYz3mLW1QF7ved-0
+  video: https://www.youtube.com/watch?v=qizcde9MGK8

@@ -1,0 +1,28 @@
+---
+name: "Physical Security"
+summary: "You will learn to pick locks, alternative entry methods and many other things that computing security experts don't tend to think of when they are securing a system."
+meetings:
+    - day: "Thursday"
+      start: "6:00 PM"
+      end: "7:00 PM"
+      location: "CYB-2750"
+leads:
+    - name: "Joey"
+    - name: "Abigail"
+logo: "@/assets/icons/fan.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

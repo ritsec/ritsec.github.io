@@ -1,0 +1,38 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import ResearchList from "@/components/ResearchList.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image5.jpg";
+
+<BaseLayout title="Research">
+    <Hero image={heroImg} imageAlt="Student presenting research at RITSEC">
+        <Fragment slot="title">
+            Student <strong>Research</strong>
+        </Fragment>
+
+        <Fragment slot="image">
+            <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="Student presenting research at RITSEC" />
+        </Fragment>
+
+        Student-produced and student-led research projects.
+    </Hero>
+
+    ---
+        ## Presentations
+
+        We encourage all members to share their knowledge. Research presentations are a core part of our weekly meetings and a low-stress way to practice public speaking.
+
+        ## Blog Posts
+
+        We also publish technical blogs, as well as cross-posting selected posts created by our members.
+
+    ---
+        ## Research
+        <ResearchList />
+
+</BaseLayout>

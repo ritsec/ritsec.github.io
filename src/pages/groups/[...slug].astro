@@ -1,0 +1,84 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Hero from "@/components/Hero.astro";
+
+export async function getStaticPaths() {
+    const groupEntries = await getCollection("groups");
+    return groupEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const icons = import.meta.glob("@/assets/icons/*.svg", {
+    query: "?raw",
+    import: "default",
+    eager: true,
+});
+const metaIcons = import.meta.glob("@/assets/icons/*.svg", {
+    eager: true,
+});
+const iconKey = Object.keys(metaIcons).find(
+    (key) => (metaIcons[key] as any).default.src === entry.data.logo.src,
+);
+const rawSvg = iconKey ? icons[iconKey] : "";
+---
+
+<BaseLayout title={entry.data.name} description={entry.data.summary}>
+    <Hero>
+        <Fragment slot="title">
+            {entry.data.name}
+        </Fragment>
+
+        {entry.data.summary}
+
+        <div class="end">
+            Leads: {entry.data.leads.map((e) => e.name).join(", ")}
+        </div>
+
+        <Fragment slot="bottom">
+            {
+                entry.data.website && (
+                    <a class="link-button primary" href={entry.data.website}>
+                        Website
+                    </a>
+                )
+            }
+        </Fragment>
+
+        <Fragment slot="image">
+            <div class="card card-img card-header">
+                <div class="accent">
+                    <Fragment set:html={rawSvg} />
+                </div>
+            </div>
+        </Fragment>
+    </Hero>
+
+    <Content />
+</BaseLayout>
+
+<style>
+    .card {
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    :global(.accent svg) {
+        height: 8rem;
+        width: 8rem;
+        line-height: 1;
+    }
+
+    div.end {
+        margin-top: 1rem;
+    }
+</style>

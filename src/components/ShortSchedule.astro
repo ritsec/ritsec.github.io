@@ -1,0 +1,26 @@
+---
+import Schedule from "@/components/Schedule.astro";
+import FeaturedEvent from "@/components/FeaturedEvent.astro";
+---
+
+<div>
+    <FeaturedEvent />
+    <Schedule count={3} />
+</div>
+
+<style>
+    div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1.5rem;
+        align-items: stretch;
+    }
+
+    @media (max-width: 1000px) {
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+        }
+    }
+</style>

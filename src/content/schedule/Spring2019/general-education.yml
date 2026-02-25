@@ -1,0 +1,44 @@
+- title: Advanced Windows
+  hosts:
+      - name: RITSEC
+  start: 2019-02-15T12:00:00-04:00
+  end: 2019-02-15T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=1q_VRDZ7l14
+
+- title: Binary Exploitation
+  hosts:
+      - name: Stuart Nevans Locke
+  start: 2019-02-22T12:00:00-04:00
+  end: 2019-02-22T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=RIi1lpVkW7Y
+
+- title: Linux Red Team
+  hosts:
+      - name: Micah Martin
+  start: 2019-03-08T12:00:00-04:00
+  end: 2019-03-08T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=tMbFtnZF3oo
+
+- title: Blue Team Windows
+  hosts:
+      - name: Russell Babarsky
+  start: 2019-03-22T12:00:00-04:00
+  end: 2019-03-22T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=ilsIvW0eC8w
+
+- title: Red Windows
+  hosts:
+      - name: Russell Babarsky
+  start: 2019-03-29T12:00:00-04:00
+  end: 2019-03-29T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=GAX4KOsE9oI

@@ -1,0 +1,29 @@
+---
+name: "OT Security"
+summary: "Operational Technology (OT) Security protects the computers and machines that control real-world things like power plants, water treatment facilities, traffic lights, and factory machines."
+meetings:
+    - day: "Wednesday"
+      start: "7:00 PM"
+      end: "8:00 PM"
+      location: "CYB-2780"
+leads:
+    - name: "Lucas"
+    - name: "Lukas"
+    - name: "Alex"
+logo: "@/assets/icons/ev-charger.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

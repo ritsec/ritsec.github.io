@@ -1,0 +1,71 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import GroupCarousel from "@/components/GroupCarousel.astro";
+import SponsorsList from "@/components/SponsorsList.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image4.jpg";
+
+<BaseLayout title="Sponsors">
+    <Hero 
+            image={heroImg}
+            imageAlt="Letchworth State Park landscape"
+            reverse="true"
+        >
+            <Fragment slot="title">
+                Made Possible By <strong>Sponsors</strong>
+            </Fragment>
+
+            <Fragment slot="bottom">
+                <a class="link-button primary" href="https://donate.ritsec.club/">DONATE</a>
+                <a class="link-button secondary" href={import.meta.env.BASE_URL === "/" ? "/sponsorship.pdf" : import.meta.env.BASE_URL.replace(/\/$/, "") + "/sponsorship.pdf"}>SPONSORSHIP CONTRACT</a>
+            </Fragment>
+
+            <Fragment slot="image">
+                <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="RITSEC working in the club room, with ISTS flags in the background." />
+            </Fragment>
+    </Hero>
+
+    ---
+      ## How to Sponsor
+
+      RITSEC is a student organization that operates under Rochester Institute of Technology, a 501(c)(3) organization.
+
+      Sponsorships allow for RITSEC to offer services to its students, fund independent research projects, allow us to host events, and so much more.
+
+      RITSEC accepts both monetary and non-monetary sponsorship, from both individuals and corporations.
+
+      For more information such as sponsorship perks, read the <a href={import.meta.env.BASE_URL === "/" ? "/sponsorship.pdf" : import.meta.env.BASE_URL.replace(/\/$/, "") + "/sponsorship.pdf"}>Sponsorship Contract</a>.
+
+      ---
+      ## Sponsorship Tiers
+
+      | Tier        | Amount       | Term         |
+      |-------------|--------------|--------------|
+      | Educational | Non-Monetary | Full Year    |
+      | Silver      | $1,000+      | One Semester |
+      | Gold        | $2,000+      | Full Year    |
+      | Platinum    | $5,000+      | Full Year    |
+      | Diamond     | $10,000+     | Full Year    |
+      | Titanium    | $20,000+     | Full Year    |
+
+
+    ---
+      ## Corporate Sponsors
+
+      Thank you to the organizations that empower our mission through their generous support of our events and research.
+
+      <SponsorsList />
+
+    ---
+      ## Individual Sponsors
+
+      Our heartfelt thanks go to the alumni, mentors, and friends whose personal generosity fuels our community.
+
+      <SponsorsList individuals="true" />
+
+</BaseLayout>

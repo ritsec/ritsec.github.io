@@ -1,0 +1,70 @@
+---
+import { ClientRouter } from "astro:transitions";
+
+interface Props {
+    title: string;
+    description?: string;
+    image?: string;
+}
+
+const {
+    title,
+    description = "RITSEC is a student-run organization dedicated to cybersecurity education.",
+    image,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url);
+
+// Generate OG Image URL
+const baseUrl = import.meta.env.BASE_URL;
+let slug = Astro.url.pathname;
+
+// Remove base URL
+if (slug.startsWith(baseUrl)) {
+    slug = slug.slice(baseUrl.length);
+}
+
+// Remove leading/trailing slashes
+slug = slug.replace(/^\/|\/$/g, "");
+
+// Default to "index" if root
+if (slug === "") slug = "index";
+
+// Construct the OG image path (e.g., /ritsec.github.io/og/index.png)
+const ogImagePath = `${baseUrl.replace(/\/$/, "")}/og/${slug}.png`;
+const defaultImage = new URL(ogImagePath, Astro.url);
+const finalImage = image ? new URL(image, Astro.url) : defaultImage;
+---
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href={import.meta.env.BASE_URL === "/"
+            ? "/favicon.svg"
+            : import.meta.env.BASE_URL.replace(/\/$/, "") + "/favicon.svg"}
+    />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="canonical" href={canonical} />
+
+    <title>{title} | RITSEC</title>
+    <meta name="title" content={`${title} | RITSEC`} />
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={finalImage} />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={finalImage} />
+
+    <ClientRouter />
+</head>

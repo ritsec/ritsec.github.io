@@ -1,0 +1,122 @@
+- title: Welcome to RITSEC
+  hosts:
+      - name: RITSEC
+  start: 2023-09-01T12:00:00-04:00
+  end: 2023-09-01T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1HfP5tMy80c2VXhLMldh8ONfczJp6xXZ-4ONtqixWZZA
+  video: https://www.youtube.com/watch?v=2BBqvoX762U
+
+- title: Intro to Linux
+  hosts:
+      - name: Ash Brown
+  start: 2023-09-08T12:00:00-04:00
+  end: 2023-09-08T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1uasSZtAfLjLJOsHU5OMqJ0IEorJeqfbC50bv47Jb6a4
+  video: https://www.youtube.com/watch?v=FFGbx2C7fZk
+
+- title: Intro to Windows
+  hosts:
+      - name: Caleb Munn
+  start: 2023-09-15T12:00:00-04:00
+  end: 2023-09-15T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1e5mUkus-_QQJpR07gUie1ItoR2A7TD-w5c5snYcmnwE
+  video: https://www.youtube.com/watch?v=vGD7kx8Ro8E
+
+- title: Career Fair
+  hosts:
+      - name: Chase Killorin
+      - name: Cipriana Sorenson
+  start: 2023-09-22T12:00:00-04:00
+  end: 2023-09-22T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1iacZdoL88PEe215i9a7LEYAnSB3fiokiPZx-3EEKi5E
+  video: https://www.youtube.com/watch?v=P8Y66g1reHc
+
+- title: Intro to Networking
+  hosts:
+      - name: Professor Jonathan Weissman
+  start: 2023-09-29T12:00:00-04:00
+  end: 2023-09-29T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=_Uz4u6zIAl8
+
+- title: Core Services
+  hosts:
+      - name: Jose Gonzalez
+      - name: Maxim Kochnev
+  start: 2023-10-06T12:00:00-04:00
+  end: 2023-10-06T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1vX9dJB0VbzK7b4KTeU1gSdxDXLelcWumP7c6xsZbz8M
+  video: https://www.youtube.com/watch?v=F5YYQquZWUY
+
+- title: Blue Teaming
+  hosts:
+      - name: Joe Abbate
+      - name: Chandi Kanhai
+  start: 2023-10-13T12:00:00-04:00
+  end: 2023-10-13T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1MZSUmJgCMwgDnS33Ro3XcddQw_pt9i7us9GpfVOSykc
+  video: https://www.youtube.com/watch?v=LPBMQ4WCZlc
+
+- title: Intro to Reversing
+  hosts:
+      - name: Sharad Khanna
+  start: 2023-10-20T12:00:00-04:00
+  end: 2023-10-20T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=TllpP48xWOw
+
+- title: Intro to Web
+  hosts:
+      - name: Ronan Gerber
+  start: 2023-10-27T12:00:00-04:00
+  end: 2023-10-27T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1wIFdVwlJXKrOsxhaZA2gKMxXR9yCaSM-dMaOxD82m4M
+
+- title: Intro to Red Team
+  hosts:
+      - name: Kenny Anderson
+      - name: Jason Howe
+  start: 2023-11-10T12:00:00-04:00
+  end: 2023-11-10T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1RzScwUcZj1etjMjLhJQEf0trlHikLcfthxgOvvfotsM
+  video: https://www.youtube.com/watch?v=T-PByIhnAfk
+
+- title: Intro to Black Team
+  hosts:
+      - name: Bradley Harker
+      - name: Max Fusco,
+      - name: Anthony Ioppolo
+  start: 2023-11-17T12:00:00-04:00
+  end: 2023-11-17T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1RLl3QDkbbO8rOtGaGFKg7Tzdei1mJes3fUN99lUd224
+  video: https://www.youtube.com/watch?v=_mBgyll3HVc
+
+- title: Intro to Docker
+  hosts:
+      - name: Michael Scalzetti
+  start: 2023-12-01T12:00:00-04:00
+  end: 2023-12-01T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  slide: https://docs.google.com/presentation/d/1Q7HeARpfvk5X-zCVJBg1le72dozGj59E9zwEKBA9EfM
+  video: https://www.youtube.com/watch?v=H437HDrjRIs

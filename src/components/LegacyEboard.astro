@@ -1,0 +1,111 @@
+---
+import { getCollection } from "astro:content";
+
+const legacy = (await getCollection("legacyEboard")).sort((a, b) => {
+    return b.data.term.localeCompare(a.data.term);
+});
+---
+
+<div class="legacy-grid">
+    {
+        legacy.map((board) => (
+            <article class="card legacy-card">
+                <header class="card-header term-header">
+                    <h3>{board.data.term}</h3>
+                    <div class="org-name">{board.data.organization}</div>
+                </header>
+
+                <div class="card-content">
+                    <ul class="role-list">
+                        {board.data.eboard.map((person) => (
+                            <li class="role-item">
+                                <span class="role">{person.position}</span>
+                                <span class="name">{person.name}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </article>
+        ))
+    }
+</div>
+
+<style>
+    .legacy-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--padding-lg);
+        justify-content: center;
+    }
+
+    .legacy-card {
+        flex: 1 1 33%;
+        max-width: calc((100% - 2 * var(--padding-lg)) / 3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 1000px) {
+        .legacy-card {
+            flex: 1 1 50%;
+            max-width: calc((100% - 1 * var(--padding-lg)) / 2);
+        }
+    }
+
+    @media (max-width: 500px) {
+        .legacy-card {
+            flex: 1 1 100%;
+            max-width: 100%;
+        }
+    }
+
+    .card-header {
+        background: var(--bg-header);
+    }
+
+    .term-header {
+        border-bottom: var(--border);
+        padding: var(--padding);
+        color: var(--fg);
+    }
+
+    h3 {
+        margin: 0;
+        color: var(--accent);
+    }
+
+    .org-name {
+        font-family: var(--font-mono);
+        text-transform: uppercase;
+        margin-top: 0.25rem;
+    }
+
+    .card-content {
+        padding: var(--padding);
+    }
+
+    .role-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .role-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        font-weight: 700;
+        color: var(--fg);
+    }
+
+    .role {
+        font-family: var(--font-mono);
+        color: var(--fg);
+        margin-top: 0.1rem;
+    }
+</style>

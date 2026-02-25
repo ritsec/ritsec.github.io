@@ -1,0 +1,55 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import EboardGrid from "@/components/EboardGrid.astro";
+import LegacyEboard from "@/components/LegacyEboard.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image1.jpg";
+
+<BaseLayout title="About">
+    <Hero 
+            reverse="true"
+        >
+            <Fragment slot="title">
+                About <strong>Us</strong>
+            </Fragment>
+
+            <Fragment slot="bottom">
+                <a class="link-button primary" href="https://github.com/ritsec/constitution">VIEW CONSTITUTION</a>
+            </Fragment>
+
+            <Fragment slot="image">
+                <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="Fall 2025 RITSEC Barbecue, showing off club members." />
+            </Fragment>
+
+            RITSEC is a student club dedicated to teaching "Security Through Community."
+    </Hero>
+
+    ---
+      ## RITSEC History
+
+     Under the guidance of Dr. Samuel McQuade, RIT students Jared Campbell, Eric Linden, and Matt Hile founded the Security Practices and Research Student Association (SPARSA). SPARSA served as the professional backbone of RIT's security community, focusing on academic research, corporate consulting, and security policy. It was here that ISTS started, as a competition to show off RIT's cyber prowess. It was the bridge between the classroom and the workforce, helping students secure careers in an industry that was just beginning to define itself.
+
+     As the field grew, so did the need for hands-on, tactical experience. The RIT Competitive Cybersecurity Club (RC3) emerged to fill this gap, treating security as a sport. RC3 was the competition arm, focusing on making cybersecurity fun. Guided by core values of ethics and empowerment, it built a culture where students taught students, ensuring RIT remained a dominant force on the national leaderboard. This is why they started IRSEC, to get new members involved in attack/defense operations.
+
+     In 2018, the two organizations unified to form RITSEC. By combining SPARSA’s professional network and research focus with RC3’s technical rigor and competitive drive, the merger created a single, comprehensive home for security at RIT.
+
+    ---
+      ## Current E-Board
+
+      The elected student leadership responsible for guiding the club's vision and daily operations.
+
+      <EboardGrid />
+
+      ---
+      ## Legacy E-Board
+
+      The past leadership who laid the groundwork and defined our culture.
+
+      <LegacyEboard />
+
+</BaseLayout>

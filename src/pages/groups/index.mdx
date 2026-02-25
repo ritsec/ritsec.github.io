@@ -1,0 +1,58 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import GroupCarousel from "@/components/GroupCarousel.astro";
+import Schedule from "@/components/Schedule.astro";
+import Calendar from "@/components/Calendar.astro";
+
+import heroImg from "@/assets/image5.jpg";
+
+<BaseLayout title="Groups">
+    <Hero image={heroImg} imageAlt="RITSEC students collaborating in the Cyber Range">
+        <Fragment slot="title">
+            Interest <strong>Groups</strong>
+        </Fragment>
+
+        <Fragment slot="image">
+            <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="RITSEC students collaborating in the Cyber Range" />
+        </Fragment>
+    </Hero>
+
+    ---
+        ## Interest Groups/Partnerships
+
+        The interest groups (IGs) and partnerships are the heart of RITSEC, allowing for students to learn and connect in smaller speciality-focused groups.
+
+        <GroupCarousel />
+
+    ---
+        ## Weekly Overview
+
+        These are the events that generally occur each week
+
+        <Calendar />
+
+    ---
+        ## Mentorships
+
+        RITSEC provides both group and one-on-one mentorship opportunities.
+
+        Each semester, mentees are connected with mentors, and learn together and build a collaborative project or work on more personalized learning.
+
+        It is completely free of cost and provides an unmatched opportunity to learn.
+
+        <div class="list">
+            <a class="link-button primary" href="https://discord.gg/ritsec" target="_blank" rel="noopener noreferrer">Join the Discord</a>
+        </div>
+
+---
+
+        ## Interest Group Education
+
+        <Schedule ascending={false} showOld={true} />
+
+</BaseLayout>

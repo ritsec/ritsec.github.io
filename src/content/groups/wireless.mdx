@@ -1,0 +1,32 @@
+---
+name: "Wireless"
+summary: "The Wireless Interest Group (aka Wiggles) focuses on all thing wireless. We explore all sorts of RF technologies and their associated security challenges."
+meetings:
+    - day: "Wednesday"
+      start: "4:00 PM"
+      end: "5:00 PM"
+      location: "CYB-2780"
+leads:
+    - name: "Raina"
+logo: "@/assets/icons/antenna.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>
+    ## About Us
+
+    The weekly wiggles topics are decided by the group! The typical pattern is a weekly presentation, where requests are encouraged. Projects and questions are also always welcome!
+
+</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

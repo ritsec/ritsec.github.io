@@ -1,0 +1,116 @@
+---
+import { Picture } from "astro:assets";
+
+interface Props {
+    badge?: string;
+    reverse?: boolean;
+}
+
+const { badge, reverse = false } = Astro.props;
+const i = !Astro.slots.has("image");
+---
+
+<section class:list={[{ reverse, i }]}>
+    <div>
+        {badge && <p class="chip">{badge}</p>}
+
+        <h1><slot name="title" /></h1>
+
+        <div class="text">
+            <slot />
+        </div>
+
+        {
+            Astro.slots.has("bottom") && (
+                <div class="list">
+                    <slot name="bottom" />
+                </div>
+            )
+        }
+    </div>
+
+    {
+        Astro.slots.has("image") && (
+            <div class="image card card-img img-card">
+                <slot name="image" />
+            </div>
+        )
+    }
+</section>
+
+<style>
+    section.i {
+        grid-template-columns: none;
+        text-align: center;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        align-items: center;
+        gap: var(--padding-lg);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .image {
+        max-height: 400px;
+        animation: fadeSlideIn 0.2s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    @keyframes fadeSlideIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .text {
+        font-size: var(--md);
+        max-width: var(--text-width);
+        min-width: 100%;
+        margin-bottom: var(--padding-lg);
+    }
+
+    h1 {
+        font-size: var(--3xl);
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        margin-bottom: var(--padding);
+    }
+
+    .reverse {
+        grid-template-columns: 1fr 1.2fr;
+    }
+
+    .reverse .img-card {
+        order: -1;
+    }
+
+    @media (max-width: 1000px) {
+        section {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        section.i {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .reverse {
+            grid-template-columns: 1fr;
+        }
+        .reverse .image {
+            order: 999;
+        }
+
+        .text {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+</style>

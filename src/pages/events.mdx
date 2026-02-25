@@ -1,0 +1,37 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import EventsCarousel from "@/components/EventsCarousel.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image2.jpg";
+
+<BaseLayout title="Events" image={heroImg}>
+    <Hero
+        image={heroImg}
+        imageAlt="Letchworth State Park landscape"
+        reverse="true"
+    >
+        <Fragment slot="title">
+            <strong>Events</strong> and Competitions
+        </Fragment>
+
+        <Fragment slot="image">
+            <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="RITSEC members working on their computers at a general meeting." />
+        </Fragment>
+
+        Our upcoming events, including meetings and competitions.
+    </Hero>
+
+    ---
+
+    ## Events
+
+    Home to nationally recognized Attack/Defense competitions, Capture the Flags, and our exclusive Career Fair Eve networking event.
+
+    <EventsCarousel />
+
+</BaseLayout>

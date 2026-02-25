@@ -1,0 +1,160 @@
+- title: Security Risk Advisors
+  id: sra
+  image: "@/assets/sponsors/sra.png"
+  url: https://sra.io/
+  tier: diamond
+  type: company
+
+- title: Eaton Corporation
+  id: eaton
+  image: "@/assets/sponsors/eaton.png"
+  url: https://www.eaton.com/us/en-us.html
+  tier: diamond
+  type: company
+
+- title: Battelle
+  id: battelle
+  image: "@/assets/sponsors/battelle.jpg"
+  url: https://www.battelle.org/
+  tier: platinum
+  type: company
+
+- title: FM
+  id: fm
+  image: "@/assets/sponsors/fm.png"
+  url: https://www.fm.com/
+  tier: platinum
+  type: company
+
+- title: ICR Inc.
+  id: icr
+  image: "@/assets/sponsors/icrinc.jpg"
+  url: https://icr-team.com/
+  tier: platinum
+  type: company
+
+- title: Amplify
+  id: amplify
+  image: "@/assets/sponsors/amplify.jpeg"
+  url: https://amplify.com/
+  tier: platinum
+  type: company
+
+- title: Datadog
+  id: datadog
+  image: "@/assets/sponsors/datadog.png"
+  url: https://www.datadoghq.com/
+  tier: platinum
+  type: company
+
+- title: Magnet Forensics
+  id: magnet
+  image: "@/assets/sponsors/magnet.png"
+  url: https://www.magnetforensics.com/
+  tier: gold
+  type: company
+
+- title: Research Innovations Incorporated
+  id: rii
+  image: "@/assets/sponsors/rii.jpg"
+  url: https://www.researchinnovations.com/
+  tier: gold
+  type: company
+
+- title: M&T Bank
+  id: mt
+  image: "@/assets/sponsors/mt.png"
+  url: https://www.mtb.com/
+  tier: gold
+  type: company
+
+- title: Miscreants
+  id: miscreants
+  image: "@/assets/sponsors/miscreants.svg"
+  url: https://www.miscreants.co/
+  tier: gold
+  type: company
+
+- title: American Express
+  id: amex
+  image: "@/assets/sponsors/amex.png"
+  url: https://www.americanexpress.com/
+  tier: gold
+  type: company
+
+- title: Sharad Khanna
+  id: sharad
+  image: "@/assets/sponsors/sharad.jpg"
+  url: https://www.linkedin.com/in/khanna-sharad/
+  tier: gold
+  type: individual
+
+- title: Travelers Insurance
+  id: travelers
+  image: "@/assets/sponsors/travelers.png"
+  url: https://www.travelers.com/
+  tier: silver
+  type: company
+
+- title: Lockheed Martin
+  id: lockheed
+  image: "@/assets/sponsors/lockheed.jpg"
+  url: https://www.lockheedmartin.com/
+  tier: silver
+  type: company
+
+- title: Wings Over
+  id: wings
+  image: "@/assets/sponsors/wingsover.png"
+  url: https://wingsover.com/
+  tier: silver
+  type: company
+
+- title: Mindex
+  id: mindex
+  image: "@/assets/sponsors/mindex.jpeg"
+  url: https://www.mindex.com/
+  tier: silver
+  type: company
+
+- title: Crowdstrike
+  id: crowdstrike
+  image: "@/assets/sponsors/crowdstrike.png"
+  url: https://www.crowdstrike.com/
+  tier: educational
+  type: company
+
+- title: Hack The Box
+  id: htb
+  image: "@/assets/sponsors/hackthebox.png"
+  url: https://www.hackthebox.com/
+  tier: educational
+  type: company
+
+- title: Bugcrowd
+  id: bugcrowd
+  image: "@/assets/sponsors/bugcrowd.jpg"
+  url: https://www.bugcrowd.com/
+  tier: educational
+  type: company
+
+- title: MetaCTF
+  id: metactf
+  image: "@/assets/sponsors/metactf.png"
+  url: https://metactf.com/
+  tier: educational
+  type: company
+
+- title: No Starch Press
+  id: nsp
+  image: "@/assets/sponsors/nostarchpress.png"
+  url: https://nostarch.com/
+  tier: educational
+  type: company
+
+- title: Fortra
+  id: fortra
+  image: "@/assets/sponsors/fortra-logo-forest-green.png"
+  url: https://fortra.com/
+  tier: educational
+  type: company

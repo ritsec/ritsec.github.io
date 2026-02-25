@@ -1,0 +1,131 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+import { Mail, Linkedin } from "@lucide/astro";
+
+const eboard = await getCollection("eboard");
+---
+
+<div class="eboard-grid">
+    {
+        eboard.map((member) => (
+            <article class="card interactive">
+                <div class="card-img eboard-img">
+                    <Picture
+                        src={member.data.image}
+                        alt={"Picture of " + member.data.name}
+                        width={600}
+                        height={600}
+                        class="img"
+                        loading="lazy"
+                    />
+                </div>
+
+                <div class="card-content">
+                    <header class="member-header">
+                        <h3>{member.data.name}</h3>
+                        <div class="role">{member.data.id}</div>
+                    </header>
+
+                    <div class="misc">
+                        <div>Class of {member.data.grad_year}</div>
+                    </div>
+
+                    <div class="list">
+                        <a
+                            href={"mailto:" + member.data.email}
+                            class="link-button icon"
+                        >
+                            <Mail />
+                        </a>
+
+                        {member.data.linked_in && (
+                            <a
+                                href={member.data.linked_in}
+                                class="link-button icon"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Linkedin />
+                            </a>
+                        )}
+                    </div>
+                </div>
+            </article>
+        ))
+    }
+</div>
+
+<style>
+    .eboard-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--padding-lg);
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 25%;
+        max-width: calc((100% - 3 * var(--padding-lg)) / 4);
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 1200px) {
+        .card {
+            flex: 1 1 33%;
+            max-width: calc((100% - 2 * var(--padding-lg)) / 3);
+        }
+    }
+
+    @media (max-width: 700px) {
+        .card {
+            flex: 1 1 50%;
+            max-width: calc((100% - 1 * var(--padding-lg)) / 2);
+        }
+    }
+
+    @media (max-width: 500px) {
+        .card {
+            flex: 1 1 100%;
+            max-width: 100%;
+        }
+    }
+
+    .eboard-img {
+        height: 320px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .eboard-img :global(img) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+
+    .card-content {
+        gap: var(--padding);
+        padding: var(--padding);
+    }
+
+    .member-header {
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: var(--padding-sm);
+        width: 100%;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 1.25rem;
+        line-height: 1.2;
+    }
+
+    .role {
+        font-family: var(--font-mono);
+        color: var(--accent);
+        font-weight: bold;
+        margin-top: 0.25rem;
+    }
+</style>

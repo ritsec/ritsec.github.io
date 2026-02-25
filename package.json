@@ -1,0 +1,40 @@
+{
+    "name": "ritsec-github-io",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/check": "^0.9.6",
+        "@astrojs/mdx": "^4.3.13",
+        "@astrojs/react": "^4.4.2",
+        "@astrojs/sitemap": "^3.7.0",
+        "@fontsource-variable/jetbrains-mono": "^5.2.8",
+        "@fontsource/ibm-plex-mono": "^5.2.7",
+        "@fontsource/ibm-plex-sans": "^5.2.8",
+        "@lucide/astro": "^0.562.0",
+        "@resvg/resvg-js": "^2.6.2",
+        "@types/react": "^19.2.7",
+        "@types/react-dom": "^19.2.3",
+        "astro": "^5.16.4",
+        "astro-expressive-code": "^0.41.5",
+        "embla-carousel": "^8.6.0",
+        "embla-carousel-auto-scroll": "^8.6.0",
+        "embla-carousel-autoplay": "^8.6.0",
+        "embla-carousel-fade": "^8.6.0",
+        "embla-carousel-wheel-gestures": "^8.1.0",
+        "react": "^19.2.3",
+        "react-dom": "^19.2.3",
+        "satori": "^0.19.1",
+        "sharp": "^0.34.5",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.7.4",
+        "prettier-plugin-astro": "^0.14.1"
+    }
+}

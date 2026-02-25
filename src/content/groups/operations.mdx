@@ -1,0 +1,28 @@
+---
+name: "Operations"
+summary: "The operations interest group focuses on various topics related to RITSEC's infrastructure. These topics could be related to hardware, virtualization, networking, automation, cloud computing, and server management."
+meetings:
+    - day: "Monday"
+      start: "6:30 PM"
+      end: "7:30 PM"
+      location: "CYB-2780"
+leads:
+    - name: "John"
+    - name: "Lukas"
+logo: "@/assets/icons/sparkles.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

@@ -1,0 +1,9 @@
+- title: Into to OT and Planning
+  hosts:
+      - name: Lucas
+      - name: Alex
+      - name: Lukas
+  start: 2026-01-21T19:00:00-5:00
+  end: 2026-01-21T20:00:00-5:00
+  location: CYB-2790
+  group: ot security

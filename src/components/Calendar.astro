@@ -1,0 +1,325 @@
+---
+import { getCollection } from "astro:content";
+import { MapPin } from "@lucide/astro";
+import { ArrowRight, ArrowLeft } from "@lucide/astro";
+
+const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+const groups = await getCollection("groups");
+
+interface CalendarEvent {
+    name: string;
+    start: string;
+    end: string;
+    location: string;
+}
+
+const calendar: Record<string, CalendarEvent[]> = {};
+days.forEach((d) => (calendar[d] = []));
+
+groups.forEach((group) => {
+    const groupName = group.data.name;
+    if (!group.data.meetings) return;
+
+    group.data.meetings.forEach((meeting) => {
+        const day = meeting.day;
+        if (calendar[day]) {
+            calendar[day].push({
+                name: groupName,
+                start: meeting.start,
+                end: meeting.end,
+                location: meeting.location,
+            });
+        }
+    });
+});
+
+/* Ugly hack, but I don't know another way of doing this well without breaking what it means to be a "group" */
+if (calendar["Friday"]) {
+    calendar["Friday"].push({
+        name: "General Education",
+        start: "12:00",
+        end: "14:30",
+        location: "GOL-1710/20/30",
+    });
+
+    calendar["Friday"].push({
+        name: "General Research",
+        start: "14:30",
+        end: "16:00",
+        location: "GOL-1710/20/30",
+    });
+}
+
+Object.keys(calendar).forEach((day) => {
+    calendar[day].sort((a, b) => {
+        return a.start.localeCompare(b.start);
+    });
+});
+---
+
+<div>
+    <div class="carousel" id="calendar-carousel">
+        <div class="slide-container">
+            {
+                days.map((d) => {
+                    const matching = calendar[d];
+                    const isToday =
+                        new Date().toLocaleDateString("en-US", {
+                            weekday: "long",
+                        }) === d;
+
+                    return (
+                        <div class="slide">
+                            <div
+                                class={`card h-full ${isToday ? "today" : ""}`}
+                            >
+                                <div class="card-header">
+                                    <h3 class="day-title">{d}</h3>
+                                    {isToday && (
+                                        <span class="badge">TODAY</span>
+                                    )}
+                                </div>
+
+                                <div class="card-content">
+                                    {matching.length > 0 ? (
+                                        <div class="events-list">
+                                            {matching.map((s) => (
+                                                <div class="event-item">
+                                                    <div class="event-time">
+                                                        {s.start} – {s.end}
+                                                    </div>
+                                                    <div class="event-name">
+                                                        <strong>
+                                                            {s.name}
+                                                        </strong>
+                                                    </div>
+                                                    <div class="event-location">
+                                                        <MapPin />
+                                                        {s.location}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <div class="empty-day">No events</div>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })
+            }
+        </div>
+    </div>
+
+    <div class="carousel-scroll-text">
+        <button id="calendar-prev"><ArrowLeft /></button>
+        ← Drag To View More →
+        <button id="calendar-next"><ArrowRight /></button>
+    </div>
+</div>
+
+<script>
+    import EmblaCarousel, { type EmblaCarouselType } from "embla-carousel";
+
+    let emblaApi: EmblaCarouselType | undefined;
+    let resizeListener: (() => void) | undefined;
+
+    const updateCarousel = () => {
+        const carousel = document.querySelector(
+            "#calendar-carousel",
+        ) as HTMLElement;
+        if (!carousel) return;
+
+        const isDesktop = window.matchMedia("(min-width: 1001px)").matches;
+
+        if (isDesktop) {
+            if (emblaApi) {
+                emblaApi.destroy();
+                emblaApi = undefined;
+            }
+        } else {
+            if (!emblaApi) {
+                emblaApi = EmblaCarousel(carousel, {
+                    loop: false,
+                    align: "start",
+                    containScroll: "trimSnaps",
+                });
+
+                const prevBtn = document.querySelector("#calendar-prev");
+                const nextBtn = document.querySelector("#calendar-next");
+
+                const scrollPrev = () => {
+                    emblaApi.scrollPrev();
+                };
+                const scrollNext = () => {
+                    emblaApi.scrollNext();
+                };
+                prevBtn.addEventListener("click", scrollPrev, false);
+                nextBtn.addEventListener("click", scrollNext, false);
+            }
+        }
+    };
+
+    document.addEventListener("astro:page-load", () => {
+        updateCarousel();
+        resizeListener = () => updateCarousel();
+        window.addEventListener("resize", resizeListener);
+    });
+
+    document.addEventListener("astro:before-swap", () => {
+        if (emblaApi) {
+            emblaApi.destroy();
+            emblaApi = undefined;
+        }
+        if (resizeListener) {
+            window.removeEventListener("resize", resizeListener);
+            resizeListener = undefined;
+        }
+    });
+</script>
+
+<style>
+    .carousel {
+        overflow: hidden;
+    }
+
+    .slide {
+        flex: 0 0 20%;
+        padding: 0 var(--padding-xs);
+        min-width: 0;
+    }
+
+    .card {
+        height: 100%;
+        border: var(--border);
+        background-color: var(--bg-panel);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card.today {
+        border-color: var(--accent);
+    }
+
+    .card-header {
+        padding: var(--padding);
+        background-color: var(--bg-panel);
+        color: var(--fg);
+        display: flex;
+        justify-content: space-between;
+        border-bottom: var(--border);
+    }
+
+    h3 {
+        margin: 0;
+        font-size: var(--md);
+        text-transform: uppercase;
+        color: inherit;
+    }
+
+    .badge {
+        background: var(--accent);
+        color: var(--bg);
+        font-weight: bold;
+    }
+
+    .card-content {
+        padding: var(--padding);
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .events-list {
+        display: flex;
+        flex-direction: column;
+        gap: var(--padding);
+        width: 100%;
+    }
+
+    .event-item {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: var(--padding);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .event-item:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .event-time {
+        font-family: var(--font-mono);
+        font-size: var(--sm);
+        color: var(--accent);
+        font-weight: bold;
+    }
+
+    .event-location {
+        display: flex;
+        align-items: center;
+        font-size: var(--sm);
+        gap: 0.25rem;
+    }
+
+    .event-location:global(> svg) {
+        height: var(--sm);
+        width: auto;
+    }
+
+    .empty-day {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .slide-container {
+        display: flex;
+        margin-left: calc(var(--padding-xs) * -1);
+    }
+
+    @media (max-width: 1000px) {
+        .slide {
+            flex: 0 0 33.3333%;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .slide {
+            flex: 0 0 50%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .slide {
+            flex: 0 0 85%;
+        }
+    }
+
+    .carousel-scroll-text {
+        display: none;
+    }
+
+    @media (max-width: 1000px) {
+        .carousel-scroll-text {
+            text-align: center;
+            padding: var(--padding) 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            border: var(--border);
+            padding: var(--padding-sm);
+            background: var(--bg);
+            color: var(--fg);
+        }
+
+        button:hover,
+        button:active {
+            color: var(--accent);
+        }
+    }
+</style>

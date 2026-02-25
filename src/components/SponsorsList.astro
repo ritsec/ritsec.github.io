@@ -1,0 +1,120 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+
+interface Props {
+    individuals: boolean;
+}
+
+const { individuals = false } = Astro.props;
+
+const allSponsors = await getCollection("sponsors");
+const tiers = ["diamond", "platinum", "gold", "silver", "educational"];
+const getByTier = (tier: string) =>
+    allSponsors.filter((s) => s.data.tier === tier);
+---
+
+<div class="sponsor-list">
+    {
+        tiers.map((tier) => {
+            const sponsors = getByTier(tier).filter(
+                (s) =>
+                    (s.data.type == "company" && !individuals) ||
+                    (s.data.type == "individual" && individuals),
+            );
+            if (sponsors.length === 0) return null;
+
+            return sponsors.map((s) => (
+                <div class="card grid-content">
+                    <div class="card-img">
+                        <Picture
+                            src={s.data.image}
+                            alt={s.data.title + "'s logo"}
+                        />
+                    </div>
+
+                    <div class="card-content">
+                        <h3>{s.data.title}</h3>
+
+                        <div class={"tier " + s.data.tier}>
+                            {tier.charAt(0).toUpperCase() + tier.slice(1)}
+                        </div>
+
+                        <div class="list">
+                            <a class="link-button primary" href={s.data.url}>
+                                LEARN MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            ));
+        })
+    }
+</div>
+
+<style>
+    .sponsor-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: var(--padding);
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    .card.grid-content {
+        /* Reset flex properties if any interfere, though parent is grid now */
+        max-width: 100%;
+        height: 100%; /* Ensure card fills grid height */
+    }
+
+    .card-content .list {
+        padding-top: 1rem;
+        margin-top: auto;
+    }
+
+    .card-img {
+        width: 100%;
+        /* Restore aspect ratio containment */
+        aspect-ratio: 1/1;
+        background-color: white;
+        border-bottom: var(--border);
+    }
+
+    .card-img img,
+    .card-img picture {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+    .tier {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .diamond {
+        color: #63bdd2;
+    }
+
+    .platinum {
+        color: #77a5a4;
+    }
+
+    .silver {
+        color: #9d9688;
+    }
+
+    .gold {
+        color: #c8aa07;
+    }
+
+    @media (max-width: 600px) {
+        .sponsor-list {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

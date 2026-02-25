@@ -1,0 +1,28 @@
+---
+name: "Incident Response"
+summary: "The incident response interest group focuses on all topics related to cyber incidents, and effective blue teaming."
+meetings:
+    - day: "Tuesday"
+      start: "5:30 PM"
+      end: "6:30 PM"
+      location: "CYB-2780"
+leads:
+    - name: "Chloe"
+    - name: "Eva"
+logo: "@/assets/icons/shield-alert.svg"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

@@ -1,0 +1,58 @@
+---
+import { getCollection } from "astro:content";
+import Schedule from "@/components/Schedule.jsx";
+
+interface Props {
+    group?: string;
+    count?: number;
+    ascending?: boolean;
+    showOld?: boolean;
+    daysAhead?: number;
+}
+
+const {
+    group,
+    count,
+    ascending = true,
+    showOld = false,
+    daysAhead = 7,
+} = Astro.props;
+
+const scheduleFiles = await getCollection("schedule");
+
+const allEvents = scheduleFiles.flatMap((fileEntry) => {
+    const eventsList = Array.isArray(fileEntry.data)
+        ? fileEntry.data
+        : fileEntry.data.events || [];
+
+    return eventsList.map((event, index) => ({
+        slug: `${fileEntry.id}-${index}`,
+        data: {
+            ...event,
+            hosts: event.hosts.map((h) => h.name),
+            group:
+                typeof event.group === "string"
+                    ? { id: event.group }
+                    : event.group,
+        },
+    }));
+});
+---
+
+<Fragment>
+    <Schedule
+        data={allEvents}
+        count={count}
+        group={group}
+        ascending={ascending}
+        showOld={showOld}
+        daysAhead={daysAhead}
+        client:load
+    />
+    <noscript>
+        <p>
+            Sorry, the interactive schedule requires JavaScript. Please enable
+            it to filter by semester or group.
+        </p>
+    </noscript>
+</Fragment>

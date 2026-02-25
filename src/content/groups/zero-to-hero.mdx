@@ -1,0 +1,23 @@
+---
+name: "Zero-to-Hero"
+summary: "Learn a little bit of everything. Build the foundation you need to go above and beyond in cybersecurity. Discover what your passion is in cybersecurity."
+leads:
+    - name: "Will"
+logo: "@/assets/icons/crown.svg"
+active: false
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

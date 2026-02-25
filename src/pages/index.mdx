@@ -1,0 +1,37 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import GroupCarousel from "@/components/GroupCarousel.astro";
+import Schedule from "@/components/Schedule.astro";
+import EventsCarousel from "@/components/EventsCarousel.astro";
+import ResearchList from "@/components/ResearchList.astro";
+import SponsorsList from "@/components/SponsorsList.astro";
+import SponsorsCarousel from "@/components/SponsorsCarousel.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import heroImg from "@/assets/image7.jpg";
+
+<BaseLayout title="Home" image={heroImg}>
+    <Hero 
+            badge="Get some co-ops!"
+            image={heroImg}
+            imageAlt="Letchworth State Park landscape"
+        >
+            <Fragment slot="title">
+                Security Through **Community**
+            </Fragment>
+
+            <Fragment slot="bottom">
+                <a class="link-button primary" href={import.meta.env.BASE_URL === "/" ? "/join" : import.meta.env.BASE_URL.replace(/\/$/, "") + "/join"}>GET INVOLVED</a>
+                <a class="link-button secondary" href={import.meta.env.BASE_URL === "/" ? "/sponsors" : import.meta.env.BASE_URL.replace(/\/$/, "") + "/sponsors"}>SPONSOR US</a>
+            </Fragment>
+
+            <Fragment slot="image">
+                <Picture src={heroImg} width={1000} formats={['avif', 'webp']} alt="Fall 2024 RITSEC Letchworth State Park group photo" />
+            </Fragment>
+    </Hero>
+
+</BaseLayout>

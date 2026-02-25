@@ -1,0 +1,62 @@
+- title: Advanced Linux
+  hosts:
+      - name: Michael Vaughan
+  start: 2022-01-14T12:00:00-04:00
+  end: 2022-01-14T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=X1rF8bLwKV8
+
+- title: Advanced Windows
+  hosts:
+      - name: Enzo DeStephano
+  start: 2022-01-21T12:00:00-04:00
+  end: 2022-01-21T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=-5K298QdqN8
+
+- title: Pentesting
+  hosts:
+      - name: Spencer Roth
+  start: 2022-01-28T12:00:00-04:00
+  end: 2022-01-28T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=MoeRvqhkgTU
+
+- title: Social Engineering/OSINT
+  hosts:
+      - name: Max Fusco
+  start: 2022-02-04T12:00:00-04:00
+  end: 2022-02-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=5txFsnE2Fqk
+
+- title: Red Team
+  hosts:
+      - name: Emmanuel Adewale
+  start: 2022-02-11T12:00:00-04:00
+  end: 2022-02-11T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=Bv1dItmJM9s
+
+- title: Job Hunting
+  hosts:
+      - name: Jason Blanchard
+  start: 2022-02-25T12:00:00-04:00
+  end: 2022-02-25T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=bxKlZC32JbM
+
+- title: Physical Security
+  hosts:
+      - name: Loudon Mehling
+  start: 2022-03-04T12:00:00-04:00
+  end: 2022-03-04T14:00:00-04:00
+  location: GOL-1710/20/30
+  group: general
+  video: https://www.youtube.com/watch?v=EXUGWJ9VdXc

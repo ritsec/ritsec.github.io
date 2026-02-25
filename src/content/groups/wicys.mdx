@@ -1,0 +1,32 @@
+---
+name: "WiCys"
+summary: "The WiCyS RIT Student Chapter is an all-inclusive interest group within RITSEC dedicated to making RIT’s Computing Security program more equitable."
+leads:
+    - name: "Emmalee"
+    - name: "Anushka"
+    - name: "Arshia"
+    - name: "Lily"
+    - name: "Ariana"
+meetings:
+    - day: "Monday"
+      start: "5:30 PM"
+      end: "6:30 PM"
+      location: "GOL-1710"
+logo: "@/assets/icons/megaphone.svg"
+website: "https://wicysrit.wordpress.com/"
+---
+
+import ResearchList from "@/components/ResearchList.astro";
+import Schedule from "@/components/Schedule.astro";
+
+<section>## About Us</section>
+
+<section>
+    ## Schedule
+    <Schedule group={frontmatter.name} showOld={true} ascending={false} />
+</section>
+
+<section>
+    ## Research
+    <ResearchList group={frontmatter.name} />
+</section>

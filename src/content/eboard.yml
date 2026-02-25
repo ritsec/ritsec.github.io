@@ -1,0 +1,72 @@
+- id: President
+  name: Dan LaChance
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/dan-lachance
+  email: president@ritsec.club
+  image: "@/assets/eboard/danl.jpg"
+- id: Vice President
+  name: David Girard
+  grad_year: 2027
+  linked_in: https://www.linkedin.com/in/david-wg2
+  email: vicepresident@ritsec.club
+  image: "@/assets/eboard/davidg.jpg"
+- id: Public Relations
+  name: Danny Nichols
+  grad_year: 2027
+  linked_in: https://www.linkedin.com/in/daniel-t-nichols
+  email: publicrelations@ritsec.club
+  image: "@/assets/eboard/dannyn.jpg"
+- id: Head of Education
+  name: Adam Braccia
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/adam-braccia-350407251
+  email: education@ritsec.club
+  image: "@/assets/eboard/adamb.jpg"
+- id: Head of Research
+  name: Hayden Hartman
+  grad_year: 2029
+  linked_in: https://www.linkedin.com/in/hayden-hartman-60a042293
+  email: research@ritsec.club
+  image: "@/assets/eboard/haydenh.jpg"
+- id: ISTS CA
+  name: Leah Kvares
+  grad_year: 2027
+  linked_in: https://www.linkedin.com/in/leahkvares
+  email: ists@ritsec.club
+  image: "@/assets/eboard/leahk.jpg"
+- id: IRSeC CA
+  name: Arianna Schwartz
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/arianna--schwartz
+  email: irsec@ritsec.club
+  image: "@/assets/eboard/ariannas.jpg"
+- id: Treasurer
+  name: Alex Noble
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/alexnoble079
+  email: treasurer@ritsec.club
+  image: "@/assets/eboard/alexn.jpg"
+- id: Secretary
+  name: Lukasz Ozimek
+  grad_year: 2027
+  linked_in: https://www.linkedin.com/in/lukasz-ozimek-1376752a2
+  email: secretary@ritsec.club
+  image: "@/assets/eboard/lukaszo.jpg"
+- id: Operations Lead
+  name: John Arrandale
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/john-arrandale
+  email: opeations@ritsec.club
+  image: "@/assets/eboard/johna.jpg"
+- id: Tech Lead
+  name: Owen Silsbee
+  grad_year: 2028
+  linked_in: https://www.linkedin.com/in/owensilsbee
+  email: tech@ritsec.club
+  image: "@/assets/eboard/owens.jpg"
+- id: CTF CA
+  name: Manav Malik
+  grad_year: 2026
+  linked_in: https://www.linkedin.com/in/manav-malik
+  email: ctfca@ritsec.club
+  image: "@/assets/eboard/manavm.jpg"

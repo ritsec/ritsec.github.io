@@ -1,0 +1,100 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+
+const sponsors = await getCollection("sponsors");
+---
+
+<div>
+    <div class="carousel" id="sponsors-carousel">
+        <div class="slide-container">
+            {
+                sponsors.map((sponsor) => (
+                    <div class="slide">
+                        <a
+                            href={sponsor.data.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="sponsor-link"
+                            title={sponsor.data.title}
+                        >
+                            <div class="sponsor-img-container">
+                                <Picture
+                                    src={sponsor.data.image}
+                                    alt={sponsor.data.title}
+                                    width={200}
+                                    height={200}
+                                    class="sponsor-img"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    import EmblaCarousel from "embla-carousel";
+    import AutoScroll from "embla-carousel-auto-scroll";
+    import WheelGestures from "embla-carousel-wheel-gestures";
+
+    document.addEventListener("astro:page-load", () => {
+        const carousel = document.querySelector(
+            "#sponsors-carousel",
+        ) as HTMLElement;
+
+        if (carousel) {
+            const emblaApi = EmblaCarousel(
+                carousel,
+                {
+                    loop: true,
+                    align: "center",
+                    dragFree: true,
+                },
+                [
+                    AutoScroll({
+                        playOnInit: true,
+                        speed: 1,
+                        stopOnInteraction: false,
+                        stopOnMouseEnter: false,
+                    }),
+                    WheelGestures(),
+                ],
+            );
+        }
+    });
+</script>
+
+<style>
+    .sponsor-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .slide {
+        flex: 0 0 auto;
+    }
+
+    .sponsor-img-container {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .sponsor-img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        width: auto;
+        height: auto;
+        min-width: 150px;
+        min-height: 150px;
+    }
+</style>

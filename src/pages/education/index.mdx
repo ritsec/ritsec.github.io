@@ -1,0 +1,42 @@
+---
+---
+
+import { Picture } from "astro:assets";
+
+import Hero from "@/components/Hero.astro";
+import Calendar from "@/components/Calendar.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Schedule from "@/components/Schedule.astro";
+
+import heroImg from "@/assets/image6.jpg";
+
+<BaseLayout title="Schedule">
+    <Hero reverse={true}>
+        <Fragment slot="title">
+            Weekly <strong>Education</strong>
+        </Fragment>
+
+        <Fragment slot="image">
+            <Picture
+                src={heroImg}
+                width={1000}
+                formats={["avif", "webp"]}
+                alt="RITSEC club room."
+            />
+        </Fragment>
+
+        Every Friday, RITSEC hosts a general education meeting, showing off some
+        of our favorite topics with our project-focused education system
+    </Hero>
+
+    ---
+        ## Friday Schedule
+
+        TODO: To be announced
+
+    ---
+        <h2>General Education</h2>
+
+        <Schedule ascending={false} showOld={true} group={"general"} />
+
+</BaseLayout>

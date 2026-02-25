@@ -1,0 +1,539 @@
+- id: 2024-2025-ritsec
+  term: 2024-2025
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Kasey Kiggins
+      - position: Vice President
+        name: Rachel Leone
+      - position: Public Relations
+        name: Kip Rath
+      - position: Secretary
+        name: Lukas Peters
+      - position: Head of Education
+        name: Leah Kvares
+      - position: Head of Research
+        name: Will D'Andrade
+      - position: ISTS
+        name: Drew Young
+      - position: IRSeC CA
+        name: Maxim Kochnev
+      - position: CTF CA
+        name: Chase Killorin
+      - position: Treasurer
+        name: David Girard
+      - position: Operations Lead
+        name: John Arrandale
+      - position: Tech Lead
+        name: Dan LaChance
+
+- id: 2023-2024-ritsec
+  term: 2023-2024
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Anthony Ioppolo
+      - position: Vice President
+        name: Kenneth Anderson
+      - position: Public Relations
+        name: Sophie Larson
+      - position: Secretary
+        name: Raina Freeman
+      - position: Head of Education
+        name: Kasey Kiggins
+      - position: Head of Research
+        name: Chase Killorin
+      - position: ISTS CA
+        name: Zach Price
+      - position: IRSeC CA
+        name: Jack Audino
+      - position: CTF CA
+        name: Rachel Leone
+      - position: Treasurer
+        name: Albie Snyder
+      - position: Operations Lead
+        name: Michael Scalzetti
+      - position: Tech Lead
+        name: Alex Noble
+
+- id: 2022-2023-ritsec
+  term: 2022-2023
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Bradley Harker
+      - position: Vice President
+        name: Max Fusco
+      - position: Public Relations
+        name: Mohammad Eshan
+      - position: Secretary
+        name: Sarah Dill
+      - position: Head of Education
+        name: Kenneth Anderson
+      - position: Head of Research
+        name: Anthony Ioppolo
+      - position: ISTS CA
+        name: Michael Vaughan
+      - position: IRSeC CA
+        name: Jacob Doll
+      - position: CTF CA
+        name: Zach Price
+      - position: Treasurer
+        name: Bailey Powers
+      - position: Operations Lead
+        name: Abdulmalik Banaser
+      - position: Tech Lead
+        name: Alex Beaver
+
+- id: 2021-2022-ritsec
+  term: 2021-2022
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Enzo DeStephano
+      - position: Head of Education
+        name: Brayden Werner
+      - position: Head of Research
+        name: Tenchi Mata
+      - position: ISTS Competition Architect
+        name: Alison Nakai-Lackey
+      - position: IRSeC CA
+        name: Jason Howe
+      - position: Treasurer
+        name: Olivia Gallucci
+      - position: Secretary
+        name: Jazmin Morales
+      - position: Director of Public Relations
+        name: Bradley Harker
+      - position: Operations Lead
+        name: Philomena Gray
+      - position: Tech Lead
+        name: Max Fusco
+
+- id: 2020-2021-ritsec
+  term: 2020-2021
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Jonathan Bauer
+      - position: Head of Education
+        name: Phillip Babey
+      - position: Head of Research
+        name: Enzo DeStephano
+      - position: ISTS Competition Architect
+        name: Daniel Szafran
+      - position: IRSeC CA
+        name: Joshua Niemann
+      - position: Treasurer
+        name: Spencer Roth
+      - position: Secretary
+        name: Jason Howe
+      - position: Director of Public Relations
+        name: Danielle Schloss
+      - position: Operations Lead
+        name: Kyle Schleich
+      - position: Tech Lead
+        name: Ayobami 'Emmanuel' Adewale
+
+- id: 2019-2020-ritsec
+  term: 2019-2020
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Shannon McHale
+      - position: Head of Education
+        name: Owen Siebert
+      - position: Head of Research
+        name: Ian Furr
+      - position: ISTS Competition Architect
+        name: Jack McKenna
+      - position: IRSEC CA
+        name: Quintin Walters
+      - position: Treasurer
+        name: Amanda Brown
+      - position: Secretary
+        name: Jon Bauer
+      - position: Director of Public Relations
+        name: Adrianna Visca
+      - position: Operations Lead
+        name: Evan Mikulski/Kyle Schleich
+      - position: Tech Lead
+        name: Sunggwan Choi
+
+- id: 2018-2019-ritsec
+  term: 2018-2019
+  organization: RITSEC
+  eboard:
+      - position: President
+        name: Micah Martin
+      - position: Head of Education
+        name: Russell Babarsky
+      - position: Head of Research
+        name: Nick O'Brien
+      - position: Competition Architect
+        name: Sean Newman
+      - position: Treasurer
+        name: Shannon McHale
+      - position: Secretary
+        name: Jack McKenna
+      - position: Director of Public Relations
+        name: Alicen Dipiano
+      - position: Operations Lead
+        name: Brandon Adler
+      - position: Tech Lead
+        name: Scott Brink
+
+- id: 2017-2018-rc3
+  term: 2017-2018
+  organization: RC3
+  eboard:
+      - position: President
+        name: Sean Sun
+      - position: Vice President
+        name: Ohan Fillbach
+      - position: Competition Architect
+        name: Kristen Tumacder
+      - position: Secretary
+        name: Sean Newman
+      - position: Treasurer
+        name: Michael Milkovich
+      - position: Treasurer
+        name: Shannon McHale
+      - position: Web Admin
+        name: Bryson McIver
+      - position: Operations
+        name: Susan Lunn
+      - position: Faculty Advisors
+        name: Megan Fritts
+      - position: Faculty Advisors
+        name: Bill Stackpole
+
+- id: 2016-2017-rc3
+  term: 2016-2017
+  organization: RC3
+  eboard:
+      - position: President
+        name: Ben Bornholm
+      - position: Vice President
+        name: Nicholas Piazza
+      - position: Tech Lead
+        name: Brad Campbell
+      - position: Competition Architect
+        name: Sarah Jacobus
+      - position: Competition Architect
+        name: Sean Sun
+      - position: Web
+        name: Sean Sun
+      - position: Web
+        name: Ohan Fillbach
+      - position: Treasurer
+        name: Michael Milkovich
+      - position: Secretary
+        name: Kristen Tumacder
+
+- id: 2015-2016-rc3
+  term: 2015-2016
+  organization: RC3
+  eboard:
+      - position: President
+        name: Scott Vincent
+      - position: Vice President
+        name: Sean McConnell
+      - position: Tech Lead
+        name: Ed Mead
+      - position: Competition Architect
+        name: Luke Matarazzo
+      - position: Web
+        name: Jaime Geiger
+      - position: Treasurer
+        name: Ben Bornholm
+      - position: Secretary
+        name: Pooja Sharma
+
+- id: 2014-2015-rc3
+  term: 2014-2015
+  organization: RC3
+  eboard:
+      - position: President
+        name: Jon Barber
+      - position: President
+        name: Jaime Geiger
+      - position: Vice President
+        name: Jaime Geiger
+      - position: Vice President
+        name: Nicholas Piazza
+      - position: VP of Administration
+        name: Scott Vincent
+      - position: VP of Technology
+        name: Sean McConnell
+      - position: Treasurer
+        name: Ben Bornholm
+      - position: Secretary
+        name: Sean McConnell
+      - position: Secretary
+        name: Luke Christian
+
+- id: 2013-2014-rc3
+  term: 2013-2014
+  organization: RC3
+  eboard:
+      - position: Founder
+        name: Brandon Maur
+      - position: Founder
+        name: Thomas Desrosiers
+      - position: President
+        name: Zuhdi Abdelkarim
+      - position: Vice President
+        name: Daniyal Syed
+      - position: VP of Technology
+        name: Jon Barber
+
+- id: 2017-2018-sparsa
+  term: 2017-2018
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Micah Martin
+      - position: VP of Practices
+        name: Kyle Carretto
+      - position: VP of Research
+        name: Cameron Clark
+      - position: Treasurer
+        name: Josh Stuts
+      - position: Secretary
+        name: Russell Babarsky
+      - position: Faculty Advisor
+        name: Bo Yuan
+
+- id: 2016-2017-sparsa
+  term: 2016-2017
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Jesse Buonanno
+      - position: VP of Practices
+        name: Cameron Clark
+      - position: VP of Research
+        name: Dave Kukfa
+      - position: Treasurer
+        name: Brandon Adler
+      - position: Secretary
+        name: Jon Myers
+      - position: Faculty Advisor
+        name: Bo Yuan
+
+- id: 2015-2016-sparsa
+  term: 2015-2016
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Corrine Smith
+      - position: VP of Research
+        name: Tyler Fornes
+      - position: Treasurer
+        name: Jesse Buonanno
+      - position: Secretary
+        name: Peter Muller
+      - position: Graduate Advisor
+        name: Jared Stroud
+      - position: Graduate Advisor
+        name: Bryan Harmat
+      - position: Faculty Advisor
+        name: Bo Yuan
+
+- id: 2014-2015-sparsa
+  term: 2014-2015
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Bryan Harmat
+      - position: VP of Practices
+        name: Jared Stroud
+      - position: VP of Research
+        name: Jon Barber
+      - position: VP of Research
+        name: Stanley Chan
+      - position: Treasurer
+        name: Mike O’Gorman
+      - position: Treasurer
+        name: Peter Muller
+      - position: Secretary
+        name: Corinne Smith
+      - position: Graduate Advisor
+        name: Stanley Chan
+      - position: Faculty Advisor
+        name: Bo Yuan
+
+- id: 2013-2014-sparsa
+  term: 2013-2014
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Ben Kelley
+      - position: VP of Practices
+        name: Bryan Harmat
+      - position: VP of Research
+        name: Lucas Duffey
+      - position: VP of Research
+        name: Stanley Chan
+      - position: Treasurer
+        name: Claire McKenna
+      - position: Secretary
+        name: Jared Stroud
+      - position: Graduate Advisor
+        name: Ben Andrews
+      - position: Faculty Advisor
+        name: Bo Yuan
+
+- id: 2012-2013-sparsa
+  term: 2012-2013
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Stanley Chan
+      - position: VP of Practices
+        name: Ben Kelley
+      - position: VP of Research
+        name: Brandon Myers
+      - position: Treasurer
+        name: Lucas Duffey
+      - position: Secretary
+        name: Kayla Green
+      - position: Graduate Advisor
+        name: Chaim Sanders
+      - position: Faculty Advisors
+        name: Gary Scarborough
+      - position: Faculty Advisors
+        name: Bo Yuan
+
+- id: 2011-2012-sparsa
+  term: 2011-2012
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Ryan Peck
+      - position: VP of Practices
+        name: Neil Zimmerman
+      - position: VP of Research
+        name: Chaim Sanders
+      - position: Treasurer
+        name: Lucas Duffey
+      - position: Secretary
+        name: Stanley Chan
+      - position: Faculty Advisor
+        name: Gary Scarborough
+
+- id: 2010-2011-sparsa
+  term: 2010-2011
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Jacob Ruppal
+      - position: VP of Practices
+        name: Chaim Sanders
+      - position: Treasurer
+        name: Ryan Peck
+      - position: Secretary
+        name: Michael Tortora
+      - position: Faculty Advisor
+        name: Gary Scarborough
+
+- id: 2009-2010-sparsa
+  term: 2009-2010
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Conner Finlay
+      - position: Vice President of Practices
+        name: Jacob Ruppal
+      - position: Vice President of Research
+        name: Josh Smith
+      - position: Treasurer
+        name: Chaim Sanders
+      - position: Secretary
+        name: Neil Zimmerman
+
+- id: 2007-2008-sparsa
+  term: 2007-2008
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Alex Getty
+      - position: Vice President of Practices
+        name: Connor Finlay
+      - position: Vice President of Research
+        name: Josh Smith
+      - position: Treasurer
+        name: Adam Burke
+      - position: Secretary
+        name: Jacob Ruppal
+
+- id: 2006-2007-sparsa
+  term: 2006-2007
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Jason Batchelor
+      - position: Vice President of Practices
+        name: Alex Getty
+      - position: Vice President of Research
+        name: Nick Carpenter
+
+- id: 2005-2006-sparsa
+  term: 2005-2006
+  organization: SPARSA
+  eboard:
+      - position: Vice President of Practices
+        name: Jason Batchelor
+
+- id: 2004-2005-sparsa
+  term: 2004-2005
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Jeff Volante
+      - position: Vice President of Practices
+        name: Jim Farrelly
+      - position: Vice President of Research
+        name: Sara Berg
+      - position: Treasurer
+        name: Brian Luteran
+      - position: Secretary
+        name: Jason Batchelor
+
+- id: 2003-2004-sparsa
+  term: 2003-2004
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Keith LeClaire
+
+- id: 2002-2003-sparsa
+  term: 2002-2003
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Steve Frank
+      - position: Vice President of Practices
+        name: Jeff Volante
+      - position: Vice President of Research
+        name: Keith LeClaire
+      - position: Treasurer
+        name: Katie Hathaway
+      - position: Secretary
+        name: Jim Farrelly
+
+- id: 2001-2002-sparsa
+  term: 2001-2002
+  organization: SPARSA
+  eboard:
+      - position: President
+        name: Jared Campbell
+      - position: Vice President of Practices
+        name: Matt Hile
+      - position: Vice President of Research
+        name: Gena Daley
+      - position: Treasurer
+        name: Reina Smith
+      - position: Secretary
+        name: Aksh Sehgal
