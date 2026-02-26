@@ -23,7 +23,7 @@ sections:
           email: vicepresident@ritsec.club
           other:
       - name: Danny Nichols
-        position: Public Relations
+        position: Director of Public Relations
         grad_year: 27
         avatar: "assets/images/2025eboard/dannyn.jpg"
         socials: 
@@ -50,7 +50,7 @@ sections:
           email: research@ritsec.club
           other:
       - name: Manav Malik
-        position: CTF CA
+        position: CTF Competition Architect
         grad_year: 26
         avatar: "assets/images/2025eboard/manavm.jpeg"
         socials:
@@ -59,7 +59,7 @@ sections:
           email: ctfca@ritsec.club
           other:
       - name: Leah Kvares
-        position: ISTS CA
+        position: ISTS Competition Architect
         grad_year: 27
         avatar: "assets/images/2025eboard/leahk.jpeg"
         socials:
@@ -68,7 +68,7 @@ sections:
           email: ists@ritsec.club
           other:
       - name: Arianna Schwartz
-        position: IRSeC CA
+        position: IRSeC Competition Architect
         grad_year: 26
         avatar: "assets/images/2025eboard/ariannas.jpg"
         socials:
@@ -133,9 +133,9 @@ past_eboards:
       - name: Drew Young
         position: ISTS Competition Architect
       - name: Maxim Kochnev
-        position: IRSeC CA
+        position: IRSeC Competition Architect
       - name: Chase Killorin
-        position: CTF CA 
+        position: CTF Competition Architect 
       - name: David Girard
         position: Treasurer
       - name: John Arrandale
@@ -160,9 +160,9 @@ past_eboards:
       - name: Zach Price
         position: ISTS Competition Architect
       - name: Jack Audino
-        position: IRSeC CA
+        position: IRSeC Competition Architect
       - name: Rachel Leone
-        position: CTF CA 
+        position: CTF Competition Architect 
       - name: Albie Snyder
         position: Treasurer
       - name: Michael Scalzetti
@@ -188,9 +188,9 @@ past_eboards:
       - name: Michael Vaughan
         position: ISTS Competition Architect
       - name: Jacob Doll
-        position: IRSeC CA
+        position: IRSeC Competition Architect
       - name: Zach Price
-        position: CTF CA 
+        position: CTF Competition Architect 
       - name: Bailey Powers
         position: Treasurer
       - name: Abdulmalik Banaser
@@ -210,7 +210,7 @@ past_eboards:
       - name: Alison Nakai-Lackey
         position: ISTS Competition Architect
       - name: Jason Howe
-        position: IRSeC CA
+        position: IRSeC Competition Architect
       - name: Olivia Gallucci
         position: Treasurer
       - name: Jazmin Morales
@@ -234,7 +234,7 @@ past_eboards:
       - name: Daniel Szafran
         position: ISTS Competition Architect
       - name: Joshua Niemann
-        position: IRSeC CA
+        position: IRSeC Competition Architect
       - name: Spencer Roth
         position: Treasurer
       - name: Jason Howe
@@ -257,7 +257,7 @@ past_eboards:
       - name: Jack McKenna
         position: ISTS Competition Architect
       - name: Quintin Walters
-        position: IRSEC CA
+        position: IRSeC Competition Architect
       - name: Amanda Brown
         position: Treasurer
       - name: Jon Bauer
