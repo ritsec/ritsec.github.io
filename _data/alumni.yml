@@ -4,6 +4,14 @@ sections:
 
 alumni:
   - year: 2025
+    name: Kasey Kiggins
+  - year: 2025
+    name: Chase Killorin
+  - year: 2025
+    name: Garrett Thompson
+  - year: 2025
+    name: Ariana Ciaschini
+  - year: 2025
     name: Sharad Khanna
   - year: 2025
     name: Chris (Kip) Rath
@@ -42,9 +50,9 @@ alumni:
   - year: 2025
     name: Cipriana Sorenson
   - year: 2025
-    name: Jenna Weinman
-  - year: 2025
     name: Danielle Schloss
+  - year: 2025
+    name: Sarah Houseal
 
   - year: 2024
     name: Ryan Cheevers-Brown
@@ -72,8 +80,6 @@ alumni:
     name: Bradley Harker
   - year: 2024
     name: Jason Howe
-  - year: 2024
-    name: Sarah Dill
   - year: 2024
     name: Bailey Powers
   - year: 2024

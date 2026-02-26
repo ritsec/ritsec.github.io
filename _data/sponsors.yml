@@ -80,6 +80,18 @@ sections:
         - title: Mindex
           image: /assets/images/sponsors/mindex.jpeg
           url: https://www.mindex.com/
+
+        - title: Drew Young
+          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
+          url: https://www.linkedin.com/in/drew-m-young/
+
+        - title: Zach Price
+          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
+          url: https://www.linkedin.com/in/zachprice43/
+
+        - title: Asa Horn
+          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
+          url: https://www.linkedin.com/in/asa-horn-4b7618212/
           
       Educational:
 
