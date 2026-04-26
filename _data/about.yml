@@ -2,112 +2,94 @@ sections:
   - title: About Us
     description: RITSEC is a student club dedicated to teaching "Security Through Community." RITSEC is dedicated to educating and preparing RIT students to compete in security-related competitions, as well as showcasing RIT student talent in the current world of security today. Whether you're new to computing security or a veteran, RITSEC has a place for you. All of the activities we host to promote this learning can be found on our 'Events' page.
 
-  - title: 2025-2026 E-Board
+  - title: 2026-2027 Executive Board
     members:
-      - name: Dan LaChance
+      - name: Leah Kvares
         position: President
-        grad_year: 26
-        avatar: "assets/images/2025eboard/danl.jpg"
+        grad_year: 27
+        avatar: "assets/images/2026eboard/leahk.jpg"
         socials:
-          github: 
-          linkedin: dan-lachance
+          linkedin: leahkvares
           email: president@ritsec.club
           other:
-      - name: David Girard
+      - name: Lukasz Ozimek
         position: Vice President
         grad_year: 27
-        avatar: "assets/images/2025eboard/davidg.jpg"
+        avatar: "assets/images/2026eboard/lukaszo.jpg"
         socials:
-          github: 
-          linkedin: david-wg2
+          linkedin: luka-ozimek
           email: vicepresident@ritsec.club
           other:
-      - name: Danny Nichols
+      - name: Lucas Brown
         position: Director of Public Relations
         grad_year: 27
-        avatar: "assets/images/2025eboard/dannyn.jpg"
+        avatar: "assets/images/2026eboard/lucasb.jpeg"
         socials: 
-          github: 
-          linkedin: daniel-t-nichols
+          linkedin: lucas-d-brown
           email: publicrelations@ritsec.club
           other: 
-      - name: Adam Braccia
+      - name: Svyatoslav Venskyy
         position: Head of Education
-        grad_year: 26
-        avatar: "assets/images/2025eboard/adamb.jpg"
+        grad_year: 28
+        avatar: "assets/images/2026eboard/svyatoslavv.jpg"
         socials:
-          github: 
-          linkedin: adam-braccia-350407251
+          linkedin: 
           email: education@ritsec.club
           other:
-      - name: Hayden Hartman
+      - name: John Godman
         position: Head of Research
         grad_year: 29
-        avatar: "assets/images/2025eboard/haydenh.jpg"
+        avatar: "assets/images/2026eboard/johng.jpg"
         socials:
-          github:
-          linkedin: hayden-hartman-60a042293
+          linkedin: johngodman
           email: research@ritsec.club
           other:
-      - name: Manav Malik
-        position: CTF Competition Architect
-        grad_year: 26
-        avatar: "assets/images/2025eboard/manavm.jpeg"
-        socials:
-          github:
-          linkedin: manav-malik
-          email: ctfca@ritsec.club
-          other:
-      - name: Leah Kvares
+      - name: Michael Brenner
         position: ISTS Competition Architect
         grad_year: 27
-        avatar: "assets/images/2025eboard/leahk.jpeg"
+        avatar: "assets/images/2026eboard/michaelb.jpeg"
         socials:
-          github: 
-          linkedin: leahkvares
+          linkedin: michaelabrenner2004
           email: ists@ritsec.club
           other:
-      - name: Arianna Schwartz
+      - name: Lukas Peters
         position: IRSeC Competition Architect
         grad_year: 26
-        avatar: "assets/images/2025eboard/ariannas.jpg"
+        avatar: "assets/images/2026eboard/lukasp.jpg"
         socials:
-          github: 
-          linkedin: arianna--schwartz
+          linkedin: lukasmp
           email: irsec@ritsec.club
           other:
-      - name: Alex Noble
+      - name: Jake Miksiewicz
         position: Treasurer
-        grad_year: 26
-        avatar: "assets/images/2025eboard/alexn.jpg"
+        grad_year: 29
+        avatar: "assets/images/2026eboard/jakem.jpg"
         socials:
-          github:
-          linkedin: alexnoble079
+          linkedin: jake-miksiewicz-ba5596286
           email: treasurer@ritsec.club
-          other: 
-      - name: Lukasz Ozimek
+          other:
+      - name: Naomi Arias Rios
         position: Secretary
-        grad_year: 27
-        avatar: "assets/images/2025eboard/lukao.jpg"
+        grad_year: 29
+        avatar: "assets/images/2026eboard/naomir.jpg"
         socials:
-          github: 
-          linkedin: lukasz-ozimek-1376752a2
+          linkedin: naomi-arias-rios
           email: secretary@ritsec.club
           other:
-      - name: John Arrandale
+      - name: Stella Morrow
         position: Operations Lead
-        grad_year: 26
-        avatar: "assets/images/2025eboard/John.jpg"
+        grad_year: 27
+        avatar: "assets/images/2026eboard/stellam.png"
         socials:
-          linkedin: john-arrandale
+          linkedin: 5731la
           email: operations@ritsec.club
           other:
-      - name: Owen Silsbee
+      - name: Rahel Arka
         position: Tech Lead
         grad_year: 28
-        avatar: "assets/images/2025eboard/owens.jpeg"
+        avatar: "assets/images/2026eboard/rahela.png"
         socials:
-          linkedin: owensilsbee
+          linkedin: rahel-arka
           email: tech@ritsec.club
           other: 
 
@@ -115,6 +97,33 @@ sections:
     description: Stay up to date with our social media pages!
 
 past_eboards:
+  - year: 2025-2026
+    org_name: RITSEC
+    members:
+      - name: Dan LaChance
+        position: President
+      - name: David Girard
+        position: Vice President
+      - name: Danny Nichols
+        position: Director of Public Relations
+      - name: Adam Braccia
+        position: Head of Education
+      - name: Hayden Hartman
+        position: Head of Research
+      - name: Leah Kvares
+        position: ISTS Competition Architect
+      - name: Arianna Schwartz
+        position: IRSeC Competition Architect
+      - name: Manav Malik
+        position: CTF Competition Architect
+      - name: Alex Noble
+        position: Treasurer
+      - name: Lukasz Ozimek
+        position: Secretary
+      - name: John Arrandale
+        position: Operations Lead
+      - name: Owen Silsbee
+        position: Tech Lead
   - year: 2024-2025
     org_name: RITSEC
     members:
