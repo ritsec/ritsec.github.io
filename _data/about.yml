@@ -7,7 +7,7 @@ sections:
       - name: Leah Kvares
         position: President
         grad_year: 27
-        avatar: "assets/images/2026eboard/leahk.jpeg"
+        avatar: "assets/images/2026eboard/leahk.jpg"
         socials:
           linkedin: leahkvares
           email: president@ritsec.club
@@ -22,8 +22,8 @@ sections:
           other:
       - name: Lucas Brown
         position: Director of Public Relations
-        grad_year: 
-        avatar: "assets/images/2026eboard/lucasb.jpg"
+        grad_year: 27
+        avatar: "assets/images/2026eboard/lucasb.png"
         socials: 
           linkedin: lucas-d-brown
           email: publicrelations@ritsec.club
@@ -47,7 +47,7 @@ sections:
       - name: Michael Brenner
         position: ISTS Competition Architect
         grad_year: 27
-        avatar: "assets/images/2026eboard/michaelb.jpg"
+        avatar: "assets/images/2026eboard/michaelb.png"
         socials:
           linkedin: michaelabrenner2004
           email: ists@ritsec.club
@@ -79,7 +79,7 @@ sections:
       - name: Stella Morrow
         position: Operations Lead
         grad_year: 27
-        avatar: "assets/images/2026eboard/stellam.jpg"
+        avatar: "assets/images/2026eboard/stellam.png"
         socials:
           linkedin: 5731la
           email: operations@ritsec.club
@@ -87,7 +87,7 @@ sections:
       - name: Rahel Arka
         position: Tech Lead
         grad_year: 28
-        avatar: "assets/images/2026eboard/rahela.jpg"
+        avatar: "assets/images/2026eboard/rahela.png"
         socials:
           linkedin: rahel-arka
           email: tech@ritsec.club
