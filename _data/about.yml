@@ -23,7 +23,7 @@ sections:
       - name: Lucas Brown
         position: Director of Public Relations
         grad_year: 27
-        avatar: "assets/images/2026eboard/lucasb.png"
+        avatar: "assets/images/2026eboard/lucasb.jpeg"
         socials: 
           linkedin: lucas-d-brown
           email: publicrelations@ritsec.club
@@ -47,7 +47,7 @@ sections:
       - name: Michael Brenner
         position: ISTS Competition Architect
         grad_year: 27
-        avatar: "assets/images/2026eboard/michaelb.png"
+        avatar: "assets/images/2026eboard/michaelb.jpeg"
         socials:
           linkedin: michaelabrenner2004
           email: ists@ritsec.club
