@@ -157,7 +157,10 @@ const socials = [
     }
 
     footer {
-        padding: 1rem var(--padding);
+
+        --page-width: 76rem;
+        --page-padding: max(2rem, (100% - var(--page-width)) / 2);
+        padding: var(--padding-sm) var(--page-padding);
         display: flex;
         align-items: center;
         justify-content: space-between;
