@@ -3,14 +3,13 @@ import { Picture } from "astro:assets";
 
 interface Props {
     badge?: string;
-    reverse?: boolean;
 }
 
-const { badge, reverse = false } = Astro.props;
+const { badge, } = Astro.props;
 const i = !Astro.slots.has("image");
 ---
 
-<section class:list={[{ reverse, i }]}>
+<section class:list={[{ i }]}>
     <div>
         {badge && <p class="chip">{badge}</p>}
 
@@ -45,11 +44,6 @@ const i = !Astro.slots.has("image");
     }
 
     section * {
-        text-align: right;
-        justify-content: end;
-    }
-
-    section.reverse * {
         text-align: left;
         justify-content: start;
     }
