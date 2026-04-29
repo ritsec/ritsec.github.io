@@ -45,7 +45,13 @@ const finalImage = image ? new URL(image, Astro.url) : defaultImage;
     <title>{title} | RITSEC</title>
     <meta name="title" content={`${title} | RITSEC`} />
     <meta name="description" content={description} />
-    <link rel="preload" as="font" type="font/woff2" href={jetBrainsMono} crossorigin="anonymous" />
+    <link
+        rel="preload"
+        as="font"
+        type="font/woff2"
+        href={jetBrainsMono}
+        crossorigin="anonymous"
+    />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />

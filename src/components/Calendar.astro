@@ -58,53 +58,47 @@ Object.keys(calendar).forEach((day) => {
 ---
 
 <div class="calendar-grid">
-            {
-                days.map((d) => {
-                    const matching = calendar[d];
-                    const isToday =
-                        new Date().toLocaleDateString("en-US", {
-                            weekday: "long",
-                        }) === d;
+    {
+        days.map((d) => {
+            const matching = calendar[d];
+            const isToday =
+                new Date().toLocaleDateString("en-US", {
+                    weekday: "long",
+                }) === d;
 
-                    return (
-                            <div
-                                class={`card h-full ${isToday ? "today" : ""}`}
-                            >
-                                <div class="card-header">
-                                    <h3 class="day-title">{d}</h3>
-                                    {isToday && (
-                                        <span class="badge">TODAY</span>
-                                    )}
-                                </div>
+            return (
+                <div class={`card h-full ${isToday ? "today" : ""}`}>
+                    <div class="card-header">
+                        <h3 class="day-title">{d}</h3>
+                        {isToday && <span class="badge">TODAY</span>}
+                    </div>
 
-                                <div class="card-content">
-                                    {matching.length > 0 ? (
-                                        <div class="events-list">
-                                            {matching.map((s) => (
-                                                <div class="event-item">
-                                                    <div class="event-time">
-                                                        {s.start} – {s.end}
-                                                    </div>
-                                                    <div class="event-name">
-                                                        <strong>
-                                                            {s.name}
-                                                        </strong>
-                                                    </div>
-                                                    <div class="event-location">
-                                                        <MapPin />
-                                                        {s.location}
-                                                    </div>
-                                                </div>
-                                            ))}
+                    <div class="card-content">
+                        {matching.length > 0 ? (
+                            <div class="events-list">
+                                {matching.map((s) => (
+                                    <div class="event-item">
+                                        <div class="event-time">
+                                            {s.start} – {s.end}
                                         </div>
-                                    ) : (
-                                        <div class="empty-day">No events</div>
-                                    )}
-                                </div>
+                                        <div class="event-name">
+                                            <strong>{s.name}</strong>
+                                        </div>
+                                        <div class="event-location">
+                                            <MapPin />
+                                            {s.location}
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
-                    );
-                })
-            }
+                        ) : (
+                            <div class="empty-day">No events</div>
+                        )}
+                    </div>
+                </div>
+            );
+        })
+    }
 </div>
 
 <style>
