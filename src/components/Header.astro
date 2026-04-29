@@ -82,7 +82,9 @@ const base = import.meta.env.BASE_URL;
         justify-content: space-between;
         align-items: center;
 
-        padding: var(--padding-sm) var(--padding-lg);
+        --page-width: 76rem;
+        --page-padding: max(2rem, (100% - var(--page-width)) / 2);
+        padding: var(--padding-sm) var(--page-padding);
         border-bottom: var(--border);
         background-color: var(--bg-header);
 
