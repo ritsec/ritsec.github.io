@@ -2,19 +2,7 @@ sections:
   - title: Events
     description: Our upcoming events, including meetings and competitions.
 
-    events:
-      - title: ISTS
-        date: February 27th-March 1st, 2026
-        location: Rochester, NY (Invite Only)
-        image: "assets/images/ists2026.jpeg"
-        url: https://ists.io/
-        
-      - title: IRSeC
-        date: November 1st, 2025
-        location: Rochester, NY
-        image: "assets/images/irsec2025.jpg"
-        url: https://irsec.club/
-        
+    events:        
       - title: Weekly Education Meeting
         date: Fridays 12:00-2:30 PM
         location: Rochester, NY
@@ -24,21 +12,33 @@ sections:
       - title: Weekly Research Meeting
         date: Fridays 2:30-4:00 PM
         location: Rochester, NY
-        image: "assets/images/research.jpg"
+        image: "assets/images/research.png"
         url: https://twitch.tv/ritsec
 
-      - title: RITSEC CTF
-        date: April 3rd-5th, 2026
-        location: Virtual & Rochester, NY
-        image: "assets/images/ritsec_ctf_2026.png"
-        url: https://ctf.ritsec.club
-
       - title: Virtual Career Fair Eve
-        date: 6:00-8:00 PM October 6th, 2025
+        date: TBD, September 2026
         location: Virtual & Rochester, NY
         image: "assets/images/ritsec_logo_final-07.png"
 
       - title: In-Person Career Fair Eve
-        date: 6:00-8:00 PM October 7th, 2025
+        date: TBD, September 2026
         location: Rochester, NY
         image: "assets/images/cfe2024.JPEG"
+
+      - title: ISTS
+        date: February 26th-28th, 2027
+        location: Rochester, NY (Invite Only)
+        image: "assets/images/ists2026.jpeg"
+        url: https://ists.io/
+        
+      - title: IRSeC
+        date: October 31st, 2026
+        location: Rochester, NY
+        image: "assets/images/irsec2025.jpg"
+        url: https://irsec.club/
+
+      - title: RITSEC CTF
+        date: TBD, 2027
+        location: Virtual & Rochester, NY
+        image: "assets/images/ritsec_ctf_2026.png"
+        url: https://ctf.ritsec.club
