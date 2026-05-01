@@ -2,7 +2,29 @@ sections:
   - title: Events
     description: Our upcoming events, including meetings and competitions.
 
-    events:
+    events:        
+      - title: Weekly Education Meeting
+        date: Fridays 12:00-2:30 PM
+        location: Rochester, NY
+        image: "assets/images/education.jpg"
+        url: https://twitch.tv/ritsec
+
+      - title: Weekly Research Meeting
+        date: Fridays 2:30-4:00 PM
+        location: Rochester, NY
+        image: "assets/images/research.png"
+        url: https://twitch.tv/ritsec
+
+      - title: Virtual Career Fair Eve
+        date: TBD, September 2026
+        location: Virtual & Rochester, NY
+        image: "assets/images/ritsec_logo_final-07.png"
+
+      - title: In-Person Career Fair Eve
+        date: TBD, September 2026
+        location: Rochester, NY
+        image: "assets/images/cfe2024.JPEG"
+
       - title: ISTS
         date: February 26th-28th, 2027
         location: Rochester, NY (Invite Only)
@@ -14,31 +36,9 @@ sections:
         location: Rochester, NY
         image: "assets/images/irsec2025.jpg"
         url: https://irsec.club/
-        
-      - title: Weekly Education Meeting
-        date: Fridays 12:00-2:30 PM
-        location: Rochester, NY
-        image: "assets/images/education.jpg"
-        url: https://twitch.tv/ritsec
-
-      - title: Weekly Research Meeting
-        date: Fridays 2:30-4:00 PM
-        location: Rochester, NY
-        image: "assets/images/research.jpg"
-        url: https://twitch.tv/ritsec
 
       - title: RITSEC CTF
-        date: TBD
+        date: TBD, 2027
         location: Virtual & Rochester, NY
         image: "assets/images/ritsec_ctf_2026.png"
         url: https://ctf.ritsec.club
-
-      - title: Virtual Career Fair Eve
-        date: TBD, September 2026
-        location: Virtual & Rochester, NY
-        image: "assets/images/ritsec_logo_final-07.png"
-
-      - title: In-Person Career Fair Eve
-        date: TBD, September 2026
-        location: Rochester, NY
-        image: "assets/images/cfe2024.JPEG"
