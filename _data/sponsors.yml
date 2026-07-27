@@ -108,9 +108,9 @@ sections:
           image: /assets/images/sponsors/bugcrowd.jpg
           url: https://www.bugcrowd.com/
 
-        - title: MetaCTF
-          image: /assets/images/sponsors/metactf.png
-          url: https://metactf.com/
+        - title: SkillBit (Formerly MetaCTF)
+          image: /assets/images/sponsors/skillbit.png
+          url: https://skillbit.com/
 
         - title: No Starch Press
           image: /assets/images/sponsors/nostarchpress.png
