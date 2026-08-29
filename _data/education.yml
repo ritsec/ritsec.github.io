@@ -11,10 +11,10 @@ sections:
          - title: Education Slides
            description: Introduction to RITSEC
            url: https://docs.google.com/presentation/d/11AuEtUPzScpBxZDo11-wy8Pvq543GbcatCpW4vfKAC4/edit?usp=sharing
-         - title: Kahoot Top 3!
-           description: "Congratulations to the top 3 winners of the Kahoot! 1st place: UniqueSphinx, 2nd place: BubblyButterfly, 3rd place: GloriousPuffin! You all did great!"
+         - title: Congratulations Kahoot Top 3!
+           description: UniqueSphinx, BubblyButterfly, GloriousPuffin!
          - title: Demo Challenges
-           description: Collect the flags from the Eboard, IG Leads, and Teams!
+           description: Collect the flags from Leaders!
            url: https://flags.ritsec.club
   #     - title: Week 2 | Intro to CSEC
   #       description: Introduction to Cybersecurity
