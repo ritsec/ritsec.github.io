@@ -54,4 +54,20 @@
   flex-flow: wrap;
   gap: 16px 32px;
   justify-content: center;
+
+  // Allow lesson cards to grow when descriptions wrap to two lines.
+  .link_container {
+    height: auto;
+    min-height: 100px;
+  }
+
+  .link_info-container {
+    height: auto;
+    max-height: none;
+  }
+
+  .link_description {
+    height: auto;
+    line-height: 1.4;
+  }
 }

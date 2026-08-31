@@ -2,15 +2,27 @@
 sections:
   - title: Fall 2026
     description:
-      Education Slides - more about some of our favorite topics with our
-      project-focused education system. Coming soon for Fall 2026...
-  #   sets:
-  #     - title: Week 1 | Intro to Ops
-  #       description: Introduction to Ops
+      Education Slides - Informing members with their favorite topics through engaging and 
+      project-focused education!
+    sets:
+      - title: Week 1 | Intro to RITSEC
+        description: Introduction to RITSEC
+        lessons:
+         - title: Education Slides
+           description: Introduction to RITSEC
+           url: https://docs.google.com/presentation/d/11AuEtUPzScpBxZDo11-wy8Pvq543GbcatCpW4vfKAC4/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: UniqueSphinx, BubblyButterfly, GloriousPuffin!
+           url: https://create.kahoot.it/share/intro-to-ritsec-interest-groups/7fd2c362-5c18-4618-bfde-34ed92e471a3
+         - title: Demo Challenges
+           description: Collect the flags from Eboard, IG Leads, and Teams!
+           url: https://flags.ritsec.club
+  #     - title: Week 2 | Intro to CSEC
+  #       description: Introduction to Cybersecurity
   #       lessons:
   #         - title: Education Slides
-  #           description: Introduction to Ops
-  #           url: https://docs.google.com/presentation/d/12sa6PnpnNiof13Ip_wCSu9uFcNjIXGWqKJjZlxgJSwI/edit?slide=id.g38da96f4c2a_0_604#slide=id.g38da96f4c2a_0_604
+  #           description: Introduction to Cybersecurity
+  #           url: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
   #         - title: Demo Challenges
   #           description: Deploy the VM from the stack
   #           url: https://flags.ritsec.club
@@ -42,29 +54,11 @@ sections:
   #           description: Deploy the VM from the stack
   #           url: https://flags.ritsec.club
 
-  # - title: Fall 2025
+  # - title: Spring 2027
   #   description:
   #     Education Slides - more about some of our favorite topics with our
   #     project-focused education system
   #   sets:
-  #     - title: Week 1 | Intro to RITSEC
-  #       description: Introduction to RITSEC
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Welcome to RITSEC (2025-2026)
-  #           url: https://docs.google.com/presentation/d/1FTrOHBGc8fqchM6ScoFtfYr96FoHx0uIb3_nKTLp_GE/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
-  #         - title: Demo Challenges
-  #           description: No VM needed this week!
-  #           url: https://flags.ritsec.club
-  #     - title: Week 2 | Intro to CSEC
-  #       description: Introduction to Cybersecurity
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Introduction to Cybersecurity
-  #           url: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
-  #         - title: Demo Challenges
-  #           description: Deploy the VM from the stack
-  #           url: https://flags.ritsec.club
   #     - title: Week 3 | Intro to Linux
   #       description: Introduction to Linux
   #       lessons:
