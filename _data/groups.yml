@@ -46,5 +46,5 @@ sections:
         meeting_time: Tuesday 7:00-9:00PM, Thursday 8:00-10:00PM CYB-2780
         description: To introduce members of the club to the concepts of vulnerability and security research. This includes concepts such as bug bounties, code analysis, and fuzzing.
       - name: RVAPT
-        meeting_time: Wednesday 7:00-8:00PM CYB-2750
+        meeting_time: Thursday 7:00-8:00PM CYB-2750
         description: At RVAPT, we learn how to find and exploit vulnerabilities in networks and associated services by hands on custom labs. Each week we learn one to two ways to break in into a network and keep building up on it through out the semester.
