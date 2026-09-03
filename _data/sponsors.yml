@@ -23,17 +23,9 @@ sections:
           image: /assets/images/sponsors/battelle.jpg
           url: https://www.battelle.org/
         
-        - title: FM
-          image: /assets/images/sponsors/fm.png
-          url: https://www.fm.com/
-        
         - title: ICR Inc.
           image: /assets/images/sponsors/icrinc.jpg
           url: https://icr-team.com/
-
-        - title: Amplify
-          image: /assets/images/sponsors/amplify.jpeg
-          url: https://amplify.com/
 
         - title: Datadog
           image: /assets/images/sponsors/datadog.png
@@ -48,65 +40,35 @@ sections:
           image: /assets/images/sponsors/rii.jpg
           url: https://www.researchinnovations.com/
 
-        - title: M&T Bank
-          image: /assets/images/sponsors/mt.png
-          url: https://www.mtb.com/
-
         - title: Miscreants
           image: /assets/images/sponsors/miscreants.svg
           url: https://www.miscreants.co/
 
-        - title: American Express
-          image: /assets/images/sponsors/amex.png
-          url: https://www.americanexpress.com/
-
-        - title: Sharad Khanna
-          image: /assets/images/sponsors/sharad.jpg
-          url: https://www.linkedin.com/in/khanna-sharad/
-
       Silver:
-        - title: Travelers Insurance
-          image: /assets/images/sponsors/travelers.png
-          url: https://www.travelers.com/ 
-
-        - title: Lockheed Martin
-          image: /assets/images/sponsors/lockheed.jpg
-          url: https://www.lockheedmartin.com/
-
-        - title: Wings Over
-          image: /assets/images/sponsors/wingsover.png
-          url: https://wingsover.com/
-
-        - title: Mindex
-          image: /assets/images/sponsors/mindex.jpeg
-          url: https://www.mindex.com/
-
-        - title: Drew Young
-          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
-          url: https://www.linkedin.com/in/drew-m-young/
-
-        - title: Zach Price
-          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
-          url: https://www.linkedin.com/in/zachprice43/
-
-        - title: Asa Horn
-          image: /assets/images/sponsors/RITSECSponsorPlaceholder.png
-          url: https://www.linkedin.com/in/asa-horn-4b7618212/
-          
-      Educational:
-
         - title: Crowdstrike
           image: /assets/images/sponsors/crowdstrike.png
           url: https://www.crowdstrike.com/
 
+        - title: FM
+          image: /assets/images/sponsors/fm.png
+          url: https://www.fm.com/
+
+        - title: Travelers Insurance
+          image: /assets/images/sponsors/travelers.png
+          url: https://www.travelers.com/ 
+
+        - title: Mindex
+          image: /assets/images/sponsors/mindex.jpeg
+          url: https://www.mindex.com/
+          
+      Educational:
+        - title: Black Hills Information Security
+          image: /assets/images/sponsors/bhis.jpg
+          url: https://www.blackhillsinfosec.com/
 
         - title: Hack The Box
           image: /assets/images/sponsors/hackthebox.png
           url: https://www.hackthebox.com/
-
-        - title: Bugcrowd
-          image: /assets/images/sponsors/bugcrowd.jpg
-          url: https://www.bugcrowd.com/
 
         - title: SkillBit (Formerly MetaCTF)
           image: /assets/images/sponsors/skillbit.png
