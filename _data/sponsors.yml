@@ -45,6 +45,10 @@ sections:
           url: https://www.miscreants.co/
 
       Silver:
+        - title: Crowdstrike
+          image: /assets/images/sponsors/crowdstrike.png
+          url: https://www.crowdstrike.com/
+
         - title: FM
           image: /assets/images/sponsors/fm.png
           url: https://www.fm.com/
@@ -61,10 +65,6 @@ sections:
         - title: Black Hills Information Security
           image: /assets/images/sponsors/bhis.jpg
           url: https://www.blackhillsinfosec.com/
-
-        - title: Crowdstrike
-          image: /assets/images/sponsors/crowdstrike.png
-          url: https://www.crowdstrike.com/
 
         - title: Hack The Box
           image: /assets/images/sponsors/hackthebox.png
