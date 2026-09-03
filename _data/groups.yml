@@ -22,7 +22,7 @@ sections:
         meeting_time: Monday 5:00-6:00PM CYB-2780
         description: The incident response interest group focuses on all topics related to cyber incidents. This includes topics such as SANS PICERL & NIST Frameworks, SOC/SIEM/SOAR monitoring tools, forensics analysis, log analysis, and cyber defense techniques. We love Blue teaming and getting hands on experiences such as competitons that that can lead to a greater understanding of incident response in the professional setting. Anyone interested in Incident response, blue team, or even cyber security in general is encouraged and welcome to join.
       - name: Physical Security
-        meeting_time: Thursday 6:30-7:30PM CYB-2750
+        meeting_time: Thursday 6:30-7:30PM CYB-2780
         description: In Physical Security Interest group you will learn all the basics of the world outside of the computer. You will learn to pick locks, alternative entry methods and many other things that computing security experts don't tend to think of when they are securing a system. Any level is welcome to come learn!
       - name: Team Contagion
         meeting_time: Tuesday 6:00-7:00PM CYB-2780
@@ -43,7 +43,7 @@ sections:
         meeting_time: Monday 6:00-8:00PM CYB-2750
         description: The Reversing Interest Group revolves around the in-depth knowledge of binary applications and ultimately reversing malware. Topics such as assembly, executable formats, malware tactics, and much more will be discussed over the entire program's running. All are welcome from first years on no matter the knowledge level.
       - name: Vulnerability Research
-        meeting_time: Tuesday, Thursday 7:00-10:00PM CYB-2750
+        meeting_time: Tuesday, Thursday 7:00-10:00PM CYB-2750, CYB-2780
         description: To introduce members of the club to the concepts of vulnerability and security research. This includes concepts such as bug bounties, code analysis, and fuzzing.
       - name: RVAPT
         meeting_time: Thursday 5:00-6:00PM CYB-2750
