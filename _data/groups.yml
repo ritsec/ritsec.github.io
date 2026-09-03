@@ -43,7 +43,7 @@ sections:
         meeting_time: Monday 6:00-8:00PM CYB-2750
         description: The Reversing Interest Group revolves around the in-depth knowledge of binary applications and ultimately reversing malware. Topics such as assembly, executable formats, malware tactics, and much more will be discussed over the entire program's running. All are welcome from first years on no matter the knowledge level.
       - name: Vulnerability Research
-        meeting_time: Tuesday 7:00-9:00PM, Thursday 8:00-10:00PM CYB-2780
+        meeting_time: Tuesday 7:00-9:00PM CYB-2750, Thursday 8:00-10:00PM CYB-2780
         description: To introduce members of the club to the concepts of vulnerability and security research. This includes concepts such as bug bounties, code analysis, and fuzzing.
       - name: RVAPT
         meeting_time: Thursday 7:00-8:00PM CYB-2750
