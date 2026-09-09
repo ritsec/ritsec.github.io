@@ -5,6 +5,19 @@ sections:
       Education Slides - Informing members with their favorite topics through engaging and 
       project-focused education!
     sets:
+      - title: Week 2 | Intro to CSEC
+        description: Introduction to Cybersecurity
+        lessons:
+         - title: Education Slides
+           description: Introduction to Cybersecurity
+           url: https://docs.google.com/presentation/d/106Q8F_KFIv_Nhmhzuy6CZRiXfekOoOP_Mt4RQWO1gAw/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: UniqueSphinx, BubblyButterfly, GloriousPuffin!
+           url: https://create.kahoot.it/share/intro-to-ritsec-interest-groups/7fd2c362-5c18-4618-bfde-34ed92e471a3
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
       - title: Week 1 | Intro to RITSEC
         description: Introduction to RITSEC
         lessons:
@@ -17,15 +30,7 @@ sections:
          - title: Demo Challenges
            description: Collect the flags from Eboard, IG Leads, and Teams!
            url: https://flags.ritsec.club
-  #     - title: Week 2 | Intro to CSEC
-  #       description: Introduction to Cybersecurity
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Introduction to Cybersecurity
-  #           url: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
-  #         - title: Demo Challenges
-  #           description: Deploy the VM from the stack
-  #           url: https://flags.ritsec.club
+
   #     - title: Week 2 | Penteration Testing
   #       description: Penteration Testing
   #       lessons:
