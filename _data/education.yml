@@ -5,6 +5,19 @@ sections:
       Education Slides - Informing members with their favorite topics through engaging and 
       project-focused education!
     sets:
+      - title: Week 2 | Intro to CSEC
+        description: Introduction to Cybersecurity
+        lessons:
+         - title: Education Slides
+           description: Introduction to Cybersecurity
+           url: https://docs.google.com/presentation/d/106Q8F_KFIv_Nhmhzuy6CZRiXfekOoOP_Mt4RQWO1gAw/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: PoliteRooster, BraveDolphin, SpaceAlpaca!
+           url: https://create.kahoot.it/share/ritsec-intro-to-cybersecurity/ff3a73be-1cc7-4659-b3a1-e82a414932ef
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
       - title: Week 1 | Intro to RITSEC
         description: Introduction to RITSEC
         lessons:
@@ -17,15 +30,20 @@ sections:
          - title: Demo Challenges
            description: Collect the flags from Eboard, IG Leads, and Teams!
            url: https://flags.ritsec.club
-  #     - title: Week 2 | Intro to CSEC
-  #       description: Introduction to Cybersecurity
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Introduction to Cybersecurity
-  #           url: https://docs.google.com/presentation/d/1XOdJYfZYkPdp2csiPy7rtz7sXloQrdAJNsp_RyBHLcc/edit?slide=id.g1e7aa6c9685_0_0#slide=id.g1e7aa6c9685_0_0
-  #         - title: Demo Challenges
-  #           description: Deploy the VM from the stack
-  #           url: https://flags.ritsec.club
+
+#      - title: Week 3 | AI + Cybersecurity
+#        description: Artificial Intelligence in Cybersecurity
+#        lessons:
+#         - title: Education Slides
+#           description: Artificial Intelligence in Cybersecurity
+#           url: https://change
+#         - title: Congrats Kahoot Top 3!
+#           description: CHANGE x3!
+#           url: https://change
+#         - title: Demo Challenges
+#           description: Deploy the VM from the stack
+#           url: https://flags.ritsec.club
+
   #     - title: Week 2 | Penteration Testing
   #       description: Penteration Testing
   #       lessons:
