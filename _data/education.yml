@@ -12,8 +12,8 @@ sections:
            description: Introduction to Cybersecurity
            url: https://docs.google.com/presentation/d/106Q8F_KFIv_Nhmhzuy6CZRiXfekOoOP_Mt4RQWO1gAw/edit?usp=sharing
          - title: Congrats Kahoot Top 3!
-           description: UniqueSphinx, BubblyButterfly, GloriousPuffin!
-           url: https://create.kahoot.it/share/intro-to-ritsec-interest-groups/7fd2c362-5c18-4618-bfde-34ed92e471a3
+           description: PoliteRooster, BraveDolphin, SpaceAlpaca!
+           url: https://create.kahoot.it/share/ritsec-intro-to-cybersecurity/ff3a73be-1cc7-4659-b3a1-e82a414932ef
          - title: Demo Challenges
            description: Deploy the VM from the stack
            url: https://flags.ritsec.club
@@ -30,6 +30,19 @@ sections:
          - title: Demo Challenges
            description: Collect the flags from Eboard, IG Leads, and Teams!
            url: https://flags.ritsec.club
+
+#      - title: Week 3 | AI + Cybersecurity
+#        description: Artificial Intelligence in Cybersecurity
+#        lessons:
+#         - title: Education Slides
+#           description: Artificial Intelligence in Cybersecurity
+#           url: https://change
+#         - title: Congrats Kahoot Top 3!
+#           description: CHANGE x3!
+#           url: https://change
+#         - title: Demo Challenges
+#           description: Deploy the VM from the stack
+#           url: https://flags.ritsec.club
 
   #     - title: Week 2 | Penteration Testing
   #       description: Penteration Testing
