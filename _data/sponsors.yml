@@ -62,6 +62,10 @@ sections:
           url: https://www.mindex.com/
           
       Educational:
+        - title: Palo Alto Networks
+          image: /assets/images/sponsors/PANW_Parent_Brand_Primary_Logo_RGB.png
+          url: https://www.paloaltonetworks.com/
+          
         - title: Black Hills Information Security
           image: /assets/images/sponsors/bhis.jpg
           url: https://www.blackhillsinfosec.com/
