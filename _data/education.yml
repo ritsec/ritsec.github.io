@@ -5,6 +5,20 @@ sections:
       Education Slides - Informing members with their favorite topics through engaging and 
       project-focused education!
     sets:
+
+      - title: Week 3 | AI + Cybersecurity
+        description: Artificial Intelligence in Cybersecurity
+        lessons:
+         - title: Education Slides
+           description: Artificial Intelligence in Cybersecurity
+           url: https://docs.google.com/presentation/d/1sUeuCJBvogHx8eSCtbolPR9Gl0rjWyiQ0tBE7drd12c/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: PowerfulButterfly, IncredibleSloth, DramaticLeopard!
+           url: https://create.kahoot.it/share/intro-to-generative-ai-machine-learning/d45f78d4-6dc1-4049-9444-1cdd22ceb052
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
       - title: Week 2 | Intro to CSEC
         description: Introduction to Cybersecurity
         lessons:
@@ -31,37 +45,7 @@ sections:
            description: Collect the flags from Eboard, IG Leads, and Teams!
            url: https://flags.ritsec.club
 
-#      - title: Week 3 | AI + Cybersecurity
-#        description: Artificial Intelligence in Cybersecurity
-#        lessons:
-#         - title: Education Slides
-#           description: Artificial Intelligence in Cybersecurity
-#           url: https://change
-#         - title: Congrats Kahoot Top 3!
-#           description: CHANGE x3!
-#           url: https://change
-#         - title: Demo Challenges
-#           description: Deploy the VM from the stack
-#           url: https://flags.ritsec.club
 
-  #     - title: Week 2 | Penteration Testing
-  #       description: Penteration Testing
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Penteration Testing
-  #           url: https://docs.google.com/presentation/d/1w_KRCtv4oZpnsXQB2CuwM-1rjo9WnMoJX8l_nk9ZkMU/edit
-  #         - title: Demo Challenges
-  #           description: Deploy the VM from the stack
-  #           url: https://flags.ritsec.club
-  #     - title: Week 3 | Web3 Security
-  #       description: Web3 Security
-  #       lessons:
-  #         - title: Education Slides
-  #           description: Web3 Security
-  #           url: https://docs.google.com/presentation/d/13nXXHyiZZnpkej7JUqYfsXenCswZ3GoOffN0rzu7xXM/edit
-  #         - title: Demo Challenges
-  #           description: Deploy the VM from the stack
-  #           url: https://flags.ritsec.club
   #     - title: Week 4 | OT Security
   #       description: OT Security
   #       lessons:
