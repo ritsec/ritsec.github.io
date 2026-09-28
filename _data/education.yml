@@ -6,6 +6,32 @@ sections:
       project-focused education!
     sets:
 
+      - title: Week 5 | Intro to Networking
+        description: Intro to Networking
+        lessons:
+         - title: Education Slides
+           description: Intro to Networking
+           url: https://docs.google.com/presentation/d/19e5X5j10_c6Ho8OPIRJBUjnDlS7nV1oa_Z81mmosQqA/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: RadiantGull, FunkyCat, InvincibleTurtle!
+           url: https://create.kahoot.it/share/intro-to-networking/6b62cd28-d170-40d1-8aa7-02c185e6448c
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
+      - title: Week 4 | Career Fair
+        description: Career Fair
+        lessons:
+         - title: Education Slides
+           description: Career Fair
+           url: https://docs.google.com/presentation/d/1QGOGIixB8ZjZ55WiHJl4wViSjyY9j6Eoe5EzY59d0m8/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: RockyBat, PlayfulBlobfish, ArcticOryx!
+           url: https://create.kahoot.it/share/career-fair/85bf599b-c69e-4d43-9a49-9263e569d50a
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
       - title: Week 3 | AI + Cybersecurity
         description: Artificial Intelligence in Cybersecurity
         lessons:
