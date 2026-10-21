@@ -6,6 +6,46 @@ sections:
       project-focused education!
     sets:
 
+
+      - title: Week 8 | Intro to Core Services
+        description: Intro to Core Services
+        lessons:
+         - title: Education Slides
+           description: Intro to Core Services
+           url: https://docs.google.com/presentation/d/1LsCSsfaWhmr97CyAIFitmD_0v_UPH7wVZA8eUeHUIZ0/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: BrilliantHedgehog, CreativeCanary, PhenomenalBadger!
+           url: https://create.kahoot.it/share/intro-to-core-services/dd28b1bb-735f-49d6-af51-9250a4416dfd
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
+      - title: Week 7 | Intro to Windows
+        description: Intro to Windows
+        lessons:
+         - title: Education Slides
+           description: Intro to Windows
+           url: https://docs.google.com/presentation/d/1NmysSkhpVCuPVm7dIOioNKidyzGukZsr1vo-jgR0YvU/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: DiligentDog, SilverDuck, IncredibleFirefly!
+           url: https://create.kahoot.it/share/intro-to-windows/1b128f3e-96b4-4ed3-b3a7-1cbc775ee1c2
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
+      - title: Week 6 | Intro to Linux
+        description: Intro to Linux
+        lessons:
+         - title: Education Slides
+           description: Intro to Linux
+           url: https://docs.google.com/presentation/d/1xdK82juY3VjCC-VXFAQlBlqYPKZkFOjbOS9dmxPqRjE/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: BubblyPuffin, WingedBaboon, WondrousHedgehog!
+           url: https://create.kahoot.it/share/intro-to-linux/5bdb112d-edfb-4948-9893-e2cb8d18c3f3
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
       - title: Week 5 | Intro to Networking
         description: Intro to Networking
         lessons:
