@@ -6,7 +6,7 @@ sections:
       - title: Weekly Education Meeting
         date: Fridays 12:00-2:30 PM
         location: Rochester, NY
-        image: "assets/images/education.jpg"
+        image: "assets/images/education.jpeg"
         url: https://twitch.tv/ritsec
 
       - title: Weekly Research Meeting
@@ -23,7 +23,7 @@ sections:
       - title: In-Person Career Fair Eve
         date: September 22nd, 2026
         location: Rochester, NY
-        image: "assets/images/cfe2024.JPEG"
+        image: "assets/images/cfe2026.jpeg"
 
       - title: ISTS
         date: February 26th-28th, 2027
