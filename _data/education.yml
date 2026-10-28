@@ -6,6 +6,18 @@ sections:
       project-focused education!
     sets:
 
+      - title: Week 9 | Intro to Blue Team
+        description: Intro to Blue Team
+        lessons:
+         - title: Education Slides
+           description: Intro to Blue Team
+           url: https://docs.google.com/presentation/d/1ATojIi-Lnh0Du8a8dqVU4tProaqG7i51qleErJPYCH8/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: LuckyCheetah, DelightfulMacaw, IncredibleBoa!
+           url: https://create.kahoot.it/share/intro-to-blue-team/debaa71d-b5f6-402f-b680-2c27d92bd8d0
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
 
       - title: Week 8 | Intro to Core Services
         description: Intro to Core Services
