@@ -6,6 +6,22 @@ sections:
       project-focused education!
     sets:
 
+      - title: Week 11 | Intro to Black Team
+        description: Intro to Black Team
+        lessons:
+         - title: Education Slides
+           description: Intro to Black Team
+           url: https://docs.google.com/presentation/d/17RTRlXv5YkjTEzSSzzHTJrx_FFthDx691UMFU016MDs/edit?usp=sharing
+         - title: Congrats Kahoot Top 3!
+           description: BrilliantBlobfish, YellowGiraffe, ElectricMantis!
+           url: https://create.kahoot.it/share/intro-to-black-team/72fe3e77-bb14-486d-af87-848bf1fa330c
+         - title: Demo Challenges
+           description: Deploy the VM from the stack
+           url: https://flags.ritsec.club
+
+      - title: Week 10 | No General Meeting
+        description: IRSeC This Week!
+
       - title: Week 9 | Intro to Blue Team
         description: Intro to Blue Team
         lessons:
