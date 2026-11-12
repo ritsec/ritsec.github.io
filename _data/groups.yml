@@ -1,5 +1,10 @@
 sections:
   - title: Groups
+  - title: Partnerships
+    groups:
+      - name: WiCyS @ RIT
+        meeting_time: Monday 4:00-5:00PM GOL-2750
+        description: The Women in Cybersecurity (WiCyS) RIT Student Chapter is an inclusive group dedicated to bringing together women in cybersecurity to share knowledge, experience, and engage in networking and mentoring. The chapter holds meetings and social events open to all students to share their passion for security while creating a supportive network.
   - title: Competition Teams
     groups: 
       - name: Collegiate Cyber Defense Competition (CCDC)
@@ -43,6 +48,3 @@ sections:
       - name: RVAPT
         meeting_time: Thursday 7:00-8:00PM CYB-2750
         description: At RVAPT, we learn how to find and exploit vulnerabilities in networks and associated services by hands on custom labs. Each week we learn one to two ways to break in into a network and keep building up on it through out the semester.
-      - name: WiCyS @ RIT
-        meeting_time: Monday 4:00-5:00PM GOL-2750
-        description: The Women in Cybersecurity (WiCyS) RIT Student Chapter is an inclusive group dedicated to bringing together women in cybersecurity to share knowledge, experience, and engage in networking and mentoring. The chapter holds meetings and social events open to all students to share their passion for security while creating a supportive network.
